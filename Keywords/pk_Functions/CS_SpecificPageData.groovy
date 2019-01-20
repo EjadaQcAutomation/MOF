@@ -1,12 +1,14 @@
 package pk_Functions
+
 /* Created By Asmaa Elsayed Ibrahim
  * Date 25/12/2018
- * Usage: Setting data existing in data excel sheet into certain objects exist in objects excel file/sheet 
+ * Usage: Setting data existing in data excel sheet according to it's type (txt,lov-select-tag,lov-ul-tag) into certain objects exist in objects excel file/sheet 
  *        with the same order that exists by calling ObjectFun function
  * Input :  This Function takes four inputs 
  *  1- fields names 2- File name  3- Sheet name  4- Data as variable using binding 
  * Output : there isn't output 
  */
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -48,20 +50,61 @@ import login_object.loginObject.*
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import com.kms.katalon.core.testdata.ExcelData
 
-public class CS_SpecificData {
+public class CS_SpecificPageData {
 
 	// Setting data existing in excel sheet of data into selected certain objects existing in certain excel sheet
 	// and certain sheet name that stored in list by calling  ObjectFun  function
+
 	@Keyword
 	DataFun (  List<TestObject> fieldsNames, String fileName , String sheetName , List<TestObject> fieldsData ){
 
-		//getting certain objects that selected using Fields names inputs then stored in list by calling ObjectFun function
-		List<TestObject> listobject = new ArrayList<TestObject>((new pk_Functions.CS_SpecificObject()).ObjectFun(fileName ,sheetName , fieldsNames))
-		int column
+		//calling pk_Functions.CS_SpecificObject()
+		pk_Functions.CS_SpecificPageObject SpecificObject	=new pk_Functions.CS_SpecificPageObject()
 
-		//loop for setting data into list object that stored in list using ObjectFun function
-		for (column = 1; column <= listobject.size(); column++) {
-			WebUI.setText(listobject[(column - 1)], fieldsData[(column-1)])
+		//getting certain objects that selected using Fields names inputs then stored in list by calling ObjectFun function
+		List<TestObject> listObject = new ArrayList<TestObject>(SpecificObject.ObjectFun(fileName ,sheetName , fieldsNames))
+
+		int column
+		int index
+
+		// getting data of object
+		ExcelData  data = findTestData(fileName)
+		data.changeSheet( sheetName)
+
+		//loop for setting data into list object that stored in list using 	SpecificPageObject function
+		for (column = 1; column <= listObject.size(); column++) {
+
+			//getting index of row in object file belongs to every items in order of Fields name
+			index = SpecificObject.valueOfRow.indexOf(fieldsNames[(column -1)]);
+			//if type equals text
+			if (data.getValue(2, index+1 )=="txt"){
+				//set data of text into corresponding object
+				WebUI.setText(listObject[(column - 1)], fieldsData[(column-1)])
+				//if type equals LOV by select tag
+			}else if (data.getValue(2, index+1 )=="lov-select-tag"){
+
+				//select by label
+				WebUI.selectOptionByLabel(listObject[(column - 1)],fieldsData[(column-1)], false)
+
+				//if type equals LOV by UL tag
+			}else if (data.getValue(2, index+1 )=="lov-ul-tag"){
+
+				// get value of attribute which indicating the value of X-path for drop down Object and Container Object separating by "&&&"
+				String string =data.getValue(4 ,index+1 )
+				String[] parts = string.split("&&&")
+				String part1 = parts[0]
+				String part2 = parts[1]
+				(new pk_Functions.CS_StaticListUsingLiTag()).LovSearchFun (part1 , part2 ,fieldsData[(column-1)] )
+
+			}else if ((data.getValue(2, column )=="clickable") &&(fieldsData[(column-1)]=="clk")){
+
+				WebUI.click(listObject[(column - 1)])
+
+			}else if ((data.getValue(2, column)=="check")&&(fieldsData[(column-1)]=="chk")){
+
+				WebUI.check(listObject[(column - 1)])
+			}
+
 		}
 	}
 }

@@ -1,6 +1,12 @@
 package pk_Functions
 
-//Created by :Asmaa Elsayed Ibrahim
+/* Created By Asmaa Elsayed Ibrahim
+ * Date 25/12/2018
+ * Usage: Getting all objects (name, attributes and values) existing in excel sheet and return them in list
+ * Input: This Function takes inputs as 
+ * 1- url   2- userNameObject   3- passwordObject  4- userNameVariable  5- passwordVariable  6- loginObject
+ * Output: Output is list of object 
+ */
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -22,14 +28,14 @@ import internal.GlobalVariable
 public class CS_Login {
 
 	@Keyword
-	def LoginFun(TestObject Null , String URL,TestObject UsrNme_obj ,TestObject Pswrd_obj ,String UsrNme_Var ,String Pswrd_var ,TestObject Login_obj) {
-		WebUI.openBrowser(URL)
+	def LoginFun(TestObject Null, String url ,TestObject userNameObject ,TestObject passwordObject ,String userNameVariable ,String passwordVariable ,TestObject loginObject) {
+		WebUI.openBrowser(url)
 
-		WebUI.setText(UsrNme_obj , UsrNme_Var )
+		WebUI.setText(userNameObject , userNameVariable )
 
-		WebUI.setText(Pswrd_obj ,  Pswrd_var)
+		WebUI.setText(passwordObject ,  passwordVariable)
 
-		WebUI.click(Login_obj)
+		WebUI.click(loginObject)
 	}
 }
 

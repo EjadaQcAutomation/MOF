@@ -2,9 +2,10 @@ package pk_Functions
 
 /*Created By Asmaa Elsayed Ibrahim
  * Date 25/12/2018
- * Function: This Class Contains Two function 
- * 1- First Function: clicking on certain item 
+ * Function: This Class Contains Three functions 
+ * 1- First Function: clicking on certain item by selecting string to click  
  * 2- Second Function: getting all items in LOV and numbers of items and check if it is matched with expected or not
+ * 3- Third Function: clicking on certain item by selecting index to click  
  */
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -32,16 +33,16 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.annotation.Keyword
 
-
 public class CS_StaticListUsingLiTag {
 
 	private static TestObject dropdown = null;
 	private static List<WebElement> allItems= null;
 	private static WebElement dropDownList;
 
-	// Clicking on certain item
+	// Clicking on certain item using name of item
 	// Input: x-path of drop down list, x-path of container, items of static LOV
 	// Output: There isn't output
+
 	@Keyword
 	def LovSearchFun (String dropdownObjectXpath, String ContainerObjectXpath, String text) {
 
@@ -70,18 +71,12 @@ public class CS_StaticListUsingLiTag {
 		}
 	}
 
-
-
-
 	// Getting all items in LOV and numbers of items and  decide if it matched with expected one or not
 	// Inputs: x-path of drop down list, x-path of container , Expected items of static LOV
 	// Output: String (" matched , not matched ")
+
 	@Keyword
 	def LovMatchItemsFun (String dropdownObjectXpath, String ContainerObjectXpath, List<String> expectedItems ) {
-
-		// Assuming you have to click the "drop down" to open it
-		// TestObject  dropDown = findTestObject(dropdownObjectHierarchy)
-		// WebUI.click(dropDown)
 
 		// Using driver
 		WebDriver driver = DriverFactory.getWebDriver()
@@ -101,6 +96,7 @@ public class CS_StaticListUsingLiTag {
 		// Print Number of Items in LOV
 		println ( "Number of Items :  "+ allItems.size())
 		WebUI.delay(4)
+
 		for( itemsNum=1 ; itemsNum<=allItems.size() ; itemsNum++){
 			actualItems.add(allItems[itemsNum-1].getText())
 
@@ -117,7 +113,31 @@ public class CS_StaticListUsingLiTag {
 
 		// Print the status
 		println status
-
-		return 	status
+		assert status == "Matched"
 	}
+
+	// Clicking on certain item by index
+	// Input: x-path of drop down list, x-path of container, items of static LOV
+	// Output: There isn't output
+
+	@Keyword
+	def LovSearchIndexFun(String dropdownObjectXpath, String ContainerObjectXpath, int index) {
+
+		// Using driver
+		WebDriver driver = DriverFactory.getWebDriver()
+
+		// Assuming you have x-path of drop down  to click the "drop down" to open it
+		dropDownList=driver.findElement(By.xpath(dropdownObjectXpath));
+		dropDownList.click()
+
+		// Getting all items in list called allItems
+		allItems = driver.findElements(By.xpath(ContainerObjectXpath));
+		int itemNo
+		WebUI.delay(4)
+
+		//  click on the desired text in LOV
+		allItems[index-1].click(); // Click the desired option
+
+	}
+
 }

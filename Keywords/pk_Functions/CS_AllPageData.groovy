@@ -1,7 +1,7 @@
 package pk_Functions
 /* Created By Asmaa Elsayed Ibrahim
  * Date 25/12/2018
- * Usage: Setting data existing in data excel sheet into all objects exist in objects excel 
+ * Usage: Setting data existing in data excel sheet according to it's type (txt,lov-select-tag,lov-ul-tag) into corresponding object exist in objects excel 
  *        file/sheet with the same order that exists by calling AllPageObjectFun function 
  * Input: This Function takes only three inputs 
  *  1- File name  2- Sheet name  3- Data as variable using binding  
@@ -60,9 +60,56 @@ public class CS_AllPageData {
 		List<TestObject> listObject = new ArrayList<TestObject>((new pk_Functions.CS_AllPageObject()).AllPageObjectFun (fileName , sheetName ))
 		int column
 
+		ExcelData  data = findTestData(fileName)
+		data.changeSheet( sheetName)
+
 		//loop for setting data into list object that stored in list using AllPageObjectFun function
 		for (column = 1; column <= listObject.size(); column++) {
-			WebUI.setText(listObject[(column - 1)], fieldsData[(column-1)])
+			//if type equals text
+			if (data.getValue(2, column)=="txt"){
+				//set data of text into corresponding object
+				WebUI.setText(listObject[(column - 1)], fieldsData[(column-1)])
+				//if type equals LOV by select tag
+			}else if (data.getValue(2, column)=="lov-select-tag"){
+				//select by label
+				WebUI.selectOptionByValue(listObject[(column - 1)],fieldsData[(column-1)], false)
+				//if type equals LOV by UL tag
+			}else if (data.getValue(2, column)=="lov-ul-tag"){
+				// get value of attribute which indicating the value of X-path for drop down Object and Container Object separating by "&&&"
+				String string =data.getValue(4 , column)
+				String[] parts = string.split("&&&")
+				String part1 = parts[0]
+				String part2 = parts[1]
+				(new pk_Functions.CS_StaticListUsingLiTag()).LovSearchFun (part1 , part2 ,fieldsData[(column-1)] )
+
+			}else if ((data.getValue(2, column )=="clickable") &&(fieldsData[(column-1)]=="clk")){
+
+				WebUI.click(listObject[(column - 1)])
+
+			}else if ((data.getValue(2, column)=="check")&&(fieldsData[(column-1)]=="chk")){
+
+				WebUI.check(listObject[(column - 1)])
+
+			}else if (data.getValue(2, column)=="radio-group"){
+				// Using driver
+				WebDriver driver = DriverFactory.getWebDriver()
+				// xpath to  li/input
+				List<WebElement> allRadioInputsWithValueAttribute= driver.findElements(By.xpath(data.getValue(4 , column)+"/input"));
+				//List<WebElement> allRadioInputsWithLable= driver.findElements(By.xpath(data.getValue(4 , column))+"/label");
+				if (allRadioInputsWithValueAttribute){
+					for(int  itemNo=1 ; itemNo<=allRadioInputsWithValueAttribute.size() ; itemNo++){
+						if (allRadioInputsWithValueAttribute[itemNo-1].getAttribute("value").equals(fieldsData[(column-1)])) {
+							allRadioInputsWithValueAttribute[itemNo-1].click(); // Click the desired option
+							// Once found desired text then break the for loop
+							break;
+						}
+					}
+				}
+
+
+
+			}
+
 		}
 	}
 }
