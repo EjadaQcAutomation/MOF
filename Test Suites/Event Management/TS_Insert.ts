@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Insert</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>027a8883-2b4e-488b-9a4f-1cc64059fbb2</testSuiteGuid>
+   <testCaseLink>
+      <guid>a9158fad-bc64-4677-abb7-a17ec532839d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f1edb57d-1a27-46d8-a99a-67d42c929792</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Event Management/TC_Insert</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fdbef479-e34a-4702-8a07-dce7a936faa5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Event Management/EventManagement_Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fdbef479-e34a-4702-8a07-dce7a936faa5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EventCode</value>
+         <variableId>72c789e5-fb02-456d-9ddf-3e1436574744</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fdbef479-e34a-4702-8a07-dce7a936faa5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EventEnglishDescription</value>
+         <variableId>a7fca651-b0c8-4585-917f-24e1bad25dcb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fdbef479-e34a-4702-8a07-dce7a936faa5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EventArabicDescription</value>
+         <variableId>820dfd1a-33ae-4f5a-8074-395777e456c4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fdbef479-e34a-4702-8a07-dce7a936faa5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EventGroup</value>
+         <variableId>3b48cf5e-bfcc-404d-84c4-a7b13db12e10</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fdbef479-e34a-4702-8a07-dce7a936faa5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>IsEnabled</value>
+         <variableId>d8d9d481-961f-4c1e-a66d-b19055b30108</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fdbef479-e34a-4702-8a07-dce7a936faa5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ValidFrom</value>
+         <variableId>29e0d0bf-b57b-49c0-b4a7-7d0dc8be4b72</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fdbef479-e34a-4702-8a07-dce7a936faa5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ValidTo</value>
+         <variableId>2614a0bc-a229-400e-be5c-a4d8e27b67cc</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

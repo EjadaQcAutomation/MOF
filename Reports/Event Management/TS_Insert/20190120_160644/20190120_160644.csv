@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Insert,Chrome 71.0.3578.98,,2019-01-20 16:06:47,2019-01-20 16:07:41,54.022s,FAILED
+,,,,,,
+Test Cases/TC_Login,Chrome 71.0.3578.98,,2019-01-20 16:06:48,2019-01-20 16:07:08,19.960s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 71.0.3578.98,,2019-01-20 16:06:48,2019-01-20 16:07:08,19.392s,PASSED
+,,,,,,
+Test Cases/Event Management/TC_Insert,Chrome 71.0.3578.98,,2019-01-20 16:07:08,2019-01-20 16:07:41,32.769s,FAILED
+"navigateToUrl(""http://192.168.0.190:8080/mof/#/main/event-management"")",Chrome 71.0.3578.98,,2019-01-20 16:07:08,2019-01-20 16:07:08,0.103s,PASSED
+"click(findTestObject(""Event Management/BTN_Insert""))",Chrome 71.0.3578.98,,2019-01-20 16:07:08,2019-01-20 16:07:41,32.109s,FAILED
