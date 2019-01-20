@@ -13,3 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('EventManagement_ObjectRepository', 'Sheet1', ['Event Code', 'Event English Description'
+        , 'Event Arabic Description', 'Event Group', 'Is Enabled', 'Valid From', 'Valid To'])
+
