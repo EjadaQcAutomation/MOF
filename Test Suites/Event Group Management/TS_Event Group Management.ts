@@ -13,13 +13,13 @@
    <testCaseLink>
       <guid>5b6cb3a3-adc1-4116-b985-f8924a6cc5e5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC_Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e5e2f36b-a9ee-444b-8249-168110fc8399</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Insert</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -84,5 +84,63 @@
          <value>back </value>
          <variableId>4c891b5f-0a38-4c40-8196-36502ba5ca26</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e6df42b3-9345-42e7-8164-460e2d80a564</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/TC_Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>26ff5e98-ab50-4834-8f83-e4d9ac4ad528</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_Update</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e2fda846-51d8-4cec-bcd9-d8e3db33c653</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Event Group Management/EventManagemntGPUpdate_Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e2fda846-51d8-4cec-bcd9-d8e3db33c653</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>
+Arabic Description</value>
+         <variableId>da1084bb-84e0-4b82-bf7d-db7cc2195381</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2fda846-51d8-4cec-bcd9-d8e3db33c653</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>English Description </value>
+         <variableId>03b22e5a-a209-4e51-8de8-28b0dde97a2d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2fda846-51d8-4cec-bcd9-d8e3db33c653</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Save</value>
+         <variableId>d2bf79d2-0bf5-4412-967b-9e8750b58ef4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2fda846-51d8-4cec-bcd9-d8e3db33c653</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Back</value>
+         <variableId>e26ea596-b58a-4397-87b0-7b4279b6753a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3ed0ff55-8539-49b8-8717-3f095cf8d0c3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/TC_Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ef43e08d-b757-4522-9dc4-0ba13d1130f9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_Updateerror</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

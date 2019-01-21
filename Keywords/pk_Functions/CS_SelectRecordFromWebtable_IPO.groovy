@@ -1,6 +1,6 @@
 package pk_Functions
 /* Created By ‘Asmaa El-Sayed and Ebtehal Gamal Yusuf ’
- * Date 06/01/2019
+ * Date 21/01/2019
  * Usage:This function is used to select record from webtable and click on any action button
  * Input: There are four inputs required for this function (Webtable locator ,Expected Value,Exepcted Value Column Value and Action Button Column Value) 
  * Output: Required record is located and actions button can be deteceted 
@@ -55,13 +55,13 @@ public class CS_SelectRecordFromWebtable_IPO {
 
 		//To locate table'
 		if (webtableAttribute=='xpath'){
-			 Table = ndriver.findElement(By.xpath(webtablelocatorValue))
+			Table = ndriver.findElement(By.xpath(webtablelocatorValue))
 		}
 
 		else{
-			
-			  Table = ndriver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
-			 
+
+			Table = ndriver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
+
 		}
 		//To locate rows of table it will Capture all the rows available in the table '
 		List<WebElement> Rows = Table.findElements(By.tagName('tr'))
