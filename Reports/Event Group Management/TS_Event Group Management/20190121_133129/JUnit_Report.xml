@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Event Group Management" time="43" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Event Group Management" tests="2" failures="0" errors="0" time="43" timestamp="2019-01-21 13:31:32" hostname="aeibrahim - LPALXY0477.ejadaalex.local" id="Test Suites/Event Group Management/TS_Event Group Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_Event Group Management\\20190121_133129"/>
+         <property name="logFiles" value="C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_Event Group Management\\20190121_133129\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aeibrahim - LPALXY0477.ejadaalex.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.64"/>
+         <property name="sessionId" value="16be7dd72b355ec45f2f5d3d3bbf36a3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2019-01-21 13:31:32 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-01-21 13:31:32 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-21 13:31:32 - [MESSAGE][WARNING] - Test object id is null
+
+2019-01-21 13:31:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-21 13:31:33 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-21 13:31:46 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.0.190:8080/mof/#/'
+
+2019-01-21 13:31:46 - [MESSAGE][PASSED] - Text 'AAttia' is set on object 'Object Repository/Login/Username'
+
+2019-01-21 13:31:47 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Login/Password'
+
+2019-01-21 13:31:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login' is clicked on
+
+2019-01-21 13:31:48 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Insert" classname="Test Cases/Event Group Management/TC_Insert" status="PASSED">
+         <system-out><![CDATA[2019-01-21 13:31:48 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Insert: Test Cases/Event Group Management/TC_Insert
+
+2019-01-21 13:31:48 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [NE, Event_Group_Management, search, insert, code, arabic_des, english_des, save, back]): pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-01-21 13:31:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-21 13:31:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-01-21 13:31:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-21 13:31:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-01-21 13:32:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-21 13:32:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-01-21 13:32:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-21 13:32:10 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-01-21 13:32:10 - [MESSAGE][PASSED] - Text '123' is set on object ''
+
+2019-01-21 13:32:10 - [MESSAGE][PASSED] - Text 'اسماء ' is set on object ''
+
+2019-01-21 13:32:10 - [MESSAGE][PASSED] - Text 'asmaa' is set on object ''
+
+2019-01-21 13:32:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-21 13:32:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-01-21 13:32:15 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-21 13:31:32 - [TEST_SUITE][PASSED] - TS_Event Group Management: Test Cases/Event Group Management/TC_Insert]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
