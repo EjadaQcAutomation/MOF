@@ -27,14 +27,22 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 @Keyword
 //Setting keyword inputs
-ValidateSearchParameters (String webtableId , List ExpectedValues = [], int uniqueColumn ) {
+ValidateSearchParameters (String webtableAttribute ,String webtablelocatorValue , List ExpectedValues = [], int uniqueColumn ) {
 
 	List<String> Columns_row_text  = new ArrayList<String>()
 	WebDriver driver = DriverFactory.getWebDriver()
 	List<WebElement> Columns_row
+	WebElement Table
+	//To locate table'
+	if (webtableAttribute=='xpath'){
+		Table = driver.findElement(By.xpath(webtablelocatorValue))
+	}
 
-	//To locate table
-	WebElement Table = driver.findElement(By.id(webtableId))
+	else{
+
+		Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
+
+	}
 
 	//To locate rows of table it will Capture all the rows available in the table
 	List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
