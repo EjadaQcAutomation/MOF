@@ -29,3 +29,5 @@ CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWeb
 
 CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('', '', [])
 
+WebUI.selectAllOption(findTestObject(null))
+
