@@ -85,4 +85,25 @@
          <variableId>4c891b5f-0a38-4c40-8196-36502ba5ca26</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>8842c779-4573-4bd9-9ee6-2944d1182da8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_Delete</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>63a21456-b6bb-4ffc-bc59-db2d45a68368</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>63a21456-b6bb-4ffc-bc59-db2d45a68368</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Code</value>
+         <variableId>91f96c27-70eb-43ed-a534-31d1b7b60521</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

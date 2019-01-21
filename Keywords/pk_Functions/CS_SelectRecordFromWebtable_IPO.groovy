@@ -55,13 +55,13 @@ public class CS_SelectRecordFromWebtable_IPO {
 
 		//To locate table'
 		if (webtableAttribute=='xpath'){
-			 Table = ndriver.findElement(By.xpath(webtablelocatorValue))
+			Table = ndriver.findElement(By.xpath(webtablelocatorValue))
 		}
 
 		else{
-			
-			  Table = ndriver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
-			 
+
+			Table = ndriver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
+
 		}
 		//To locate rows of table it will Capture all the rows available in the table '
 		List<WebElement> Rows = Table.findElements(By.tagName('tr'))
