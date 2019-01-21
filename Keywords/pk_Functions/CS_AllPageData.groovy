@@ -59,14 +59,16 @@ public class CS_AllPageData {
 		//getting all objects that stored in list by calling AllPageObjectFun function
 		List<TestObject> listObject = new ArrayList<TestObject>((new pk_Functions.CS_AllPageObject()).AllPageObjectFun (fileName , sheetName ))
 		int column
-
+		int y =0
 		ExcelData  data = findTestData(fileName)
 		data.changeSheet( sheetName)
 
 		//loop for setting data into list object that stored in list using AllPageObjectFun function
 		for (column = 1; column <= listObject.size(); column++) {
+			y++
 			//if type equals text
 			if (data.getValue(2, column)=="txt"){
+				println y
 				//set data of text into corresponding object
 				WebUI.setText(listObject[(column - 1)], fieldsData[(column-1)])
 				//if type equals LOV by select tag
@@ -83,7 +85,8 @@ public class CS_AllPageData {
 				(new pk_Functions.CS_StaticListUsingLiTag()).LovSearchFun (part1 , part2 ,fieldsData[(column-1)] )
 
 			}else if ((data.getValue(2, column )=="clickable") &&(fieldsData[(column-1)]=="clk")){
-
+				WebUI.delay(2)
+				println ("click ")
 				WebUI.click(listObject[(column - 1)])
 
 			}else if ((data.getValue(2, column)=="check")&&(fieldsData[(column-1)]=="chk")){
