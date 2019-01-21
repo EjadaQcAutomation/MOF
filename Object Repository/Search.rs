@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Search</name>
+   <tag></tag>
+   <elementGuidId>097e8aa1-e79c-4142-be13-fadcddb00872</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;app-form&quot;]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/div/div/button[1]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;app-form&quot;]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/div/div/button[1]/span</value>
+   </webElementProperties>
+</WebElementEntity>

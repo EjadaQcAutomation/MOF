@@ -1,5 +1,5 @@
 package pk_Functions
-/* Created By ‘Ebtehal Gamal Yusuf’
+/* Created By ‘Asmaa El-Sayed and Ebtehal Gamal Yusuf ’
  * Date 06/01/2019
  * Usage:This function is used to select record from webtable and click on any action button
  * Input: There are four inputs required for this function (Webtable locator ,Expected Value,Exepcted Value Column Value and Action Button Column Value) 
@@ -46,16 +46,23 @@ import login_object.loginObject.*
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-public class CS_SelectRecordFromWebtable {
+public class CS_SelectRecordFromWebtable_IPO {
 
 	@Keyword
-	SelectRecordFromWebtableFun (String webtableId , String expectedValue , int expectedValueColumn , int actionButtonColumn ) {
-
+	SelectRecordFromWebtableFun (String webtableAttribute ,String webtablelocatorValue , String expectedValue , int expectedValueColumn , int actionButtonColumn , int actionbutton) {
+		WebElement Table
 		WebDriver ndriver = DriverFactory.getWebDriver()
 
 		//To locate table'
-		WebElement Table = ndriver.findElement(By.id(webtableId))
+		if (webtableAttribute=='xpath'){
+			 Table = ndriver.findElement(By.xpath(webtablelocatorValue))
+		}
 
+		else{
+			
+			  Table = ndriver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
+			 
+		}
 		//To locate rows of table it will Capture all the rows available in the table '
 		List<WebElement> Rows = Table.findElements(By.tagName('tr'))
 		println('No. of rows: ' + Rows.size())
@@ -70,13 +77,13 @@ public class CS_SelectRecordFromWebtable {
 			// for (int j = 0; j < Cols.size(); j++) {
 			//Verifying the expected text in the each cell in specified column
 			if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(expectedValue)) {
-
+				println('No. of colns')
 				//2To locate anchor in the expected value matched row to perform action'
 				//Cols.get(4).findElement(By.tagName('a')).click()
 				WebUI.delay(4)
 
 				//Doing action to the selected record by clicking on actions button in predefined column
-				Cols.get(actionButtonColumn).findElement(By.tagName('a')).click() ;
+				Cols.get(actionButtonColumn).findElement(By.xpath('span/button['+actionbutton+']')).click() ;
 				WebUI.delay(4)
 				break
 			}
