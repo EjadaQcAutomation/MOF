@@ -13,3 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('NE_SideMenu'))
+
+WebUI.click(findTestObject('NE_EventManagement'))
+
+CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('Event Management/EventManagementSearch_ObjectRepository', 'Sheet1', 
+    [EventCode, EventEnglishDescription, EventArabicDescription, EventGroup, IsEnabled, Search])
+
