@@ -4,6 +4,7 @@
    <name>TS_Event Group Management</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-01-22T09:34:28</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
