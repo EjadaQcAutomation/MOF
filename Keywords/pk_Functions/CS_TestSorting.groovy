@@ -58,35 +58,26 @@ public class TestSorting {
 
 		//‘To calculate no of rows In table’
 		int rows_count = rows_table.size()
-
-		println(rows_count)
 		String[] celltext = new String[rows_count]
-		//String[] celltext_after_1stClick = new String[rows_count] //Ascending
-		//WebUI.click(findTestObject('BTN_sort'))
-		//println(celltext)
 		for (int row = 1; row < rows_count; row++) {
 			//‘To locate columns(cells) of that specific row’
 			List<WebElement> Columns_row = rows_table.get(row).findElements(By.tagName('td'))
 
 			//‘It will retrieve text from 1st cell’
 			String celltext_1 = Columns_row.get(column_num).getText()
-
-			println(celltext_1)
-
 			(celltext[row]) = celltext_1
-
-			println(celltext[row])
 		}
 
-		List<WebElement> celltext_list = Arrays.asList(celltext)
-
-		println(celltext_list)
-		List<WebElement> list
+		List<WebElement> celltext_list //original List data of specific column in grid
+		List<WebElement> list //List is in Asc order
+		List<WebElement> list2 //List is in Desc order
+		celltext_list = Arrays.asList(celltext) 
 		list = celltext_list.sort()
-		println(list)
-		def revlst = celltext_list.reverse();
-		println(revlst)
-		if(Arrays.equals(revlst, celltext_list)){
+		list2 =celltext_list.reverse();
+		println(celltext_list)
+		println(list)	
+		println(list2)
+		if(list2.equals(celltext_list)){
 			println("Celltext is in descending order")
 		}
 		else{

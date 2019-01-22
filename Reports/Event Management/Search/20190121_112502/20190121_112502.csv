@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Search,Chrome 71.0.3578.98,,2019-01-21 11:25:04,2019-01-21 11:25:32,27.401s,FAILED
+,,,,,,
+Test Cases/TC_Login,Chrome 71.0.3578.98,,2019-01-21 11:25:05,2019-01-21 11:25:23,17.612s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 71.0.3578.98,,2019-01-21 11:25:05,2019-01-21 11:25:23,17.030s,PASSED
+,,,,,,
+Test Cases/Event Management/TC_Search,Chrome 71.0.3578.98,,2019-01-21 11:25:23,2019-01-21 11:25:31,8.574s,FAILED
+"click(findTestObject(""NE_SideMenu""))",Chrome 71.0.3578.98,,2019-01-21 11:25:23,2019-01-21 11:25:24,1.160s,PASSED
+"click(findTestObject(""NE_EventManagement""))",Chrome 71.0.3578.98,,2019-01-21 11:25:24,2019-01-21 11:25:24,0.145s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Event Management/EventManagementSearch_ObjectRepository"", ""Sheet1"", [EventCode, EventEnglishDescription, EventArabicDescription, EventGroup, IsEnabled, Search])",Chrome 71.0.3578.98,,2019-01-21 11:25:24,2019-01-21 11:25:31,6.797s,FAILED
