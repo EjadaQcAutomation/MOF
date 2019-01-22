@@ -4,7 +4,6 @@
    <name>TS_Event Group Management</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-22T13:06:54</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,13 +13,13 @@
    <testCaseLink>
       <guid>5b6cb3a3-adc1-4116-b985-f8924a6cc5e5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC_Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e5e2f36b-a9ee-444b-8249-168110fc8399</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Insert</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -89,7 +88,7 @@
    <testCaseLink>
       <guid>8842c779-4573-4bd9-9ee6-2944d1182da8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Delete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -125,46 +124,49 @@
          <variableId>30b365ee-fb06-4905-aa30-3b58e145fb22</variableId>
       </variableLink>
    </testCaseLink>
-<<<<<<< HEAD
-=======
    <testCaseLink>
-      <guid>26ff5e98-ab50-4834-8f83-e4d9ac4ad528</guid>
+      <guid>5e69c73a-454a-4229-931b-3718f645d83a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Event Group Management/TC_Update</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_Search</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>8352b6c7-33d1-4f78-91eb-52f43510f79b</id>
+         <id>3dd828b6-683c-43b5-8c05-52fc8634dbbb</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Event Group Management/EventManagemntGPUpdate_Data</testDataId>
+         <testDataId>Data Files/Event Group Management/EventManagemntGPUpdate_DataSearch</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>8352b6c7-33d1-4f78-91eb-52f43510f79b</testDataLinkId>
+         <testDataLinkId>3dd828b6-683c-43b5-8c05-52fc8634dbbb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>arabicdesc</value>
-         <variableId>da1084bb-84e0-4b82-bf7d-db7cc2195381</variableId>
+         <value>Arabic Description</value>
+         <variableId>ff8caf41-7715-4f04-9f2b-2b4f95d527ea</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>8352b6c7-33d1-4f78-91eb-52f43510f79b</testDataLinkId>
+         <testDataLinkId>3dd828b6-683c-43b5-8c05-52fc8634dbbb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>English Description </value>
-         <variableId>03b22e5a-a209-4e51-8de8-28b0dde97a2d</variableId>
+         <value>English Description</value>
+         <variableId>3be6c5c4-6ebb-4fbf-91b1-322bf6a79fa5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>8352b6c7-33d1-4f78-91eb-52f43510f79b</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Save</value>
-         <variableId>d2bf79d2-0bf5-4412-967b-9e8750b58ef4</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>23d30ca8-11a3-4dc5-bd52-672fd633c9f8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>8352b6c7-33d1-4f78-91eb-52f43510f79b</testDataLinkId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4db2463f-bd1f-4e66-9e81-f46a60a68113</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3dd828b6-683c-43b5-8c05-52fc8634dbbb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Back</value>
-         <variableId>e26ea596-b58a-4397-87b0-7b4279b6753a</variableId>
+         <value>Code</value>
+         <variableId>636249d7-61a7-4e35-9bdf-d988e1a98dcd</variableId>
       </variableLink>
    </testCaseLink>
->>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 </TestSuiteEntity>
