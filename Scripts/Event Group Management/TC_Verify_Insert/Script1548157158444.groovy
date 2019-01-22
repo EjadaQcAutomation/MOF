@@ -13,10 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
-    'Sheet1', [NE, Event_Group_Management, search, insert, code, arabic_des, english_des, save, back])
-
-WebUI.delay(1)
-
-
+CustomKeywords.'pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters'('xpath', '//*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[2]/div/app-event-categories-management-list/p-panel/div/div[2]/div[1]/div/div/p-datatable/div/div[2]/table',
+	 [code, english_des, arabic_des], 0)
+ 
+ WebUI.delay(1)
 

@@ -89,7 +89,7 @@
    <testCaseLink>
       <guid>8842c779-4573-4bd9-9ee6-2944d1182da8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Delete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
