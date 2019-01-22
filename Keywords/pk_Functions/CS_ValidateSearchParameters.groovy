@@ -27,7 +27,7 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 @Keyword
 //Setting keyword inputs
-ValidateSearchParameters (actionType, String webtableAttribute ,String webtablelocatorValue , List ExpectedValues = [], int uniqueColumn ) {
+ValidateSearchParameters (String actionType, String webtableAttribute ,String webtablelocatorValue , List ExpectedValues = [], int uniqueColumn ) {
 
 	List<String> Columns_row_text  = new ArrayList<String>()
 	WebDriver driver = DriverFactory.getWebDriver()
