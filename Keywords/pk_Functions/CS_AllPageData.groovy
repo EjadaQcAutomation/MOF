@@ -66,8 +66,10 @@ public class CS_AllPageData {
 		//loop for setting data into list object that stored in list using AllPageObjectFun function
 		for (column = 1; column <= listObject.size(); column++) {
 			y++
+			print y 
 			//if type equals text
 			if (data.getValue(2, column)=="txt"){
+				WebUI.delay(2)
 				println y
 				//set data of text into corresponding object
 				WebUI.setText(listObject[(column - 1)], fieldsData[(column-1)])

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Event Group Management,Chrome 71.0.3578.98,,2019-01-21 16:09:34,2019-01-21 16:10:16,42.416s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Update,Chrome 71.0.3578.98,,2019-01-21 16:09:34,2019-01-21 16:10:15,41.240s,ERROR
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 71.0.3578.98,,2019-01-21 16:09:35,2019-01-21 16:09:55,19.808s,PASSED
+"click(findTestObject(""NE_SideMenu""))",Chrome 71.0.3578.98,,2019-01-21 16:09:55,2019-01-21 16:10:01,5.729s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 71.0.3578.98,,2019-01-21 16:10:01,2019-01-21 16:10:01,0.114s,PASSED
+"click(findTestObject(""Search""))",Chrome 71.0.3578.98,,2019-01-21 16:10:01,2019-01-21 16:10:02,1.155s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-21 16:10:02,2019-01-21 16:10:07,5.049s,PASSED
+"pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun(""xpath"", ""//*[@id=""app-form""]//app-body//app-event-categories-management-layout//app-event-categories-management-list/p-panel//p-datatable/div/div[2]"", ""1"", 0, 3, 2)",Chrome 71.0.3578.98,,2019-01-21 16:10:07,2019-01-21 16:10:15,8.344s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Event Group Management"", ""Sheet1"", [ArabicDescription, EnglishDescription, Save, Back])",Chrome 71.0.3578.98,,2019-01-21 16:10:15,2019-01-21 16:10:15,0.234s,ERROR
