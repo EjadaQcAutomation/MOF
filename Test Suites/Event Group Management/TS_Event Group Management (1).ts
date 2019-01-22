@@ -4,6 +4,7 @@
    <name>TS_Event Group Management (1)</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-01-22T16:24:00</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -99,34 +100,61 @@
          </iterationEntity>
          <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
       </testDataLink>
+      <variableLink>
+         <testDataLinkId>70a2d508-626f-44a5-8ed0-067d4414d3d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Code</value>
+         <variableId>86e3dd63-3da9-4373-b53b-e0cec2e8a490</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>70a2d508-626f-44a5-8ed0-067d4414d3d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Arabic Description</value>
+         <variableId>9f414e2a-bfcb-424c-8075-cd40d4d849bc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>70a2d508-626f-44a5-8ed0-067d4414d3d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>English Description</value>
+         <variableId>3d1a305e-b783-47db-a580-c88526a52c58</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>7d16ecf7-901c-4afc-bc66-b7f8f3d8231d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Delete</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9613d834-c0a6-4b6f-b305-234d8396d07e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>9613d834-c0a6-4b6f-b305-234d8396d07e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Code</value>
          <variableId>91f96c27-70eb-43ed-a534-31d1b7b60521</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>9613d834-c0a6-4b6f-b305-234d8396d07e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>delete_no</value>
          <variableId>6c22d25e-2dde-4934-a052-8962a7db1bb0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>9613d834-c0a6-4b6f-b305-234d8396d07e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>delete_yes</value>
          <variableId>e0e8046e-3ea3-4a8a-9f91-001ca5868cb3</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>9613d834-c0a6-4b6f-b305-234d8396d07e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pop_up</value>
          <variableId>30b365ee-fb06-4905-aa30-3b58e145fb22</variableId>
       </variableLink>
    </testCaseLink>
@@ -135,28 +163,37 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Verify_Delete</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>94bb436b-2932-4b82-af4a-4970bbe8e03d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>94bb436b-2932-4b82-af4a-4970bbe8e03d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>check Delete</value>
          <variableId>ee91aa5e-1748-48cd-80c9-7e8df1cd3a50</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>94bb436b-2932-4b82-af4a-4970bbe8e03d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Code</value>
          <variableId>31a35954-8c1a-4cc7-b7d5-bc7f0d0e9dff</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>94bb436b-2932-4b82-af4a-4970bbe8e03d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Arabic Description</value>
          <variableId>ef537d62-e65d-46ae-b88c-90ccff6f9756</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>94bb436b-2932-4b82-af4a-4970bbe8e03d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>English Description</value>
          <variableId>b876bab7-d8b9-4cc3-9b80-a677b3131b8b</variableId>
       </variableLink>
    </testCaseLink>

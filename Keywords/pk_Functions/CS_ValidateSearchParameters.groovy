@@ -51,28 +51,31 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 
 	//Loop will execute for all the rows of the table
 	Loop:
-	for (int row = 1; row < rows_count; row++) {
-		//To locate columns(cells) of that specific row'
-		Columns_row = rows_table.get(row).findElements(By.tagName('td'))
+	if(actionType != "uncheck"){
+		for (int row = 1; row < rows_count; row++) {
+			//To locate columns(cells) of that specific row'
+			Columns_row = rows_table.get(row).findElements(By.tagName('td'))
 
 
-		//To calculate no of columns(cells) In that specific row
-		int columns_count = Columns_row.size()
+			//To calculate no of columns(cells) In that specific row
+			int columns_count = Columns_row.size()
 
-		//println((('Number of cells In Row ' + row) + ' are ') + columns_count)
+			//println((('Number of cells In Row ' + row) + ' are ') + columns_count)
 
 
-		//Checking if firstCell text is matched with the expected value
-		if (Columns_row.get(uniqueColumn).getText() == ExpectedValues[uniqueColumn]) {
-			for (int column = 0 ; column < columns_count-1 ;column++){
-				Columns_row_text.add(Columns_row.get(column).getText())
+			//Checking if firstCell text is matched with the expected value
 
+			if (Columns_row.get(uniqueColumn).getText() == ExpectedValues[uniqueColumn]) {
+				for (int column = 0 ; column < columns_count-1 ;column++){
+					Columns_row_text.add(Columns_row.get(column).getText())
+
+				}
+				break
 			}
-			break
 		}
 	}
 	//Compare the actual record with expected record data inserted as inputs to the keyword
-	if(actionType=='clk'){
+	if(actionType=='check_d'){
 		assert Columns_row_text == []
 	}else {
 		assert Columns_row_text == ExpectedValues
