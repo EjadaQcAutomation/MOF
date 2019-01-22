@@ -19,5 +19,7 @@ CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWeb
 WebUI.delay(2)
 
 CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['pop_up', 'delete_no', 'delete_yes'], 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
-    'Sheet1', [pop_up , delete_no, delete_yes])
+    'Sheet1', [pop_up, delete_no, delete_yes])
+
+WebUI.delay(2)
 
