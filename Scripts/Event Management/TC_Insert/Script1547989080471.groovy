@@ -13,6 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('EventManagement_ObjectRepository', 'Sheet1', ['Event Code', 'Event English Description'
-        , 'Event Arabic Description', 'Event Group', 'Is Enabled', 'Valid From', 'Valid To'])
+CustomKeywords.'pk_Functions.CS_Login.LoginFun'(findTestObject(null), 'http://192.168.0.190:8080/mof/#/', findTestObject(
+        'Login/Username'), findTestObject('Login/Password'), 'AAttia', '123', findTestObject('Login/Login'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('Event Management/BTN_Insert'))
+
+CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('EventManagement_ObjectRepository', 'Sheet1', ['EventCode', 'EventEnglishDescription'
+        , 'EventArabicDescription', 'EventGroup', 'IsEnabled', 'ValidFrom', 'ValidTo'])
 

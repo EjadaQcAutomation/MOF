@@ -13,5 +13,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun'('', '', 0, 0)
+CustomKeywords.'pk_Functions.CS_Login.LoginFun'(findTestObject(null), 'http://192.168.0.190:8080/mof/#/', findTestObject(
+        'Login/Username'), findTestObject('Login/Password'), 'AAttia', '123', findTestObject('Login/Login'))
+
+WebUI.click(findTestObject('NE_SideMenu'))
+
+WebUI.click(findTestObject('NE_EventGroupManagement'))
+
+WebUI.click(findTestObject('Search'))
+
+WebUI.delay(5)
+
+CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun'('xpath', '//*[@id="app-form"]//app-body//app-event-categories-management-layout//app-event-categories-management-list/p-panel//p-datatable/div/div[2]', 
+    '1', 0, 3, 2)
+
+CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('Event Group Management', 'Sheet1', [ArabicDescription, EnglishDescription
+        , Save, Back])
 
