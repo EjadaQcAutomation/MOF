@@ -16,5 +16,3 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
     'Sheet1', [NE, Event_Group_Management, search, insert, code, arabic_des, english_des, save, back])
 
-WebUI.acceptAlert()
-
