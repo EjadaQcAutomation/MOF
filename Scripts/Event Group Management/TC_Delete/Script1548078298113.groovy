@@ -16,6 +16,8 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun'('xpath', '//*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[2]/div/app-event-categories-management-list/p-panel/div/div[2]/div[1]/div/div/p-datatable/div/div[2]/table', 
     code, 0, 3, 3)
 
-CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
-    'Sheet1', ['delete_no', delete_yes])
+WebUI.delay(2)
+
+CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['pop_up', 'delete_no', 'delete_yes'], 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+    'Sheet1', [pop_up , delete_no, delete_yes])
 

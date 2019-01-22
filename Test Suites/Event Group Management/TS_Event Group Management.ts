@@ -4,7 +4,7 @@
    <name>TS_Event Group Management</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-22T09:34:28</lastRun>
+   <lastRun>2019-01-22T11:35:04</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -105,6 +105,24 @@
          <type>DATA_COLUMN</type>
          <value>Code</value>
          <variableId>91f96c27-70eb-43ed-a534-31d1b7b60521</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>63a21456-b6bb-4ffc-bc59-db2d45a68368</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>delete_no</value>
+         <variableId>6c22d25e-2dde-4934-a052-8962a7db1bb0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>63a21456-b6bb-4ffc-bc59-db2d45a68368</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>delete_yes</value>
+         <variableId>e0e8046e-3ea3-4a8a-9f91-001ca5868cb3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>63a21456-b6bb-4ffc-bc59-db2d45a68368</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pop_up</value>
+         <variableId>30b365ee-fb06-4905-aa30-3b58e145fb22</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

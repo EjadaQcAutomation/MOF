@@ -64,7 +64,7 @@ public class CS_AllPageData {
 		data.changeSheet( sheetName)
 
 		//loop for setting data into list object that stored in list using AllPageObjectFun function
-		for (column = 1; column <= listObject.size(); column++) {
+		for (column = 1; column <= fieldsData.size(); column++) {
 			y++
 			//if type equals text
 			if (data.getValue(2, column)=="txt"){
