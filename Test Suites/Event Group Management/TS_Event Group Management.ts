@@ -125,6 +125,8 @@
          <variableId>30b365ee-fb06-4905-aa30-3b58e145fb22</variableId>
       </variableLink>
    </testCaseLink>
+<<<<<<< HEAD
+=======
    <testCaseLink>
       <guid>26ff5e98-ab50-4834-8f83-e4d9ac4ad528</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -164,4 +166,5 @@
          <variableId>e26ea596-b58a-4397-87b0-7b4279b6753a</variableId>
       </variableLink>
    </testCaseLink>
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 </TestSuiteEntity>

@@ -3,7 +3,7 @@ package pk_Functions
  * Date 13/01/2019
  * Usage:This Function is used to compare record in grid with expected result it can be used to validate that search parameters filters data 
  * Input:There are four inputs required for this function (Webtable id ,List of Expected Values and First Expected Value locator) 
- * Output:Ensure thst record is matched with expected record or not 
+ * Output:Ensure that record is matched with expected record or not 
  */
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -27,7 +27,7 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 @Keyword
 //Setting keyword inputs
-ValidateSearchParameters (String webtableAttribute ,String webtablelocatorValue , List ExpectedValues = [], int uniqueColumn ) {
+ValidateSearchParameters (actionType, String webtableAttribute ,String webtablelocatorValue , List ExpectedValues = [], int uniqueColumn ) {
 
 	List<String> Columns_row_text  = new ArrayList<String>()
 	WebDriver driver = DriverFactory.getWebDriver()
@@ -48,6 +48,7 @@ ValidateSearchParameters (String webtableAttribute ,String webtablelocatorValue 
 	List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 	//To calculate no of rows In table'
 	int rows_count = rows_table.size()
+	
 	//Loop will execute for all the rows of the table
 	Loop:
 	for (int row = 1; row < rows_count; row++) {
@@ -72,6 +73,12 @@ ValidateSearchParameters (String webtableAttribute ,String webtablelocatorValue 
 	}
 	//Compare the actual record with expected record data inserted as inputs to the keyword
 	assert Columns_row_text == ExpectedValues
+	if (actionType=='Search'){
+	assert rows_count == 2	
+	}
+	else if(actionType=='Delete'){
+		
+	}
 }
 
 
