@@ -27,7 +27,7 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 @Keyword
 //Setting keyword inputs
-ValidateSearchParameters (actionType, String webtableAttribute ,String webtablelocatorValue , List ExpectedValues = [], int uniqueColumn ) {
+ValidateSearchParameters (String actionType, String webtableAttribute ,String webtablelocatorValue , List ExpectedValues = [], int uniqueColumn ) {
 
 	List<String> Columns_row_text  = new ArrayList<String>()
 	WebDriver driver = DriverFactory.getWebDriver()
@@ -48,7 +48,7 @@ ValidateSearchParameters (actionType, String webtableAttribute ,String webtablel
 	List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 	//To calculate no of rows In table'
 	int rows_count = rows_table.size()
-	
+
 	//Loop will execute for all the rows of the table
 	Loop:
 	for (int row = 1; row < rows_count; row++) {
@@ -71,14 +71,17 @@ ValidateSearchParameters (actionType, String webtableAttribute ,String webtablel
 			break
 		}
 	}
-	//Compare the actual record with expected record data inserted as inputs to the keywordd
-	assert Columns_row_text == ExpectedValues
+	//Compare the actual record with expected record data inserted as inputs to the keyword
+	if(actionType=='clk'){
+		assert Columns_row_text == []
+	}else {
+		assert Columns_row_text == ExpectedValues
+	}
+
 	if (actionType=='Search'){
-	assert rows_count == 2	
+		assert rows_count == 2
 	}
-	else if(actionType=='Delete'){
-		
-	}
+
 }
 
 

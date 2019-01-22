@@ -77,7 +77,7 @@ public class CS_SelectRecordFromWebtable_IPO {
 			// for (int j = 0; j < Cols.size(); j++) {
 			//Verifying the expected text in the each cell in specified column
 			if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(expectedValue)) {
-				println('No. of colns')
+				
 				//2To locate anchor in the expected value matched row to perform action'
 				//Cols.get(4).findElement(By.tagName('a')).click()
 				WebUI.delay(4)
