@@ -46,8 +46,6 @@ WebUI.click(findTestObject('Search'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Event Group Managemnt/BTN_Sort'))
-
-CustomKeywords.'TestSorting.Test_Sorting'('xpath', '//*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[2]/div/app-event-categories-management-list/p-panel/div/div[2]/div[1]/div/div/p-datatable/div/div[2]', 
+CustomKeywords.'TestSorting.Test_Sorting'('des', 'xpath', '//*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[2]/div/app-event-categories-management-list/p-panel/div/div[2]/div[1]/div/div/p-datatable/div/div[2]', 
     1)
 
