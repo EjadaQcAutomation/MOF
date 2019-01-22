@@ -71,7 +71,7 @@ ValidateSearchParameters (actionType, String webtableAttribute ,String webtablel
 			break
 		}
 	}
-	//Compare the actual record with expected record data inserted as inputs to the keyword
+	//Compare the actual record with expected record data inserted as inputs to the keywordd
 	assert Columns_row_text == ExpectedValues
 	if (actionType=='Search'){
 	assert rows_count == 2	
