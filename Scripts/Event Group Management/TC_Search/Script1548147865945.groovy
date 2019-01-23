@@ -23,10 +23,15 @@ WebUI.click(findTestObject('NE_EventGroupManagement'))
 CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['Code'], 'Event Group Management/EventManagementGPUpdate_ObjectRepository', 
     'Search_Parameters', [Code])
 
-WebUI.click(findTestObject('Search'))
+WebUI.click(findTestObject('Event Group Managemnt/BTN_Search'))
 
 WebUI.delay(1)
 
 CustomKeywords.'pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters'('Search', 'xpath', '//*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[2]/div/app-event-categories-management-list/p-panel/div/div[2]/div[1]/div/div/p-datatable/div/div[2]', 
     [Code, ArabicDescription, EnglishDescription], 0)
+
+WebUI.click(findTestObject('Event Group Managemnt/BTN_Clear'))
+
+CustomKeywords.'pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters'('Clear', 'xpath', '//*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[2]/div/app-event-categories-management-list/p-panel/div/div[2]/div[1]/div/div/p-datatable/div/div[2]', 
+    [], 0)
 
