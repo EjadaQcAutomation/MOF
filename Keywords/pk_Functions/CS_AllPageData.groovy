@@ -64,12 +64,12 @@ public class CS_AllPageData {
 		data.changeSheet( sheetName)
 
 		//loop for setting data into list object that stored in list using AllPageObjectFun function
-		for (column = 1; column <= listObject.size(); column++) {
+		for (column = 1; column <= fieldsData.size(); column++) {
 			y++
 			print y
 			//if type equals text
 			if (data.getValue(2, column)=="txt"){
-				WebUI.delay(2)
+				WebUI.delay(1)
 				println y
 				//set data of text into corresponding object
 				WebUI.setText(listObject[(column - 1)], fieldsData[(column-1)])
@@ -87,7 +87,7 @@ public class CS_AllPageData {
 				(new pk_Functions.CS_StaticListUsingLiTag()).LovSearchFun (part1 , part2 ,fieldsData[(column-1)] )
 
 			}else if ((data.getValue(2, column )=="clickable") &&(fieldsData[(column-1)]=="clk")){
-				WebUI.delay(2)
+				WebUI.delay(1)
 				println ("click ")
 				WebUI.click(listObject[(column - 1)])
 

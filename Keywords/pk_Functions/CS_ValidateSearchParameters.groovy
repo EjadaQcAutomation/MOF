@@ -3,7 +3,7 @@ package pk_Functions
  * Date 13/01/2019
  * Usage:This Function is used to compare record in grid with expected result it can be used to validate that search parameters filters data 
  * Input:There are four inputs required for this function (Webtable id ,List of Expected Values and First Expected Value locator) 
- * Output:Ensure thst record is matched with expected record or not 
+ * Output:Ensure that record is matched with expected record or not 
  */
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -27,43 +27,71 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 @Keyword
 //Setting keyword inputs
-ValidateSearchParameters (String webtableId , List ExpectedValues = [], int uniqueColumn ) {
+ValidateSearchParameters (String actionType, String webtableAttribute ,String webtablelocatorValue , List ExpectedValues = [], int uniqueColumn ) {
 
 	List<String> Columns_row_text  = new ArrayList<String>()
 	WebDriver driver = DriverFactory.getWebDriver()
 	List<WebElement> Columns_row
+	WebElement Table
+	//To locate table'
+	if (webtableAttribute=='xpath'){
+		Table = driver.findElement(By.xpath(webtablelocatorValue))
+	}
 
-	//To locate table
-	WebElement Table = driver.findElement(By.id(webtableId))
+	else{
+
+		Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
+
+	}
 
 	//To locate rows of table it will Capture all the rows available in the table
 	List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 	//To calculate no of rows In table'
 	int rows_count = rows_table.size()
+
 	//Loop will execute for all the rows of the table
 	Loop:
-	for (int row = 1; row < rows_count; row++) {
-		//To locate columns(cells) of that specific row'
-		Columns_row = rows_table.get(row).findElements(By.tagName('td'))
+	if(actionType != "uncheck"){
+		for (int row = 1; row < rows_count; row++) {
+			//To locate columns(cells) of that specific row'
+			Columns_row = rows_table.get(row).findElements(By.tagName('td'))
 
 
-		//To calculate no of columns(cells) In that specific row
-		int columns_count = Columns_row.size()
+			//To calculate no of columns(cells) In that specific row
+			int columns_count = Columns_row.size()
 
-		//println((('Number of cells In Row ' + row) + ' are ') + columns_count)
+			//println((('Number of cells In Row ' + row) + ' are ') + columns_count)
 
 
-		//Checking if firstCell text is matched with the expected value
-		if (Columns_row.get(uniqueColumn).getText() == ExpectedValues[uniqueColumn]) {
-			for (int column = 0 ; column < columns_count ;column++){
-				Columns_row_text.add(Columns_row.get(column).getText())
+			//Checking if firstCell text is matched with the expected value
 
+			if (Columns_row.get(uniqueColumn).getText() == ExpectedValues[uniqueColumn]) {
+				for (int column = 0 ; column < columns_count-1 ;column++){
+					Columns_row_text.add(Columns_row.get(column).getText())
+
+				}
+				break
 			}
-			break
 		}
 	}
 	//Compare the actual record with expected record data inserted as inputs to the keyword
-	assert Columns_row_text == ExpectedValues
+
+
+	if (actionType=='Search'){
+		assert Columns_row_text == ExpectedValues
+		assert rows_count == 2
+	}
+	else if(actionType=='Clear'){
+		assert Columns_row.size() == 1
+	}
+	else if(actionType=='check_d'){
+		assert Columns_row_text == []
+	}
+	else {
+		assert Columns_row_text == ExpectedValues
+
+	}
+
 }
 
 
