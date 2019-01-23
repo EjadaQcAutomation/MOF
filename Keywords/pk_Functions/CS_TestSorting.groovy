@@ -114,22 +114,5 @@ public class TestSorting {
 			}
 		}
 
-<<<<<<< HEAD
-		List<WebElement> celltext_list //original List data of specific column in grid
-		List<WebElement> list //List is in Asc order
-		List<WebElement> list2 //List is in Desc order
-		celltext_list = Arrays.asList(celltext)
-		list = celltext_list.sort()
-		list2 =celltext_list.reverse();
-		println(celltext_list)
-		println(list)
-		println(list2)
-		if(list2.equals(celltext_list)){
-			println("Celltext is in descending order")
-		}
-		else{
-			println("Celltext is in ascending order")
-		}
-=======
->>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
+
 	}}
