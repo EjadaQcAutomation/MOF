@@ -28,11 +28,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 @Keyword
 //Setting keyword inputs
 ValidateSearchParameters (String actionType, String webtableAttribute ,String webtablelocatorValue , List ExpectedValues = [], int uniqueColumn ) {
-<<<<<<< HEAD
-	
-=======
 
->>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 	List<String> Columns_row_text  = new ArrayList<String>()
 	WebDriver driver = DriverFactory.getWebDriver()
 	List<WebElement> Columns_row
