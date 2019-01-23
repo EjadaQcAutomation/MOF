@@ -38,12 +38,14 @@ import java.util.Collections;
 import internal.GlobalVariable
 
 public class TestSorting {
+
 	List<String> list = new ArrayList<String>()
 	public static WebElement Table
 	public static List<WebElement> rows_table
 	public static List<WebElement> Columns_row
 	List<String>  listDes = new ArrayList<String>()
 	List<String>  listAsc = new ArrayList<String>()
+
 	@Keyword
 	Test_Sorting(String SortBTN ,String SortType , String webtableAttribute ,String webtablelocatorValue ,int column_num){
 
@@ -60,14 +62,17 @@ public class TestSorting {
 		}
 
 		//‘To locate rows of table it will Capture all the rows available in the table’
+
 		rows_table = Table.findElements(By.tagName('tr'))
+
+		
 		//‘To calculate no of rows In table’
 		int rows_count = rows_table.size()
 		String[] celltext = new String[rows_count]
+
 		println(rows_count)
 		if(SortType=='asc'){
 			WebUI.delay(2)
-
 			for (int row = 1; row < rows_count; row++) {
 				//‘To locate columns(cells) of that specific row’
 				Columns_row = rows_table.get(row).findElements(By.tagName('td'))
@@ -110,6 +115,7 @@ public class TestSorting {
 			listDes.sort()
 			listDes.reverse()//List is in Desc order	
 			if(list==listDes){
+
 				println("Celltext is in descending order")
 			}
 			else{
@@ -117,5 +123,6 @@ public class TestSorting {
 
 			}
 		}
+
 
 	}}

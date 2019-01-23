@@ -46,6 +46,11 @@ WebUI.click(findTestObject('Event Group Managemnt/BTN_Search'))
 
 WebUI.delay(3)
 
+<<<<<<< HEAD
+=======
+WebUI.click(findTestObject('Event Group Managemnt/BTN_Sort'))
+
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 CustomKeywords.'TestSorting.Test_Sorting'('//*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[2]/div/app-event-categories-management-list/p-panel/div/div[2]/div[1]/div/div/p-datatable/div/div[2]/table/thead/tr/th[2]', 
     'des', 'xpath', '//*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[2]/div/app-event-categories-management-list/p-panel/div/div[2]/div[1]/div/div/p-datatable/div/div[2]', 
     1)
