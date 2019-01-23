@@ -101,6 +101,7 @@ public class TestSorting {
 			Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
 		}
 		//‘To locate rows of table it will Capture all the rows available in the table’
+<<<<<<< HEAD
 			rows_table = Table.findElements(By.tagName('tr'))
 			for (int row = 1; row <=(rows_count-1); row++) {
 			//WebUI.waitForElementVisible(findTestObject('table'), 5)
@@ -111,10 +112,64 @@ public class TestSorting {
 			String celltext_1 = Columns_row.get(column_num).getText()
 			list.add(celltext_1)
 			listDes.add(celltext_1)
+=======
+
+		rows_table = Table.findElements(By.tagName('tr'))
+
+		
+		//‘To calculate no of rows In table’
+		int rows_count = rows_table.size()
+		String[] celltext = new String[rows_count]
+
+		println(rows_count)
+		if(SortType=='asc'){
+			WebUI.delay(2)
+			for (int row = 1; row < rows_count; row++) {
+				//‘To locate columns(cells) of that specific row’
+				Columns_row = rows_table.get(row).findElements(By.tagName('td'))
+				//‘It will retrieve text from 1st cell’
+				String celltext_1 = Columns_row.get(column_num).getText()
+				list.add(celltext_1)
+				listAsc.add(celltext_1)
+			}
+			// list after first click
+		    listAsc.sort()
+			if(list == listAsc){
+				println("Celltext is in ascending order")
+			}
+			else{
+				println("Celltext is in not ascending order")
+
+			}
+		}
+		if(SortType=='des'){
+			Sort_BTN =driver.findElement(By.xpath(SortBTN));
+			Sort_BTN.click()
+			WebUI.delay(5)
+			Sort_BTN.click()
+			WebUI.delay(5)
+			Table = driver.findElement(By.xpath(webtablelocatorValue))
+			rows_table = Table.findElements(By.tagName('tr'))
+			for (int row = 1; row <=(rows_count-1); row++) {
+				//WebUI.waitForElementVisible(findTestObject('table'), 5)
+				WebUI.delay(2)
+				//‘To locate columns(cells) of that specific row’
+
+				Columns_row = rows_table.get(row).findElements(By.tagName('td'))
+
+				//‘It will retrieve text from 1st cell’
+				String celltext_1 = Columns_row.get(column_num).getText()
+				list.add(celltext_1)
+				listDes.add(celltext_1)
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 			}
 			// list after twice click
 			listDes.sort()
+<<<<<<< HEAD
 			listDes.reverse()//List is in Desc order
+=======
+			listDes.reverse()//List is in Desc order	
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 			if(list==listDes){
 
 				println("Celltext is in descending order")
