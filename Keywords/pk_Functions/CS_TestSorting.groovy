@@ -42,6 +42,7 @@ public class TestSorting {
 	public static WebElement Table
 	public static List<WebElement> rows_table
 	public static List<WebElement> Columns_row
+	List<String>  listDes = new ArrayList<String>()
 	List<String>  listAsc = new ArrayList<String>()
 	@Keyword
 	Test_Sorting(String SortBTN ,String SortType , String webtableAttribute ,String webtablelocatorValue ,int column_num){
@@ -103,11 +104,11 @@ public class TestSorting {
 				//‘It will retrieve text from 1st cell’
 				String celltext_1 = Columns_row.get(column_num).getText()
 				list.add(celltext_1)
-				listAsc.add(celltext_1)
+				listDes.add(celltext_1)
 			}
 			// list after twice click
-			listAsc.sort()
-			List<String>  listDes =listAsc.reverse()//List is in Desc order	
+			listDes.sort()
+			listDes.reverse()//List is in Desc order	
 			if(list==listDes){
 				println("Celltext is in descending order")
 			}
