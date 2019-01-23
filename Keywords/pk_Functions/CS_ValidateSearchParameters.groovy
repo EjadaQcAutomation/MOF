@@ -9,7 +9,6 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -75,6 +74,15 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 
 			}
 		}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+	}
+	//Compare the actual record with expected record data inserted as inputs to the keyword
+<<<<<<< HEAD
+	
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 
 		//Compare the actual record with expected record data inserted as inputs to the keyword
 		if (actionType=='Search'){
@@ -94,7 +102,26 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 		}
 
 	}
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 
+		//In the following section action will be taken according to actionType input
+
+		//if the actionType is Search 1.actual record will be compared to expected input list   2.Ensuring that only one record appears after search
+		if (actionType=='Search'){
+			assert Columns_row_text == ExpectedValues
+			assert rows_count == 2
+		}
+		else if(actionType=='Clear'){
+			assert Columns_row.size() == 1
+		}
+		else if(actionType=='Delete'){
+			assert Columns_row_text == []
+		}
+		else {
+			assert Columns_row_text == ExpectedValues
+
+		}
+	}
 }
 
 
