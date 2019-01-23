@@ -28,7 +28,11 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 @Keyword
 //Setting keyword inputs
 ValidateSearchParameters (String actionType, String webtableAttribute ,String webtablelocatorValue , List ExpectedValues = [], int uniqueColumn ) {
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 	List<String> Columns_row_text  = new ArrayList<String>()
 	WebDriver driver = DriverFactory.getWebDriver()
 	List<WebElement> Columns_row
@@ -51,29 +55,42 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 
 	//Loop will execute for all the rows of the table
 	Loop:
-	for (int row = 1; row < rows_count; row++) {
-		//To locate columns(cells) of that specific row'
-		Columns_row = rows_table.get(row).findElements(By.tagName('td'))
+	if(actionType != "uncheck"){
+		for (int row = 1; row < rows_count; row++) {
+			//To locate columns(cells) of that specific row'
+			Columns_row = rows_table.get(row).findElements(By.tagName('td'))
 
 
-		//To calculate no of columns(cells) In that specific row
-		int columns_count = Columns_row.size()
+			//To calculate no of columns(cells) In that specific row
+			int columns_count = Columns_row.size()
 
-		//println((('Number of cells In Row ' + row) + ' are ') + columns_count)
+			//println((('Number of cells In Row ' + row) + ' are ') + columns_count)
 
 
-		//Checking if firstCell text is matched with the expected value
-		if (Columns_row.get(uniqueColumn).getText() == ExpectedValues[uniqueColumn]) {
-			for (int column = 0 ; column < columns_count-1 ;column++){
-				Columns_row_text.add(Columns_row.get(column).getText())
+			//Checking if firstCell text is matched with the expected value
 
+			if (Columns_row.get(uniqueColumn).getText() == ExpectedValues[uniqueColumn]) {
+				for (int column = 0 ; column < columns_count-1 ;column++){
+					Columns_row_text.add(Columns_row.get(column).getText())
+
+				}
+				break
 			}
-			break
 		}
 	}
 	//Compare the actual record with expected record data inserted as inputs to the keyword
+<<<<<<< HEAD
 	
+=======
+	if(actionType=='check_d'){
+		assert Columns_row_text == []
+	}else {
+		assert Columns_row_text == ExpectedValues
+	}
+
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 	if (actionType=='Search'){
+<<<<<<< HEAD
 		assert Columns_row_text == ExpectedValues
 		assert rows_count == 2
 		
@@ -84,6 +101,9 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 	}
 	else {
 		assert Columns_row_text == ExpectedValues
+=======
+		assert rows_count == 2
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 	}
 
 }
