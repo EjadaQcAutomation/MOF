@@ -93,8 +93,6 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 		}
 
 	}
->>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
-
 		//In the following section action will be taken according to actionType input
 
 		//if the actionType is Search 1.actual record will be compared to expected input list   2.Ensuring that only one record appears after search
