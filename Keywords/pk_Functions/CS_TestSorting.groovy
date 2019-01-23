@@ -39,9 +39,11 @@ import internal.GlobalVariable
 
 public class TestSorting {
 	@Keyword
-	Test_Sorting(String SortType , String webtableAttribute ,String webtablelocatorValue ,int column_num){
+	Test_Sorting(String SortBTN ,String SortType , String webtableAttribute ,String webtablelocatorValue ,int column_num){
+		
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebElement Table
+		WebElement Sort_BTN
 		//To locate table'
 		if (webtableAttribute=='xpath'){
 			Table = driver.findElement(By.xpath(webtablelocatorValue))
@@ -53,76 +55,65 @@ public class TestSorting {
 	
 		//‘To locate rows of table it will Capture all the rows available in the table’
 		List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
-	
+		List<WebElement> Columns_row
 		//‘To calculate no of rows In table’
 		int rows_count = rows_table.size()
 		String[] celltext = new String[rows_count]
-		String[] celltext2 = new String[rows_count]
-		for (int row = 1; row < rows_count; row++) {
-			//‘To locate columns(cells) of that specific row’
-			List<WebElement> Columns_row = rows_table.get(row).findElements(By.tagName('td'))
-	
-			//‘It will retrieve text from 1st cell’
-			String celltext_1 = Columns_row.get(column_num).getText()
-			(celltext[row]) = celltext_1
-			
-		}
-		// original list
-		List<WebElement> celltext_list
-		celltext_list = Arrays.asList(celltext)
-		
-		List<WebElement> listAsc 
-		listAsc=celltext_list.sort()
-		println(listAsc)
-		List<WebElement> listDes //List is in Desc order
-		listDes =celltext_list.reverse();
-		println(listDes)
-if(SortType=='asc'){
-	WebUI.click(findTestObject('Event Group Managemnt/BTN_Sort'))
-	for (int row = 1; row < rows_count; row++) {
-		//‘To locate columns(cells) of that specific row’
-		List<WebElement> Columns_row2 = rows_table.get(row).findElements(By.tagName('td'))
 
+if(SortType=='asc'){
+	WebUI.delay(2)
+	
+	    for (int row = 1; row < rows_count; row++) {
+		//‘To locate columns(cells) of that specific row’
+		 Columns_row = rows_table.get(row).findElements(By.tagName('td'))
 		//‘It will retrieve text from 1st cell’
-		String celltext_1_2 = Columns_row2.get(column_num).getText()
-		(celltext2[row]) = celltext_1_2
-		
+		String celltext_1 = Columns_row.get(column_num).getText()
+		(celltext[row]) = celltext_1		
 	}
 	// list after first click 
-	List<WebElement> celltext_list2
-	celltext_list2 = Arrays.asList(celltext)
-	println(celltext_list2)
-	if(celltext_list2.equals(listAsc)){
+	List<WebElement> celltext_list = Arrays.asList(celltext)
+	 List<WebElement> listAsc =celltext_list.sort()//List is in asc order
+	println(celltext_list)
+	println(listAsc)
+	if(celltext_list == listAsc){
 		println("Celltext is in ascending order")
 	}
 	else{
 		println("Celltext is in not ascending order")
 	
-	}}
-else {
-	WebUI.delay(2)
-	WebUI.click(findTestObject('Event Group Managemnt/BTN_Sort'))
-	WebUI.delay(2)
-	WebUI.click(findTestObject('Event Group Managemnt/BTN_Sort'))
-
-	for (int row = 1; row < rows_count; row++) {
-		//‘To locate columns(cells) of that specific row’
-		List<WebElement> Columns_row2 = rows_table.get(row).findElements(By.tagName('td'))
-
-		//‘It will retrieve text from 1st cell’
-		String celltext_1_2 = Columns_row2.get(column_num).getText()
-		(celltext2[row]) = celltext_1_2
-		
 	}
-	// list after first click
-	List<WebElement> celltext_list2
-	celltext_list2 = Arrays.asList(celltext)
-	println(celltext_list2)
-	if(celltext_list2.equals(listDes)){
+}
+if(SortType=='des'){
+	Sort_BTN =driver.findElement(By.xpath(SortBTN));
+	WebUI.delay(4)
+	Sort_BTN.click()
+
+	
+	/*WebUI.delay(2)
+	  WebUI.click(findTestObject('Event Group Managemnt/BTN_Sort'))
+	  WebUI.delay(2)
+	  WebUI.click(findTestObject('Event Group Managemnt/BTN_Sort'))
+	
+	  WebUI.delay(2)*/
+	    for (int row = 1; row < rows_count; row++) {
+			WebUI.delay(4)
+		
+		//‘To locate columns(cells) of that specific row’
+		 Columns_row = rows_table.get(row).findElements(By.tagName('td'))
+		 println(Columns_row)
+		//‘It will retrieve text from 1st cell’
+		String celltext_1 = Columns_row.get(column_num).getText()
+		(celltext[row]) = celltext_1	
+	}
+	// list after twice click 
+	List<WebElement> celltext_list = Arrays.asList(celltext)
+	List<WebElement> listDes =celltext_list.reverse();//List is in Desc order
+	println(celltext_list)
+	if(celltext_list ==listDes){
 		println("Celltext is in descending order")
 	}
 	else{
-		println("Celltext is in not descending order")
+		println("Celltext is in not descendding order")
 	
 	}
 	}
