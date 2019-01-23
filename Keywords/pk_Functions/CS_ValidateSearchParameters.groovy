@@ -93,24 +93,8 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 		}
 
 	}
-		//In the following section action will be taken according to actionType input
-
-		//if the actionType is Search 1.actual record will be compared to expected input list   2.Ensuring that only one record appears after search
-		if (actionType=='Search'){
-			assert Columns_row_text == ExpectedValues
-			assert rows_count == 2
-		}
-		else if(actionType=='Clear'){
-			assert Columns_row.size() == 1
-		}
-		else if(actionType=='Delete'){
-			assert Columns_row_text == []
-		}
-		else {
-			assert Columns_row_text == ExpectedValues
-
-		}
-	}
+	
+	
 }
 
 
