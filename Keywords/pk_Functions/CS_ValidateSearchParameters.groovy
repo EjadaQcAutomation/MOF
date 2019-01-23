@@ -70,16 +70,18 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 					Columns_row_text.add(Columns_row.get(column).getText())
 
 				}
+				if(actionType=='check_d'){
+					assert Columns_row_text == []
+				}else {
+					assert Columns_row_text == ExpectedValues
+				}
 				break
+				
 			}
 		}
 	}
 	//Compare the actual record with expected record data inserted as inputs to the keyword
-	if(actionType=='check_d'){
-		assert Columns_row_text == []
-	}else {
-		assert Columns_row_text == ExpectedValues
-	}
+	
 
 	if (actionType=='Search'){
 		assert rows_count == 2
