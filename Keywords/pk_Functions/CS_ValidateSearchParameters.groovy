@@ -75,18 +75,15 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 		}
 	}
 	//Compare the actual record with expected record data inserted as inputs to the keyword
-<<<<<<< HEAD
-	
-=======
+
 	if(actionType=='check_d'){
 		assert Columns_row_text == []
 	}else {
 		assert Columns_row_text == ExpectedValues
 	}
 
->>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 	if (actionType=='Search'){
-<<<<<<< HEAD
+
 		assert Columns_row_text == ExpectedValues
 		assert rows_count == 2
 		
@@ -97,9 +94,9 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 	}
 	else {
 		assert Columns_row_text == ExpectedValues
-=======
+
 		assert rows_count == 2
->>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
+
 	}
 
 }
