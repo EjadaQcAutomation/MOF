@@ -74,15 +74,6 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 
 			}
 		}
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-	}
-	//Compare the actual record with expected record data inserted as inputs to the keyword
-<<<<<<< HEAD
-	
->>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 
 		//Compare the actual record with expected record data inserted as inputs to the keyword
 		if (actionType=='Search'){
