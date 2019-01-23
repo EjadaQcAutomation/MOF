@@ -28,7 +28,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 @Keyword
 //Setting keyword inputs
 ValidateSearchParameters (String actionType, String webtableAttribute ,String webtablelocatorValue , List ExpectedValues = [], int uniqueColumn ) {
-
+	
 	List<String> Columns_row_text  = new ArrayList<String>()
 	WebDriver driver = DriverFactory.getWebDriver()
 	List<WebElement> Columns_row
@@ -48,7 +48,7 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 	List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 	//To calculate no of rows In table'
 	int rows_count = rows_table.size()
-	
+
 	//Loop will execute for all the rows of the table
 	Loop:
 	for (int row = 1; row < rows_count; row++) {
@@ -72,13 +72,20 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 		}
 	}
 	//Compare the actual record with expected record data inserted as inputs to the keyword
-	assert Columns_row_text == ExpectedValues
+	
 	if (actionType=='Search'){
-	assert rows_count == 2	
-	}
-	else if(actionType=='Delete'){
+		assert Columns_row_text == ExpectedValues
+		assert rows_count == 2
 		
 	}
+	else if(actionType=='Clear'){
+		//columns_count = Columns_row.size()
+		assert Columns_row.size() == 1
+	}
+	else {
+		assert Columns_row_text == ExpectedValues
+	}
+
 }
 
 

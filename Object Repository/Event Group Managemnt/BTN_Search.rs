@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Search</name>
+   <name>BTN_Search</name>
    <tag></tag>
    <elementGuidId>097e8aa1-e79c-4142-be13-fadcddb00872</elementGuidId>
    <selectorCollection>
