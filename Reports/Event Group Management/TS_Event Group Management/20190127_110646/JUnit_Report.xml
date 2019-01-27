@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Event Group Management" time="37" tests="0" failures="0" errors="1">
+   <testsuite name="TS_Event Group Management" tests="0" failures="0" errors="1" time="37" timestamp="2019-01-27 11:06:59" hostname="Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local" id="Test Suites/Event Group Management/TS_Event Group Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\MOF\\Reports\\Event Group Management\\TS_Event Group Management\\20190127_110646"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\MOF\\Reports\\Event Group Management\\TS_Event Group Management\\20190127_110646\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.51"/>
+         <property name="sessionId" value="b97611088cf85c16f79c74d8d3bf2891"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Event Group Management/TC_Search_FullScenario" classname="Test Cases/Event Group Management/TC_Search_FullScenario" status="ERROR">
+         <error type="ERROR" message="Test Cases/Event Group Management/TC_Search_FullScenario FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getRowNumbers(SheetPOI.java:296)
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getColumnCount(SheetPOI.java:242)
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getColumnNumbers(SheetPOI.java:308)
+	at com.kms.katalon.core.testdata.ExcelData.getAllData(ExcelData.java:45)
+	at com.kms.katalon.core.testdata.TestData$getAllData.call(Unknown Source)
+	at pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters(CS_ValidateSearchParameters.groovy:35)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Search_FullScenario.run(TC_Search_FullScenario:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548580006979.run(TempTestSuite1548580006979.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-27 11:06:59 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Search_FullScenario: Test Cases/Event Group Management/TC_Search_FullScenario FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getRowNumbers(SheetPOI.java:296)
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getColumnCount(SheetPOI.java:242)
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getColumnNumbers(SheetPOI.java:308)
+	at com.kms.katalon.core.testdata.ExcelData.getAllData(ExcelData.java:45)
+	at com.kms.katalon.core.testdata.TestData$getAllData.call(Unknown Source)
+	at pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters(CS_ValidateSearchParameters.groovy:35)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Search_FullScenario.run(TC_Search_FullScenario:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548580006979.run(TempTestSuite1548580006979.groovy:36)
+
+
+2019-01-27 11:07:00 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-27 11:07:00 - [MESSAGE][WARNING] - Test object id is null
+
+2019-01-27 11:07:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-27 11:07:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-27 11:07:30 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.0.190:8080/mof/#/'
+
+2019-01-27 11:07:31 - [MESSAGE][PASSED] - Text 'AAttia' is set on object 'Object Repository/Login/Username'
+
+2019-01-27 11:07:31 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Login/Password'
+
+2019-01-27 11:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login' is clicked on
+
+2019-01-27 11:07:31 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-27 11:07:31 - [TEST_STEP][PASSED] - click(findTestObject("NE_SideMenu")): Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-01-27 11:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-01-27 11:07:33 - [TEST_STEP][PASSED] - click(findTestObject("NE_EventGroupManagement")): Object: 'Object Repository/NE_EventGroupManagement' is clicked on
+
+2019-01-27 11:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_EventGroupManagement' is clicked on
+
+2019-01-27 11:07:33 - [TEST_STEP][PASSED] - pk_Functions.CS_SpecificPageData.DataFun(["Code"], "Event Group Management/EventManagementGPUpdate_ObjectRepository", "Search_Parameters", [Code]): pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-01-27 11:07:35 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2019-01-27 11:07:35 - [MESSAGE][PASSED] - pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-01-27 11:07:35 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-27 11:07:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-27 11:07:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-27 11:07:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-27 11:07:36 - [TEST_STEP][ERROR] - pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters("Search", "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Search_Function", [Code, ArabicDescription, EnglishDescription], 0): pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters("Search", "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Search_Function", [Code, ArabicDescription, EnglishDescription], 0) FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getRowNumbers(SheetPOI.java:296)
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getColumnCount(SheetPOI.java:242)
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getColumnNumbers(SheetPOI.java:308)
+	at com.kms.katalon.core.testdata.ExcelData.getAllData(ExcelData.java:45)
+	at com.kms.katalon.core.testdata.TestData$getAllData.call(Unknown Source)
+	at pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters(CS_ValidateSearchParameters.groovy:35)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Search_FullScenario.run(TC_Search_FullScenario:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548580006979.run(TempTestSuite1548580006979.groovy:36)
+
+
+2019-01-27 11:07:36 - [MESSAGE][ERROR] - 
+
+2019-01-27 11:07:36 - [MESSAGE][ERROR] - pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters("Search", "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Search_Function", [Code, ArabicDescription, EnglishDescription], 0) FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getRowNumbers(SheetPOI.java:296)
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getColumnCount(SheetPOI.java:242)
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getColumnNumbers(SheetPOI.java:308)
+	at com.kms.katalon.core.testdata.ExcelData.getAllData(ExcelData.java:45)
+	at com.kms.katalon.core.testdata.TestData$getAllData.call(Unknown Source)
+	at pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters(CS_ValidateSearchParameters.groovy:35)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Search_FullScenario.run(TC_Search_FullScenario:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548580006979.run(TempTestSuite1548580006979.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-27 11:06:59 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Search_FullScenario: Test Cases/Event Group Management/TC_Search_FullScenario FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getRowNumbers(SheetPOI.java:296)
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getColumnCount(SheetPOI.java:242)
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getColumnNumbers(SheetPOI.java:308)
+	at com.kms.katalon.core.testdata.ExcelData.getAllData(ExcelData.java:45)
+	at com.kms.katalon.core.testdata.TestData$getAllData.call(Unknown Source)
+	at pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters(CS_ValidateSearchParameters.groovy:35)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Search_FullScenario.run(TC_Search_FullScenario:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548580006979.run(TempTestSuite1548580006979.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-27 11:06:59 - [TEST_SUITE][ERROR] - TS_Event Group Management: Test Cases/Event Group Management/TC_Search_FullScenario FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getRowNumbers(SheetPOI.java:296)
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getColumnCount(SheetPOI.java:242)
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getColumnNumbers(SheetPOI.java:308)
+	at com.kms.katalon.core.testdata.ExcelData.getAllData(ExcelData.java:45)
+	at com.kms.katalon.core.testdata.TestData$getAllData.call(Unknown Source)
+	at pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters(CS_ValidateSearchParameters.groovy:35)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Search_FullScenario.run(TC_Search_FullScenario:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548580006979.run(TempTestSuite1548580006979.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-27 11:06:59 - [TEST_SUITE][ERROR] - TS_Event Group Management: Test Cases/Event Group Management/TC_Search_FullScenario FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getRowNumbers(SheetPOI.java:296)
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getColumnCount(SheetPOI.java:242)
+	at com.kms.katalon.core.testdata.reader.SheetPOI.getColumnNumbers(SheetPOI.java:308)
+	at com.kms.katalon.core.testdata.ExcelData.getAllData(ExcelData.java:45)
+	at com.kms.katalon.core.testdata.TestData$getAllData.call(Unknown Source)
+	at pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters(CS_ValidateSearchParameters.groovy:35)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Search_FullScenario.run(TC_Search_FullScenario:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548580006979.run(TempTestSuite1548580006979.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
