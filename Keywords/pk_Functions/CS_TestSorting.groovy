@@ -65,7 +65,7 @@ public class TestSorting {
 
 		rows_table = Table.findElements(By.tagName('tr'))
 
-		
+
 		//‘To calculate no of rows In table’
 		int rows_count = rows_table.size()
 		String[] celltext = new String[rows_count]
@@ -82,7 +82,7 @@ public class TestSorting {
 				listAsc.add(celltext_1)
 			}
 			// list after first click
-		    listAsc.sort()
+			listAsc.sort()
 			if(list == listAsc){
 				println("Celltext is in ascending order")
 			}
@@ -113,7 +113,7 @@ public class TestSorting {
 			}
 			// list after twice click
 			listDes.sort()
-			listDes.reverse()//List is in Desc order	
+			listDes.reverse()//List is in Desc order
 			if(list==listDes){
 
 				println("Celltext is in descending order")

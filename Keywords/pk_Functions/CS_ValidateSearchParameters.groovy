@@ -67,6 +67,7 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 			if (Columns_row.get(uniqueColumn).getText() == ExpectedValues[uniqueColumn]) {
 				for (int column = 0 ; column < columns_count-1 ;column++){
 					Columns_row_text.add(Columns_row.get(column).getText())
+					println Columns_row_text
 
 				}
 
@@ -93,8 +94,8 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 		}
 
 	}
-	
-	
+
+
 }
 
 
