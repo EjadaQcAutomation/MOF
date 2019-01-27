@@ -15,6 +15,7 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testcase.TestCase
+import com.kms.katalon.core.testdata.ExcelData
 import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
@@ -49,9 +50,27 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 public class CS_SelectRecordFromWebtable_IPO {
 
 	@Keyword
-	SelectRecordFromWebtableFun (String webtableAttribute ,String webtablelocatorValue , String expectedValue , int expectedValueColumn , int actionButtonColumn , int actionbutton) {
+	SelectRecordFromWebtableFun (String fileName ,String sheetName , String expectedValue , int expectedValueColumn , int actionButtonColumn , int actionbutton) {
 		WebElement Table
 		WebDriver ndriver = DriverFactory.getWebDriver()
+		List<String> valueOfRow = new ArrayList<String>()
+		// Take file name and sheet name to get object
+		ExcelData  data = findTestData(fileName)
+		data.changeSheet( sheetName)
+		data.getAllData()
+		int row
+		int fieldNo
+		int index
+		//Looping on excel file of object
+		for ( row = 1;  row < data.getRowNumbers()+1;  row++) {
+			valueOfRow.add(data.getValue(1, row))
+		}
+
+		index = valueOfRow.indexOf("Table");
+
+		String  webtableAttribute  = data.getValue(3,index+1)
+
+		String webtablelocatorValue  = data.getValue(4,index+1)
 
 		//To locate table'
 		if (webtableAttribute=='xpath'){

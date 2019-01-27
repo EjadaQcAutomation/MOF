@@ -70,7 +70,7 @@ ValidateSearchParameters (String actionType, String fileName ,String sheetName ,
 	//Loop will execute for all the rows of the table
 	Loop:
 
-	for (int rowTable = 1; rowTable < rows_count; row++) {
+	for (int rowTable = 1; rowTable < rows_count; rowTable++) {
 		//To locate columns(cells) of that specific row'
 		Columns_row = rows_table.get(rowTable).findElements(By.tagName('td'))
 

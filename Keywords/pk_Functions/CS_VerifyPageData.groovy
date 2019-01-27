@@ -25,14 +25,15 @@ import internal.GlobalVariable
 public class CS_VerifyPageData {
 
 	@Keyword
-	CheckMatching(String ObjectRepositoryFileName,String ObjectRepositorysheetName,String DataFileName) {
+	CheckMatching(String ObjectRepositoryFileName,String ObjectRepositorysheetName,String DataFileName,String DatasheetName) {
 		//getting all objects that stored in list by calling AllPageObjectFun function
 		List<TestObject> listObject = new ArrayList<TestObject>((new pk_Functions.CS_AllPageObject()).AllPageObjectFun (ObjectRepositoryFileName , ObjectRepositorysheetName ))
 		int column
 		///loop for setting data into list object that stored in list using AllPageObjectFun function and compare each value in the list by each value in excel
 		for (column = 1; column <= listObject.size(); column++) {
-
-			WebUI.verifyMatch(WebUI.getAttribute(listObject[(column-1)],'value'), findTestData(DataFileName).getValue(column,1), false, FailureHandling.STOP_ON_FAILURE)
+			findTestData(DataFileName).changeSheet(DatasheetName).getValue(column,1)
+            if (findTestData(DataFileName).changeSheet(DatasheetName).getValue(column,1)=='clk' or ){
+			WebUI.verifyMatch(WebUI.getAttribute(listObject[(column-1)],'value'), findTestData(DataFileName).changeSheet(DatasheetName).getValue(column,1), false, FailureHandling.STOP_ON_FAILURE)
 		}
 	}
 }
