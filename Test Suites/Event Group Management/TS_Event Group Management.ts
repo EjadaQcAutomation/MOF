@@ -127,7 +127,7 @@
    <testCaseLink>
       <guid>5e69c73a-454a-4229-931b-3718f645d83a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Search</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -167,6 +167,69 @@
          <type>DATA_COLUMN</type>
          <value>Code</value>
          <variableId>636249d7-61a7-4e35-9bdf-d988e1a98dcd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ce13346e-2a29-4632-90b6-6e96fdca24f3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/TC_Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1c02ad05-b171-42b8-985a-b6ea82bd2e92</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_Search_FullScenario</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>80fe534b-d710-48c2-805a-dc1d337015ec</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Event Group Management/EventManagemntGPUpdate_DataSearch</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>80fe534b-d710-48c2-805a-dc1d337015ec</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Arabic Description</value>
+         <variableId>7a34e624-735e-4f82-b7ae-d7ac93121f01</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>80fe534b-d710-48c2-805a-dc1d337015ec</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>English Description</value>
+         <variableId>3428ee4c-7cca-424c-b0a9-6f0e3e689283</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>27f7bc8a-ec07-4aa1-b939-0f8b74746e7d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4b975c64-d0b8-4960-8abe-959401b9f40d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>80fe534b-d710-48c2-805a-dc1d337015ec</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Code</value>
+         <variableId>b95468a5-3315-468a-bfdd-558abfdf72f7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d3edee0c-9ba5-41b0-a8a7-a5cfab731556</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4223e6e2-3564-4ff7-8b1f-c50d28c59fd6</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
