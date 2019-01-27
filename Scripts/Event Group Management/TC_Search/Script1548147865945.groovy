@@ -35,3 +35,5 @@ WebUI.click(findTestObject('Event Group Managemnt/BTN_Clear'))
 CustomKeywords.'pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters'('Clear', 'xpath', '//*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[2]/div/app-event-categories-management-list/p-panel/div/div[2]/div[1]/div/div/p-datatable/div/div[2]', 
     [], 0)
 
+WebUI.acceptAlert()
+
