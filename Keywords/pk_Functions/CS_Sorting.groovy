@@ -37,7 +37,7 @@ import java.util.Collections;
 
 import internal.GlobalVariable
 
-public class TestSorting {
+public class CS_Sorting {
 
 	List<String> list = new ArrayList<String>()
 	public static WebElement Table
@@ -51,79 +51,23 @@ public class TestSorting {
 
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebElement Sort_BTN
-		//‘To calculate no of rows In table’
-		int rows_count = rows_table.size()
-		String[] celltext = new String[rows_count]
 		if(SortType=='asc'){
-			Sort_BTN =driver.findElement(By.xpath(SortBTN));
-			WebUI.delay(5)
-			Sort_BTN.click()
-			WebUI.delay(2)
-			//To locate table'
 			if (webtableAttribute=='xpath'){
-			Table = driver.findElement(By.xpath(webtablelocatorValue))
-		}
-
-		else{
-			Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
-		}
-		//‘To locate rows of table it will Capture all the rows available in the table’
-			rows_table = Table.findElements(By.tagName('tr'))
-			for (int row = 1; row < rows_count; row++) {
-			//‘To locate columns(cells) of that specific row’
-			Columns_row = rows_table.get(row).findElements(By.tagName('td'))
-			//‘It will retrieve text from 1st cell’
-			String celltext_1 = Columns_row.get(column_num).getText()
-			list.add(celltext_1)
-			listAsc.add(celltext_1)
-			}
-			// list after first click
-			listAsc.sort()
-			if(list == listAsc){
-				println("Celltext is in ascending order")
+				Table = driver.findElement(By.xpath(webtablelocatorValue))
 			}
 			else{
-				println("Celltext is in not ascending order")
+				Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
 			}
-		}
-		if(SortType=='des'){
 			Sort_BTN =driver.findElement(By.xpath(SortBTN));
-			Sort_BTN.click()
 			WebUI.delay(5)
 			Sort_BTN.click()
-			WebUI.delay(5)
-			//To locate table'
-		if (webtableAttribute=='xpath'){
-			Table = driver.findElement(By.xpath(webtablelocatorValue))
-		}
-
-		else{
-			Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
-		}
-		//‘To locate rows of table it will Capture all the rows available in the table’
-
+			WebUI.delay(2)
+			//‘To locate rows of table it will Capture all the rows available in the table’
 			rows_table = Table.findElements(By.tagName('tr'))
-			for (int row = 1; row <=(rows_count-1); row++) {
-			//WebUI.waitForElementVisible(findTestObject('table'), 5)
+			//‘To calculate no of rows In table’
+			int rows_count = rows_table.size()
 			WebUI.delay(2)
-			//‘To locate columns(cells) of that specific row’
-			Columns_row = rows_table.get(row).findElements(By.tagName('td'))
-			//‘It will retrieve text from 1st cell’
-			String celltext_1 = Columns_row.get(column_num).getText()
-			list.add(celltext_1)
-			listDes.add(celltext_1)
-
-		rows_table = Table.findElements(By.tagName('tr'))
-
-		
-		//‘To calculate no of rows In table’
-		int rows_count = rows_table.size()
-		String[] celltext = new String[rows_count]
-
-		println(rows_count)
-		if(SortType=='asc'){
-			WebUI.delay(2)
-			for (int row = 1; row < rows_count; row++) {
+			for (int row = 1; row < rows_count; row++) {			
 				//‘To locate columns(cells) of that specific row’
 				Columns_row = rows_table.get(row).findElements(By.tagName('td'))
 				//‘It will retrieve text from 1st cell’
@@ -132,7 +76,7 @@ public class TestSorting {
 				listAsc.add(celltext_1)
 			}
 			// list after first click
-		    listAsc.sort()
+			listAsc.sort()
 			if(list == listAsc){
 				println("Celltext is in ascending order")
 			}
@@ -142,39 +86,48 @@ public class TestSorting {
 			}
 		}
 		if(SortType=='des'){
+			if (webtableAttribute=='xpath'){
+				Table = driver.findElement(By.xpath(webtablelocatorValue))
+			}
+	
+			else{
+				Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
+			}
+	
+			//‘To locate rows of table it will Capture all the rows available in the table’
+			rows_table = Table.findElements(By.tagName('tr'))
+			//‘To calculate no of rows In table’
+			int rows_count = rows_table.size()
+			//String[] celltext = new String[rows_count]
 			Sort_BTN =driver.findElement(By.xpath(SortBTN));
 			Sort_BTN.click()
 			WebUI.delay(5)
 			Sort_BTN.click()
 			WebUI.delay(5)
-			Table = driver.findElement(By.xpath(webtablelocatorValue))
+			//Table = driver.findElement(By.xpath(webtablelocatorValue))
 			rows_table = Table.findElements(By.tagName('tr'))
 			for (int row = 1; row <=(rows_count-1); row++) {
 				//WebUI.waitForElementVisible(findTestObject('table'), 5)
 				WebUI.delay(2)
 				//‘To locate columns(cells) of that specific row’
-
 				Columns_row = rows_table.get(row).findElements(By.tagName('td'))
-
 				//‘It will retrieve text from 1st cell’
 				String celltext_1 = Columns_row.get(column_num).getText()
 				list.add(celltext_1)
 				listDes.add(celltext_1)
-
 			}
 			// list after twice click
 			listDes.sort()
-
-			listDes.reverse()//List is in Desc order
-
-			if(list==listDes){
+			//listDes.reverse()//List is in Desc order
+			if(listDes.reverse()==list){
 
 				println("Celltext is in descending order")
 			}
 			else{
 				println("Celltext is in not descendding order")
+
 			}
 		}
 
 
-	}}
+	}} 
