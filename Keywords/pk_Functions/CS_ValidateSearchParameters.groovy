@@ -50,50 +50,50 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 
 	//Loop will execute for all the rows of the table
 	Loop:
-	if(actionType != "uncheck"){
-		for (int row = 1; row < rows_count; row++) {
-			//To locate columns(cells) of that specific row'
-			Columns_row = rows_table.get(row).findElements(By.tagName('td'))
+
+	for (int row = 1; row < rows_count; row++) {
+		//To locate columns(cells) of that specific row'
+		Columns_row = rows_table.get(row).findElements(By.tagName('td'))
 
 
-			//To calculate no of columns(cells) In that specific row
-			int columns_count = Columns_row.size()
+		//To calculate no of columns(cells) In that specific row
+		int columns_count = Columns_row.size()
 
-			//println((('Number of cells In Row ' + row) + ' are ') + columns_count)
+		//println((('Number of cells In Row ' + row) + ' are ') + columns_count)
 
 
-			//Checking if firstCell text is matched with the expected value
+		//Checking if firstCell text is matched with the expected value
 
-			if (Columns_row.get(uniqueColumn).getText() == ExpectedValues[uniqueColumn]) {
-				for (int column = 0 ; column < columns_count-1 ;column++){
-					Columns_row_text.add(Columns_row.get(column).getText())
-					println Columns_row_text
-
-				}
-
-				break
+		if (Columns_row.get(uniqueColumn).getText() == ExpectedValues[uniqueColumn]) {
+			for (int column = 0 ; column < columns_count-1 ;column++){
+				Columns_row_text.add(Columns_row.get(column).getText())
+				println Columns_row_text
 
 			}
-		}
 
-		//Compare the actual record with expected record data inserted as inputs to the keyword
-		if (actionType=='Search'){
-			assert Columns_row_text == ExpectedValues
-
-			assert rows_count == 2
-		}
-		else if(actionType=='Clear'){
-			assert Columns_row.size() == 1
-		}
-		else if(actionType=='Delete'){
-			assert Columns_row_text == []
-		}
-		else {
-			assert Columns_row_text == ExpectedValues
+			break
 
 		}
+	}
+
+	//Compare the actual record with expected record data inserted as inputs to the keyword
+	if (actionType=='Search'){
+		assert Columns_row_text == ExpectedValues
+
+		assert rows_count == 2
+	}
+	else if(actionType=='Clear'){
+		assert Columns_row.size() == 1
+	}
+	else if(actionType=='Delete'){
+		assert Columns_row_text == []
+	}
+	else {
+		assert Columns_row_text == ExpectedValues
 
 	}
+
+
 
 
 }
