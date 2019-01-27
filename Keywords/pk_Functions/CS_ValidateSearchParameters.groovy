@@ -15,6 +15,7 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.ExcelData
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
@@ -26,7 +27,25 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 @Keyword
 //Setting keyword inputs
-ValidateSearchParameters (String actionType, String webtableAttribute ,String webtablelocatorValue , List ExpectedValues = [], int uniqueColumn ) {
+ValidateSearchParameters (String actionType, String fileName ,String sheetName , List ExpectedValues = [], int uniqueColumn ) {
+	List<String> valueOfRow = new ArrayList<String>()
+	// Take file name and sheet name to get object
+	ExcelData  data = findTestData(fileName)
+	data.changeSheet( sheetName)
+	data.getAllData()
+	int row
+	int fieldNo
+	int index
+	//Looping on excel file of object
+	for ( row = 1;  row < data.getRowNumbers()+1;  row++) {
+		valueOfRow.add(data.getValue(1, row))
+	}
+
+	index = valueOfRow.indexOf("Table");
+
+	String  webtableAttribute  = data.getValue(3,index+1)
+
+	String webtablelocatorValue  = data.getValue(4,index+1)
 
 	List<String> Columns_row_text  = new ArrayList<String>()
 	WebDriver driver = DriverFactory.getWebDriver()
@@ -51,9 +70,15 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 	//Loop will execute for all the rows of the table
 	Loop:
 
+<<<<<<< HEAD
 	for (int row = 1; row < rows_count; row++) {
 		//To locate columns(cells) of that specific row'
 		Columns_row = rows_table.get(row).findElements(By.tagName('td'))
+=======
+	for (int rowTable = 1; rowTable < rows_count; row++) {
+		//To locate columns(cells) of that specific row'
+		Columns_row = rows_table.get(rowTable).findElements(By.tagName('td'))
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 
 
 		//To calculate no of columns(cells) In that specific row
@@ -64,10 +89,27 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 
 		//Checking if firstCell text is matched with the expected value
 
+<<<<<<< HEAD
 		if (Columns_row.get(uniqueColumn).getText() == ExpectedValues[uniqueColumn]) {
 			for (int column = 0 ; column < columns_count-1 ;column++){
 				Columns_row_text.add(Columns_row.get(column).getText())
 				println Columns_row_text
+=======
+<<<<<<< HEAD
+		if (Columns_row.get(uniqueColumn).getText() == ExpectedValues[uniqueColumn]) {
+			for (int column = 0 ; column < columns_count-1 ;column++){
+				Columns_row_text.add(Columns_row.get(column).getText())
+=======
+			if (Columns_row.get(uniqueColumn).getText() == ExpectedValues[uniqueColumn]) {
+				for (int column = 0 ; column < columns_count-1 ;column++){
+					Columns_row_text.add(Columns_row.get(column).getText())
+					println Columns_row_text
+
+				}
+
+				break
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 
 			}
 
@@ -76,6 +118,7 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 		}
 	}
 
+<<<<<<< HEAD
 	//Compare the actual record with expected record data inserted as inputs to the keyword
 	if (actionType=='Search'){
 		assert Columns_row_text == ExpectedValues
@@ -95,6 +138,29 @@ ValidateSearchParameters (String actionType, String webtableAttribute ,String we
 
 
 
+=======
+<<<<<<< HEAD
+	//Compare the actual record with expected record data inserted as inputs to the keyword
+	if (actionType=='Search'){
+		assert Columns_row_text == ExpectedValues
+
+		assert rows_count == 2
+	}
+	else if(actionType=='Clear'){
+		assert Columns_row.size() == 1
+	}
+	else if(actionType=='Delete'){
+		assert Columns_row_text == []
+	}
+	else {
+		assert Columns_row_text == ExpectedValues
+
+	}
+
+
+=======
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 
 }
 

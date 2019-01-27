@@ -50,6 +50,7 @@ public class TestSorting {
 	Test_Sorting(String SortBTN ,String SortType , String webtableAttribute ,String webtablelocatorValue ,int column_num){
 
 		WebDriver driver = DriverFactory.getWebDriver()
+<<<<<<< HEAD
 
 		WebElement Sort_BTN
 		//To locate table'
@@ -66,6 +67,28 @@ public class TestSorting {
 		rows_table = Table.findElements(By.tagName('tr'))
 
 
+=======
+<<<<<<< HEAD
+
+		WebElement Sort_BTN
+		//To locate table'
+		if (webtableAttribute=='xpath'){
+			Table = driver.findElement(By.xpath(webtablelocatorValue))
+		}
+
+		else{
+			Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
+		}
+
+		//‘To locate rows of table it will Capture all the rows available in the table’
+
+		rows_table = Table.findElements(By.tagName('tr'))
+
+
+=======
+		WebElement Sort_BTN
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 		//‘To calculate no of rows In table’
 		int rows_count = rows_table.size()
 		String[] celltext = new String[rows_count]
@@ -110,11 +133,22 @@ public class TestSorting {
 				String celltext_1 = Columns_row.get(column_num).getText()
 				list.add(celltext_1)
 				listDes.add(celltext_1)
+<<<<<<< HEAD
 			}
 			// list after twice click
 			listDes.sort()
 			listDes.reverse()//List is in Desc order
 			if(list==listDes){
+=======
+<<<<<<< HEAD
+			}
+			// list after twice click
+			listDes.sort()
+			listDes.reverse()//List is in Desc order
+			if(list==listDes){
+=======
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 
 				println("Celltext is in descending order")
 			}
