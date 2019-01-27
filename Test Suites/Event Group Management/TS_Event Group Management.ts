@@ -178,58 +178,73 @@
    <testCaseLink>
       <guid>1c02ad05-b171-42b8-985a-b6ea82bd2e92</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Search_FullScenario</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>80fe534b-d710-48c2-805a-dc1d337015ec</id>
+         <id>a0ef3361-2081-4a41-880c-02faa367232e</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Event Group Management/EventManagemntGPUpdate_DataSearch</testDataId>
+         <testDataId>Data Files/Event Group Management/EventManagemntGPUpdate_Data</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>80fe534b-d710-48c2-805a-dc1d337015ec</testDataLinkId>
+         <testDataLinkId>a0ef3361-2081-4a41-880c-02faa367232e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Arabic Description</value>
+         <value>arabicdesc</value>
          <variableId>7a34e624-735e-4f82-b7ae-d7ac93121f01</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>80fe534b-d710-48c2-805a-dc1d337015ec</testDataLinkId>
+         <testDataLinkId>a0ef3361-2081-4a41-880c-02faa367232e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>English Description</value>
+         <value>English Description </value>
          <variableId>3428ee4c-7cca-424c-b0a9-6f0e3e689283</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>27f7bc8a-ec07-4aa1-b939-0f8b74746e7d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4b975c64-d0b8-4960-8abe-959401b9f40d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>80fe534b-d710-48c2-805a-dc1d337015ec</testDataLinkId>
+         <testDataLinkId>a0ef3361-2081-4a41-880c-02faa367232e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Code</value>
          <variableId>b95468a5-3315-468a-bfdd-558abfdf72f7</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>556bb817-b8a9-4dc9-9cf3-ab8f823c67dd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_Update_FullScenario</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>70681267-4aa3-442d-9195-711c6e96ef4c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Event Group Management/EventManagemntGPUpdate_Data</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d3edee0c-9ba5-41b0-a8a7-a5cfab731556</variableId>
+         <testDataLinkId>70681267-4aa3-442d-9195-711c6e96ef4c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>arabicdesc</value>
+         <variableId>312fa72d-1e08-4867-ad79-0b26a6427dea</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4223e6e2-3564-4ff7-8b1f-c50d28c59fd6</variableId>
+         <testDataLinkId>70681267-4aa3-442d-9195-711c6e96ef4c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>English Description </value>
+         <variableId>174b52ea-2c02-4cbd-b23f-f0365e9e7f15</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>70681267-4aa3-442d-9195-711c6e96ef4c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Save</value>
+         <variableId>a34145f9-d6b6-40a7-8798-9ce9af9cac6d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>70681267-4aa3-442d-9195-711c6e96ef4c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Back</value>
+         <variableId>e4ff387b-4ea2-463d-8ab6-7eb0cc6060c9</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
