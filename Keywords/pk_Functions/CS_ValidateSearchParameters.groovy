@@ -83,9 +83,20 @@ ValidateSearchParameters (String actionType, String fileName ,String sheetName ,
 
 		//Checking if firstCell text is matched with the expected value
 
+<<<<<<< HEAD
 		if (Columns_row.get(uniqueColumn).getText() == ExpectedValues[uniqueColumn]) {
 			for (int column = 0 ; column < columns_count-1 ;column++){
 				Columns_row_text.add(Columns_row.get(column).getText())
+=======
+			if (Columns_row.get(uniqueColumn).getText() == ExpectedValues[uniqueColumn]) {
+				for (int column = 0 ; column < columns_count-1 ;column++){
+					Columns_row_text.add(Columns_row.get(column).getText())
+					println Columns_row_text
+
+				}
+
+				break
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 
 			}
 
@@ -94,6 +105,7 @@ ValidateSearchParameters (String actionType, String fileName ,String sheetName ,
 		}
 	}
 
+<<<<<<< HEAD
 	//Compare the actual record with expected record data inserted as inputs to the keyword
 	if (actionType=='Search'){
 		assert Columns_row_text == ExpectedValues
@@ -112,6 +124,8 @@ ValidateSearchParameters (String actionType, String fileName ,String sheetName ,
 	}
 
 
+=======
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 
 }
 

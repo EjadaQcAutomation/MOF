@@ -50,6 +50,7 @@ public class TestSorting {
 	Test_Sorting(String SortBTN ,String SortType , String webtableAttribute ,String webtablelocatorValue ,int column_num){
 
 		WebDriver driver = DriverFactory.getWebDriver()
+<<<<<<< HEAD
 
 		WebElement Sort_BTN
 		//To locate table'
@@ -66,13 +67,27 @@ public class TestSorting {
 		rows_table = Table.findElements(By.tagName('tr'))
 
 
+=======
+		WebElement Sort_BTN
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 		//‘To calculate no of rows In table’
 		int rows_count = rows_table.size()
 		String[] celltext = new String[rows_count]
-
-		println(rows_count)
 		if(SortType=='asc'){
+			Sort_BTN =driver.findElement(By.xpath(SortBTN));
+			WebUI.delay(5)
+			Sort_BTN.click()
 			WebUI.delay(2)
+			//To locate table'
+			if (webtableAttribute=='xpath'){
+				Table = driver.findElement(By.xpath(webtablelocatorValue))
+			}
+
+			else{
+				Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
+			}
+			//‘To locate rows of table it will Capture all the rows available in the table’
+			rows_table = Table.findElements(By.tagName('tr'))
 			for (int row = 1; row < rows_count; row++) {
 				//‘To locate columns(cells) of that specific row’
 				Columns_row = rows_table.get(row).findElements(By.tagName('td'))
@@ -88,7 +103,6 @@ public class TestSorting {
 			}
 			else{
 				println("Celltext is in not ascending order")
-
 			}
 		}
 		if(SortType=='des'){
@@ -97,32 +111,98 @@ public class TestSorting {
 			WebUI.delay(5)
 			Sort_BTN.click()
 			WebUI.delay(5)
-			Table = driver.findElement(By.xpath(webtablelocatorValue))
+			//To locate table'
+			if (webtableAttribute=='xpath'){
+				Table = driver.findElement(By.xpath(webtablelocatorValue))
+			}
+
+			else{
+				Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
+			}
+			//‘To locate rows of table it will Capture all the rows available in the table’
+
 			rows_table = Table.findElements(By.tagName('tr'))
 			for (int row = 1; row <=(rows_count-1); row++) {
 				//WebUI.waitForElementVisible(findTestObject('table'), 5)
 				WebUI.delay(2)
 				//‘To locate columns(cells) of that specific row’
-
 				Columns_row = rows_table.get(row).findElements(By.tagName('td'))
-
 				//‘It will retrieve text from 1st cell’
 				String celltext_1 = Columns_row.get(column_num).getText()
 				list.add(celltext_1)
 				listDes.add(celltext_1)
+<<<<<<< HEAD
 			}
 			// list after twice click
 			listDes.sort()
 			listDes.reverse()//List is in Desc order
 			if(list==listDes){
+=======
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
 
-				println("Celltext is in descending order")
-			}
-			else{
-				println("Celltext is in not descendding order")
-
-			}
-		}
+				rows_table = Table.findElements(By.tagName('tr'))
 
 
-	}}
+				//‘To calculate no of rows In table’
+				int rows_count = rows_table.size()
+				String[] celltext = new String[rows_count]
+
+				println(rows_count)
+				if(SortType=='asc'){
+					WebUI.delay(2)
+					for (int row = 1; row < rows_count; row++) {
+						//‘To locate columns(cells) of that specific row’
+						Columns_row = rows_table.get(row).findElements(By.tagName('td'))
+						//‘It will retrieve text from 1st cell’
+						String celltext_1 = Columns_row.get(column_num).getText()
+						list.add(celltext_1)
+						listAsc.add(celltext_1)
+					}
+					// list after first click
+					listAsc.sort()
+					if(list == listAsc){
+						println("Celltext is in ascending order")
+					}
+					else{
+						println("Celltext is in not ascending order")
+
+					}
+				}
+				if(SortType=='des'){
+					Sort_BTN =driver.findElement(By.xpath(SortBTN));
+					Sort_BTN.click()
+					WebUI.delay(5)
+					Sort_BTN.click()
+					WebUI.delay(5)
+					Table = driver.findElement(By.xpath(webtablelocatorValue))
+					rows_table = Table.findElements(By.tagName('tr'))
+					for (int row = 1; row <=(rows_count-1); row++) {
+						//WebUI.waitForElementVisible(findTestObject('table'), 5)
+						WebUI.delay(2)
+						//‘To locate columns(cells) of that specific row’
+
+						Columns_row = rows_table.get(row).findElements(By.tagName('td'))
+
+						//‘It will retrieve text from 1st cell’
+						String celltext_1 = Columns_row.get(column_num).getText()
+						list.add(celltext_1)
+						listDes.add(celltext_1)
+
+					}
+					// list after twice click
+					listDes.sort()
+			
+					listDes.reverse()//List is in Desc order
+
+				
+					if(list==listDes){
+
+						println("Celltext is in descending order")
+					}
+					else{
+						println("Celltext is in not descendding order")
+					}
+				}
+
+
+			}}
