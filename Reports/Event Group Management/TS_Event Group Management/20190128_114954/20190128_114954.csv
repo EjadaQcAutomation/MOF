@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Event Group Management,Chrome 71.0.3578.98,,2019-01-28 11:49:57,2019-01-28 11:50:51,54.184s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Update_FullScenario,Chrome 71.0.3578.98,,2019-01-28 11:49:57,2019-01-28 11:50:51,53.763s,ERROR
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 71.0.3578.98,,2019-01-28 11:49:58,2019-01-28 11:50:13,14.829s,PASSED
+"click(findTestObject(""NE_SideMenu""))",Chrome 71.0.3578.98,,2019-01-28 11:50:13,2019-01-28 11:50:14,1.693s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 71.0.3578.98,,2019-01-28 11:50:14,2019-01-28 11:50:14,0.111s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 71.0.3578.98,,2019-01-28 11:50:14,2019-01-28 11:50:15,0.605s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-28 11:50:15,2019-01-28 11:50:20,5.051s,PASSED
+"pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun(""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Search_Function"", ""1"", 0, 3, 2)",Chrome 71.0.3578.98,,2019-01-28 11:50:20,2019-01-28 11:50:29,9.285s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-28 11:50:29,2019-01-28 11:50:34,5.003s,PASSED
+"pk_Functions.CS_SpecificPageData.DataFun([""Arabic Description"", ""English Description"", ""save"", ""back""], ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [ArabicDescription, EnglishDescription, Save, Back])",Chrome 71.0.3578.98,,2019-01-28 11:50:34,2019-01-28 11:50:39,4.827s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-28 11:50:39,2019-01-28 11:50:41,2.003s,PASSED
+"pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun(""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Search_Function"", ""1"", 0, 3, 1)",Chrome 71.0.3578.98,,2019-01-28 11:50:41,2019-01-28 11:50:50,8.273s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-28 11:50:50,2019-01-28 11:50:51,1.002s,PASSED
+"pk_Functions.CS_VerifyPageData.CheckMatching(""Event Group Management/EventManagementGPUpdate_ObjectRepository"", ""Sheet3"", ""Event Group Management/EventManagemntGPUpdate_Data"", ""Update_Data"")",Chrome 71.0.3578.98,,2019-01-28 11:50:51,2019-01-28 11:50:51,0.209s,ERROR

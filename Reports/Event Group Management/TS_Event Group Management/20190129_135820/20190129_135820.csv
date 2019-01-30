@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Event Group Management,Chrome 71.0.3578.98,,2019-01-29 13:58:23,2019-01-29 13:59:04,41.828s,ERROR
+,,,,,,
+Test Cases/TC_Login,Chrome 71.0.3578.98,,2019-01-29 13:58:23,2019-01-29 13:58:39,15.772s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 71.0.3578.98,,2019-01-29 13:58:24,2019-01-29 13:58:39,15.171s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Search_FullScenario,Chrome 71.0.3578.98,,2019-01-29 13:58:39,2019-01-29 13:58:45,6.231s,ERROR
+"click(findTestObject(""NE_SideMenu""))",Chrome 71.0.3578.98,,2019-01-29 13:58:39,2019-01-29 13:58:42,2.673s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 71.0.3578.98,,2019-01-29 13:58:42,2019-01-29 13:58:42,0.105s,PASSED
+"pk_Functions.CS_SpecificPageData.DataFun([""Code_Search""], ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [Code])",Chrome 71.0.3578.98,,2019-01-29 13:58:42,2019-01-29 13:58:44,1.567s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 71.0.3578.98,,2019-01-29 13:58:44,2019-01-29 13:58:44,0.136s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-29 13:58:44,2019-01-29 13:58:45,1.046s,PASSED
+"pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters(""Search"", ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [Code, ArabicDescription, EnglishDescription], 0)",Chrome 71.0.3578.98,,2019-01-29 13:58:45,2019-01-29 13:58:45,0.266s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Search_FullScenario,Chrome 71.0.3578.98,,2019-01-29 13:58:45,2019-01-29 13:58:46,1.020s,FAILED
+"click(findTestObject(""NE_SideMenu""))",Chrome 71.0.3578.98,,2019-01-29 13:58:45,2019-01-29 13:58:46,0.987s,FAILED
+,,,,,,
+Test Cases/Event Group Management/TC_Search_FullScenario,Chrome 71.0.3578.98,,2019-01-29 13:58:46,2019-01-29 13:58:57,10.581s,ERROR
+"click(findTestObject(""NE_SideMenu""))",Chrome 71.0.3578.98,,2019-01-29 13:58:46,2019-01-29 13:58:46,0.055s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 71.0.3578.98,,2019-01-29 13:58:46,2019-01-29 13:58:55,8.754s,PASSED
+"pk_Functions.CS_SpecificPageData.DataFun([""Code_Search""], ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [Code])",Chrome 71.0.3578.98,,2019-01-29 13:58:55,2019-01-29 13:58:55,0.456s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 71.0.3578.98,,2019-01-29 13:58:55,2019-01-29 13:58:56,0.160s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-29 13:58:56,2019-01-29 13:58:57,1.001s,PASSED
+"pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters(""Search"", ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [Code, ArabicDescription, EnglishDescription], 0)",Chrome 71.0.3578.98,,2019-01-29 13:58:57,2019-01-29 13:58:57,0.134s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Search_FullScenario,Chrome 71.0.3578.98,,2019-01-29 13:58:57,2019-01-29 13:58:57,0.436s,FAILED
+"click(findTestObject(""NE_SideMenu""))",Chrome 71.0.3578.98,,2019-01-29 13:58:57,2019-01-29 13:58:57,0.419s,FAILED
+,,,,,,
+Test Cases/Event Group Management/TC_Search_FullScenario,Chrome 71.0.3578.98,,2019-01-29 13:58:57,2019-01-29 13:58:58,0.450s,FAILED
+"click(findTestObject(""NE_SideMenu""))",Chrome 71.0.3578.98,,2019-01-29 13:58:57,2019-01-29 13:58:58,0.430s,FAILED
+,,,,,,
+Test Cases/Event Group Management/TC_Search_FullScenario,Chrome 71.0.3578.98,,2019-01-29 13:58:58,2019-01-29 13:58:58,0.511s,FAILED
+"click(findTestObject(""NE_SideMenu""))",Chrome 71.0.3578.98,,2019-01-29 13:58:58,2019-01-29 13:58:58,0.494s,FAILED
+,,,,,,
+Test Cases/Event Group Management/TC_Search_FullScenario,Chrome 71.0.3578.98,,2019-01-29 13:58:58,2019-01-29 13:59:02,3.866s,PASSED
+"click(findTestObject(""NE_SideMenu""))",Chrome 71.0.3578.98,,2019-01-29 13:58:58,2019-01-29 13:58:58,0.113s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 71.0.3578.98,,2019-01-29 13:58:58,2019-01-29 13:59:00,2.109s,PASSED
+"pk_Functions.CS_SpecificPageData.DataFun([""Code_Search""], ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [Code])",Chrome 71.0.3578.98,,2019-01-29 13:59:00,2019-01-29 13:59:01,0.181s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 71.0.3578.98,,2019-01-29 13:59:01,2019-01-29 13:59:01,0.064s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-29 13:59:01,2019-01-29 13:59:02,1.001s,PASSED
+"pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters(""Search"", ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [Code, ArabicDescription, EnglishDescription], 0)",Chrome 71.0.3578.98,,2019-01-29 13:59:02,2019-01-29 13:59:02,0.172s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Clear""))",Chrome 71.0.3578.98,,2019-01-29 13:59:02,2019-01-29 13:59:02,0.089s,PASSED
+"pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters(""Clear"", ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [Code, ArabicDescription, EnglishDescription], 0)",Chrome 71.0.3578.98,,2019-01-29 13:59:02,2019-01-29 13:59:02,0.121s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Search_FullScenario,Chrome 71.0.3578.98,,2019-01-29 13:59:02,2019-01-29 13:59:04,2.491s,ERROR
+"click(findTestObject(""NE_SideMenu""))",Chrome 71.0.3578.98,,2019-01-29 13:59:02,2019-01-29 13:59:02,0.055s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 71.0.3578.98,,2019-01-29 13:59:02,2019-01-29 13:59:03,1.091s,PASSED
+"pk_Functions.CS_SpecificPageData.DataFun([""Code_Search""], ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [Code])",Chrome 71.0.3578.98,,2019-01-29 13:59:03,2019-01-29 13:59:03,0.161s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 71.0.3578.98,,2019-01-29 13:59:03,2019-01-29 13:59:03,0.068s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-29 13:59:03,2019-01-29 13:59:04,1.001s,PASSED
+"pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters(""Search"", ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [Code, ArabicDescription, EnglishDescription], 0)",Chrome 71.0.3578.98,,2019-01-29 13:59:04,2019-01-29 13:59:04,0.098s,ERROR

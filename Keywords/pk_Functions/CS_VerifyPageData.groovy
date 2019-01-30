@@ -31,9 +31,9 @@ public class CS_VerifyPageData {
 		int column
 		///loop for setting data into list object that stored in list using AllPageObjectFun function and compare each value in the list by each value in excel
 		for (column = 1; column <= listObject.size(); column++) {
-			findTestData(DataFileName).changeSheet(DatasheetName).getValue(column,1)
-            if (findTestData(DataFileName).changeSheet(DatasheetName).getValue(column,1)=='clk' or ){
-			WebUI.verifyMatch(WebUI.getAttribute(listObject[(column-1)],'value'), findTestData(DataFileName).changeSheet(DatasheetName).getValue(column,1), false, FailureHandling.STOP_ON_FAILURE)
+			String Expected_Data= findTestData(DataFileName).changeSheet(DatasheetName).getValue(column,1)
+			WebUI.verifyMatch(WebUI.getAttribute(listObject[(column-1)],'value'), Expected_Data, false, FailureHandling.STOP_ON_FAILURE)
 		}
 	}
 }
+

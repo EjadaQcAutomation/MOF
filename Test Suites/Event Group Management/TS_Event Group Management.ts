@@ -172,37 +172,37 @@
    <testCaseLink>
       <guid>ce13346e-2a29-4632-90b6-6e96fdca24f3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC_Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1c02ad05-b171-42b8-985a-b6ea82bd2e92</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Search_FullScenario</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>a0ef3361-2081-4a41-880c-02faa367232e</id>
+         <id>d2e5f51f-255a-4612-8beb-1a4a79efe2c9</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Event Group Management/EventManagemntGPUpdate_Data</testDataId>
+         <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>a0ef3361-2081-4a41-880c-02faa367232e</testDataLinkId>
+         <testDataLinkId>d2e5f51f-255a-4612-8beb-1a4a79efe2c9</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>arabicdesc</value>
+         <value>Arabic Description</value>
          <variableId>7a34e624-735e-4f82-b7ae-d7ac93121f01</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a0ef3361-2081-4a41-880c-02faa367232e</testDataLinkId>
+         <testDataLinkId>d2e5f51f-255a-4612-8beb-1a4a79efe2c9</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>English Description </value>
+         <value>English Description</value>
          <variableId>3428ee4c-7cca-424c-b0a9-6f0e3e689283</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a0ef3361-2081-4a41-880c-02faa367232e</testDataLinkId>
+         <testDataLinkId>d2e5f51f-255a-4612-8beb-1a4a79efe2c9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Code</value>
          <variableId>b95468a5-3315-468a-bfdd-558abfdf72f7</variableId>
@@ -211,40 +211,28 @@
    <testCaseLink>
       <guid>556bb817-b8a9-4dc9-9cf3-ab8f823c67dd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Update_FullScenario</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>70681267-4aa3-442d-9195-711c6e96ef4c</id>
+         <id>f7afcad0-7ca4-4a27-93ea-87818a33d98b</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Event Group Management/EventManagemntGPUpdate_Data</testDataId>
+         <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>70681267-4aa3-442d-9195-711c6e96ef4c</testDataLinkId>
+         <testDataLinkId>f7afcad0-7ca4-4a27-93ea-87818a33d98b</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>arabicdesc</value>
+         <value>Arabic Description_Update</value>
          <variableId>312fa72d-1e08-4867-ad79-0b26a6427dea</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>70681267-4aa3-442d-9195-711c6e96ef4c</testDataLinkId>
+         <testDataLinkId>f7afcad0-7ca4-4a27-93ea-87818a33d98b</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>English Description </value>
+         <value>English Description_Update</value>
          <variableId>174b52ea-2c02-4cbd-b23f-f0365e9e7f15</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>70681267-4aa3-442d-9195-711c6e96ef4c</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Save</value>
-         <variableId>a34145f9-d6b6-40a7-8798-9ce9af9cac6d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>70681267-4aa3-442d-9195-711c6e96ef4c</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Back</value>
-         <variableId>e4ff387b-4ea2-463d-8ab6-7eb0cc6060c9</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

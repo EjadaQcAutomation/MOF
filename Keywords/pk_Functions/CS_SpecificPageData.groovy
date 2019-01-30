@@ -97,7 +97,7 @@ public class CS_SpecificPageData {
 				(new pk_Functions.CS_StaticListUsingLiTag()).LovSearchFun (part1 , part2 ,fieldsData[(column-1)] )
 
 			}else if ((data.getValue(2, column )=="clickable") &&(fieldsData[(column-1)]=="clk")){
-
+				WebUI.delay(2)
 				WebUI.click(listObject[(column - 1)])
 
 			}else if ((data.getValue(2, column)=="check")&&(fieldsData[(column-1)]=="chk")){
