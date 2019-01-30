@@ -24,12 +24,19 @@ WebUI.click(findTestObject('Event Group Managemnt/BTN_Search'))
 
 WebUI.delay(1)
 
-not_run: CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable_IPO_Update.SelectRecordFromWebtableFun'('Event Group Management/MOF_NE_Event Group ManagementData', 
+not_run: CustomKeywords.'pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun'('Event Group Management/MOF_NE_Event Group ManagementData', 
     'Sheet1')
 
-not_run: CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable_IPO_Update.SelectRecordFromWebtableFun'('', 0, 3, 2, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+not_run: CustomKeywords.'pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun'('', 0, 3, 2, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
     'Sheet1', 'Event Group Management/MOF_NE_Event Group ManagementData', 'Sheet1')
 
-CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable_IPO_Update.SelectRecordFromWebtableFun'('Delete', 0, 3, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+CustomKeywords.'pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun'('Delete', 0, 13, 3, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
     'Sheet1', 'Event Group Management/MOF_NE_Event Group ManagementData', 'Sheet1')
+
+CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['Arabic Description', 'English Description'], 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+    'Sheet1', [ArabicDescription, EnglishDescription])
+
+WebUI.click(findTestObject('Event Group Managemnt/BTN_Save'))
+
+WebUI.click(findTestObject('Event Group Managemnt/BTN_Back'))
 

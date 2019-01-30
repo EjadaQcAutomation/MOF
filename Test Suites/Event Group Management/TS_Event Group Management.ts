@@ -172,13 +172,13 @@
    <testCaseLink>
       <guid>ce13346e-2a29-4632-90b6-6e96fdca24f3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC_Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1c02ad05-b171-42b8-985a-b6ea82bd2e92</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Search_FullScenario</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -233,6 +233,45 @@
          <type>DATA_COLUMN</type>
          <value>English Description_Update</value>
          <variableId>174b52ea-2c02-4cbd-b23f-f0365e9e7f15</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e28d589f-29bc-4593-92ba-43f67fdccb60</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/TC_Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0116187c-ad11-4566-88b3-687fdcd2dcff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_Update and Delete test</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4afdea74-f0e2-46c3-a801-df2abf1551b4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4afdea74-f0e2-46c3-a801-df2abf1551b4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Arabic Description_Update</value>
+         <variableId>d7e8da4c-11e5-4797-9978-8192ae258d82</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4afdea74-f0e2-46c3-a801-df2abf1551b4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>English Description_Update</value>
+         <variableId>32f20d8b-a2cd-4dd5-87f5-72336f52bd42</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4afdea74-f0e2-46c3-a801-df2abf1551b4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Code</value>
+         <variableId>96a1f32b-aa57-4051-b719-319fd54abbe6</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

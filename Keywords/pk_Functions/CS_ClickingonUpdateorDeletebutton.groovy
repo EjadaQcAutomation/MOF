@@ -47,28 +47,21 @@ import login_object.loginObject.*
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import internal.GlobalVariable
-public class CS_SelectRecordFromWebtable_IPO_Update {
+public class CS_ClickingonUpdateorDeletebutton {
 	//TestObject button
 	@Keyword
-	SelectRecordFromWebtableFun (String actionType,int expectedValueColumn, int actionButtonColumn ,String objectfileName,String objectsheetName,String datafileName ,String datasheetName) {
-	
+	SelectRecordFromWebtableFun (String actionType,int expectedValueColumn,int flagColumn, int actionButtonColumn ,String objectfileName,String objectsheetName,String datafileName ,String datasheetName) {
+
 		int row
 		int fieldNo
 		int index
 		int rowT
 		int indexT
-	   int flagColumn
-	   
-	   
-	 
+		
+
+
 		WebElement Table
 		WebDriver ndriver = DriverFactory.getWebDriver()
-		if (actionType=='Update'){
-			flagColumn=12	
-		}
-		else if (actionType=='Delete'){
-			flagColumn=13
-		}
 		println flagColumn
 		//Table locater____________________
 		List<String> valueOfRowT = new ArrayList<String>()
@@ -91,29 +84,29 @@ public class CS_SelectRecordFromWebtable_IPO_Update {
 			Table = ndriver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
 		}
 		//End of table locater____________________
-		
+
 		//Get all ids with Update Flag or Delete________
 		List<String> valueOfRow = new ArrayList<String>()
 		// Take file name and sheet name to get object
 		ExcelData  data = findTestData(datafileName)
 		data.changeSheet(datasheetName)
 		data.getAllData()
-		
+
 		println(data.getValue(flagColumn, 1))
 		List<String> updatedRecords = new ArrayList<String>()
 		//Looping on excel file of object
 		for ( row = 1;  row < data.getRowNumbers()+1;  row++) {
 			//println('yes')
 			//valueOfRow.add(data.getValue(1, row))
-			if (data.getValue(13, row)==actionType){
+			if (data.getValue(flagColumn, row)==actionType){
 				updatedRecords.add(data.getValue(1,row))
 				println('yes')
-				println updatedRecords[row-1]			
+				println updatedRecords[row-1]
 			}
 		}
-		
+
 		//To locate rows of table it will Capture all the rows available in the table '
-		
+
 		List<WebElement> Rows = Table.findElements(By.tagName('tr'))
 		//println('No. of rows: ' + Rows.size())
 
@@ -140,9 +133,9 @@ public class CS_SelectRecordFromWebtable_IPO_Update {
 			}
 		}
 		(GlobalVariable.y)++
-		
+
 	}
 }
 
-	
+
 
