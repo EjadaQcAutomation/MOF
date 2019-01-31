@@ -35,6 +35,6 @@ not_run: WebUI.click(findTestObject('Event Group Managemnt/BTN_Save'))
 
 not_run: WebUI.click(findTestObject('Event Group Managemnt/BTN_Back'))
 
-CustomKeywords.'pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun'(ActionType, 0, 3, 'MOF_NE_Event Group ManagementObjectRepository', 
+CustomKeywords.'pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun'(ActionType, 0, 3, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
     'Sheet1', 'Event Group Management/MOF_NE_Event Group ManagementData', 'Sheet1', Code)
 
