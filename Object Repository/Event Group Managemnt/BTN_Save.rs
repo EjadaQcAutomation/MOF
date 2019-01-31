@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BTN_Save</name>
+   <tag></tag>
+   <elementGuidId>5bb51fb4-bf32-4a5a-987e-3bd39266d136</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;app-form&quot;]//app-event-categories-management-details//div[1]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;app-form&quot;]//app-event-categories-management-details//div[1]/button</value>
+   </webElementProperties>
+</WebElementEntity>
