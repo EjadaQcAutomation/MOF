@@ -13,25 +13,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'pk_Functions.CS_Login.LoginFun'(findTestObject(null), 'http://192.168.0.190:8080/mof/#/', findTestObject(
-        'Login/Username'), findTestObject('Login/Password'), 'AAttia', '123', findTestObject('Login/Login'))
-
-WebUI.click(findTestObject('NE_SideMenu'))
-
-WebUI.click(findTestObject('NE_EventGroupManagement'))
-
-CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['Code'], 'Event Group Management/EventManagementGPUpdate_ObjectRepository', 
-    'Search_Parameters', [Code])
+CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['Code_Search'], 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+    'Sheet1', [Code])
 
 WebUI.click(findTestObject('Event Group Managemnt/BTN_Search'))
 
 WebUI.delay(1)
 
 CustomKeywords.'pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters'('Search', 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
-    'Search_Function', [Code, ArabicDescription, EnglishDescription], 0)
+    'Sheet1', [Code, ArabicDescription, EnglishDescription], 0)
 
 WebUI.click(findTestObject('Event Group Managemnt/BTN_Clear'))
 
 CustomKeywords.'pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters'('Clear', 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
-    'Search_Function', [Code, ArabicDescription, EnglishDescription], 0)
+    'Sheet1', [Code, ArabicDescription, EnglishDescription], 0)
 

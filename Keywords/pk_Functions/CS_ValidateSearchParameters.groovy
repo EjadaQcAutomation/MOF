@@ -27,7 +27,7 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 @Keyword
 //Setting keyword inputs
-ValidateSearchParameters (String actionType, String fileName ,String sheetName , List ExpectedValues = [], int uniqueColumn ) {
+ValidateSearchParameters (String actionType, String fileName ,String sheetName , List expectedValues = [], int uniqueColumn ) {
 	List<String> valueOfRow = new ArrayList<String>()
 	// Take file name and sheet name to get object
 	ExcelData  data = findTestData(fileName)
@@ -40,13 +40,9 @@ ValidateSearchParameters (String actionType, String fileName ,String sheetName ,
 	for ( row = 1;  row < data.getRowNumbers()+1;  row++) {
 		valueOfRow.add(data.getValue(1, row))
 	}
-
 	index = valueOfRow.indexOf("Table");
-
 	String  webtableAttribute  = data.getValue(3,index+1)
-
 	String webtablelocatorValue  = data.getValue(4,index+1)
-
 	List<String> Columns_row_text  = new ArrayList<String>()
 	WebDriver driver = DriverFactory.getWebDriver()
 	List<WebElement> Columns_row
@@ -55,11 +51,8 @@ ValidateSearchParameters (String actionType, String fileName ,String sheetName ,
 	if (webtableAttribute=='xpath'){
 		Table = driver.findElement(By.xpath(webtablelocatorValue))
 	}
-
 	else{
-
 		Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
-
 	}
 
 	//To locate rows of table it will Capture all the rows available in the table
@@ -69,36 +62,25 @@ ValidateSearchParameters (String actionType, String fileName ,String sheetName ,
 
 	//Loop will execute for all the rows of the table
 	Loop:
-
 	for (int rowTable = 1; rowTable < rows_count; rowTable++) {
 		//To locate columns(cells) of that specific row'
 		Columns_row = rows_table.get(rowTable).findElements(By.tagName('td'))
 
-
 		//To calculate no of columns(cells) In that specific row
 		int columns_count = Columns_row.size()
 
-		//println((('Number of cells In Row ' + row) + ' are ') + columns_count)
-
-
 		//Checking if firstCell text is matched with the expected value
-
-		if (Columns_row.get(uniqueColumn).getText() == ExpectedValues[uniqueColumn]) {
+		if (Columns_row.get(uniqueColumn).getText() == expectedValues[uniqueColumn]) {
 			for (int column = 0 ; column < columns_count-1 ;column++){
 				Columns_row_text.add(Columns_row.get(column).getText())
-
 			}
-
 			break
-
 		}
 	}
 
-
-	//Compare the actual record with expected record data inserted as inputs to the keyword
+	//Compare the actual record with expected record data inserted as inputs to the keyword according tp required action
 	if (actionType=='Search'){
-		assert Columns_row_text == ExpectedValues
-
+		assert Columns_row_text == expectedValues
 		assert rows_count == 2
 	}
 	else if(actionType=='Clear'){
@@ -108,11 +90,9 @@ ValidateSearchParameters (String actionType, String fileName ,String sheetName ,
 		assert Columns_row_text == []
 	}
 	else {
-		assert Columns_row_text == ExpectedValues
+		assert Columns_row_text == expectedValues
 
 	}
-
-
 }
 
 

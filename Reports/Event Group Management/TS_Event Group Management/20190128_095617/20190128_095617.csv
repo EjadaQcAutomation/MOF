@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Event Group Management,Chrome 71.0.3578.98,,2019-01-28 09:56:19,2019-01-28 09:56:59,39.457s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Update_FullScenario,Chrome 71.0.3578.98,,2019-01-28 09:56:20,2019-01-28 09:56:59,39.058s,ERROR
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 71.0.3578.98,,2019-01-28 09:56:20,2019-01-28 09:56:37,16.210s,PASSED
+"click(findTestObject(""NE_SideMenu""))",Chrome 71.0.3578.98,,2019-01-28 09:56:37,2019-01-28 09:56:38,1.688s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 71.0.3578.98,,2019-01-28 09:56:38,2019-01-28 09:56:38,0.142s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 71.0.3578.98,,2019-01-28 09:56:38,2019-01-28 09:56:39,0.638s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-28 09:56:39,2019-01-28 09:56:44,5.058s,PASSED
+"pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun(""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Search_Function"", ""1"", 0, 3, 2)",Chrome 71.0.3578.98,,2019-01-28 09:56:44,2019-01-28 09:56:54,9.460s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-28 09:56:54,2019-01-28 09:56:59,5.004s,PASSED
+"pk_Functions.CS_SpecificPageData.DataFun([""Arabic Description"", ""English Description"", ""save"", ""back""], ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [ArabicDescription, EnglishDescription, Save, Back])",Chrome 71.0.3578.98,,2019-01-28 09:56:59,2019-01-28 09:56:59,0.126s,ERROR

@@ -4,7 +4,10 @@
    <name>TS_Event Group Management (1)</name>
    <tag></tag>
    <isRerun>false</isRerun>
+<<<<<<< HEAD
    <lastRun>2019-01-28T15:20:18</lastRun>
+=======
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
