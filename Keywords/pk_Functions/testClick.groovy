@@ -47,10 +47,10 @@ import login_object.loginObject.*
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import internal.GlobalVariable
-public class CS_ClickingonUpdateorDeletebutton {
+public class testClick {
 	//TestObject button
 	@Keyword
-	SelectRecordFromWebtableFun (String actionType,int expectedValueColumn, int actionButtonColumn ,String objectfileName,String objectsheetName,String datafileName ,String datasheetName, String code) {
+	SelectRecordFromWebtableFun (String actionType,int expectedValueColumn,int flagColumn, int actionButtonColumn ,String objectfileName,String objectsheetName,String datafileName ,String datasheetName) {
 
 		int row
 		int fieldNo
@@ -61,7 +61,7 @@ public class CS_ClickingonUpdateorDeletebutton {
 		WebElement Table
 		WebElement Delete
 		WebDriver ndriver = DriverFactory.getWebDriver()
-
+		println flagColumn
 		//Table locater____________________
 		List<String> valueOfRowT = new ArrayList<String>()
 		// Take file name and sheet name to get object
@@ -93,50 +93,61 @@ public class CS_ClickingonUpdateorDeletebutton {
 		data.changeSheet(datasheetName)
 		data.getAllData()
 
+		println(data.getValue(flagColumn, 1))
+		List<String> updatedRecords = new ArrayList<String>()
+		//Looping on excel file of object
+		for ( row = 1;  row < data.getRowNumbers()+1;  row++) {
+			//println('yes')
+			//valueOfRow.add(data.getValue(1, row))
+			if (data.getValue(flagColumn, row)==actionType){
+				updatedRecords.add(data.getValue(1,row))
+				println('yes')
+				println updatedRecords[row-1]
+			}
+		}
+
+		//To locate rows of table it will Capture all the rows available in the table '
 
 		List<WebElement> Rows = Table.findElements(By.tagName('tr'))
 		//println('No. of rows: ' + Rows.size())
 
-		if(actionType=="Update" ||actionType== "DeleteYes" ||actionType== "DeleteNo"){
-			//Loop will execute for all the rows of the table'
-			table: for (int i = 1; i < Rows.size(); i++) {
-				//To locate columns(cells) of that specific row'
-				List<WebElement> Cols = Rows.get(i).findElements(By.tagName('td'))
-				//println('No. of colns: ' + Cols.size())
-				//Verifying the expected text in the each cell in specified column
-				if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
 
-					//2To locate anchor in the expected value matched row to perform action'
+		//Loop will execute for all the rows of the table'
+		table: for (int i = 1; i < Rows.size(); i++) {
+			//To locate columns(cells) of that specific row'
+			List<WebElement> Cols = Rows.get(i).findElements(By.tagName('td'))
+			//println('No. of colns: ' + Cols.size())
+			//Verifying the expected text in the each cell in specified column
+			if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(updatedRecords[GlobalVariable.y])) {
+
+				//2To locate anchor in the expected value matched row to perform action'
+				WebUI.delay(4)
+				//Doing action to the selected record by clicking on actions button in predefined column
+				if (actionType=='Update'){
+					Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click() ;
 					WebUI.delay(4)
-					//Doing action to the selected record by clicking on actions button in predefined column
-					if (actionType=='Update'){
-						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click() ;
-						WebUI.delay(4)
-					}
-					else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
-						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[3]')).click() ;
-						WebUI.delay(1)
-						//Locating Delete Yes button
-
-						indexDelete = valueOfRowT.indexOf(actionType);
-
-						if ( dataObject.getValue(3,indexDelete+1)=='xpath'){
-							Delete = ndriver.findElement(By.xpath(dataObject.getValue(4,indexDelete+1)))
-						}
-						else{
-							Delete = ndriver.findElement(By.xpath("//*[@"+ dataObject.getValue(3,indexDelete+1)+"="+dataObject.getValue(4,indexDelete+1)+"]"))
-						}
-						WebUI.delay(1)
-						Delete.click()
-
-
-					}
-					break
 				}
+				else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
+					Cols.get(actionButtonColumn).findElement(By.xpath('span/button[3]')).click() ;
+					WebUI.delay(1)
+					//Locating Delete Yes button
+
+					indexDelete = valueOfRowT.indexOf(actionType);
+
+					if ( dataObject.getValue(3,indexDelete+1)=='xpath'){
+						Delete = ndriver.findElement(By.xpath(dataObject.getValue(4,indexDelete+1)))
+					}
+					else{
+						Delete = ndriver.findElement(By.xpath("//*[@"+ dataObject.getValue(3,indexDelete+1)+"="+dataObject.getValue(4,indexDelete+1)+"]"))
+					}
+					Delete.click()
+
+				}
+				break
 			}
-
-
 		}
+		(GlobalVariable.y)++
+
 	}
 }
 

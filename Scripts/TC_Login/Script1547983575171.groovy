@@ -20,3 +20,5 @@ WebUI.click(findTestObject('NE_SideMenu'))
 
 WebUI.click(findTestObject('NE_EventGroupManagement'))
 
+WebUI.click(findTestObject('Event Group Managemnt/BTN_Search'))
+
