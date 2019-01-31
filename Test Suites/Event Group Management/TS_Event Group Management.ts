@@ -273,5 +273,11 @@
          <value>Code</value>
          <variableId>96a1f32b-aa57-4051-b719-319fd54abbe6</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5a52356a-1410-455e-b2c9-aca0969a8151</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

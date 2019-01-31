@@ -13,14 +13,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'pk_Functions.CS_Login.LoginFun'(findTestObject(null), 'http://192.168.0.190:8080/mof/#/', findTestObject(
+not_run: CustomKeywords.'pk_Functions.CS_Login.LoginFun'(findTestObject(null), 'http://192.168.0.190:8080/mof/#/', findTestObject(
         'Login/Username'), findTestObject('Login/Password'), 'AAttia', '123', findTestObject('Login/Login'))
 
-WebUI.click(findTestObject('NE_SideMenu'))
+not_run: WebUI.click(findTestObject('NE_SideMenu'))
 
-WebUI.click(findTestObject('NE_EventGroupManagement'))
-
-WebUI.click(findTestObject('Event Group Managemnt/BTN_Search'))
+not_run: WebUI.click(findTestObject('NE_EventGroupManagement'))
 
 WebUI.delay(1)
 
@@ -30,13 +28,13 @@ not_run: CustomKeywords.'pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRe
 not_run: CustomKeywords.'pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun'('', 0, 3, 2, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
     'Sheet1', 'Event Group Management/MOF_NE_Event Group ManagementData', 'Sheet1')
 
-CustomKeywords.'pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun'('Delete', 0, 13, 3, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
-    'Sheet1', 'Event Group Management/MOF_NE_Event Group ManagementData', 'Sheet1')
-
-CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['Arabic Description', 'English Description'], 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+not_run: CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['Arabic Description', 'English Description'], 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
     'Sheet1', [ArabicDescription, EnglishDescription])
 
-WebUI.click(findTestObject('Event Group Managemnt/BTN_Save'))
+not_run: WebUI.click(findTestObject('Event Group Managemnt/BTN_Save'))
 
-WebUI.click(findTestObject('Event Group Managemnt/BTN_Back'))
+not_run: WebUI.click(findTestObject('Event Group Managemnt/BTN_Back'))
+
+CustomKeywords.'pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun'(ActionType, 0, 3, 'MOF_NE_Event Group ManagementObjectRepository', 
+    'Sheet1', 'Event Group Management/MOF_NE_Event Group ManagementData', 'Sheet1', Code)
 

@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_ClickUpdate_Delete" time="64" tests="17" failures="0" errors="0">
+   <testsuite name="TS_ClickUpdate_Delete" tests="17" failures="0" errors="0" time="64" timestamp="2019-01-31 12:34:24" hostname="Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local" id="Test Suites/Event Group Management/TS_ClickUpdate_Delete">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\MOF\\Reports\\Event Group Management\\TS_ClickUpdate_Delete\\20190131_123421"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\MOF\\Reports\\Event Group Management\\TS_ClickUpdate_Delete\\20190131_123421\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.51"/>
+         <property name="sessionId" value="dd6b40409bef75f9be982f236dd7951c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:34:25 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-01-31 12:34:25 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-31 12:34:25 - [MESSAGE][WARNING] - Test object id is null
+
+2019-01-31 12:34:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-31 12:34:26 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-31 12:34:44 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.0.190:8080/mof/#/'
+
+2019-01-31 12:34:44 - [MESSAGE][PASSED] - Text 'AAttia' is set on object 'Object Repository/Login/Username'
+
+2019-01-31 12:34:44 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Login/Password'
+
+2019-01-31 12:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login' is clicked on
+
+2019-01-31 12:34:45 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-31 12:34:45 - [TEST_STEP][PASSED] - click(findTestObject("NE_SideMenu")): Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-01-31 12:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-01-31 12:34:46 - [TEST_STEP][PASSED] - click(findTestObject("NE_EventGroupManagement")): Object: 'Object Repository/NE_EventGroupManagement' is clicked on
+
+2019-01-31 12:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_EventGroupManagement' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update and Delete test" classname="Test Cases/Event Group Management/TC_Update and Delete test" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:34:47 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update and Delete test: Test Cases/Event Group Management/TC_Update and Delete test
+
+2019-01-31 12:34:47 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:34:47 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:34:47 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_SideMenu")): NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:34:47 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:34:47 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_EventGroupManagement")): NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:34:47 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:34:47 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:34:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 12:34:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:34:48 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:34:48 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:34:48 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:34:48 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:34:48 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 13, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:34:51 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:34:51 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:34:51 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:34:51 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Save")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:34:51 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:34:51 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Back")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))
+
+2019-01-31 12:34:51 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update and Delete test" classname="Test Cases/Event Group Management/TC_Update and Delete test" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:34:51 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update and Delete test: Test Cases/Event Group Management/TC_Update and Delete test
+
+2019-01-31 12:34:51 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:34:51 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:34:51 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_SideMenu")): NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:34:51 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:34:51 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_EventGroupManagement")): NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:34:51 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:34:51 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:34:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 12:34:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:34:52 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:34:52 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:34:52 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:34:52 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:34:52 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 13, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:34:56 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-31 12:34:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:34:58 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:34:58 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:34:58 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:34:58 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Save")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:34:58 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:34:58 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Back")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))
+
+2019-01-31 12:34:58 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update and Delete test" classname="Test Cases/Event Group Management/TC_Update and Delete test" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:34:58 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update and Delete test: Test Cases/Event Group Management/TC_Update and Delete test
+
+2019-01-31 12:34:58 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:34:58 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:34:58 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_SideMenu")): NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:34:58 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:34:58 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_EventGroupManagement")): NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:34:58 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:34:58 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:34:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:34:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 12:34:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:34:59 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:34:59 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:34:59 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:34:59 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:34:59 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 13, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-31 12:35:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:35:05 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:05 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:05 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:05 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Save")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:05 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:05 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Back")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))
+
+2019-01-31 12:35:05 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update and Delete test" classname="Test Cases/Event Group Management/TC_Update and Delete test" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:35:05 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update and Delete test: Test Cases/Event Group Management/TC_Update and Delete test
+
+2019-01-31 12:35:05 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:05 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:05 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_SideMenu")): NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:05 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:05 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_EventGroupManagement")): NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:05 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:05 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 12:35:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:35:06 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:06 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:06 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:06 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:06 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 13, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:07 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:07 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:07 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:07 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Save")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:07 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:07 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Back")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))
+
+2019-01-31 12:35:07 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update and Delete test" classname="Test Cases/Event Group Management/TC_Update and Delete test" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:35:07 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update and Delete test: Test Cases/Event Group Management/TC_Update and Delete test
+
+2019-01-31 12:35:07 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:07 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:07 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_SideMenu")): NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:07 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:07 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_EventGroupManagement")): NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:07 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:07 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 12:35:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:35:08 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:08 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:08 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:08 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:08 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 13, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:08 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:08 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:08 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:08 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Save")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:08 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:08 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Back")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))
+
+2019-01-31 12:35:08 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update and Delete test" classname="Test Cases/Event Group Management/TC_Update and Delete test" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:35:08 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update and Delete test: Test Cases/Event Group Management/TC_Update and Delete test
+
+2019-01-31 12:35:09 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:09 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:09 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_SideMenu")): NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:09 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:09 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_EventGroupManagement")): NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:09 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:09 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 12:35:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:35:10 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:10 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:10 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:10 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:10 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 13, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:10 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:10 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:10 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Save")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Back")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))
+
+2019-01-31 12:35:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update and Delete test" classname="Test Cases/Event Group Management/TC_Update and Delete test" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:35:10 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update and Delete test: Test Cases/Event Group Management/TC_Update and Delete test
+
+2019-01-31 12:35:10 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:10 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_SideMenu")): NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_EventGroupManagement")): NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:10 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 12:35:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:35:11 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:11 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:11 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:11 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:11 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 13, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:12 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:12 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:12 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:12 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Save")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:12 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:12 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Back")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))
+
+2019-01-31 12:35:12 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update and Delete test" classname="Test Cases/Event Group Management/TC_Update and Delete test" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:35:12 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update and Delete test: Test Cases/Event Group Management/TC_Update and Delete test
+
+2019-01-31 12:35:12 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:12 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:12 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_SideMenu")): NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:12 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:12 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_EventGroupManagement")): NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:12 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:12 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 12:35:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:35:13 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:13 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:13 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:13 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:13 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 13, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:14 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:14 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:14 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:14 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Save")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:14 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:14 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Back")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))
+
+2019-01-31 12:35:14 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update and Delete test" classname="Test Cases/Event Group Management/TC_Update and Delete test" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:35:14 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update and Delete test: Test Cases/Event Group Management/TC_Update and Delete test
+
+2019-01-31 12:35:14 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:14 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:14 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_SideMenu")): NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:14 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:14 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_EventGroupManagement")): NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:14 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:14 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 12:35:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:35:15 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:15 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:15 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:15 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:15 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 13, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:16 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:16 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:16 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:16 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Save")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:16 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:16 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Back")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))
+
+2019-01-31 12:35:16 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update and Delete test" classname="Test Cases/Event Group Management/TC_Update and Delete test" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:35:16 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update and Delete test: Test Cases/Event Group Management/TC_Update and Delete test
+
+2019-01-31 12:35:16 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:16 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:16 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_SideMenu")): NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:16 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:16 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_EventGroupManagement")): NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:16 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:16 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 12:35:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:35:17 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:17 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:17 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:17 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:17 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 13, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:18 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:18 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:18 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Save")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Back")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))
+
+2019-01-31 12:35:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update and Delete test" classname="Test Cases/Event Group Management/TC_Update and Delete test" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:35:18 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update and Delete test: Test Cases/Event Group Management/TC_Update and Delete test
+
+2019-01-31 12:35:18 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:18 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_SideMenu")): NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_EventGroupManagement")): NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:18 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 12:35:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:35:19 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:19 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:19 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:19 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:19 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 13, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:20 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:20 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:20 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:20 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Save")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:20 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:20 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Back")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))
+
+2019-01-31 12:35:20 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update and Delete test" classname="Test Cases/Event Group Management/TC_Update and Delete test" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:35:20 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update and Delete test: Test Cases/Event Group Management/TC_Update and Delete test
+
+2019-01-31 12:35:20 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:20 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:20 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_SideMenu")): NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:20 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:20 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_EventGroupManagement")): NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:20 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:20 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 12:35:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:35:21 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:21 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:21 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:21 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:21 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 13, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:21 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:21 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:21 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:21 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Save")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:21 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:21 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Back")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))
+
+2019-01-31 12:35:21 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update and Delete test" classname="Test Cases/Event Group Management/TC_Update and Delete test" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:35:21 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update and Delete test: Test Cases/Event Group Management/TC_Update and Delete test
+
+2019-01-31 12:35:22 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:22 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:22 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_SideMenu")): NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:22 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:22 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_EventGroupManagement")): NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:22 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:22 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 12:35:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:35:23 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:23 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:23 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:23 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:23 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 13, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:23 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:23 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:23 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:23 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Save")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:23 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:23 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Back")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))
+
+2019-01-31 12:35:23 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update and Delete test" classname="Test Cases/Event Group Management/TC_Update and Delete test" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:35:23 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update and Delete test: Test Cases/Event Group Management/TC_Update and Delete test
+
+2019-01-31 12:35:23 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:23 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:23 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_SideMenu")): NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:23 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:23 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_EventGroupManagement")): NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:23 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:23 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 12:35:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:35:25 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:25 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:25 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:25 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:25 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 13, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:25 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:25 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:25 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:25 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Save")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:25 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Back")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))
+
+2019-01-31 12:35:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update and Delete test" classname="Test Cases/Event Group Management/TC_Update and Delete test" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:35:25 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update and Delete test: Test Cases/Event Group Management/TC_Update and Delete test
+
+2019-01-31 12:35:25 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:25 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:25 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_SideMenu")): NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:25 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_EventGroupManagement")): NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:25 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 12:35:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:35:26 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:26 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:26 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:26 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:26 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 13, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:27 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:27 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:27 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:27 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Save")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:27 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Back")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))
+
+2019-01-31 12:35:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update and Delete test" classname="Test Cases/Event Group Management/TC_Update and Delete test" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:35:27 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update and Delete test: Test Cases/Event Group Management/TC_Update and Delete test
+
+2019-01-31 12:35:27 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:27 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login"))
+
+2019-01-31 12:35:27 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_SideMenu")): NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_SideMenu"))
+
+2019-01-31 12:35:27 - [TEST_STEP][NOT_RUN] - click(findTestObject("NE_EventGroupManagement")): NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NE_EventGroupManagement"))
+
+2019-01-31 12:35:27 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-01-31 12:35:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 12:35:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 12:35:28 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:28 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:28 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:28 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun("", 0, 3, 2, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1")
+
+2019-01-31 12:35:28 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 13, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "Event Group Management/MOF_NE_Event Group ManagementData", "Sheet1"): pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:29 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED
+
+2019-01-31 12:35:29 - [TEST_STEP][NOT_RUN] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:29 - [MESSAGE][NOT_RUN] - NOT_RUN: pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription])
+
+2019-01-31 12:35:29 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Save")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Save"))
+
+2019-01-31 12:35:29 - [TEST_STEP][NOT_RUN] - click(findTestObject("Event Group Managemnt/BTN_Back")): NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))
+
+2019-01-31 12:35:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Event Group Managemnt/BTN_Back"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-31 12:34:24 - [TEST_SUITE][PASSED] - TS_ClickUpdate_Delete: Test Cases/Event Group Management/TC_Update and Delete test]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
