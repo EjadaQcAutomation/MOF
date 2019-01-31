@@ -25,3 +25,5 @@ WebUI.delay(2)
 
 CustomKeywords.'pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun'('', 0, 0, 0, '', '', '', '')
 
+WebUI.doubleClick(findTestObject(null))
+
