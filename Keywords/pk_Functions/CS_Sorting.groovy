@@ -67,7 +67,7 @@ public class CS_Sorting {
 			//‘To calculate no of rows In table’
 			int rows_count = rows_table.size()
 			WebUI.delay(2)
-			for (int row = 1; row < rows_count; row++) {			
+			for (int row = 1; row < rows_count; row++) {
 				//‘To locate columns(cells) of that specific row’
 				Columns_row = rows_table.get(row).findElements(By.tagName('td'))
 				//‘It will retrieve text from 1st cell’
@@ -89,11 +89,11 @@ public class CS_Sorting {
 			if (webtableAttribute=='xpath'){
 				Table = driver.findElement(By.xpath(webtablelocatorValue))
 			}
-	
+
 			else{
 				Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
 			}
-	
+
 			//‘To locate rows of table it will Capture all the rows available in the table’
 			rows_table = Table.findElements(By.tagName('tr'))
 			//‘To calculate no of rows In table’
@@ -130,4 +130,4 @@ public class CS_Sorting {
 		}
 
 
-	}} 
+	}}
