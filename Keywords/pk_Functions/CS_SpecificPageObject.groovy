@@ -68,7 +68,7 @@ public class CS_SpecificPageObject {
 
 			//getting index of row in object file belongs to every items in order of Fields name
 			index = valueOfRow.indexOf(fieldsNames[(fieldNo -1)]);
-
+    println index
 			//Create new object and change it's property (Attribute , Value of it's attribute )
 			TestObject flexibleTestObject = new TestObject()
 			flexibleTestObject.addProperty(data.getValue(3,index+1), ConditionType.EQUALS, data.getValue(4, index+1))

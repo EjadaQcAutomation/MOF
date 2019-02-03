@@ -24,21 +24,25 @@ WebUI.click(findTestObject('Event Group Managemnt/BTN_Search'))
 
 WebUI.delay(5)
 
-CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun'('xpath', '//*[@id="app-form"]//app-body//app-event-categories-management-layout//app-event-categories-management-list/p-panel//p-datatable/div/div[2]', 
-    '1', 0, 3, 2)
+CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun'('Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+    'a', '1', 0, 3, 2)
 
 WebUI.delay(5)
 
-CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('Event Group Management/EventManagementGPUpdate_ObjectRepository', 
-    'Sheet1', [ArabicDescription, EnglishDescription, Save, Back])
+CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['Arabic Description', 'English Description'], 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+    'Sheet1', [ArabicDescription, EnglishDescription])
+
+WebUI.click(findTestObject('Event Group Managemnt/BTN_Save'))
+
+WebUI.click(findTestObject('Event Group Managemnt/BTN_Back'))
 
 WebUI.delay(2)
 
-CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun'('xpath', '//*[@id="app-form"]//app-body//app-event-categories-management-layout//app-event-categories-management-list/p-panel//p-datatable/div/div[2]', 
-    '1', 0, 3, 1)
+CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun'('Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+    'Sheet1', '1', 0, 3, 1)
 
 WebUI.delay(1)
 
-CustomKeywords.'pk_Functions.CS_VerifyPageData.CheckMatching'('Event Group Management/EventManagementGPUpdate_ObjectRepository', 
-    'Sheet3', 'Event Group Management/EventManagemntGPUpdate_Data1')
+CustomKeywords.'pk_Functions.CS_VerifyPageData.CheckMatching'('Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+    'Sheet1', 'Event Group Management/EventManagemntGPUpdate_Data', 'Update_Data')
 

@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-01-28T09:45:36</date>
+  <millis>1548661536295</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Event Group Management/TS_Event Group Management</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TS_Event Group Management</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Event Group Management/TS_Event Group Management</property>
+</record>
+<record>
+  <date>2019-01-28T09:45:36</date>
+  <millis>1548661536315</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local</property>
+</record>
+<record>
+  <date>2019-01-28T09:45:36</date>
+  <millis>1548661536315</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 7 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2019-01-28T09:45:36</date>
+  <millis>1548661536316</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.3.51</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.3.51</property>
+</record>
+<record>
+  <date>2019-01-28T09:45:36</date>
+  <millis>1548661536317</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-01-28T09:45:36</date>
+  <millis>1548661536753</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Event Group Management/TC_Update_FullScenario</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Event Group Management/TC_Update_FullScenario</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Event Group Management/TC_Update_FullScenario</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\Event Group Management\\TC_Update_FullScenario.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-28T09:45:36</date>
+  <millis>1548661536793</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ArabicDescription = Venice Venice</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:36</date>
+  <millis>1548661536794</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EnglishDescription = Rome Rome</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:36</date>
+  <millis>1548661536795</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Save = clk</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:36</date>
+  <millis>1548661536796</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Back = clk</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:37</date>
+  <millis>1548661537473</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_Login.LoginFun(findTestObject(null), \&amp;quot;http://192.168.0.190:8080/mof/#/\&amp;quot;, findTestObject(\&amp;quot;Login/Username\&amp;quot;), findTestObject(\&amp;quot;Login/Password\&amp;quot;), \&amp;quot;AAttia\&amp;quot;, \&amp;quot;123\&amp;quot;, findTestObject(\&amp;quot;Login/Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-28T09:45:37</date>
+  <millis>1548661537494</millis>
+  <sequence>12</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test object id is null</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:38</date>
+  <millis>1548661538080</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:38</date>
+  <millis>1548661538137</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:43</date>
+  <millis>1548661543555</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = c14f075957b30c428a0761d2a334bd40</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">c14f075957b30c428a0761d2a334bd40</property>
+</record>
+<record>
+  <date>2019-01-28T09:45:43</date>
+  <millis>1548661543606</millis>
+  <sequence>21</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 71.0.3578.98</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 71.0.3578.98</property>
+</record>
+<record>
+  <date>2019-01-28T09:45:43</date>
+  <millis>1548661543608</millis>
+  <sequence>22</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 7</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 7</property>
+</record>
+<record>
+  <date>2019-01-28T09:45:43</date>
+  <millis>1548661543614</millis>
+  <sequence>23</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-01-28T09:45:43</date>
+  <millis>1548661543617</millis>
+  <sequence>24</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-01-28T09:45:52</date>
+  <millis>1548661552519</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;http://192.168.0.190:8080/mof/#/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:52</date>
+  <millis>1548661552716</millis>
+  <sequence>37</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;AAttia&amp;apos; is set on object &amp;apos;Object Repository/Login/Username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:52</date>
+  <millis>1548661552851</millis>
+  <sequence>48</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;123&amp;apos; is set on object &amp;apos;Object Repository/Login/Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:52</date>
+  <millis>1548661552997</millis>
+  <sequence>54</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Login/Login&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:52</date>
+  <millis>1548661552999</millis>
+  <sequence>55</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_Login.LoginFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:53</date>
+  <millis>1548661553011</millis>
+  <sequence>56</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_Login.LoginFun(findTestObject(null), \&amp;quot;http://192.168.0.190:8080/mof/#/\&amp;quot;, findTestObject(\&amp;quot;Login/Username\&amp;quot;), findTestObject(\&amp;quot;Login/Password\&amp;quot;), \&amp;quot;AAttia\&amp;quot;, \&amp;quot;123\&amp;quot;, findTestObject(\&amp;quot;Login/Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:53</date>
+  <millis>1548661553011</millis>
+  <sequence>57</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;NE_SideMenu\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-28T09:45:54</date>
+  <millis>1548661554744</millis>
+  <sequence>64</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/NE_SideMenu&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:54</date>
+  <millis>1548661554745</millis>
+  <sequence>65</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;NE_SideMenu\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:54</date>
+  <millis>1548661554746</millis>
+  <sequence>66</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;NE_EventGroupManagement\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-01-28T09:45:54</date>
+  <millis>1548661554892</millis>
+  <sequence>73</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/NE_EventGroupManagement&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:54</date>
+  <millis>1548661554894</millis>
+  <sequence>74</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;NE_EventGroupManagement\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:54</date>
+  <millis>1548661554895</millis>
+  <sequence>75</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Search\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-01-28T09:45:55</date>
+  <millis>1548661555587</millis>
+  <sequence>82</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Event Group Managemnt/BTN_Search&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:55</date>
+  <millis>1548661555589</millis>
+  <sequence>83</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Search\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:45:55</date>
+  <millis>1548661555590</millis>
+  <sequence>84</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-01-28T09:46:00</date>
+  <millis>1548661560632</millis>
+  <sequence>86</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:46:00</date>
+  <millis>1548661560633</millis>
+  <sequence>87</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:46:00</date>
+  <millis>1548661560633</millis>
+  <sequence>88</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun(\&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Search_Function\&amp;quot;, \&amp;quot;1\&amp;quot;, 0, 3, 2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-01-28T09:46:05</date>
+  <millis>1548661565881</millis>
+  <sequence>94</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 4 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:46:10</date>
+  <millis>1548661570071</millis>
+  <sequence>96</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 4 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:46:10</date>
+  <millis>1548661570071</millis>
+  <sequence>97</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:46:10</date>
+  <millis>1548661570072</millis>
+  <sequence>98</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun(\&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Search_Function\&amp;quot;, \&amp;quot;1\&amp;quot;, 0, 3, 2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:46:10</date>
+  <millis>1548661570072</millis>
+  <sequence>99</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-01-28T09:46:15</date>
+  <millis>1548661575074</millis>
+  <sequence>101</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:46:15</date>
+  <millis>1548661575076</millis>
+  <sequence>102</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:46:15</date>
+  <millis>1548661575077</millis>
+  <sequence>103</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_SpecificPageData.DataFun([\&amp;quot;Arabic Description\&amp;quot;, \&amp;quot;English Description\&amp;quot;, \&amp;quot;save\&amp;quot;, \&amp;quot;back\&amp;quot;], \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, [ArabicDescription, EnglishDescription, Save, Back])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-01-28T09:46:15</date>
+  <millis>1548661575190</millis>
+  <sequence>108</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Invalid row index 0 for test data &amp;apos;\\\\192.168.0.125\\c$\\ejadaipo\\ipomsfroot\\TestAuto\\Asmaa\\MOF\\MOF_NE_Event Group ManagementObjectRepository.xlsx&amp;apos;. Row index must be between 1..13</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:46:15</date>
+  <millis>1548661575204</millis>
+  <sequence>110</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_SpecificPageData.DataFun([\&amp;quot;Arabic Description\&amp;quot;, \&amp;quot;English Description\&amp;quot;, \&amp;quot;save\&amp;quot;, \&amp;quot;back\&amp;quot;], \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, [ArabicDescription, EnglishDescription, Save, Back]) FAILED.\nReason:\njava.lang.IllegalArgumentException: Invalid row index 0 for test data &amp;apos;\\\\192.168.0.125\\c$\\ejadaipo\\ipomsfroot\\TestAuto\\Asmaa\\MOF\\MOF_NE_Event Group ManagementObjectRepository.xlsx&amp;apos;. Row index must be between 1..13\r\n\tat com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:49)\r\n\tat com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:116)\r\n\tat com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)\r\n\tat com.kms.katalon.core.testdata.TestData$getValue$1.call(Unknown Source)\r\n\tat pk_Functions.CS_SpecificPageObject.ObjectFun(CS_SpecificPageObject.groovy:74)\r\n\tat pk_Functions.CS_SpecificPageObject$ObjectFun.call(Unknown Source)\r\n\tat pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:65)\r\n\tat pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)\r\n\tat TC_Update_FullScenario.run(TC_Update_FullScenario:33)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1548661533219.run(TempTestSuite1548661533219.groovy:36)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Invalid row index 0 for test data '\\192.168.0.125\c$\ejadaipo\ipomsfroot\TestAuto\Asmaa\MOF\MOF_NE_Event Group ManagementObjectRepository.xlsx'. Row index must be between 1..13</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.AbstractTestData</class>
+      <method>verifyRowIndex</method>
+      <line>49</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.AbstractTestData</class>
+      <method>getObjectValue</method>
+      <line>116</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.AbstractTestData</class>
+      <method>getValue</method>
+      <line>89</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestData$getValue$1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>pk_Functions.CS_SpecificPageObject</class>
+      <method>ObjectFun</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>pk_Functions.CS_SpecificPageObject$ObjectFun</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>pk_Functions.CS_SpecificPageData</class>
+      <method>DataFun</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>pk_Functions.CS_SpecificPageData</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>49</line>
+    </frame>
+    <frame>
+      <class>TC_Update_FullScenario</class>
+      <method>run</method>
+      <line>33</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1548661533219</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:46:15</date>
+  <millis>1548661575208</millis>
+  <sequence>111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_SpecificPageData.DataFun([\&amp;quot;Arabic Description\&amp;quot;, \&amp;quot;English Description\&amp;quot;, \&amp;quot;save\&amp;quot;, \&amp;quot;back\&amp;quot;], \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, [ArabicDescription, EnglishDescription, Save, Back])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:46:15</date>
+  <millis>1548661575209</millis>
+  <sequence>113</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Event Group Management/TC_Update_FullScenario FAILED.\nReason:\njava.lang.IllegalArgumentException: Invalid row index 0 for test data &amp;apos;\\\\192.168.0.125\\c$\\ejadaipo\\ipomsfroot\\TestAuto\\Asmaa\\MOF\\MOF_NE_Event Group ManagementObjectRepository.xlsx&amp;apos;. Row index must be between 1..13\r\n\tat com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:49)\r\n\tat com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:116)\r\n\tat com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)\r\n\tat com.kms.katalon.core.testdata.TestData$getValue$1.call(Unknown Source)\r\n\tat pk_Functions.CS_SpecificPageObject.ObjectFun(CS_SpecificPageObject.groovy:74)\r\n\tat pk_Functions.CS_SpecificPageObject$ObjectFun.call(Unknown Source)\r\n\tat pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:65)\r\n\tat pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)\r\n\tat TC_Update_FullScenario.run(TC_Update_FullScenario:33)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1548661533219.run(TempTestSuite1548661533219.groovy:36)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Invalid row index 0 for test data '\\192.168.0.125\c$\ejadaipo\ipomsfroot\TestAuto\Asmaa\MOF\MOF_NE_Event Group ManagementObjectRepository.xlsx'. Row index must be between 1..13</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.AbstractTestData</class>
+      <method>verifyRowIndex</method>
+      <line>49</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.AbstractTestData</class>
+      <method>getObjectValue</method>
+      <line>116</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.AbstractTestData</class>
+      <method>getValue</method>
+      <line>89</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestData$getValue$1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>pk_Functions.CS_SpecificPageObject</class>
+      <method>ObjectFun</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>pk_Functions.CS_SpecificPageObject$ObjectFun</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>pk_Functions.CS_SpecificPageData</class>
+      <method>DataFun</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>pk_Functions.CS_SpecificPageData</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>49</line>
+    </frame>
+    <frame>
+      <class>TC_Update_FullScenario</class>
+      <method>run</method>
+      <line>33</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1548661533219</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:46:15</date>
+  <millis>1548661575212</millis>
+  <sequence>114</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Event Group Management/TC_Update_FullScenario</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T09:46:15</date>
+  <millis>1548661575216</millis>
+  <sequence>115</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Event Group Management/TS_Event Group Management</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
