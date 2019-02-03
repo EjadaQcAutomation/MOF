@@ -22,7 +22,7 @@ if (ActionType == 'Update') {
     CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['Arabic Description', 'English Description'], 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
         'Sheet1', [ArabicDescription, EnglishDescription])
 
-    not_run: WebUI.click(findTestObject('Event Group Managemnt/BTN_Save'))
+    WebUI.click(findTestObject('Event Group Managemnt/BTN_Save'))
 
     WebUI.click(findTestObject('Event Group Managemnt/BTN_Back'))
 }
