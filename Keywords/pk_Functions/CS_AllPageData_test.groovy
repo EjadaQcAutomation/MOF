@@ -51,7 +51,7 @@ public class CS_AllPageData_test {
 	//TestObject button
 	@Keyword
 	SelectRecordFromWebtableFun (String actionType,int expectedValueColumn, int actionButtonColumn , int actionbutton,String objectfileName,String objectsheetName,String datafileName ,String datasheetName) {
-	
+
 		int row
 		int fieldNo
 		int index
@@ -59,7 +59,7 @@ public class CS_AllPageData_test {
 		int indexT
 		WebElement Table
 		WebDriver ndriver = DriverFactory.getWebDriver()
-		
+
 		List<String> valueOfRowT = new ArrayList<String>()
 		// Take file name and sheet name to get object
 		ExcelData  dataT = findTestData(objectfileName)
@@ -103,9 +103,9 @@ public class CS_AllPageData_test {
 				updatedRecords.size()
 			}
 		}
-		
+
 		//To locate rows of table it will Capture all the rows available in the table '
-		
+
 		List<WebElement> Rows = Table.findElements(By.tagName('tr'))
 		println('No. of rows: ' + Rows.size())
 
@@ -127,9 +127,9 @@ public class CS_AllPageData_test {
 			}
 		}
 		y++
-		
+
 	}
 }
 
-	
+
 

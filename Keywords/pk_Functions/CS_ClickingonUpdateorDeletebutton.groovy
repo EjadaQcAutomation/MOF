@@ -48,18 +48,21 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import internal.GlobalVariable
 public class CS_ClickingonUpdateorDeletebutton {
+	TestObject delete
+	int row
+	int fieldNo
+	int index
+	int rowT
+	int indexT
+	int indexDelete
+	WebElement Table
 	//TestObject button
 	@Keyword
+
 	SelectRecordFromWebtableFun (String actionType,int expectedValueColumn, int actionButtonColumn ,String objectfileName,String objectsheetName,String datafileName ,String datasheetName, String code) {
 
-		int row
-		int fieldNo
-		int index
-		int rowT
-		int indexT
-		int indexDelete
-		WebElement Table
-		WebElement Delete
+	
+
 		WebDriver ndriver = DriverFactory.getWebDriver()
 
 		//Table locater____________________
@@ -115,19 +118,31 @@ public class CS_ClickingonUpdateorDeletebutton {
 					}
 					else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
 						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[3]')).click() ;
-						WebUI.delay(1)
+
 						//Locating Delete Yes button
 
 						indexDelete = valueOfRowT.indexOf(actionType);
+						int indexPopUp = valueOfRowT.indexOf("pop_up");
+						println indexPopUp
+						TestObject PopUp = new TestObject()
+						PopUp.addProperty(dataObject.getValue(3, indexPopUp+1), ConditionType.EQUALS, dataObject.getValue(4, indexPopUp+1))
+						println (dataObject.getValue(4, indexPopUp+1))
+						 delete = new TestObject()
+						delete.addProperty(dataObject.getValue(3, indexDelete+1), ConditionType.EQUALS, dataObject.getValue(4, indexDelete+1))
 
-						if ( dataObject.getValue(3,indexDelete+1)=='xpath'){
-							Delete = ndriver.findElement(By.xpath(dataObject.getValue(4,indexDelete+1)))
-						}
-						else{
-							Delete = ndriver.findElement(By.xpath("//*[@"+ dataObject.getValue(3,indexDelete+1)+"="+dataObject.getValue(4,indexDelete+1)+"]"))
-						}
-						WebUI.delay(1)
-						Delete.click()
+						//						if ( dataObject.getValue(3,indexDelete+1)=='xpath'){
+						//							Delete = ndriver.findElement(By.xpath(dataObject.getValue(4,indexDelete+1)))
+						//							println "xpath"
+						//						}
+						//						else{
+						//							Delete = ndriver.findElement(By.xpath("//*[@"+ dataObject.getValue(3,indexDelete+1)+"="+dataObject.getValue(4,indexDelete+1)+"]"))
+						//						}
+						WebUI.delay(2)
+						WebUI.click(PopUp)
+						WebUI.delay(3)
+
+						println " delete"
+						WebUI.click(delete)
 
 
 					}
