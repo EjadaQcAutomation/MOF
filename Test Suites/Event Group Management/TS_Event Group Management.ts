@@ -238,7 +238,7 @@
    <testCaseLink>
       <guid>e28d589f-29bc-4593-92ba-43f67fdccb60</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC_Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -274,9 +274,9 @@
          <variableId>96a1f32b-aa57-4051-b719-319fd54abbe6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4afdea74-f0e2-46c3-a801-df2abf1551b4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Update Flag</value>
          <variableId>5a52356a-1410-455e-b2c9-aca0969a8151</variableId>
       </variableLink>
    </testCaseLink>

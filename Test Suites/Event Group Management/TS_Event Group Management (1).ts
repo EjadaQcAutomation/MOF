@@ -88,7 +88,7 @@
    <testCaseLink>
       <guid>7bb88273-b312-4e92-a9cf-b0e0678f9697</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Verify_Insert</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -121,7 +121,7 @@
    <testCaseLink>
       <guid>7d16ecf7-901c-4afc-bc66-b7f8f3d8231d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Delete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -160,7 +160,7 @@
    <testCaseLink>
       <guid>a1f8bfc0-9c14-46d4-b880-ff9a66398e15</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Verify_Delete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

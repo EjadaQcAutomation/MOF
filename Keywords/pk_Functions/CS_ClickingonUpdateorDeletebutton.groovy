@@ -115,6 +115,7 @@ public class CS_ClickingonUpdateorDeletebutton {
 					if (actionType=='Update'){
 						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click() ;
 						WebUI.delay(4)
+						 
 					}
 					else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
 						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[3]')).click() ;
