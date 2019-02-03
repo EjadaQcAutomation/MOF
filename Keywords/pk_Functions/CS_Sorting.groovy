@@ -55,6 +55,7 @@ public class CS_Sorting {
 
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebElement Sort_BTN
+		//To locate table'
 		if(SortType=='asc'){
 			if (webtableAttribute=='xpath'){
 				Table = driver.findElement(By.xpath(webtablelocatorValue))
@@ -62,6 +63,7 @@ public class CS_Sorting {
 			else{
 				Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
 			}
+		//To locate Sort button
 			Sort_BTN =driver.findElement(By.xpath(SortBTN_Xpath));
 			WebUI.delay(5)
 			Sort_BTN.click()
@@ -90,6 +92,7 @@ public class CS_Sorting {
 			}
 		}
 		if(SortType=='des'){
+			//To locate table'
 			if (webtableAttribute=='xpath'){
 				Table = driver.findElement(By.xpath(webtablelocatorValue))
 			}
@@ -102,7 +105,7 @@ public class CS_Sorting {
 			rows_table = Table.findElements(By.tagName('tr'))
 			//‘To calculate no of rows In table’
 			int rows_count = rows_table.size()
-			//String[] celltext = new String[rows_count]
+			//To locate Sort button
 			Sort_BTN =driver.findElement(By.xpath(SortBTN_Xpath));
 			Sort_BTN.click()
 			WebUI.delay(5)
@@ -120,7 +123,6 @@ public class CS_Sorting {
 				list.add(celltext_1)
 				listDes.add(celltext_1)
 			}
-			// list after twice click
 			listDes.sort()
 			//listDes.reverse()//List is in Desc order
 			if(listDes.reverse()==list){
