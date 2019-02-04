@@ -23,7 +23,14 @@ WebUI.click(findTestObject('Event Group Managemnt/BTN_Search'))
 WebUI.delay(2)
 
 CustomKeywords.'pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters'('Search', 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
-    'Sheet1', [Code, EnglishDescription, ArabicDescription], 0)
+    'Sheet1', [Code, ArabicDescription, EnglishDescription], 0)
 
 WebUI.delay(2)
+
+WebUI.click(findTestObject('Event Group Managemnt/BTN_Clear'))
+
+CustomKeywords.'pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters'('Clear', 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+    'Sheet1', [Code, ArabicDescription, EnglishDescription], 0)
+
+WebUI.delay(3)
 
