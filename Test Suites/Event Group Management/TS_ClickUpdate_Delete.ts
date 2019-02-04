@@ -51,7 +51,7 @@
       <variableLink>
          <testDataLinkId>1dfac8ee-e22b-489b-9395-990efdc6c710</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Delete Flag</value>
+         <value>Update Flag</value>
          <variableId>5a52356a-1410-455e-b2c9-aca0969a8151</variableId>
       </variableLink>
    </testCaseLink>

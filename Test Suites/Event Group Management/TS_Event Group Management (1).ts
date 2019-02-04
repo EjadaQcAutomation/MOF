@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>7bb88273-b312-4e92-a9cf-b0e0678f9697</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Verify_Insert</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

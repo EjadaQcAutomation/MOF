@@ -88,6 +88,42 @@
          <value>Code</value>
          <variableId>b95468a5-3315-468a-bfdd-558abfdf72f7</variableId>
       </variableLink>
+<<<<<<< HEAD
+=======
+   </testCaseLink>
+   <testCaseLink>
+      <guid>556bb817-b8a9-4dc9-9cf3-ab8f823c67dd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_Update_FullScenario</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f7afcad0-7ca4-4a27-93ea-87818a33d98b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>f7afcad0-7ca4-4a27-93ea-87818a33d98b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Arabic Description_Update</value>
+         <variableId>312fa72d-1e08-4867-ad79-0b26a6427dea</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f7afcad0-7ca4-4a27-93ea-87818a33d98b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>English Description_Update</value>
+         <variableId>174b52ea-2c02-4cbd-b23f-f0365e9e7f15</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e28d589f-29bc-4593-92ba-43f67fdccb60</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Login</testCaseId>
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
    </testCaseLink>
    <testCaseLink>
       <guid>0116187c-ad11-4566-88b3-687fdcd2dcff</guid>
@@ -122,9 +158,9 @@
          <variableId>96a1f32b-aa57-4051-b719-319fd54abbe6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4afdea74-f0e2-46c3-a801-df2abf1551b4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Update Flag</value>
          <variableId>5a52356a-1410-455e-b2c9-aca0969a8151</variableId>
       </variableLink>
    </testCaseLink>
