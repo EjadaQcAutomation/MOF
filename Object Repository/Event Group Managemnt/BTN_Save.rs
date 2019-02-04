@@ -3,6 +3,23 @@
    <description></description>
    <name>BTN_Save</name>
    <tag></tag>
+<<<<<<< HEAD
+   <elementGuidId>5bb51fb4-bf32-4a5a-987e-3bd39266d136</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;app-form&quot;]//app-event-categories-management-details//div[1]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;app-form&quot;]//app-event-categories-management-details//div[1]/button</value>
+=======
    <elementGuidId>a4a64255-b90e-4b9d-94be-f57139940b04</elementGuidId>
    <selectorCollection>
       <entry>
@@ -20,5 +37,6 @@
       <type>Main</type>
       <value>//*[@id=&quot;app-form&quot;]//app-event-categories-management-details//div[1]/button
 </value>
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
    </webElementProperties>
 </WebElementEntity>

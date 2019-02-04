@@ -13,10 +13,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('Event Group Managemnt/BTN_Insert'))
+
 CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
-    'Sheet1', [NE, Event_Group_Management, search, insert, code, arabic_des, english_des, save, back])
+    'Sheet1', [code, arabic_des, english_des])
 
-WebUI.delay(1)
+WebUI.click(findTestObject('BTN_Save'))
 
+WebUI.delay(3)
 
+WebUI.click(findTestObject('BTN_Back'))
+
+WebUI.delay(3)
 

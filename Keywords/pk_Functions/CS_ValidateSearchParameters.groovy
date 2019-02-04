@@ -67,11 +67,13 @@ ValidateSearchParameters (String actionType, String fileName ,String sheetName ,
 		Columns_row = rows_table.get(rowTable).findElements(By.tagName('td'))
 
 		//To calculate no of columns(cells) In that specific row
-		int columns_count = Columns_row.size()
+		int columns_count = expectedValues.size()
 
 		//Checking if firstCell text is matched with the expected value
 		if (Columns_row.get(uniqueColumn).getText() == expectedValues[uniqueColumn]) {
-			for (int column = 0 ; column < columns_count-1 ;column++){
+		println ('search')
+			for (int column = 0 ; column < columns_count ;column++){
+				println ('search')
 				Columns_row_text.add(Columns_row.get(column).getText())
 			}
 			break
@@ -86,7 +88,7 @@ ValidateSearchParameters (String actionType, String fileName ,String sheetName ,
 	else if(actionType=='Clear'){
 		assert Columns_row.size() == 1
 	}
-	else if(actionType=='Delete'){
+	else if(actionType=='DeleteYes'){
 		assert Columns_row_text == []
 	}
 	else {

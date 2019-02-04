@@ -16,9 +16,3 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'pk_Functions.CS_Login.LoginFun'(findTestObject(null), 'http://192.168.0.190:8080/mof/#/', findTestObject(
         'Login/Username'), findTestObject('Login/Password'), 'AAttia', '123', findTestObject('Login/Login'))
 
-WebUI.click(findTestObject('NE_SideMenu'))
-
-WebUI.click(findTestObject('NE_EventGroupManagement'))
-
-WebUI.click(findTestObject('Event Group Managemnt/BTN_Search'))
-
