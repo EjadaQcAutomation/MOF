@@ -61,7 +61,7 @@ public class CS_ClickingonUpdateorDeletebutton {
 
 	SelectRecordFromWebtableFun (String actionType,int expectedValueColumn, int actionButtonColumn ,String objectfileName,String objectsheetName,String datafileName ,String datasheetName, String code) {
 
-	
+
 
 		WebDriver ndriver = DriverFactory.getWebDriver()
 
@@ -115,7 +115,7 @@ public class CS_ClickingonUpdateorDeletebutton {
 					if (actionType=='Update'){
 						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click() ;
 						WebUI.delay(4)
-						 
+
 					}
 					else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
 						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[3]')).click() ;
@@ -128,7 +128,7 @@ public class CS_ClickingonUpdateorDeletebutton {
 						TestObject PopUp = new TestObject()
 						PopUp.addProperty(dataObject.getValue(3, indexPopUp+1), ConditionType.EQUALS, dataObject.getValue(4, indexPopUp+1))
 						println (dataObject.getValue(4, indexPopUp+1))
-						 delete = new TestObject()
+						delete = new TestObject()
 						delete.addProperty(dataObject.getValue(3, indexDelete+1), ConditionType.EQUALS, dataObject.getValue(4, indexDelete+1))
 
 						//						if ( dataObject.getValue(3,indexDelete+1)=='xpath'){

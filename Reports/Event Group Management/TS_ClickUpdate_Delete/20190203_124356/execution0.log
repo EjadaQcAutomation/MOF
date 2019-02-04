@@ -1,0 +1,4478 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-03T12:44:00</date>
+  <millis>1549190640228</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Event Group Management/TS_ClickUpdate_Delete</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TS_ClickUpdate_Delete</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Event Group Management/TS_ClickUpdate_Delete</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:00</date>
+  <millis>1549190640264</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:00</date>
+  <millis>1549190640265</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 7 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:00</date>
+  <millis>1549190640269</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.3.51</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.3.51</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:00</date>
+  <millis>1549190640271</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:00</date>
+  <millis>1549190640732</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_Login</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC_Login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC_Login</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\TC_Login.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:01</date>
+  <millis>1549190641543</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_Login.LoginFun(findTestObject(null), \&amp;quot;http://192.168.0.190:8080/mof/#/\&amp;quot;, findTestObject(\&amp;quot;Login/Username\&amp;quot;), findTestObject(\&amp;quot;Login/Password\&amp;quot;), \&amp;quot;AAttia\&amp;quot;, \&amp;quot;123\&amp;quot;, findTestObject(\&amp;quot;Login/Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:01</date>
+  <millis>1549190641564</millis>
+  <sequence>8</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test object id is null</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:02</date>
+  <millis>1549190642542</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:02</date>
+  <millis>1549190642599</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:09</date>
+  <millis>1549190649953</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = d64355296c7929dd1c81305be1b7de82</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">d64355296c7929dd1c81305be1b7de82</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:10</date>
+  <millis>1549190650018</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 71.0.3578.98</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 71.0.3578.98</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:10</date>
+  <millis>1549190650020</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 7</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 7</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:10</date>
+  <millis>1549190650024</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:10</date>
+  <millis>1549190650026</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:24</date>
+  <millis>1549190664478</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;http://192.168.0.190:8080/mof/#/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:24</date>
+  <millis>1549190664726</millis>
+  <sequence>33</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;AAttia&amp;apos; is set on object &amp;apos;Object Repository/Login/Username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:24</date>
+  <millis>1549190664918</millis>
+  <sequence>44</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;123&amp;apos; is set on object &amp;apos;Object Repository/Login/Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:25</date>
+  <millis>1549190665174</millis>
+  <sequence>50</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Login/Login&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:25</date>
+  <millis>1549190665177</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_Login.LoginFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:25</date>
+  <millis>1549190665186</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_Login.LoginFun(findTestObject(null), \&amp;quot;http://192.168.0.190:8080/mof/#/\&amp;quot;, findTestObject(\&amp;quot;Login/Username\&amp;quot;), findTestObject(\&amp;quot;Login/Password\&amp;quot;), \&amp;quot;AAttia\&amp;quot;, \&amp;quot;123\&amp;quot;, findTestObject(\&amp;quot;Login/Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:25</date>
+  <millis>1549190665195</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;NE_SideMenu\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:26</date>
+  <millis>1549190666921</millis>
+  <sequence>60</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/NE_SideMenu&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:26</date>
+  <millis>1549190666922</millis>
+  <sequence>61</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;NE_SideMenu\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:26</date>
+  <millis>1549190666922</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;NE_EventGroupManagement\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:27</date>
+  <millis>1549190667073</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/NE_EventGroupManagement&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:27</date>
+  <millis>1549190667074</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;NE_EventGroupManagement\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:27</date>
+  <millis>1549190667075</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Search\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:27</date>
+  <millis>1549190667922</millis>
+  <sequence>78</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Event Group Managemnt/BTN_Search&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:27</date>
+  <millis>1549190667924</millis>
+  <sequence>79</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Search\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:27</date>
+  <millis>1549190667926</millis>
+  <sequence>80</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC_Login</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:27</date>
+  <millis>1549190667927</millis>
+  <sequence>81</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC_Login</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:27</date>
+  <millis>1549190667945</millis>
+  <sequence>82</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\Event Group Management\\TC_Update and Delete test.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:27</date>
+  <millis>1549190667997</millis>
+  <sequence>84</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ArabicDescription = Rome Rome Italy</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:27</date>
+  <millis>1549190667999</millis>
+  <sequence>85</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EnglishDescription = Venice Venice</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:28</date>
+  <millis>1549190668000</millis>
+  <sequence>86</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Code = 123</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:28</date>
+  <millis>1549190668001</millis>
+  <sequence>87</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ActionType = Update</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:28</date>
+  <millis>1549190668629</millis>
+  <sequence>88</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:29</date>
+  <millis>1549190669651</millis>
+  <sequence>90</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:29</date>
+  <millis>1549190669653</millis>
+  <sequence>91</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:29</date>
+  <millis>1549190669653</millis>
+  <sequence>92</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:35</date>
+  <millis>1549190675406</millis>
+  <sequence>102</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 4 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:39</date>
+  <millis>1549190679681</millis>
+  <sequence>104</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 4 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:39</date>
+  <millis>1549190679682</millis>
+  <sequence>105</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:39</date>
+  <millis>1549190679683</millis>
+  <sequence>106</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:39</date>
+  <millis>1549190679684</millis>
+  <sequence>107</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:39</date>
+  <millis>1549190679685</millis>
+  <sequence>108</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_SpecificPageData.DataFun([\&amp;quot;Arabic Description\&amp;quot;, \&amp;quot;English Description\&amp;quot;], \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, [ArabicDescription, EnglishDescription])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:40</date>
+  <millis>1549190680219</millis>
+  <sequence>127</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Rome Rome Italy&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:40</date>
+  <millis>1549190680497</millis>
+  <sequence>138</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Venice Venice&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:40</date>
+  <millis>1549190680498</millis>
+  <sequence>139</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_SpecificPageData.DataFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:40</date>
+  <millis>1549190680499</millis>
+  <sequence>140</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_SpecificPageData.DataFun([\&amp;quot;Arabic Description\&amp;quot;, \&amp;quot;English Description\&amp;quot;], \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, [ArabicDescription, EnglishDescription])</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:40</date>
+  <millis>1549190680499</millis>
+  <sequence>141</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:41</date>
+  <millis>1549190681500</millis>
+  <sequence>143</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:41</date>
+  <millis>1549190681501</millis>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:41</date>
+  <millis>1549190681501</millis>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Save\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:41</date>
+  <millis>1549190681647</millis>
+  <sequence>152</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Event Group Managemnt/BTN_Save&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:41</date>
+  <millis>1549190681649</millis>
+  <sequence>153</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Save\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:41</date>
+  <millis>1549190681649</millis>
+  <sequence>154</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:43</date>
+  <millis>1549190683651</millis>
+  <sequence>156</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:43</date>
+  <millis>1549190683652</millis>
+  <sequence>157</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:43</date>
+  <millis>1549190683652</millis>
+  <sequence>158</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Back\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:43</date>
+  <millis>1549190683875</millis>
+  <sequence>165</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Event Group Managemnt/BTN_Back&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:43</date>
+  <millis>1549190683876</millis>
+  <sequence>166</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Back\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:43</date>
+  <millis>1549190683876</millis>
+  <sequence>167</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:44</date>
+  <millis>1549190684883</millis>
+  <sequence>169</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:44</date>
+  <millis>1549190684883</millis>
+  <sequence>170</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:44</date>
+  <millis>1549190684883</millis>
+  <sequence>171</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:44</date>
+  <millis>1549190684884</millis>
+  <sequence>172</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:44</date>
+  <millis>1549190684884</millis>
+  <sequence>173</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:44</date>
+  <millis>1549190684890</millis>
+  <sequence>174</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\Event Group Management\\TC_Update and Delete test.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:44</date>
+  <millis>1549190684915</millis>
+  <sequence>176</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ArabicDescription = Test Test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:44</date>
+  <millis>1549190684916</millis>
+  <sequence>177</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EnglishDescription = Test Test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:44</date>
+  <millis>1549190684916</millis>
+  <sequence>178</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Code = 223</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:44</date>
+  <millis>1549190684917</millis>
+  <sequence>179</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ActionType = Update</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:44</date>
+  <millis>1549190684920</millis>
+  <sequence>180</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:45</date>
+  <millis>1549190685921</millis>
+  <sequence>182</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:45</date>
+  <millis>1549190685922</millis>
+  <sequence>183</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:45</date>
+  <millis>1549190685922</millis>
+  <sequence>184</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:50</date>
+  <millis>1549190690732</millis>
+  <sequence>194</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 4 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:54</date>
+  <millis>1549190694941</millis>
+  <sequence>196</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 4 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:54</date>
+  <millis>1549190694942</millis>
+  <sequence>197</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:54</date>
+  <millis>1549190694945</millis>
+  <sequence>198</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:54</date>
+  <millis>1549190694946</millis>
+  <sequence>199</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:54</date>
+  <millis>1549190694947</millis>
+  <sequence>200</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_SpecificPageData.DataFun([\&amp;quot;Arabic Description\&amp;quot;, \&amp;quot;English Description\&amp;quot;], \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, [ArabicDescription, EnglishDescription])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:55</date>
+  <millis>1549190695408</millis>
+  <sequence>219</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Test Test&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:55</date>
+  <millis>1549190695625</millis>
+  <sequence>230</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Test Test&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:55</date>
+  <millis>1549190695626</millis>
+  <sequence>231</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_SpecificPageData.DataFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:55</date>
+  <millis>1549190695626</millis>
+  <sequence>232</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_SpecificPageData.DataFun([\&amp;quot;Arabic Description\&amp;quot;, \&amp;quot;English Description\&amp;quot;], \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, [ArabicDescription, EnglishDescription])</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:55</date>
+  <millis>1549190695627</millis>
+  <sequence>233</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:56</date>
+  <millis>1549190696629</millis>
+  <sequence>235</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:56</date>
+  <millis>1549190696630</millis>
+  <sequence>236</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:56</date>
+  <millis>1549190696631</millis>
+  <sequence>237</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Save\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:56</date>
+  <millis>1549190696778</millis>
+  <sequence>244</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Event Group Managemnt/BTN_Save&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:56</date>
+  <millis>1549190696778</millis>
+  <sequence>245</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Save\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:56</date>
+  <millis>1549190696779</millis>
+  <sequence>246</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:58</date>
+  <millis>1549190698779</millis>
+  <sequence>248</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:58</date>
+  <millis>1549190698779</millis>
+  <sequence>249</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:58</date>
+  <millis>1549190698780</millis>
+  <sequence>250</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Back\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-02-03T12:44:59</date>
+  <millis>1549190699038</millis>
+  <sequence>257</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Event Group Managemnt/BTN_Back&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:59</date>
+  <millis>1549190699045</millis>
+  <sequence>258</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Back\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:44:59</date>
+  <millis>1549190699046</millis>
+  <sequence>259</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:00</date>
+  <millis>1549190700047</millis>
+  <sequence>261</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:00</date>
+  <millis>1549190700047</millis>
+  <sequence>262</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:00</date>
+  <millis>1549190700047</millis>
+  <sequence>263</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:00</date>
+  <millis>1549190700047</millis>
+  <sequence>264</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:00</date>
+  <millis>1549190700049</millis>
+  <sequence>265</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:00</date>
+  <millis>1549190700058</millis>
+  <sequence>266</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\Event Group Management\\TC_Update and Delete test.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:00</date>
+  <millis>1549190700080</millis>
+  <sequence>268</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ArabicDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:00</date>
+  <millis>1549190700081</millis>
+  <sequence>269</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EnglishDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:00</date>
+  <millis>1549190700081</millis>
+  <sequence>270</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Code = 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:00</date>
+  <millis>1549190700081</millis>
+  <sequence>271</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ActionType = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:00</date>
+  <millis>1549190700084</millis>
+  <sequence>272</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:01</date>
+  <millis>1549190701085</millis>
+  <sequence>274</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:01</date>
+  <millis>1549190701086</millis>
+  <sequence>275</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:01</date>
+  <millis>1549190701087</millis>
+  <sequence>276</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:01</date>
+  <millis>1549190701410</millis>
+  <sequence>285</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:01</date>
+  <millis>1549190701410</millis>
+  <sequence>286</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:01</date>
+  <millis>1549190701411</millis>
+  <sequence>287</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:01</date>
+  <millis>1549190701411</millis>
+  <sequence>288</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:01</date>
+  <millis>1549190701411</millis>
+  <sequence>289</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:01</date>
+  <millis>1549190701412</millis>
+  <sequence>290</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:01</date>
+  <millis>1549190701417</millis>
+  <sequence>291</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\Event Group Management\\TC_Update and Delete test.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:01</date>
+  <millis>1549190701438</millis>
+  <sequence>293</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ArabicDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:01</date>
+  <millis>1549190701439</millis>
+  <sequence>294</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EnglishDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:01</date>
+  <millis>1549190701439</millis>
+  <sequence>295</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Code = 2</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:01</date>
+  <millis>1549190701440</millis>
+  <sequence>296</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ActionType = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:01</date>
+  <millis>1549190701442</millis>
+  <sequence>297</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:02</date>
+  <millis>1549190702445</millis>
+  <sequence>299</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:02</date>
+  <millis>1549190702453</millis>
+  <sequence>300</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:02</date>
+  <millis>1549190702453</millis>
+  <sequence>301</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:02</date>
+  <millis>1549190702871</millis>
+  <sequence>310</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:02</date>
+  <millis>1549190702871</millis>
+  <sequence>311</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:02</date>
+  <millis>1549190702872</millis>
+  <sequence>312</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:02</date>
+  <millis>1549190702872</millis>
+  <sequence>313</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:02</date>
+  <millis>1549190702872</millis>
+  <sequence>314</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:02</date>
+  <millis>1549190702873</millis>
+  <sequence>315</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:02</date>
+  <millis>1549190702877</millis>
+  <sequence>316</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\Event Group Management\\TC_Update and Delete test.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:02</date>
+  <millis>1549190702911</millis>
+  <sequence>318</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ArabicDescription = Leon</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:02</date>
+  <millis>1549190702918</millis>
+  <sequence>319</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EnglishDescription = Paris</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:02</date>
+  <millis>1549190702919</millis>
+  <sequence>320</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Code = 3</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:02</date>
+  <millis>1549190702919</millis>
+  <sequence>321</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ActionType = Update</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:02</date>
+  <millis>1549190702921</millis>
+  <sequence>322</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:03</date>
+  <millis>1549190703922</millis>
+  <sequence>324</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:03</date>
+  <millis>1549190703923</millis>
+  <sequence>325</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:03</date>
+  <millis>1549190703924</millis>
+  <sequence>326</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:08</date>
+  <millis>1549190708419</millis>
+  <sequence>336</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 4 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:12</date>
+  <millis>1549190712652</millis>
+  <sequence>338</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 4 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:12</date>
+  <millis>1549190712652</millis>
+  <sequence>339</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:12</date>
+  <millis>1549190712654</millis>
+  <sequence>340</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:12</date>
+  <millis>1549190712655</millis>
+  <sequence>341</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:12</date>
+  <millis>1549190712656</millis>
+  <sequence>342</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_SpecificPageData.DataFun([\&amp;quot;Arabic Description\&amp;quot;, \&amp;quot;English Description\&amp;quot;], \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, [ArabicDescription, EnglishDescription])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:12</date>
+  <millis>1549190712962</millis>
+  <sequence>361</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Leon&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:13</date>
+  <millis>1549190713145</millis>
+  <sequence>372</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Paris&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:13</date>
+  <millis>1549190713146</millis>
+  <sequence>373</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_SpecificPageData.DataFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:13</date>
+  <millis>1549190713146</millis>
+  <sequence>374</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_SpecificPageData.DataFun([\&amp;quot;Arabic Description\&amp;quot;, \&amp;quot;English Description\&amp;quot;], \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, [ArabicDescription, EnglishDescription])</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:13</date>
+  <millis>1549190713148</millis>
+  <sequence>375</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:14</date>
+  <millis>1549190714148</millis>
+  <sequence>377</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:14</date>
+  <millis>1549190714148</millis>
+  <sequence>378</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:14</date>
+  <millis>1549190714149</millis>
+  <sequence>379</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Save\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:14</date>
+  <millis>1549190714248</millis>
+  <sequence>386</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Event Group Managemnt/BTN_Save&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:14</date>
+  <millis>1549190714248</millis>
+  <sequence>387</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Save\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:14</date>
+  <millis>1549190714249</millis>
+  <sequence>388</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:16</date>
+  <millis>1549190716249</millis>
+  <sequence>390</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:16</date>
+  <millis>1549190716249</millis>
+  <sequence>391</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:16</date>
+  <millis>1549190716250</millis>
+  <sequence>392</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Back\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:16</date>
+  <millis>1549190716455</millis>
+  <sequence>399</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Event Group Managemnt/BTN_Back&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:16</date>
+  <millis>1549190716456</millis>
+  <sequence>400</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Back\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:16</date>
+  <millis>1549190716457</millis>
+  <sequence>401</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:17</date>
+  <millis>1549190717459</millis>
+  <sequence>403</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:17</date>
+  <millis>1549190717459</millis>
+  <sequence>404</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:17</date>
+  <millis>1549190717459</millis>
+  <sequence>405</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:17</date>
+  <millis>1549190717459</millis>
+  <sequence>406</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:17</date>
+  <millis>1549190717460</millis>
+  <sequence>407</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:17</date>
+  <millis>1549190717467</millis>
+  <sequence>408</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\Event Group Management\\TC_Update and Delete test.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:17</date>
+  <millis>1549190717480</millis>
+  <sequence>410</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ArabicDescription = Dubai</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:17</date>
+  <millis>1549190717481</millis>
+  <sequence>411</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EnglishDescription = AbuDhabi</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:17</date>
+  <millis>1549190717481</millis>
+  <sequence>412</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Code = 4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:17</date>
+  <millis>1549190717481</millis>
+  <sequence>413</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ActionType = Update</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:17</date>
+  <millis>1549190717485</millis>
+  <sequence>414</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:18</date>
+  <millis>1549190718487</millis>
+  <sequence>416</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:18</date>
+  <millis>1549190718487</millis>
+  <sequence>417</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:18</date>
+  <millis>1549190718488</millis>
+  <sequence>418</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:23</date>
+  <millis>1549190723061</millis>
+  <sequence>428</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 4 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:27</date>
+  <millis>1549190727297</millis>
+  <sequence>430</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 4 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:27</date>
+  <millis>1549190727297</millis>
+  <sequence>431</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:27</date>
+  <millis>1549190727299</millis>
+  <sequence>432</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:27</date>
+  <millis>1549190727299</millis>
+  <sequence>433</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:27</date>
+  <millis>1549190727299</millis>
+  <sequence>434</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_SpecificPageData.DataFun([\&amp;quot;Arabic Description\&amp;quot;, \&amp;quot;English Description\&amp;quot;], \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, [ArabicDescription, EnglishDescription])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:27</date>
+  <millis>1549190727580</millis>
+  <sequence>453</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Dubai&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:27</date>
+  <millis>1549190727786</millis>
+  <sequence>464</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;AbuDhabi&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:27</date>
+  <millis>1549190727787</millis>
+  <sequence>465</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_SpecificPageData.DataFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:27</date>
+  <millis>1549190727789</millis>
+  <sequence>466</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_SpecificPageData.DataFun([\&amp;quot;Arabic Description\&amp;quot;, \&amp;quot;English Description\&amp;quot;], \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, [ArabicDescription, EnglishDescription])</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:27</date>
+  <millis>1549190727789</millis>
+  <sequence>467</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:28</date>
+  <millis>1549190728790</millis>
+  <sequence>469</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:28</date>
+  <millis>1549190728793</millis>
+  <sequence>470</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:28</date>
+  <millis>1549190728793</millis>
+  <sequence>471</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Save\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:28</date>
+  <millis>1549190728922</millis>
+  <sequence>478</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Event Group Managemnt/BTN_Save&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:28</date>
+  <millis>1549190728923</millis>
+  <sequence>479</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Save\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:28</date>
+  <millis>1549190728923</millis>
+  <sequence>480</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:30</date>
+  <millis>1549190730924</millis>
+  <sequence>482</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:30</date>
+  <millis>1549190730925</millis>
+  <sequence>483</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:30</date>
+  <millis>1549190730925</millis>
+  <sequence>484</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Back\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:31</date>
+  <millis>1549190731130</millis>
+  <sequence>491</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Event Group Managemnt/BTN_Back&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:31</date>
+  <millis>1549190731131</millis>
+  <sequence>492</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Back\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:31</date>
+  <millis>1549190731131</millis>
+  <sequence>493</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:32</date>
+  <millis>1549190732132</millis>
+  <sequence>495</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:32</date>
+  <millis>1549190732132</millis>
+  <sequence>496</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:32</date>
+  <millis>1549190732132</millis>
+  <sequence>497</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:32</date>
+  <millis>1549190732132</millis>
+  <sequence>498</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:32</date>
+  <millis>1549190732133</millis>
+  <sequence>499</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:32</date>
+  <millis>1549190732138</millis>
+  <sequence>500</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\Event Group Management\\TC_Update and Delete test.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:32</date>
+  <millis>1549190732149</millis>
+  <sequence>502</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ArabicDescription = Phuket</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:32</date>
+  <millis>1549190732150</millis>
+  <sequence>503</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EnglishDescription = Thailand</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:32</date>
+  <millis>1549190732150</millis>
+  <sequence>504</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Code = 5</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:32</date>
+  <millis>1549190732151</millis>
+  <sequence>505</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ActionType = Update</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:32</date>
+  <millis>1549190732153</millis>
+  <sequence>506</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:33</date>
+  <millis>1549190733154</millis>
+  <sequence>508</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:33</date>
+  <millis>1549190733155</millis>
+  <sequence>509</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:33</date>
+  <millis>1549190733155</millis>
+  <sequence>510</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:37</date>
+  <millis>1549190737792</millis>
+  <sequence>520</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 4 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:42</date>
+  <millis>1549190742049</millis>
+  <sequence>522</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 4 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:42</date>
+  <millis>1549190742049</millis>
+  <sequence>523</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:42</date>
+  <millis>1549190742051</millis>
+  <sequence>524</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:42</date>
+  <millis>1549190742052</millis>
+  <sequence>525</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:42</date>
+  <millis>1549190742053</millis>
+  <sequence>526</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_SpecificPageData.DataFun([\&amp;quot;Arabic Description\&amp;quot;, \&amp;quot;English Description\&amp;quot;], \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, [ArabicDescription, EnglishDescription])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:42</date>
+  <millis>1549190742361</millis>
+  <sequence>545</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Phuket&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:42</date>
+  <millis>1549190742529</millis>
+  <sequence>556</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Thailand&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:42</date>
+  <millis>1549190742530</millis>
+  <sequence>557</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_SpecificPageData.DataFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:42</date>
+  <millis>1549190742532</millis>
+  <sequence>558</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_SpecificPageData.DataFun([\&amp;quot;Arabic Description\&amp;quot;, \&amp;quot;English Description\&amp;quot;], \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, [ArabicDescription, EnglishDescription])</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:42</date>
+  <millis>1549190742532</millis>
+  <sequence>559</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:43</date>
+  <millis>1549190743533</millis>
+  <sequence>561</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:43</date>
+  <millis>1549190743533</millis>
+  <sequence>562</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:43</date>
+  <millis>1549190743534</millis>
+  <sequence>563</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Save\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:43</date>
+  <millis>1549190743637</millis>
+  <sequence>570</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Event Group Managemnt/BTN_Save&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:43</date>
+  <millis>1549190743638</millis>
+  <sequence>571</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Save\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:43</date>
+  <millis>1549190743638</millis>
+  <sequence>572</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:45</date>
+  <millis>1549190745639</millis>
+  <sequence>574</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:45</date>
+  <millis>1549190745639</millis>
+  <sequence>575</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:45</date>
+  <millis>1549190745639</millis>
+  <sequence>576</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Back\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:45</date>
+  <millis>1549190745834</millis>
+  <sequence>583</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Event Group Managemnt/BTN_Back&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:45</date>
+  <millis>1549190745835</millis>
+  <sequence>584</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Event Group Managemnt/BTN_Back\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:45</date>
+  <millis>1549190745835</millis>
+  <sequence>585</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:46</date>
+  <millis>1549190746843</millis>
+  <sequence>587</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:46</date>
+  <millis>1549190746843</millis>
+  <sequence>588</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:46</date>
+  <millis>1549190746843</millis>
+  <sequence>589</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:46</date>
+  <millis>1549190746844</millis>
+  <sequence>590</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:46</date>
+  <millis>1549190746844</millis>
+  <sequence>591</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:46</date>
+  <millis>1549190746849</millis>
+  <sequence>592</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\Event Group Management\\TC_Update and Delete test.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:46</date>
+  <millis>1549190746867</millis>
+  <sequence>594</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ArabicDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:46</date>
+  <millis>1549190746867</millis>
+  <sequence>595</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EnglishDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:46</date>
+  <millis>1549190746867</millis>
+  <sequence>596</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Code = 6</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:46</date>
+  <millis>1549190746868</millis>
+  <sequence>597</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ActionType = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:46</date>
+  <millis>1549190746870</millis>
+  <sequence>598</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:47</date>
+  <millis>1549190747870</millis>
+  <sequence>600</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:47</date>
+  <millis>1549190747870</millis>
+  <sequence>601</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:47</date>
+  <millis>1549190747871</millis>
+  <sequence>602</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:48</date>
+  <millis>1549190748068</millis>
+  <sequence>611</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:48</date>
+  <millis>1549190748073</millis>
+  <sequence>612</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:48</date>
+  <millis>1549190748074</millis>
+  <sequence>613</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:48</date>
+  <millis>1549190748074</millis>
+  <sequence>614</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:48</date>
+  <millis>1549190748074</millis>
+  <sequence>615</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:48</date>
+  <millis>1549190748075</millis>
+  <sequence>616</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:48</date>
+  <millis>1549190748080</millis>
+  <sequence>617</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\Event Group Management\\TC_Update and Delete test.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:48</date>
+  <millis>1549190748089</millis>
+  <sequence>619</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ArabicDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:48</date>
+  <millis>1549190748089</millis>
+  <sequence>620</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EnglishDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:48</date>
+  <millis>1549190748089</millis>
+  <sequence>621</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Code = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:48</date>
+  <millis>1549190748089</millis>
+  <sequence>622</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ActionType = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:48</date>
+  <millis>1549190748091</millis>
+  <sequence>623</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:49</date>
+  <millis>1549190749092</millis>
+  <sequence>625</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:49</date>
+  <millis>1549190749092</millis>
+  <sequence>626</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:49</date>
+  <millis>1549190749093</millis>
+  <sequence>627</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:49</date>
+  <millis>1549190749224</millis>
+  <sequence>636</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:49</date>
+  <millis>1549190749225</millis>
+  <sequence>637</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:49</date>
+  <millis>1549190749225</millis>
+  <sequence>638</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:49</date>
+  <millis>1549190749227</millis>
+  <sequence>639</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:49</date>
+  <millis>1549190749227</millis>
+  <sequence>640</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:49</date>
+  <millis>1549190749227</millis>
+  <sequence>641</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:49</date>
+  <millis>1549190749234</millis>
+  <sequence>642</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\Event Group Management\\TC_Update and Delete test.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:49</date>
+  <millis>1549190749243</millis>
+  <sequence>644</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ArabicDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:49</date>
+  <millis>1549190749244</millis>
+  <sequence>645</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EnglishDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:49</date>
+  <millis>1549190749244</millis>
+  <sequence>646</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Code = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:49</date>
+  <millis>1549190749244</millis>
+  <sequence>647</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ActionType = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:49</date>
+  <millis>1549190749246</millis>
+  <sequence>648</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:50</date>
+  <millis>1549190750250</millis>
+  <sequence>650</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:50</date>
+  <millis>1549190750250</millis>
+  <sequence>651</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:50</date>
+  <millis>1549190750250</millis>
+  <sequence>652</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:50</date>
+  <millis>1549190750356</millis>
+  <sequence>661</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:50</date>
+  <millis>1549190750356</millis>
+  <sequence>662</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:50</date>
+  <millis>1549190750357</millis>
+  <sequence>663</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:50</date>
+  <millis>1549190750357</millis>
+  <sequence>664</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:50</date>
+  <millis>1549190750361</millis>
+  <sequence>665</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:50</date>
+  <millis>1549190750362</millis>
+  <sequence>666</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:50</date>
+  <millis>1549190750367</millis>
+  <sequence>667</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\Event Group Management\\TC_Update and Delete test.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:50</date>
+  <millis>1549190750385</millis>
+  <sequence>669</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ArabicDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:50</date>
+  <millis>1549190750385</millis>
+  <sequence>670</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EnglishDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:50</date>
+  <millis>1549190750385</millis>
+  <sequence>671</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Code = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:50</date>
+  <millis>1549190750386</millis>
+  <sequence>672</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ActionType = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:50</date>
+  <millis>1549190750388</millis>
+  <sequence>673</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:51</date>
+  <millis>1549190751389</millis>
+  <sequence>675</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:51</date>
+  <millis>1549190751389</millis>
+  <sequence>676</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:51</date>
+  <millis>1549190751389</millis>
+  <sequence>677</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:51</date>
+  <millis>1549190751529</millis>
+  <sequence>686</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:51</date>
+  <millis>1549190751530</millis>
+  <sequence>687</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:51</date>
+  <millis>1549190751530</millis>
+  <sequence>688</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:51</date>
+  <millis>1549190751530</millis>
+  <sequence>689</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:51</date>
+  <millis>1549190751530</millis>
+  <sequence>690</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:51</date>
+  <millis>1549190751531</millis>
+  <sequence>691</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:51</date>
+  <millis>1549190751535</millis>
+  <sequence>692</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\Event Group Management\\TC_Update and Delete test.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:51</date>
+  <millis>1549190751546</millis>
+  <sequence>694</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ArabicDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:51</date>
+  <millis>1549190751546</millis>
+  <sequence>695</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EnglishDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:51</date>
+  <millis>1549190751547</millis>
+  <sequence>696</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Code = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:51</date>
+  <millis>1549190751547</millis>
+  <sequence>697</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ActionType = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:51</date>
+  <millis>1549190751549</millis>
+  <sequence>698</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:52</date>
+  <millis>1549190752550</millis>
+  <sequence>700</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:52</date>
+  <millis>1549190752550</millis>
+  <sequence>701</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:52</date>
+  <millis>1549190752550</millis>
+  <sequence>702</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:52</date>
+  <millis>1549190752663</millis>
+  <sequence>711</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:52</date>
+  <millis>1549190752663</millis>
+  <sequence>712</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:52</date>
+  <millis>1549190752664</millis>
+  <sequence>713</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:52</date>
+  <millis>1549190752664</millis>
+  <sequence>714</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:52</date>
+  <millis>1549190752664</millis>
+  <sequence>715</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:52</date>
+  <millis>1549190752665</millis>
+  <sequence>716</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:52</date>
+  <millis>1549190752674</millis>
+  <sequence>717</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\Event Group Management\\TC_Update and Delete test.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:52</date>
+  <millis>1549190752685</millis>
+  <sequence>719</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ArabicDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:52</date>
+  <millis>1549190752686</millis>
+  <sequence>720</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EnglishDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:52</date>
+  <millis>1549190752686</millis>
+  <sequence>721</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Code = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:52</date>
+  <millis>1549190752686</millis>
+  <sequence>722</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ActionType = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:52</date>
+  <millis>1549190752688</millis>
+  <sequence>723</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:53</date>
+  <millis>1549190753689</millis>
+  <sequence>725</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:53</date>
+  <millis>1549190753689</millis>
+  <sequence>726</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:53</date>
+  <millis>1549190753690</millis>
+  <sequence>727</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:53</date>
+  <millis>1549190753791</millis>
+  <sequence>736</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:53</date>
+  <millis>1549190753792</millis>
+  <sequence>737</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:53</date>
+  <millis>1549190753792</millis>
+  <sequence>738</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:53</date>
+  <millis>1549190753792</millis>
+  <sequence>739</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:53</date>
+  <millis>1549190753792</millis>
+  <sequence>740</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:53</date>
+  <millis>1549190753793</millis>
+  <sequence>741</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:53</date>
+  <millis>1549190753798</millis>
+  <sequence>742</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\Event Group Management\\TC_Update and Delete test.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:53</date>
+  <millis>1549190753815</millis>
+  <sequence>744</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ArabicDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:53</date>
+  <millis>1549190753815</millis>
+  <sequence>745</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EnglishDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:53</date>
+  <millis>1549190753815</millis>
+  <sequence>746</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Code = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:53</date>
+  <millis>1549190753816</millis>
+  <sequence>747</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ActionType = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:53</date>
+  <millis>1549190753820</millis>
+  <sequence>748</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:54</date>
+  <millis>1549190754821</millis>
+  <sequence>750</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:54</date>
+  <millis>1549190754821</millis>
+  <sequence>751</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:54</date>
+  <millis>1549190754822</millis>
+  <sequence>752</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:54</date>
+  <millis>1549190754913</millis>
+  <sequence>761</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:54</date>
+  <millis>1549190754914</millis>
+  <sequence>762</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:54</date>
+  <millis>1549190754914</millis>
+  <sequence>763</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:54</date>
+  <millis>1549190754914</millis>
+  <sequence>764</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:54</date>
+  <millis>1549190754914</millis>
+  <sequence>765</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:54</date>
+  <millis>1549190754915</millis>
+  <sequence>766</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:54</date>
+  <millis>1549190754919</millis>
+  <sequence>767</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\Event Group Management\\TC_Update and Delete test.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:54</date>
+  <millis>1549190754937</millis>
+  <sequence>769</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ArabicDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:54</date>
+  <millis>1549190754937</millis>
+  <sequence>770</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EnglishDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:54</date>
+  <millis>1549190754937</millis>
+  <sequence>771</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Code = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:54</date>
+  <millis>1549190754938</millis>
+  <sequence>772</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ActionType = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:54</date>
+  <millis>1549190754941</millis>
+  <sequence>773</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:55</date>
+  <millis>1549190755944</millis>
+  <sequence>775</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:55</date>
+  <millis>1549190755944</millis>
+  <sequence>776</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:55</date>
+  <millis>1549190755945</millis>
+  <sequence>777</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:56</date>
+  <millis>1549190756116</millis>
+  <sequence>786</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:56</date>
+  <millis>1549190756116</millis>
+  <sequence>787</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:56</date>
+  <millis>1549190756116</millis>
+  <sequence>788</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:56</date>
+  <millis>1549190756117</millis>
+  <sequence>789</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:56</date>
+  <millis>1549190756117</millis>
+  <sequence>790</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:56</date>
+  <millis>1549190756117</millis>
+  <sequence>791</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:56</date>
+  <millis>1549190756122</millis>
+  <sequence>792</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Event Group Management/TC_Update and Delete test</property>
+  <property name="source">C:\\Users\\Administrator\\git\\MOF\\Test Cases\\Event Group Management\\TC_Update and Delete test.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:56</date>
+  <millis>1549190756130</millis>
+  <sequence>794</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ArabicDescription = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:56</date>
+  <millis>1549190756131</millis>
+  <sequence>795</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EnglishDescription = v</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:56</date>
+  <millis>1549190756131</millis>
+  <sequence>796</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Code = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:56</date>
+  <millis>1549190756131</millis>
+  <sequence>797</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ActionType = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:56</date>
+  <millis>1549190756134</millis>
+  <sequence>798</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:57</date>
+  <millis>1549190757135</millis>
+  <sequence>800</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:57</date>
+  <millis>1549190757137</millis>
+  <sequence>801</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:57</date>
+  <millis>1549190757137</millis>
+  <sequence>802</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:57</date>
+  <millis>1549190757282</millis>
+  <sequence>811</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:57</date>
+  <millis>1549190757282</millis>
+  <sequence>812</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(ActionType, 0, 3, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementObjectRepository\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, \&amp;quot;Event Group Management/MOF_NE_Event Group ManagementData\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, Code)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:57</date>
+  <millis>1549190757282</millis>
+  <sequence>813</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-03T12:45:57</date>
+  <millis>1549190757283</millis>
+  <sequence>814</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ActionType == \&amp;quot;Update\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:57</date>
+  <millis>1549190757283</millis>
+  <sequence>815</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:57</date>
+  <millis>1549190757283</millis>
+  <sequence>816</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Event Group Management/TC_Update and Delete test</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-03T12:45:57</date>
+  <millis>1549190757284</millis>
+  <sequence>817</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Event Group Management/TS_ClickUpdate_Delete</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

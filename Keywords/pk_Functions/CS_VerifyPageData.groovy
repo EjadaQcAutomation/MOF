@@ -15,6 +15,7 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testcase.TestCase
+import com.kms.katalon.core.testdata.ExcelData
 import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
@@ -23,12 +24,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
 
 public class CS_VerifyPageData {
-
+	
 	@Keyword
-	CheckMatching(String ObjectRepositoryFileName,String ObjectRepositorysheetName,String DataFileName,String DatasheetName) {
-		//getting all objects that stored in list by calling AllPageObjectFun function
-		List<TestObject> listObject = new ArrayList<TestObject>((new pk_Functions.CS_AllPageObject()).AllPageObjectFun (ObjectRepositoryFileName , ObjectRepositorysheetName ))
+	CheckMatching(  List<TestObject> fieldsNames, String fileName , String sheetName , List<TestObject> fieldsData ){
+
+		//calling pk_Functions.CS_SpecificObject()
+		pk_Functions.CS_SpecificPageObject SpecificObject	=new pk_Functions.CS_SpecificPageObject()
+
+		//getting certain objects that selected using Fields names inputs then stored in list by calling ObjectFun function
+		List<TestObject> listObject = new ArrayList<TestObject>(SpecificObject.ObjectFun(fileName ,sheetName , fieldsNames))
 		int column
+		int index
+
+		// getting data of object
+		ExcelData  data = findTestData(fileName)
+		data.changeSheet( sheetName)
+
+		//loop for setting data into list object that stored in list using 	SpecificPageObject function
+		for (column = 1; column <= listObject.size(); column++) {
+
+			//getting index of row in object file belongs to every items in order of Fields name
+			index = SpecificObject.valueOfRow.indexOf(fieldsNames[(column -1)]);
+			//if type equals text
+			WebUI.getText(listObject[(column - 1)], fieldsData[(column-1)])
+				//if type equals LOV by select tag
+				
 		///loop for setting data into list object that stored in list using AllPageObjectFun function and compare each value in the list by each value in excel
 		for (column = 1; column <= listObject.size(); column++) {
 			String Expected_Data= findTestData(DataFileName).changeSheet(DatasheetName).getValue(column,1)

@@ -31,15 +31,15 @@
          <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>1dfac8ee-e22b-489b-9395-990efdc6c710</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Arabic Description_Update</value>
          <variableId>d7e8da4c-11e5-4797-9978-8192ae258d82</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>1dfac8ee-e22b-489b-9395-990efdc6c710</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>English Description_Update</value>
          <variableId>32f20d8b-a2cd-4dd5-87f5-72336f52bd42</variableId>
       </variableLink>
       <variableLink>
