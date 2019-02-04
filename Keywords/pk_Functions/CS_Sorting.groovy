@@ -36,7 +36,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import java.util.Collections;
 
 import internal.GlobalVariable
-
+/*
+ * Date 25/01/2018
+ * Usage: Test sorting of Grid Columns
+ * Input: This Function takes inputs 1- SortBTN_Xpath  2- SortType(asc or des)  3-webtableAttribute(xpath,name,id)  4-webtablelocatorValue  5-column_num
+ */
 public class CS_Sorting {
 
 	List<String> list = new ArrayList<String>()
@@ -47,10 +51,11 @@ public class CS_Sorting {
 	List<String>  listAsc = new ArrayList<String>()
 
 	@Keyword
-	Test_Sorting(String SortBTN ,String SortType , String webtableAttribute ,String webtablelocatorValue ,int column_num){
+	Test_Sorting(String SortBTN_Xpath ,String SortType , String webtableAttribute ,String webtablelocatorValue ,int column_num){
 
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebElement Sort_BTN
+		//To locate table'
 		if(SortType=='asc'){
 			if (webtableAttribute=='xpath'){
 				Table = driver.findElement(By.xpath(webtablelocatorValue))
@@ -58,7 +63,8 @@ public class CS_Sorting {
 			else{
 				Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
 			}
-			Sort_BTN =driver.findElement(By.xpath(SortBTN));
+		//To locate Sort button
+			Sort_BTN =driver.findElement(By.xpath(SortBTN_Xpath));
 			WebUI.delay(5)
 			Sort_BTN.click()
 			WebUI.delay(2)
@@ -86,6 +92,7 @@ public class CS_Sorting {
 			}
 		}
 		if(SortType=='des'){
+			//To locate table'
 			if (webtableAttribute=='xpath'){
 				Table = driver.findElement(By.xpath(webtablelocatorValue))
 			}
@@ -98,8 +105,8 @@ public class CS_Sorting {
 			rows_table = Table.findElements(By.tagName('tr'))
 			//‘To calculate no of rows In table’
 			int rows_count = rows_table.size()
-			//String[] celltext = new String[rows_count]
-			Sort_BTN =driver.findElement(By.xpath(SortBTN));
+			//To locate Sort button
+			Sort_BTN =driver.findElement(By.xpath(SortBTN_Xpath));
 			Sort_BTN.click()
 			WebUI.delay(5)
 			Sort_BTN.click()
@@ -107,16 +114,15 @@ public class CS_Sorting {
 			//Table = driver.findElement(By.xpath(webtablelocatorValue))
 			rows_table = Table.findElements(By.tagName('tr'))
 			for (int row = 1; row <=(rows_count-1); row++) {
-				//WebUI.waitForElementVisible(findTestObject('table'), 5)
+			//WebUI.waitForElementVisible(findTestObject('table'), 5)
 				WebUI.delay(2)
-				//‘To locate columns(cells) of that specific row’
+			//‘To locate columns(cells) of that specific row’
 				Columns_row = rows_table.get(row).findElements(By.tagName('td'))
-				//‘It will retrieve text from 1st cell’
+			//‘It will retrieve text from 1st cell’
 				String celltext_1 = Columns_row.get(column_num).getText()
 				list.add(celltext_1)
 				listDes.add(celltext_1)
 			}
-			// list after twice click
 			listDes.sort()
 			//listDes.reverse()//List is in Desc order
 			if(listDes.reverse()==list){

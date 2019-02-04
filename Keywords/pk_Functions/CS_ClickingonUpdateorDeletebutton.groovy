@@ -59,9 +59,9 @@ public class CS_ClickingonUpdateorDeletebutton {
 	//TestObject button
 	@Keyword
 
-	SelectRecordFromWebtableFun (String actionType,int expectedValueColumn, int actionButtonColumn ,String objectfileName,String objectsheetName,String datafileName ,String datasheetName, String code) {
+	SelectRecordFromWebtableFun (String actionType,int expectedValueColumn, int actionButtonColumn ,String objectfileName,String objectsheetName, String code) {
 
-	
+
 
 		WebDriver ndriver = DriverFactory.getWebDriver()
 
@@ -86,16 +86,6 @@ public class CS_ClickingonUpdateorDeletebutton {
 			Table = ndriver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
 		}
 		//End of table locater____________________
-
-		//End of table locater____________________
-
-		//Get all ids with Update Flag or Delete________
-		List<String> valueOfRow = new ArrayList<String>()
-		// Take file name and sheet name to get object
-		ExcelData  data = findTestData(datafileName)
-		data.changeSheet(datasheetName)
-		data.getAllData()
-
 
 		List<WebElement> Rows = Table.findElements(By.tagName('tr'))
 		//println('No. of rows: ' + Rows.size())
@@ -127,7 +117,7 @@ public class CS_ClickingonUpdateorDeletebutton {
 						TestObject PopUp = new TestObject()
 						PopUp.addProperty(dataObject.getValue(3, indexPopUp+1), ConditionType.EQUALS, dataObject.getValue(4, indexPopUp+1))
 						println (dataObject.getValue(4, indexPopUp+1))
-						 delete = new TestObject()
+						delete = new TestObject()
 						delete.addProperty(dataObject.getValue(3, indexDelete+1), ConditionType.EQUALS, dataObject.getValue(4, indexDelete+1))
 
 						//						if ( dataObject.getValue(3,indexDelete+1)=='xpath'){

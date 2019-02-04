@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;app-form&quot;]/div/app-body/div/div/div[1]/app-side-bar/div/nav/ul/div[4]/div/a</value>
+         <value>//*[@id=&quot;app-form&quot;]/div/app-body/div/div/div[1]/app-side-bar/div/nav/ul/div[4]/div/a/span/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;app-form&quot;]/div/app-body/div/div/div[1]/app-side-bar/div/nav/ul/div[4]/div/a</value>
+      <value>//*[@id=&quot;app-form&quot;]/div/app-body/div/div/div[1]/app-side-bar/div/nav/ul/div[4]/div/a/span/span</value>
    </webElementProperties>
 </WebElementEntity>

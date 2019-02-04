@@ -18,9 +18,11 @@ WebUI.click(findTestObject('Event Group Managemnt/BTN_Insert'))
 CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
     'Sheet1', [code, arabic_des, english_des])
 
-WebUI.click(findTestObject('Event Group Managemnt/BTN_Save'))
+WebUI.click(findTestObject('BTN_Save'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Event Group Managemnt/BTN_Back'))
+WebUI.click(findTestObject('BTN_Back'))
+
+WebUI.delay(3)
 
