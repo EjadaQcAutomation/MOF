@@ -103,6 +103,7 @@ public class CS_ClickingonUpdateorDeletebutton {
 					WebUI.delay(4)
 					//Doing action to the selected record by clicking on actions button in predefined column
 					if (actionType=='Update'){
+						println 'update'
 						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click() ;
 						WebUI.delay(4)
 

@@ -16,19 +16,21 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.delay(1)
 
 CustomKeywords.'pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun'(ActionType, 0, 3, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
-    'Sheet1', 'Event Group Management/MOF_NE_Event Group ManagementData', 'Sheet1', Code)
+    'Sheet1', Code)
 
 if (ActionType == 'Update') {
+    WebUI.delay(1)
+
     CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['Arabic Description', 'English Description'], 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
         'Sheet1', [ArabicDescription, EnglishDescription])
 
     WebUI.delay(1)
 
-    WebUI.click(findTestObject('Event Group Managemnt/BTN_Save'))
+    WebUI.click(findTestObject('BTN_Save'))
 
     WebUI.delay(2)
 
-    WebUI.click(findTestObject('Event Group Managemnt/BTN_Back'))
+    WebUI.click(findTestObject('Event Group Managemnt/BTN_Back (1)'))
 
     WebUI.delay(1)
 }

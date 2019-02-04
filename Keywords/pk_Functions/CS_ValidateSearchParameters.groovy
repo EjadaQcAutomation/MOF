@@ -71,7 +71,7 @@ ValidateSearchParameters (String actionType, String fileName ,String sheetName ,
 
 		//Checking if firstCell text is matched with the expected value
 		if (Columns_row.get(uniqueColumn).getText() == expectedValues[uniqueColumn]) {
-		println ('search')
+			println ('search')
 			for (int column = 0 ; column < columns_count ;column++){
 				println ('search')
 				Columns_row_text.add(Columns_row.get(column).getText())

@@ -22,7 +22,7 @@ WebUI.click(findTestObject('BTN_Save'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('BTN_Back'))
+WebUI.click(findTestObject('Event Group Managemnt/BTN_Back (1)'))
 
 WebUI.delay(3)
 
