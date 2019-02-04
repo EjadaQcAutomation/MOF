@@ -13,22 +13,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['Code_Search'], 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
-    'Sheet1', [Code])
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Event Group Managemnt/BTN_Search'))
+CustomKeywords.'pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun'(ActionType, 0, 3, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+    'Sheet1', Code)
 
-WebUI.delay(2)
+if (ActionType == 'Update') {
+    WebUI.delay(1)
 
-CustomKeywords.'pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters'('Search', 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
-    'Sheet1', [Code, ArabicDescription, EnglishDescription], 0)
+    CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['Arabic Description', 'English Description'], 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+        'Sheet1', [ArabicDescription, EnglishDescription])
 
-WebUI.delay(2)
+    WebUI.delay(1)
 
-WebUI.click(findTestObject('Event Group Managemnt/BTN_Clear'))
+    WebUI.click(findTestObject('BTN_Save'))
 
-CustomKeywords.'pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters'('Clear', 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
-    'Sheet1', [Code, ArabicDescription, EnglishDescription], 0)
+    WebUI.delay(2)
 
-WebUI.delay(3)
+    WebUI.click(findTestObject('Event Group Managemnt/BTN_Back (1)'))
+
+    WebUI.delay(1)
+}
 
