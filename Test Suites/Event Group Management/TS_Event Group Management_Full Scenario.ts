@@ -31,28 +31,28 @@
          <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>1dfac8ee-e22b-489b-9395-990efdc6c710</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Arabic Description_Update</value>
-         <variableId>d7e8da4c-11e5-4797-9978-8192ae258d82</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fb5a0aa5-69c1-4c71-ab1d-f23197354c0f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1dfac8ee-e22b-489b-9395-990efdc6c710</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>English Description_Update</value>
-         <variableId>32f20d8b-a2cd-4dd5-87f5-72336f52bd42</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>10e71e63-a41b-42d7-b088-a455d95f363f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1dfac8ee-e22b-489b-9395-990efdc6c710</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Code</value>
-         <variableId>96a1f32b-aa57-4051-b719-319fd54abbe6</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>19b609b0-fc7b-4296-8c8b-5b87b6a0a5f3</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1dfac8ee-e22b-489b-9395-990efdc6c710</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Update Flag</value>
-         <variableId>5a52356a-1410-455e-b2c9-aca0969a8151</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f804261e-d1dc-4cda-8f5b-842f8d45f6d7</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

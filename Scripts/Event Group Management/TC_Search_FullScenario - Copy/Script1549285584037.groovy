@@ -34,3 +34,5 @@ CustomKeywords.'pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameter
 
 WebUI.delay(3)
 
+WebUI.verifyElementClickable(findTestObject(null))
+

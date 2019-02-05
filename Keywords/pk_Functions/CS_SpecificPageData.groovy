@@ -81,6 +81,7 @@ public class CS_SpecificPageData {
 				//set data of text into corresponding object
 				WebUI.setText(listObject[(column - 1)], fieldsData[(column-1)])
 				//if type equals LOV by select tag
+
 			}else if (data.getValue(2, index+1 )=="lov-select-tag"){
 
 				//select by label

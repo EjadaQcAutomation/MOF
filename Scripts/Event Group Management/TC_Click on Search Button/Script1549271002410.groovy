@@ -13,6 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('Event Group Managemnt/BTN_Clear'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Event Group Managemnt/BTN_Search'))
 
 WebUI.delay(1)

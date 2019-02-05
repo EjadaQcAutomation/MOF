@@ -98,15 +98,15 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>1890d41c-2e3e-435d-9382-e8735bb6053e</guid>
+      <guid>0dcc863e-e59d-48f5-bc98-bd7ea8795e50</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Click on Search Button</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ed271533-7c94-4724-8cf0-a4f0de481baa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Records Update</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -126,7 +126,7 @@
       <variableLink>
          <testDataLinkId>6ecbb6aa-f9a1-4763-a686-941b7e728806</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>English Description</value>
+         <value>English Description_Update</value>
          <variableId>aa51b0d4-fd85-4a39-838f-1f2573c35d1a</variableId>
       </variableLink>
       <variableLink>
@@ -138,14 +138,14 @@
       <variableLink>
          <testDataLinkId>6ecbb6aa-f9a1-4763-a686-941b7e728806</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Update Flag</value>
+         <value>Update</value>
          <variableId>0d485da5-b425-4027-b882-8f15e42dafe0</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f8c2ca1e-45a6-4d3a-b7f5-e8385986b273</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Delete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -165,15 +165,15 @@
       <variableLink>
          <testDataLinkId>3f85b43d-8c01-498a-aefc-a297fbfaac0d</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Delete Flag</value>
+         <value>Delete</value>
          <variableId>6c22d25e-2dde-4934-a052-8962a7db1bb0</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f9d6f720-367c-491e-b785-b49bcbbb8e1d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Event Group Management/TC_Verify_Delete</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_Verify_Delete and Undelete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6386cff9-be09-4be2-ad62-4e791c06bd56</id>
@@ -186,7 +186,7 @@
       <variableLink>
          <testDataLinkId>6386cff9-be09-4be2-ad62-4e791c06bd56</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Delete Flag</value>
+         <value>Delete</value>
          <variableId>ee91aa5e-1748-48cd-80c9-7e8df1cd3a50</variableId>
       </variableLink>
       <variableLink>

@@ -53,7 +53,7 @@ import login_object.loginObject.*
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import internal.GlobalVariable
-public class CS_ClickingonUpdateorDeletebutton {
+public class CS_ClickingonUpdateorDeletebutton_Fulltabl {
 	TestObject delete
 	int row
 	int fieldNo
@@ -65,7 +65,7 @@ public class CS_ClickingonUpdateorDeletebutton {
 	//TestObject button
 	@Keyword
 
-	SelectRecordFromWebtableFun (String actionType,int expectedValueColumn, int actionButtonColumn ,String objectfileName,String objectsheetName, String code) {
+	SelectRecordFromWebtableFun (TestObject nextPage,String actionType,int expectedValueColumn, int actionButtonColumn ,String objectfileName,String objectsheetName, String code) {
 
 
 
@@ -93,9 +93,19 @@ public class CS_ClickingonUpdateorDeletebutton {
 		//End of table locater____________________
 
 		//Detecting Update or Delete flag in excel file according to actionType variable
-
+		//Saving Grid rows in list
 		List<WebElement> Rows = Table.findElements(By.tagName('tr'))
-		//println('No. of rows: ' + Rows.size())
+		WebUI.delay(6)
+		while(WebUI.verifyElementClickable(findTestObject('nextPage'))){
+			WebUI.delay(2)
+			Rows.add(Table.findElements(By.tagName('tr')))
+			WebUI.click(nextPage)
+			println  (Rows.size())
+			WebUI.delay(2)
+
+		}
+
+
 
 		if(actionType=="Update" ||actionType== "DeleteYes" ||actionType== "DeleteNo"){
 
