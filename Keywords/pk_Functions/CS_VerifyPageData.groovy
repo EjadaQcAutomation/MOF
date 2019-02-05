@@ -24,7 +24,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
 
 public class CS_VerifyPageData {
-	
+
 	@Keyword
 	CheckMatching(  List<TestObject> fieldsNames, String fileName , String sheetName , List<TestObject> fieldsData ){
 
@@ -34,31 +34,10 @@ public class CS_VerifyPageData {
 		//getting certain objects that selected using Fields names inputs then stored in list by calling ObjectFun function
 		List<TestObject> listObject = new ArrayList<TestObject>(SpecificObject.ObjectFun(fileName ,sheetName , fieldsNames))
 		int column
-		int index
-
-		// getting data of object
-		ExcelData  data = findTestData(fileName)
-		data.changeSheet( sheetName)
 
 		//loop for setting data into list object that stored in list using 	SpecificPageObject function
 		for (column = 1; column <= listObject.size(); column++) {
-
-			//getting index of row in object file belongs to every items in order of Fields name
-			index = SpecificObject.valueOfRow.indexOf(fieldsNames[(column -1)]);
-			//if type equals text
-			WebUI.getText(listObject[(column - 1)], fieldsData[(column-1)])
-				//if type equals LOV by select tag
-				
-		///loop for setting data into list object that stored in list using AllPageObjectFun function and compare each value in the list by each value in excel
-		for (column = 1; column <= listObject.size(); column++) {
-			<<<<<<< HEAD
-			findTestData(DataFileName).changeSheet(DatasheetName).getValue(column,1)
-
-			WebUI.verifyMatch(WebUI.getAttribute(listObject[(column-1)],'value'), findTestData(DataFileName).changeSheet(DatasheetName).getValue(column,1), false, FailureHandling.STOP_ON_FAILURE)
-			=======
-			String Expected_Data= findTestData(DataFileName).changeSheet(DatasheetName).getValue(column,1)
-			WebUI.verifyMatch(WebUI.getAttribute(listObject[(column-1)],'value'), Expected_Data, false, FailureHandling.STOP_ON_FAILURE)
-			>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
+			WebUI.verifyMatch(WebUI.getAttribute(listObject[(column-1)],'ng-reflect-model'),fieldsData[(column-1)], false)
 		}
 	}
 }

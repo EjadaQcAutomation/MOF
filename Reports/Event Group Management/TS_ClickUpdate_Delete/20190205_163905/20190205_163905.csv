@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_ClickUpdate_Delete,Chrome 71.0.3578.98,,2019-02-05 16:39:08,2019-02-05 16:40:05,57.362s,PASSED
+,,,,,,
+Test Cases/TC_Login,Chrome 71.0.3578.98,,2019-02-05 16:39:08,2019-02-05 16:39:25,16.259s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 71.0.3578.98,,2019-02-05 16:39:09,2019-02-05 16:39:25,15.695s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Select_Screen,Chrome 71.0.3578.98,,2019-02-05 16:39:25,2019-02-05 16:39:30,5.291s,PASSED
+"click(findTestObject(""NE_SideMenu""))",Chrome 71.0.3578.98,,2019-02-05 16:39:25,2019-02-05 16:39:27,2.140s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 71.0.3578.98,,2019-02-05 16:39:27,2019-02-05 16:39:27,0.101s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 71.0.3578.98,,2019-02-05 16:39:27,2019-02-05 16:39:28,0.646s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-05 16:39:28,2019-02-05 16:39:30,2.047s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Update,Chrome 71.0.3578.98,,2019-02-05 16:39:30,2019-02-05 16:39:48,18.412s,PASSED
+"if (ActionType == ""Update"")",Chrome 71.0.3578.98,,2019-02-05 16:39:30,2019-02-05 16:39:48,18.052s,PASSED
+"getAttribute(findTestObject(""Arabic Description""), ""ng-reflect-model"")",Chrome 71.0.3578.98,,2019-02-05 16:39:48,2019-02-05 16:39:48,0.004s,NOT_RUN
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Update,Chrome 71.0.3578.98,,2019-02-05 16:39:48,2019-02-05 16:40:05,16.945s,PASSED
+"if (ActionType == ""Update"")",Chrome 71.0.3578.98,,2019-02-05 16:39:48,2019-02-05 16:40:05,16.926s,PASSED
+"getAttribute(findTestObject(""Arabic Description""), ""ng-reflect-model"")",Chrome 71.0.3578.98,,2019-02-05 16:40:05,2019-02-05 16:40:05,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Update,Chrome 71.0.3578.98,,2019-02-05 16:40:05,2019-02-05 16:40:05,0.019s,PASSED
+"if (ActionType == ""Update"")",Chrome 71.0.3578.98,,2019-02-05 16:40:05,2019-02-05 16:40:05,0.000s,PASSED
+"getAttribute(findTestObject(""Arabic Description""), ""ng-reflect-model"")",Chrome 71.0.3578.98,,2019-02-05 16:40:05,2019-02-05 16:40:05,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Update,Chrome 71.0.3578.98,,2019-02-05 16:40:05,2019-02-05 16:40:05,0.016s,PASSED
+"if (ActionType == ""Update"")",Chrome 71.0.3578.98,,2019-02-05 16:40:05,2019-02-05 16:40:05,0.001s,PASSED
+"getAttribute(findTestObject(""Arabic Description""), ""ng-reflect-model"")",Chrome 71.0.3578.98,,2019-02-05 16:40:05,2019-02-05 16:40:05,0.001s,NOT_RUN

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_ClickUpdate_Delete" time="64" tests="5" failures="1" errors="0">
+   <testsuite name="TS_ClickUpdate_Delete" tests="5" failures="1" errors="0" time="64" timestamp="2019-02-05 15:33:32" hostname="Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local" id="Test Suites/Event Group Management/TS_ClickUpdate_Delete">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\MOF\\Reports\\Event Group Management\\TS_ClickUpdate_Delete\\20190205_153328"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\MOF\\Reports\\Event Group Management\\TS_ClickUpdate_Delete\\20190205_153328\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.51"/>
+         <property name="sessionId" value="e9d8c0bfda55a6da6516a480606a57f3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2019-02-05 15:33:33 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-02-05 15:33:33 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-02-05 15:33:33 - [MESSAGE][WARNING] - Test object id is null
+
+2019-02-05 15:33:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-05 15:33:34 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-05 15:33:55 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.0.190:8080/mof/#/'
+
+2019-02-05 15:33:55 - [MESSAGE][PASSED] - Text 'AAttia' is set on object 'Object Repository/Login/Username'
+
+2019-02-05 15:33:55 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Login/Password'
+
+2019-02-05 15:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login' is clicked on
+
+2019-02-05 15:33:55 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Select_Screen" classname="Test Cases/Event Group Management/TC_Select_Screen" status="PASSED">
+         <system-out><![CDATA[2019-02-05 15:33:55 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Select_Screen: Test Cases/Event Group Management/TC_Select_Screen
+
+2019-02-05 15:33:56 - [TEST_STEP][PASSED] - click(findTestObject("NE_SideMenu")): Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-02-05 15:33:59 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-02-05 15:33:59 - [TEST_STEP][PASSED] - click(findTestObject("NE_EventGroupManagement")): Object: 'Object Repository/NE_EventGroupManagement' is clicked on
+
+2019-02-05 15:33:59 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_EventGroupManagement' is clicked on
+
+2019-02-05 15:33:59 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-05 15:34:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-05 15:34:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-05 15:34:02 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Update" classname="Test Cases/Event Group Management/TC_Verify_Update" status="PASSED">
+         <system-out><![CDATA[2019-02-05 15:34:02 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Update: Test Cases/Event Group Management/TC_Verify_Update
+
+2019-02-05 15:34:03 - [TEST_STEP][PASSED] - if (ActionType == "Update"): Delayed 2 second(s)
+
+2019-02-05 15:34:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-05 15:34:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-05 15:34:05 - [TEST_STEP][PASSED] - pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "EB1", 0, 3, 1, "yes"): pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun is PASSED
+
+2019-02-05 15:34:12 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-02-05 15:34:16 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-02-05 15:34:16 - [MESSAGE][PASSED] - pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun is PASSED
+
+2019-02-05 15:34:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-05 15:34:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-05 15:34:18 - [TEST_STEP][PASSED] - pk_Functions.CS_VerifyPageData.CheckMatching(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): pk_Functions.CS_VerifyPageData.CheckMatching is PASSED
+
+2019-02-05 15:34:18 - [MESSAGE][PASSED] - Attribute 'ng-reflect-model' of object '' is: 'English Description_1'
+
+2019-02-05 15:34:18 - [MESSAGE][PASSED] - Actual text 'English Description_1' and expected text 'English Description_1' are matched 
+
+2019-02-05 15:34:19 - [MESSAGE][PASSED] - Attribute 'ng-reflect-model' of object '' is: 'English Description_1'
+
+2019-02-05 15:34:19 - [MESSAGE][PASSED] - Actual text 'English Description_1' and expected text 'English Description_1' are matched 
+
+2019-02-05 15:34:19 - [MESSAGE][PASSED] - pk_Functions.CS_VerifyPageData.CheckMatching is PASSED
+
+2019-02-05 15:34:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-05 15:34:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-05 15:34:21 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-05 15:34:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-05 15:34:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-05 15:34:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-05 15:34:23 - [TEST_STEP][NOT_RUN] - getAttribute(findTestObject("Arabic Description"), "ng-reflect-model"): NOT_RUN: getAttribute(findTestObject("Arabic Description"), "ng-reflect-model")
+
+2019-02-05 15:34:23 - [MESSAGE][NOT_RUN] - NOT_RUN: getAttribute(findTestObject("Arabic Description"), "ng-reflect-model")]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Update" classname="Test Cases/Event Group Management/TC_Verify_Update" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Event Group Management/TC_Verify_Update FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text 'English Description_1' and expected text 'English Description_2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'English Description_1' and expected text 'English Description_2' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at pk_Functions.CS_VerifyPageData.CheckMatching(CS_VerifyPageData.groovy:40)
+	at pk_Functions.CS_VerifyPageData.invokeMethod(CS_VerifyPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Update.run(TC_Verify_Update:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549373608404.run(TempTestSuite1549373608404.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-05 15:34:23 - [TEST_CASE][FAILED] - Test Cases/Event Group Management/TC_Verify_Update: Test Cases/Event Group Management/TC_Verify_Update FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text 'English Description_1' and expected text 'English Description_2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'English Description_1' and expected text 'English Description_2' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at pk_Functions.CS_VerifyPageData.CheckMatching(CS_VerifyPageData.groovy:40)
+	at pk_Functions.CS_VerifyPageData.invokeMethod(CS_VerifyPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Update.run(TC_Verify_Update:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549373608404.run(TempTestSuite1549373608404.groovy:36)
+
+
+2019-02-05 15:34:23 - [TEST_STEP][FAILED] - if (ActionType == "Update"): if (ActionType == "Update") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text 'English Description_1' and expected text 'English Description_2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'English Description_1' and expected text 'English Description_2' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at pk_Functions.CS_VerifyPageData.CheckMatching(CS_VerifyPageData.groovy:40)
+	at pk_Functions.CS_VerifyPageData.invokeMethod(CS_VerifyPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Update.run(TC_Verify_Update:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549373608404.run(TempTestSuite1549373608404.groovy:36)
+
+
+2019-02-05 15:34:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-05 15:34:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-05 15:34:25 - [TEST_STEP][PASSED] - pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", "EB1", 0, 3, 1, "yes"): pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun is PASSED
+
+2019-02-05 15:34:30 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-02-05 15:34:34 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-02-05 15:34:34 - [MESSAGE][PASSED] - pk_Functions.CS_SelectRecordFromWebtable_IPO.SelectRecordFromWebtableFun is PASSED
+
+2019-02-05 15:34:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-05 15:34:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-05 15:34:36 - [TEST_STEP][FAILED] - pk_Functions.CS_VerifyPageData.CheckMatching(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): if (ActionType == "Update") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text 'English Description_1' and expected text 'English Description_2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'English Description_1' and expected text 'English Description_2' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at pk_Functions.CS_VerifyPageData.CheckMatching(CS_VerifyPageData.groovy:40)
+	at pk_Functions.CS_VerifyPageData.invokeMethod(CS_VerifyPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Update.run(TC_Verify_Update:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549373608404.run(TempTestSuite1549373608404.groovy:36)
+
+
+2019-02-05 15:34:36 - [MESSAGE][PASSED] - Attribute 'ng-reflect-model' of object '' is: 'English Description_1'
+
+2019-02-05 15:34:36 - [MESSAGE][FAILED] - Unable to verify match between actual text 'English Description_1' and expected text 'English Description_2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'English Description_1' and expected text 'English Description_2' are not matched)
+
+2019-02-05 15:34:36 - [MESSAGE][FAILED] - Unable to verify match between actual text 'English Description_1' and expected text 'English Description_2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'English Description_1' and expected text 'English Description_2' are not matched)
+
+2019-02-05 15:34:36 - [MESSAGE][FAILED] - if (ActionType == "Update") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text 'English Description_1' and expected text 'English Description_2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'English Description_1' and expected text 'English Description_2' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at pk_Functions.CS_VerifyPageData.CheckMatching(CS_VerifyPageData.groovy:40)
+	at pk_Functions.CS_VerifyPageData.invokeMethod(CS_VerifyPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Update.run(TC_Verify_Update:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549373608404.run(TempTestSuite1549373608404.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-05 15:34:23 - [TEST_CASE][FAILED] - Test Cases/Event Group Management/TC_Verify_Update: Test Cases/Event Group Management/TC_Verify_Update FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text 'English Description_1' and expected text 'English Description_2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'English Description_1' and expected text 'English Description_2' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at pk_Functions.CS_VerifyPageData.CheckMatching(CS_VerifyPageData.groovy:40)
+	at pk_Functions.CS_VerifyPageData.invokeMethod(CS_VerifyPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Update.run(TC_Verify_Update:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549373608404.run(TempTestSuite1549373608404.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Update" classname="Test Cases/Event Group Management/TC_Verify_Update" status="PASSED">
+         <system-out><![CDATA[2019-02-05 15:34:36 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Update: Test Cases/Event Group Management/TC_Verify_Update
+
+2019-02-05 15:34:36 - [TEST_STEP][PASSED] - if (ActionType == "Update"): null
+
+2019-02-05 15:34:36 - [TEST_STEP][NOT_RUN] - getAttribute(findTestObject("Arabic Description"), "ng-reflect-model"): NOT_RUN: getAttribute(findTestObject("Arabic Description"), "ng-reflect-model")
+
+2019-02-05 15:34:36 - [MESSAGE][NOT_RUN] - NOT_RUN: getAttribute(findTestObject("Arabic Description"), "ng-reflect-model")]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Update" classname="Test Cases/Event Group Management/TC_Verify_Update" status="PASSED">
+         <system-out><![CDATA[2019-02-05 15:34:36 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Update: Test Cases/Event Group Management/TC_Verify_Update
+
+2019-02-05 15:34:36 - [TEST_STEP][PASSED] - if (ActionType == "Update"): null
+
+2019-02-05 15:34:36 - [TEST_STEP][NOT_RUN] - getAttribute(findTestObject("Arabic Description"), "ng-reflect-model"): NOT_RUN: getAttribute(findTestObject("Arabic Description"), "ng-reflect-model")
+
+2019-02-05 15:34:36 - [MESSAGE][NOT_RUN] - NOT_RUN: getAttribute(findTestObject("Arabic Description"), "ng-reflect-model")]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-05 15:33:32 - [TEST_SUITE][FAILED] - TS_ClickUpdate_Delete: Test Cases/Event Group Management/TC_Verify_Update FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text 'English Description_1' and expected text 'English Description_2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'English Description_1' and expected text 'English Description_2' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at pk_Functions.CS_VerifyPageData.CheckMatching(CS_VerifyPageData.groovy:40)
+	at pk_Functions.CS_VerifyPageData.invokeMethod(CS_VerifyPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Update.run(TC_Verify_Update:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549373608404.run(TempTestSuite1549373608404.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-05 15:33:32 - [TEST_SUITE][FAILED] - TS_ClickUpdate_Delete: Test Cases/Event Group Management/TC_Verify_Update FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text 'English Description_1' and expected text 'English Description_2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'English Description_1' and expected text 'English Description_2' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at pk_Functions.CS_VerifyPageData.CheckMatching(CS_VerifyPageData.groovy:40)
+	at pk_Functions.CS_VerifyPageData.invokeMethod(CS_VerifyPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Update.run(TC_Verify_Update:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549373608404.run(TempTestSuite1549373608404.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
