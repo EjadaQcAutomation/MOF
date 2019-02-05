@@ -42,3 +42,5 @@ WebUI.delay(1)
 CustomKeywords.'pk_Functions.CS_VerifyPageData.CheckMatching'('Event Group Management/EventManagementGPUpdate_ObjectRepository', 
     'Sheet3', 'Event Group Management/EventManagemntGPUpdate_Data1')
 
+WebUI.acceptAlert()
+
