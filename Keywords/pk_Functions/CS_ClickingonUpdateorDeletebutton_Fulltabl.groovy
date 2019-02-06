@@ -91,15 +91,33 @@ public class CS_ClickingonUpdateorDeletebutton_Fulltabl {
 			Table = ndriver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
 		}
 		//End of table locater____________________
+		
+//		//Looping on excel file of object
+//		for ( rowT = 1;  rowT < dataObject.getRowNumbers()+1;  rowT++) {
+//			valueOfRowT.add(dataObject.getValue(1, rowT))
+//		}
+//		indexT = valueOfRowT.indexOf("NextButton_Pagination");
+//		String  webtableAttribute  = dataObject.getValue(3,indexT+1)
+//		String webtablelocatorValue  = dataObject.getValue(4,indexT+1)
+//		if (webtableAttribute=='xpath'){
+//			Table = ndriver.findElement(By.xpath(webtablelocatorValue))
+//		}
+//		else{
+//			Table = ndriver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
+//		}
+//		//End of table locater____________________
 
 		//Detecting Update or Delete flag in excel file according to actionType variable
 		//Saving Grid rows in list
+		//String ClickableNext = WebUI.getAttribute(nextPage,'tabindex')
 		List<WebElement> Rows = Table.findElements(By.tagName('tr'))
 		WebUI.delay(6)
-		while(WebUI.verifyElementClickable(findTestObject('nextPage'))){
+		
+		while(WebUI.getAttribute(nextPage,'tabindex')=="0"){
+			WebUI.click(nextPage)
 			WebUI.delay(2)
 			Rows.add(Table.findElements(By.tagName('tr')))
-			WebUI.click(nextPage)
+			WebUI.delay(2)
 			println  (Rows.size())
 			WebUI.delay(2)
 
