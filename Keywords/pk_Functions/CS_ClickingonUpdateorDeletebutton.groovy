@@ -97,7 +97,7 @@ public class CS_ClickingonUpdateorDeletebutton {
 		List<WebElement> Rows = Table.findElements(By.tagName('tr'))
 		//println('No. of rows: ' + Rows.size())
 
-		if(actionType=="Update" ||actionType== "DeleteYes" ||actionType== "DeleteNo"){
+		if(actionType=="UpdateYes" ||actionType== "DeleteYes" ||actionType== "DeleteNo"){
 
 			//Loop will execute for all the rows of the table'
 			table: for (int i = 1; i < Rows.size(); i++) {
@@ -110,8 +110,8 @@ public class CS_ClickingonUpdateorDeletebutton {
 					WebUI.delay(4)
 					//Doing action to the selected record according to actionType input
 
-					if (actionType=='Update'){
-						println 'update'
+					if (actionType=='UpdateYes'){
+						println 'UpdateYes'
 
 						//Clicking on Update for the selected record in grid
 						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click() ;
