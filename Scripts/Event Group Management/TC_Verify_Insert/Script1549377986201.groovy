@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Event Group Managemnt/BTN_Search'))
 
 WebUI.delay(4)
 
-CustomKeywords.'pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters'('Search', 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+CustomKeywords.'pk_Functions.CS_WebtableVerification.ValidateSearchParameters'('Search', 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
     'Sheet1', [Code, EnglishDescription, ArabicDescription], 0)
 
 WebUI.delay(2)
