@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_ClickUpdate_Delete,Chrome 72.0.3626.96,,2019-02-12 12:32:53,2019-02-12 12:36:32,3m - 38.683s,ERROR
+,,,,,,
+Test Cases/TC_Login,Chrome 72.0.3626.96,,2019-02-12 12:32:54,2019-02-12 12:33:16,22.934s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 72.0.3626.96,,2019-02-12 12:32:54,2019-02-12 12:33:16,22.223s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Select_Screen,Chrome 72.0.3626.96,,2019-02-12 12:33:16,2019-02-12 12:33:22,5.310s,PASSED
+"click(findTestObject(""NE_SideMenu""))",Chrome 72.0.3626.96,,2019-02-12 12:33:17,2019-02-12 12:33:19,1.720s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 72.0.3626.96,,2019-02-12 12:33:19,2019-02-12 12:33:19,0.162s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.96,,2019-02-12 12:33:19,2019-02-12 12:33:20,0.993s,PASSED
+delay(2),Chrome 72.0.3626.96,,2019-02-12 12:33:20,2019-02-12 12:33:22,2.045s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Click on Search Button,Chrome 72.0.3626.96,,2019-02-12 12:33:22,2019-02-12 12:33:26,3.806s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Clear""))",Chrome 72.0.3626.96,,2019-02-12 12:33:22,2019-02-12 12:33:22,0.348s,PASSED
+delay(2),Chrome 72.0.3626.96,,2019-02-12 12:33:22,2019-02-12 12:33:24,2.002s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.96,,2019-02-12 12:33:24,2019-02-12 12:33:25,0.102s,PASSED
+delay(1),Chrome 72.0.3626.96,,2019-02-12 12:33:25,2019-02-12 12:33:26,1.000s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Update and Delete test,Chrome 72.0.3626.96,,2019-02-12 12:33:26,2019-02-12 12:34:31,1m - 5.077s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 72.0.3626.96,,2019-02-12 12:33:26,2019-02-12 12:33:26,0.004s,NOT_RUN
+delay(1),Chrome 72.0.3626.96,,2019-02-12 12:33:26,2019-02-12 12:33:26,0.002s,NOT_RUN
+"click(findTestObject(""NE_SideMenu""))",Chrome 72.0.3626.96,,2019-02-12 12:33:26,2019-02-12 12:33:26,0.002s,NOT_RUN
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 72.0.3626.96,,2019-02-12 12:33:26,2019-02-12 12:33:26,0.002s,NOT_RUN
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.96,,2019-02-12 12:33:26,2019-02-12 12:33:26,0.002s,NOT_RUN
+delay(2),Chrome 72.0.3626.96,,2019-02-12 12:33:26,2019-02-12 12:33:28,2.003s,PASSED
+"pk_Functions.CS_ClickingonUpdateorDeletebutton_Fulltabl.SelectRecordFromWebtableFun(""UpdateYes"", 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", ""1"")",Chrome 72.0.3626.96,,2019-02-12 12:33:28,2019-02-12 12:34:24,55.944s,PASSED
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.96,,2019-02-12 12:34:24,2019-02-12 12:34:31,6.685s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Update and Delete test,Chrome 72.0.3626.96,,2019-02-12 12:34:31,2019-02-12 12:35:33,1m - 2.346s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 72.0.3626.96,,2019-02-12 12:34:31,2019-02-12 12:34:31,0.002s,NOT_RUN
+delay(1),Chrome 72.0.3626.96,,2019-02-12 12:34:31,2019-02-12 12:34:31,0.001s,NOT_RUN
+"click(findTestObject(""NE_SideMenu""))",Chrome 72.0.3626.96,,2019-02-12 12:34:31,2019-02-12 12:34:31,0.001s,NOT_RUN
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 72.0.3626.96,,2019-02-12 12:34:31,2019-02-12 12:34:31,0.002s,NOT_RUN
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.96,,2019-02-12 12:34:31,2019-02-12 12:34:31,0.001s,NOT_RUN
+delay(2),Chrome 72.0.3626.96,,2019-02-12 12:34:31,2019-02-12 12:34:33,2.002s,PASSED
+"pk_Functions.CS_ClickingonUpdateorDeletebutton_Fulltabl.SelectRecordFromWebtableFun(""UpdateYes"", 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", ""1"")",Chrome 72.0.3626.96,,2019-02-12 12:34:33,2019-02-12 12:35:27,54.235s,PASSED
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.96,,2019-02-12 12:35:27,2019-02-12 12:35:33,6.081s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Update and Delete test,Chrome 72.0.3626.96,,2019-02-12 12:35:33,2019-02-12 12:36:29,56.319s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 72.0.3626.96,,2019-02-12 12:35:33,2019-02-12 12:35:33,0.002s,NOT_RUN
+delay(1),Chrome 72.0.3626.96,,2019-02-12 12:35:33,2019-02-12 12:35:33,0.001s,NOT_RUN
+"click(findTestObject(""NE_SideMenu""))",Chrome 72.0.3626.96,,2019-02-12 12:35:33,2019-02-12 12:35:33,0.001s,NOT_RUN
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 72.0.3626.96,,2019-02-12 12:35:33,2019-02-12 12:35:33,0.000s,NOT_RUN
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.96,,2019-02-12 12:35:33,2019-02-12 12:35:33,0.001s,NOT_RUN
+delay(2),Chrome 72.0.3626.96,,2019-02-12 12:35:33,2019-02-12 12:35:35,2.002s,PASSED
+"pk_Functions.CS_ClickingonUpdateorDeletebutton_Fulltabl.SelectRecordFromWebtableFun(""UpdateYes"", 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", ""1"")",Chrome 72.0.3626.96,,2019-02-12 12:35:35,2019-02-12 12:36:29,54.293s,PASSED
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.96,,2019-02-12 12:36:29,2019-02-12 12:36:29,0.000s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Update and Delete test,Chrome 72.0.3626.96,,2019-02-12 12:36:29,2019-02-12 12:36:32,2.179s,ERROR
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 72.0.3626.96,,2019-02-12 12:36:29,2019-02-12 12:36:29,0.002s,NOT_RUN
+delay(1),Chrome 72.0.3626.96,,2019-02-12 12:36:29,2019-02-12 12:36:29,0.001s,NOT_RUN
+"click(findTestObject(""NE_SideMenu""))",Chrome 72.0.3626.96,,2019-02-12 12:36:29,2019-02-12 12:36:29,0.001s,NOT_RUN
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 72.0.3626.96,,2019-02-12 12:36:29,2019-02-12 12:36:29,0.001s,NOT_RUN
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.96,,2019-02-12 12:36:29,2019-02-12 12:36:29,0.001s,NOT_RUN
+delay(2),Chrome 72.0.3626.96,,2019-02-12 12:36:29,2019-02-12 12:36:31,2.002s,PASSED
+"pk_Functions.CS_ClickingonUpdateorDeletebutton_Fulltabl.SelectRecordFromWebtableFun(""UpdateYes"", 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", ""1"")",Chrome 72.0.3626.96,,2019-02-12 12:36:31,2019-02-12 12:36:32,0.146s,ERROR

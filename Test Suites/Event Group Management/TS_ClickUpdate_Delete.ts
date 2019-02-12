@@ -139,7 +139,7 @@
    <testCaseLink>
       <guid>0dcc863e-e59d-48f5-bc98-bd7ea8795e50</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Click on Search Button</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -147,6 +147,39 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Update and Delete test</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>074f8c8f-9670-419e-812b-9240d8e20e23</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>074f8c8f-9670-419e-812b-9240d8e20e23</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Arabic Description</value>
+         <variableId>ea4f54d6-11c8-4ef8-89c6-b98564f69d7d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>074f8c8f-9670-419e-812b-9240d8e20e23</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>English Description</value>
+         <variableId>259c762e-9797-4c9f-996d-a2ab9ea63c76</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>074f8c8f-9670-419e-812b-9240d8e20e23</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Code</value>
+         <variableId>e0ed2953-9b66-4691-b112-44ba0db27216</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>074f8c8f-9670-419e-812b-9240d8e20e23</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Update</value>
+         <variableId>600d7235-2ecf-4b7b-8939-2b2a3446209a</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>ed271533-7c94-4724-8cf0-a4f0de481baa</guid>
