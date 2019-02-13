@@ -1,7 +1,7 @@
 package pk_Functions
 /* Created By ‘Asmaa El-Sayed and Ebtehal Gamal Yusuf ’
  * Date 13/02/2019
- * Usage:This function is Update or Delete records listed in excel sheet by checking flags
+ * Usage:This function is Update or Delete records listed in excel sheet by checking flags over webtable with multiple pages
  * Input: There are six inputs required for this function 
  1.actionType: Update or Delete
  2.expectedValueColumn: the column where unique id is located in table 
@@ -53,7 +53,7 @@ import login_object.loginObject.*
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import internal.GlobalVariable
-public class CS_ClickingonUpdateorDeletebutton_Fulltabl {
+public class CS_ClickingonUpdateorDeletebuttonwithpagination {
 	TestObject delete
 	int row
 	int fieldNo
@@ -62,12 +62,12 @@ public class CS_ClickingonUpdateorDeletebutton_Fulltabl {
 	int indexT
 	int indexDelete
 	WebElement Table
-	private static TestObject dropdown = null;
-	private static List<WebElement> allItems= null;
-	private static WebElement dropDownList;
 	int PagesCount=0
 	int Matched=0
-	//TestObject button
+	int x
+	int z
+
+
 	@Keyword
 
 	SelectRecordFromWebtableFun (String actionType,int expectedValueColumn, int actionButtonColumn ,String objectfileName,String objectsheetName, String code) {
@@ -97,86 +97,64 @@ public class CS_ClickingonUpdateorDeletebutton_Fulltabl {
 		}
 		//End of table locater____________________
 
-		//Detecting NextPage button and its attribute
+		//Next Page Button Locater Detection
 		int indexNext_Page = valueOfRowT.indexOf("NextPage");
 		println indexNext_Page
 		TestObject NextPage = new TestObject()
 		NextPage.addProperty(dataObject.getValue(3, indexNext_Page+1), ConditionType.EQUALS, dataObject.getValue(4, indexNext_Page+1))
-		println (dataObject.getValue(4, indexNext_Page+1))
 		String NextPageAttribute =  dataObject.getValue(5, indexNext_Page+1)
 		String NextPageAttribute_Value =  dataObject.getValue(6, indexNext_Page+1)
-		//Locating Last Page
-		int indexLast_Page = valueOfRowT.indexOf("LastPage");
-		println indexLast_Page
-		TestObject LastPage = new TestObject()
-		LastPage.addProperty(dataObject.getValue(3, indexLast_Page+1), ConditionType.EQUALS, dataObject.getValue(4, indexLast_Page+1))
-		println (dataObject.getValue(4, indexLast_Page+1))
-		String LastPageAttribute =  dataObject.getValue(5, indexLast_Page+1)
-		String LastPageAttribute_Value =  dataObject.getValue(6, indexLast_Page+1)
-
-		//Detecting PreviousPage button and its attribute
-		int indexPrevious_Page = valueOfRowT.indexOf("PreviousPage");
-		println indexPrevious_Page
-		TestObject PreviousPage = new TestObject()
-		PreviousPage.addProperty(dataObject.getValue(3, indexPrevious_Page+1), ConditionType.EQUALS, dataObject.getValue(4, indexPrevious_Page+1))
-		println (dataObject.getValue(4, indexPrevious_Page+1))
-		dataObject.getValue(3, indexPrevious_Page+1)
-		String PreviousPageAttribute =  dataObject.getValue(5, indexPrevious_Page+1)
-		String PreviousPageAttribute_Value =  dataObject.getValue(6, indexPrevious_Page+1)
-		//WebUI.click(PopUp)
-		//Detecting PreviousPage button and its attribute
+		
+		//First Page Button Locater Detection	
 		int indexFirst_Page = valueOfRowT.indexOf("FirstPage");
 		println indexFirst_Page
 		TestObject FirstPage = new TestObject()
 		FirstPage.addProperty(dataObject.getValue(3, indexFirst_Page+1), ConditionType.EQUALS, dataObject.getValue(4, indexFirst_Page+1))
-		println (dataObject.getValue(4, indexFirst_Page+1))
 		dataObject.getValue(3, indexFirst_Page+1)
-		String FirstPageAttribute =  dataObject.getValue(5, indexFirst_Page+1)
-		String FirstPageAttribute_Value =  dataObject.getValue(6, indexFirst_Page+1)
-		List<WebElement> RowsN = new ArrayList<WebElement>()
-
+		//End of First Page Button Locater Detection
+        
+		//Navigating to First Page
 		WebUI.click(FirstPage)
 		WebUI.delay(2)
-		int x
-		int z
-
+		List<WebElement> RowsN = new ArrayList<WebElement>()
 		if(actionType=="UpdateYes" ||actionType== "DeleteYes" ||actionType== "DeleteNo"){
-			//for (int j = 1; j < 3; j++){
-			//for (int j = 1; j < 3; j++){
-			println "ebtehal1"
+			println "Update 1 "
 			WebUI.delay(2)
+			
+			//Ensuring attribute value
 			println WebUI.getAttribute(NextPage,"tabindex")
+			
+			//Looping over pages 
 			while(WebUI.getAttribute(NextPage,NextPageAttribute)==NextPageAttribute_Value){
 				WebUI.delay(2)
 				PagesCount++
-				println "ebtehal2"
+				println "Update 2"
 				if (PagesCount>1){
 					WebUI.click(NextPage)
-
 				}
 				WebUI.delay(1)
+				
+				//Extracting Rows of each webtable page
 				RowsN = Table.findElements(By.tagName('tr'))
 				WebUI.delay(1)
+				
+				//Looping over each row to get it column data to compare it to expected value
 				table: for (int i = 0; i < RowsN.size(); i++) {
 					x++
-
+					//Extracting data from each row 
 					List<WebElement> Cols = RowsN.get(i).findElements(By.tagName('td'))
-					println  ('Cols1:'+ Cols.size())
 					println  ('Cols1:' + x )
 
 					//Detecting unique id of records that contains Update or Delete
 					if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
-						//WebUI.delay(1)
-						//Doing action to the selected record according to actionType input
-						Matched =1
-						println Matched
+						Matched =1						
+						println "Matched"
+						//Taking action to the selected record according to actionType input
 						if (actionType=='UpdateYes'){
 							println 'UpdateYes' + z++
 							//Clicking on Update for the selected record in grid
 							WebUI.delay(1)
-							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click() ;
-							//WebUI.delay(1)
-
+							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click() ;						
 						}
 						else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
 
@@ -203,6 +181,7 @@ public class CS_ClickingonUpdateorDeletebutton_Fulltabl {
 					}
 
 				}
+				//Breaking pages search when record are matched with desired data 
 				if (Matched ==1){
 					break
 				}

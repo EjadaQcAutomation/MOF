@@ -16,7 +16,7 @@ import internal.GlobalVariable as GlobalVariable
 if (ActionType == 'UpdateYes') {
     WebUI.delay(1)
 
-    CustomKeywords.'pk_Functions.CS_ClickingonUpdateorDeletebutton_Fulltabl.SelectRecordFromWebtableFun'('UpdateYes', 0, 
+    CustomKeywords.'pk_Functions.CS_ClickingonUpdateorDeletebuttonwithpagination.SelectRecordFromWebtableFun'('UpdateYes', 0, 
         3, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 'Sheet1', Code)
 
     WebUI.delay(2)
