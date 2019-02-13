@@ -13,25 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-if (ActionType == 'UpdateYes') {
+if (ActionType == 'ViewYes') {
     WebUI.delay(1)
 
-    CustomKeywords.'pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun'('UpdateYes', 0, 
-        3, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 'Sheet1', Code)
+    CustomKeywords.'pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun'(ActionType, 
+        0, 3, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 'Sheet1', Code)
 
     WebUI.delay(2)
 
-    CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['Arabic Description', 'English Description'], 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+    CustomKeywords.'pk_Functions.CS_VerifyPageData.CheckMatching'(['Arabic Description', 'English Description'], 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
         'Sheet1', [ArabicDescription, EnglishDescription])
 
     WebUI.delay(2)
 
-    WebUI.click(findTestObject('BTN_Save'))
-
-    WebUI.delay(2)
-
     WebUI.click(findTestObject('Event Group Managemnt/BTN_Back (1)'))
-
-    WebUI.delay(1)
 }
 

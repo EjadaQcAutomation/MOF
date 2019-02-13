@@ -1,9 +1,9 @@
 package pk_Functions
 /* Created By ‘Asmaa El-Sayed and Ebtehal Gamal Yusuf ’
- * Date 04/02/2019
- * Usage:This function is Update or Delete records listed in excel sheet by checking flags
+ * Date 13/02/2019
+ * Usage:This function is used Update or Delete or View records listed in excel sheet by checking flags over webtable with multiple pages
  * Input: There are six inputs required for this function 
- 1.actionType: Update or Delete
+ 1.actionType: Update or Delete or View
  2.expectedValueColumn: the column where unique id is located in table 
  3.actionButtonColumn: the column where action button is located in table 
  4.objectfileName: The file name of object repositories
@@ -53,7 +53,7 @@ import login_object.loginObject.*
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import internal.GlobalVariable
-public class CS_ClickingonUpdateorDeletebuttonBU {
+public class CS_ClickingonActionButtonswithPagination {
 	TestObject delete
 	int row
 	int fieldNo
@@ -62,12 +62,12 @@ public class CS_ClickingonUpdateorDeletebuttonBU {
 	int indexT
 	int indexDelete
 	WebElement Table
-	private static TestObject dropdown = null;
-	private static List<WebElement> allItems= null;
-	private static WebElement dropDownList;
 	int PagesCount=0
 	int Matched=0
-	//TestObject button
+	int x
+	int z
+
+
 	@Keyword
 
 	SelectRecordFromWebtableFun (String actionType,int expectedValueColumn, int actionButtonColumn ,String objectfileName,String objectsheetName, String code) {
@@ -97,110 +97,64 @@ public class CS_ClickingonUpdateorDeletebuttonBU {
 		}
 		//End of table locater____________________
 
-		//Detecting NextPage button and its attribute
+		//Next Page Button Locater Detection
 		int indexNext_Page = valueOfRowT.indexOf("NextPage");
 		println indexNext_Page
 		TestObject NextPage = new TestObject()
 		NextPage.addProperty(dataObject.getValue(3, indexNext_Page+1), ConditionType.EQUALS, dataObject.getValue(4, indexNext_Page+1))
-		println (dataObject.getValue(4, indexNext_Page+1))
 		String NextPageAttribute =  dataObject.getValue(5, indexNext_Page+1)
 		String NextPageAttribute_Value =  dataObject.getValue(6, indexNext_Page+1)
-		//Locating Last Page
-		int indexLast_Page = valueOfRowT.indexOf("LastPage");
-		println indexLast_Page
-		TestObject LastPage = new TestObject()
-		LastPage.addProperty(dataObject.getValue(3, indexLast_Page+1), ConditionType.EQUALS, dataObject.getValue(4, indexLast_Page+1))
-		println (dataObject.getValue(4, indexLast_Page+1))
-		String LastPageAttribute =  dataObject.getValue(5, indexLast_Page+1)
-		String LastPageAttribute_Value =  dataObject.getValue(6, indexLast_Page+1)
 
-		//Detecting PreviousPage button and its attribute
-		int indexPrevious_Page = valueOfRowT.indexOf("PreviousPage");
-		println indexPrevious_Page
-		TestObject PreviousPage = new TestObject()
-		PreviousPage.addProperty(dataObject.getValue(3, indexPrevious_Page+1), ConditionType.EQUALS, dataObject.getValue(4, indexPrevious_Page+1))
-		println (dataObject.getValue(4, indexPrevious_Page+1))
-		dataObject.getValue(3, indexPrevious_Page+1)
-		String PreviousPageAttribute =  dataObject.getValue(5, indexPrevious_Page+1)
-		String PreviousPageAttribute_Value =  dataObject.getValue(6, indexPrevious_Page+1)
-		//WebUI.click(PopUp)
-		//Detecting PreviousPage button and its attribute
+		//First Page Button Locater Detection
 		int indexFirst_Page = valueOfRowT.indexOf("FirstPage");
 		println indexFirst_Page
 		TestObject FirstPage = new TestObject()
 		FirstPage.addProperty(dataObject.getValue(3, indexFirst_Page+1), ConditionType.EQUALS, dataObject.getValue(4, indexFirst_Page+1))
-		println (dataObject.getValue(4, indexFirst_Page+1))
-		dataObject.getValue(3, indexFirst_Page+1)
-		String FirstPageAttribute =  dataObject.getValue(5, indexFirst_Page+1)
-		String FirstPageAttribute_Value =  dataObject.getValue(6, indexFirst_Page+1)
+		//End of First Page Button Locater Detection
 
-		//_________
-
-		//Detecting Update or Delete flag in excel file according to actionType variable
-		//Saving Grid rows in list
-		//String ClickableNext = WebUI.getAttribute(nextPage,'tabindex')
-		List<WebElement> Rows = new ArrayList<WebElement>()
-		List<WebElement> RowsN = new ArrayList<WebElement>()
-		PagesCount++
-		Rows = Table.findElements(By.tagName('tr'))
-		println Rows.get(0).getText()
-		//println Rows.get(10).getText()
-		println  ('Rows0:'+ Rows.size())
-		WebUI.delay(6)
-		println WebUI.getAttribute(NextPage,'tabindex')
-		//TestObject LastPage = new TestObject()
-		//LastPage.addProperty("xpath", ConditionType.EQUALS,"//*[@id='app-form']/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[2]/div/app-event-categories-management-list/p-panel/div/div[2]/div[1]/div/div/p-datatable/div/p-paginator/div/a[4]")
-		while(WebUI.getAttribute(NextPage,'tabindex')=="0"){
-			WebUI.delay(5)
-			PagesCount++
-			WebUI.click(NextPage)
-			WebUI.delay(5)
-			//println Rows.get(9).getText()
-			//Rows.addAll(Table.findElements(By.tagName('tr')))
-			println  ('Rows1:'+ Rows.size())
-			WebUI.delay(5)
-		}
-		//		println Rows.get(24).getText()
+		//Navigating to First Page
 		WebUI.click(FirstPage)
-		//println  ('Rows3:'+ Rows.getvalue())
-		//		WebDriver driver = DriverFactory.getWebDriver()
-		//		// Getting all items in list called allItems
-		//		allItems = driver.findElements(By.xpath("//*[@id='app-form']/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[2]/div/app-event-categories-management-list/p-panel/div/div[2]/div[1]/div/div/p-datatable/div/p-paginator/div/span"));
-		//		int Ribbon_Size
-		//		//Get the number of list items in the ribbon and turn it into a List
-		//		Ribbon_Size =allItems.size()
-		//		println  (Ribbon_Size)
-		WebUI.delay(10)
-		int x
-		println  ("PC1" + PagesCount)
-		if(actionType=="UpdateYes" ||actionType== "DeleteYes" ||actionType== "DeleteNo"){
-			for (int j = 1; j < PagesCount+1; j++){
-				WebUI.delay(4)
-				println  ("PC2" + PagesCount)
+		WebUI.delay(2)
+		List<WebElement> RowsN = new ArrayList<WebElement>()
+		if(actionType=="UpdateYes" ||actionType== "DeleteYes" ||actionType== "DeleteNo" || actionType== "ViewYes" ){
+			println "Update 1 "
+			WebUI.delay(2)
+
+			//Ensuring attribute value
+			println WebUI.getAttribute(NextPage,"tabindex")
+
+			//Looping over pages
+			while(WebUI.getAttribute(NextPage,NextPageAttribute)==NextPageAttribute_Value){
+				WebUI.delay(2)
+				PagesCount++
+				println "Update 2"
+				if (PagesCount>1){
+					WebUI.click(NextPage)
+				}
+				WebUI.delay(1)
+
+				//Extracting Rows of each webtable page
 				RowsN = Table.findElements(By.tagName('tr'))
-				table: for (int i = 0; i < Rows.size(); i++) {
-					WebUI.delay(5)
+				WebUI.delay(1)
+
+				//Looping over each row to get it column data to compare it to expected value
+				table: for (int i = 0; i < RowsN.size(); i++) {
 					x++
-					//println  ('Rowsc:'+ Rows.size())
-					WebUI.delay(5)
+					//Extracting data from each row
+					WebUI.delay(1)
 					List<WebElement> Cols = RowsN.get(i).findElements(By.tagName('td'))
-					//println  ('Cols1:'+ Cols.size())
 					println  ('Cols1:' + x )
-					println Cols.get(3).getText()
 
 					//Detecting unique id of records that contains Update or Delete
 					if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
-						WebUI.delay(4)
-						//Doing action to the selected record according to actionType input
 						Matched =1
-						println Matched
+						println "Matched"
+						//Taking action to the selected record according to actionType input
 						if (actionType=='UpdateYes'){
-							println 'UpdateYes'
-
+							println 'UpdateYes' + z++
 							//Clicking on Update for the selected record in grid
+							WebUI.delay(1)
 							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click() ;
-							WebUI.delay(4)
-
 						}
 						else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
 
@@ -216,27 +170,32 @@ public class CS_ClickingonUpdateorDeletebuttonBU {
 							println (dataObject.getValue(4, indexPopUp+1))
 							delete = new TestObject()
 							delete.addProperty(dataObject.getValue(3, indexDelete+1), ConditionType.EQUALS, dataObject.getValue(4, indexDelete+1))
-							WebUI.delay(2)
+							WebUI.delay(1)
 							WebUI.click(PopUp)
-							WebUI.delay(3)
+							WebUI.delay(1)
 							println " delete"
 							//Click on No or Yes in deletion alert
 							WebUI.click(delete)
+						}
+
+						else if (actionType=='ViewYes'){
+							WebUI.delay(1)
+							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[1]')).click() ;
 						}
 						break
 					}
 
 				}
+				//Breaking pages search when record are matched with desired data
 				if (Matched ==1){
 					break
 				}
-				else{
-					WebUI.click(NextPage)
-					WebUI.delay(3)
-				}
 
+				WebUI.delay(1)
 			}
 		}
+		WebUI.delay(1)
+
 	}
 }
 
