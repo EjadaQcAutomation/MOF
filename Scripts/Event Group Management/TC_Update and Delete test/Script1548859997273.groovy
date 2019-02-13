@@ -13,10 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(1)
-
 if (ActionType == 'UpdateYes') {
-    WebUI.delay(2)
+    WebUI.delay(1)
 
     CustomKeywords.'pk_Functions.CS_ClickingonUpdateorDeletebutton_Fulltabl.SelectRecordFromWebtableFun'('UpdateYes', 0, 
         3, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 'Sheet1', Code)

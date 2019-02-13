@@ -1,6 +1,6 @@
 package pk_Functions
 /* Created By ‘Asmaa El-Sayed and Ebtehal Gamal Yusuf ’
- * Date 04/02/2019
+ * Date 13/02/2019
  * Usage:This function is Update or Delete records listed in excel sheet by checking flags
  * Input: There are six inputs required for this function 
  1.actionType: Update or Delete
@@ -133,56 +133,33 @@ public class CS_ClickingonUpdateorDeletebutton_Fulltabl {
 		dataObject.getValue(3, indexFirst_Page+1)
 		String FirstPageAttribute =  dataObject.getValue(5, indexFirst_Page+1)
 		String FirstPageAttribute_Value =  dataObject.getValue(6, indexFirst_Page+1)
-
-		//_________
-
-		//Detecting Update or Delete flag in excel file according to actionType variable
-		//Saving Grid rows in list
-		//String ClickableNext = WebUI.getAttribute(nextPage,'tabindex')
-//		List<WebElement> Rows = new ArrayList<WebElement>()
 		List<WebElement> RowsN = new ArrayList<WebElement>()
-//		PagesCount++
-//		Rows = Table.findElements(By.tagName('tr'))
-//		println Rows.get(0).getText()
-		//println Rows.get(10).getText()
-//		println  ('Rows0:'+ Rows.size())
-//		WebUI.delay(6)
-		//println WebUI.getAttribute(NextPage,'tabindex')
-		//TestObject LastPage = new TestObject()
-		//LastPage.addProperty("xpath", ConditionType.EQUALS,"//*[@id='app-form']/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[2]/div/app-event-categories-management-list/p-panel/div/div[2]/div[1]/div/div/p-datatable/div/p-paginator/div/a[4]")
-//		while(WebUI.getAttribute(NextPage,'tabindex')=="0"){
-//			WebUI.delay(5)
-//			PagesCount++
-//			WebUI.click(NextPage)
-//			WebUI.delay(5)
-//
-//		}
-		//		println Rows.get(24).getText()
-	WebUI.click(FirstPage)
-		WebUI.delay(5)
+
+		WebUI.click(FirstPage)
+		WebUI.delay(2)
 		int x
 		int z
-		//println  ("PC1" + PagesCount)
+
 		if(actionType=="UpdateYes" ||actionType== "DeleteYes" ||actionType== "DeleteNo"){
 			//for (int j = 1; j < 3; j++){
-				//for (int j = 1; j < 3; j++){
+			//for (int j = 1; j < 3; j++){
 			println "ebtehal1"
 			WebUI.delay(2)
 			println WebUI.getAttribute(NextPage,"tabindex")
-			while(WebUI.getAttribute(NextPage,"tabindex")=="0"){
+			while(WebUI.getAttribute(NextPage,NextPageAttribute)==NextPageAttribute_Value){
 				WebUI.delay(2)
 				PagesCount++
 				println "ebtehal2"
 				if (PagesCount>1){
 					WebUI.click(NextPage)
-					WebUI.delay(5)
+
 				}
-				WebUI.delay(4)
+				WebUI.delay(1)
 				RowsN = Table.findElements(By.tagName('tr'))
-				WebUI.delay(4)
+				WebUI.delay(1)
 				table: for (int i = 0; i < RowsN.size(); i++) {
-				x++
-				//WebUI.delay(2)
+					x++
+
 					List<WebElement> Cols = RowsN.get(i).findElements(By.tagName('td'))
 					println  ('Cols1:'+ Cols.size())
 					println  ('Cols1:' + x )
@@ -196,9 +173,9 @@ public class CS_ClickingonUpdateorDeletebutton_Fulltabl {
 						if (actionType=='UpdateYes'){
 							println 'UpdateYes' + z++
 							//Clicking on Update for the selected record in grid
-							WebUI.delay(5)
+							WebUI.delay(1)
 							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click() ;
-							WebUI.delay(5)
+							//WebUI.delay(1)
 
 						}
 						else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
@@ -229,20 +206,12 @@ public class CS_ClickingonUpdateorDeletebutton_Fulltabl {
 				if (Matched ==1){
 					break
 				}
-				
-				//if(WebUI.getAttribute(NextPage,'tabindex')=="0"){
-					//WebUI.click(NextPage)
-					WebUI.delay(5)
-				//}
-				//else {
-					//break
-				//}
 
-
+				WebUI.delay(1)
 			}
 		}
-		WebUI.delay(2)
-		//WebUI.click(FirstPage)
+		WebUI.delay(1)
+		
 	}
 }
 
