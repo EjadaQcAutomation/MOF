@@ -50,7 +50,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 public class CS_SelectRecordFromWebtable_IPO {
 
 	@Keyword
-	SelectRecordFromWebtableFun (String fileName ,String sheetName , String expectedValue , int expectedValueColumn , int actionButtonColumn , int actionbutton , String action ) {
+	SelectRecordFromWebtableFun (String fileName ,String sheetName , String expectedValue , int expectedValueColumn , int actionButtonColumn , int actionbutton  ) {
 		WebElement Table
 		WebDriver ndriver = DriverFactory.getWebDriver()
 		List<String> valueOfRow = new ArrayList<String>()
@@ -95,7 +95,7 @@ public class CS_SelectRecordFromWebtable_IPO {
 
 			// for (int j = 0; j < Cols.size(); j++) {
 			//Verifying the expected text in the each cell in specified column
-			if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(expectedValue) && action== "yes") {
+			if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(expectedValue) ) {
 
 				//2To locate anchor in the expected value matched row to perform action'
 				//Cols.get(4).findElement(By.tagName('a')).click()

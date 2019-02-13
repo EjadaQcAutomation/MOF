@@ -2,7 +2,7 @@ package pk_Functions
 /* Created By ‘Ebtehal Gamal Yusuf and Asmaa El-Sayed’
  * Date 13/01/2019
  * Usage:This Function is used to compare record in grid with expected result it can be used to validate that search parameters filters data 
- * Input:There are four inputs required for this function (Webtable id ,List of Expected Values and First Expected Value locator) 
+ * Input:There are four inputs required for this function (String actionType, String fileName ,String sheetName , List expectedValues = [], int uniqueColumn) 
  * Output:Ensure that record is matched with expected record or not 
  */
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint

@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_ClickUpdate_Delete,Chrome 71.0.3578.98,,2019-02-12 13:59:36,2019-02-12 14:01:10,1m - 34.421s,ERROR
+,,,,,,
+Test Cases/TC_Login,Chrome 71.0.3578.98,,2019-02-12 13:59:36,2019-02-12 13:59:51,15.028s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 71.0.3578.98,,2019-02-12 13:59:36,2019-02-12 13:59:51,14.602s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Select_Screen,Chrome 71.0.3578.98,,2019-02-12 13:59:51,2019-02-12 13:59:57,6.248s,PASSED
+"click(findTestObject(""NE_SideMenu""))",Chrome 71.0.3578.98,,2019-02-12 13:59:51,2019-02-12 13:59:54,3.220s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 71.0.3578.98,,2019-02-12 13:59:54,2019-02-12 13:59:55,0.088s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 71.0.3578.98,,2019-02-12 13:59:55,2019-02-12 13:59:55,0.621s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-12 13:59:55,2019-02-12 13:59:57,2.034s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Insert_Records,Chrome 71.0.3578.98,,2019-02-12 13:59:57,2019-02-12 14:00:08,11.131s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Insert""))",Chrome 71.0.3578.98,,2019-02-12 13:59:57,2019-02-12 13:59:58,0.115s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code, arabic_des, english_des])",Chrome 71.0.3578.98,,2019-02-12 13:59:58,2019-02-12 14:00:02,4.545s,PASSED
+"click(findTestObject(""BTN_Save""))",Chrome 71.0.3578.98,,2019-02-12 14:00:02,2019-02-12 14:00:02,0.077s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-02-12 14:00:02,2019-02-12 14:00:05,3.004s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Back (1)""))",Chrome 71.0.3578.98,,2019-02-12 14:00:05,2019-02-12 14:00:05,0.140s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-02-12 14:00:05,2019-02-12 14:00:08,3.002s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Insert_Records,Chrome 71.0.3578.98,,2019-02-12 14:00:08,2019-02-12 14:00:18,9.977s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Insert""))",Chrome 71.0.3578.98,,2019-02-12 14:00:08,2019-02-12 14:00:09,0.121s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code, arabic_des, english_des])",Chrome 71.0.3578.98,,2019-02-12 14:00:09,2019-02-12 14:00:12,3.608s,PASSED
+"click(findTestObject(""BTN_Save""))",Chrome 71.0.3578.98,,2019-02-12 14:00:12,2019-02-12 14:00:12,0.076s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-02-12 14:00:12,2019-02-12 14:00:15,3.003s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Back (1)""))",Chrome 71.0.3578.98,,2019-02-12 14:00:15,2019-02-12 14:00:15,0.137s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-02-12 14:00:15,2019-02-12 14:00:18,3.003s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Insert_Records,Chrome 71.0.3578.98,,2019-02-12 14:00:18,2019-02-12 14:00:29,10.214s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Insert""))",Chrome 71.0.3578.98,,2019-02-12 14:00:18,2019-02-12 14:00:18,0.118s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code, arabic_des, english_des])",Chrome 71.0.3578.98,,2019-02-12 14:00:18,2019-02-12 14:00:22,3.611s,PASSED
+"click(findTestObject(""BTN_Save""))",Chrome 71.0.3578.98,,2019-02-12 14:00:22,2019-02-12 14:00:22,0.068s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-02-12 14:00:22,2019-02-12 14:00:25,3.002s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Back (1)""))",Chrome 71.0.3578.98,,2019-02-12 14:00:25,2019-02-12 14:00:26,0.389s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-02-12 14:00:26,2019-02-12 14:00:29,3.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Insert_Records,Chrome 71.0.3578.98,,2019-02-12 14:00:29,2019-02-12 14:00:40,11.466s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Insert""))",Chrome 71.0.3578.98,,2019-02-12 14:00:29,2019-02-12 14:00:29,0.125s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code, arabic_des, english_des])",Chrome 71.0.3578.98,,2019-02-12 14:00:29,2019-02-12 14:00:32,3.592s,PASSED
+"click(findTestObject(""BTN_Save""))",Chrome 71.0.3578.98,,2019-02-12 14:00:32,2019-02-12 14:00:32,0.115s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-02-12 14:00:32,2019-02-12 14:00:35,3.002s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Back (1)""))",Chrome 71.0.3578.98,,2019-02-12 14:00:35,2019-02-12 14:00:36,0.147s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-02-12 14:00:36,2019-02-12 14:00:40,4.465s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Delete,Chrome 71.0.3578.98,,2019-02-12 14:00:40,2019-02-12 14:00:53,12.821s,PASSED
+"pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(delete, 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", code)",Chrome 71.0.3578.98,,2019-02-12 14:00:40,2019-02-12 14:00:50,9.591s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-02-12 14:00:50,2019-02-12 14:00:53,3.003s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Delete,Chrome 71.0.3578.98,,2019-02-12 14:00:53,2019-02-12 14:00:56,3.370s,PASSED
+"pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(delete, 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", code)",Chrome 71.0.3578.98,,2019-02-12 14:00:53,2019-02-12 14:00:53,0.365s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-02-12 14:00:53,2019-02-12 14:00:56,3.003s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Delete,Chrome 71.0.3578.98,,2019-02-12 14:00:56,2019-02-12 14:01:00,3.330s,PASSED
+"pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(delete, 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", code)",Chrome 71.0.3578.98,,2019-02-12 14:00:56,2019-02-12 14:00:57,0.311s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-02-12 14:00:57,2019-02-12 14:01:00,3.002s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Delete,Chrome 71.0.3578.98,,2019-02-12 14:01:00,2019-02-12 14:01:03,3.122s,PASSED
+"pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun(delete, 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", code)",Chrome 71.0.3578.98,,2019-02-12 14:01:00,2019-02-12 14:01:00,0.105s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-02-12 14:01:00,2019-02-12 14:01:03,3.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 71.0.3578.98,,2019-02-12 14:01:03,2019-02-12 14:01:05,2.348s,PASSED
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 71.0.3578.98,,2019-02-12 14:01:03,2019-02-12 14:01:03,0.163s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-12 14:01:03,2019-02-12 14:01:05,2.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 71.0.3578.98,,2019-02-12 14:01:05,2019-02-12 14:01:07,2.322s,PASSED
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 71.0.3578.98,,2019-02-12 14:01:05,2019-02-12 14:01:05,0.319s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-12 14:01:05,2019-02-12 14:01:07,2.003s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 71.0.3578.98,,2019-02-12 14:01:07,2019-02-12 14:01:10,2.314s,PASSED
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 71.0.3578.98,,2019-02-12 14:01:07,2019-02-12 14:01:08,0.293s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-12 14:01:08,2019-02-12 14:01:10,2.000s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 71.0.3578.98,,2019-02-12 14:01:10,2019-02-12 14:01:10,0.355s,ERROR
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 71.0.3578.98,,2019-02-12 14:01:10,2019-02-12 14:01:10,0.352s,ERROR

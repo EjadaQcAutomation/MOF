@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;app-form&quot;]/div/app-body//app-event-categories-management-layout//app-event-categories-management-list/p-panel//p-datatable//p-header//button/span[2]</value>
+         <value>//*[@id=&quot;app-form&quot;]/div/app-body//app-event-categories-management-layout//app-event-categories-management-list/p-panel//p-datatable//p-header//button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;app-form&quot;]/div/app-body//app-event-categories-management-layout//app-event-categories-management-list/p-panel//p-datatable//p-header//button/span[2]</value>
+      <value>//*[@id=&quot;app-form&quot;]/div/app-body//app-event-categories-management-layout//app-event-categories-management-list/p-panel//p-datatable//p-header//button</value>
    </webElementProperties>
 </WebElementEntity>

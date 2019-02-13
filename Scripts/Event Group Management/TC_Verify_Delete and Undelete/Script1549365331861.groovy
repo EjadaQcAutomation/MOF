@@ -13,10 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'pk_Functions.CS_WebtableVerification.ValidateSearchParameters'(check_Delete, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
-    'Sheet1', [code], 0)
+if (check_Delete) {
+    CustomKeywords.'pk_Functions.CS_WebtableVerification.ValidateSearchParameters'(check_Delete, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+        'Sheet1', [code], 0)
+}
 
 WebUI.delay(2)
-
-WebUI.getAttribute(findTestObject(null), 'xzzx', FailureHandling.STOP_ON_FAILURE)
 

@@ -136,7 +136,6 @@ public class CS_ClickingonUpdateorDeletebutton {
 						WebUI.click(PopUp)
 						WebUI.delay(3)
 
-						println " delete"
 						//Click on No or Yes in deletion alert
 						WebUI.click(delete)
 					}
