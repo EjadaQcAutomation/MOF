@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_ClickUpdate_Delete,Chrome 72.0.3626.96,,2019-02-12 16:42:12,2019-02-12 16:43:46,1m - 33.577s,FAILED
+,,,,,,
+Test Cases/TC_Login,Chrome 72.0.3626.96,,2019-02-12 16:42:13,2019-02-12 16:42:34,20.631s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 72.0.3626.96,,2019-02-12 16:42:14,2019-02-12 16:42:34,20.039s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Select_Screen,Chrome 72.0.3626.96,,2019-02-12 16:42:34,2019-02-12 16:42:39,5.021s,PASSED
+"click(findTestObject(""NE_SideMenu""))",Chrome 72.0.3626.96,,2019-02-12 16:42:34,2019-02-12 16:42:36,1.641s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 72.0.3626.96,,2019-02-12 16:42:36,2019-02-12 16:42:36,0.124s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.96,,2019-02-12 16:42:36,2019-02-12 16:42:37,0.743s,PASSED
+delay(2),Chrome 72.0.3626.96,,2019-02-12 16:42:37,2019-02-12 16:42:39,2.063s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Click on Search Button,Chrome 72.0.3626.96,,2019-02-12 16:42:39,2019-02-12 16:42:42,3.434s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Clear""))",Chrome 72.0.3626.96,,2019-02-12 16:42:39,2019-02-12 16:42:39,0.129s,PASSED
+delay(2),Chrome 72.0.3626.96,,2019-02-12 16:42:39,2019-02-12 16:42:41,2.002s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.96,,2019-02-12 16:42:41,2019-02-12 16:42:41,0.074s,PASSED
+delay(1),Chrome 72.0.3626.96,,2019-02-12 16:42:41,2019-02-12 16:42:42,1.016s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Update and Delete test,Chrome 72.0.3626.96,,2019-02-12 16:42:42,2019-02-12 16:43:39,56.490s,FAILED
+delay(2),Chrome 72.0.3626.96,,2019-02-12 16:42:43,2019-02-12 16:42:45,1.992s,PASSED
+"pk_Functions.CS_ClickingonUpdateorDeletebutton_Fulltabl.SelectRecordFromWebtableFun(""UpdateYes"", 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", Code)",Chrome 72.0.3626.96,,2019-02-12 16:42:45,2019-02-12 16:43:39,54.182s,FAILED
+,,,,,,
+Test Cases/Event Group Management/TC_Update and Delete test,Chrome 72.0.3626.96,,2019-02-12 16:43:39,2019-02-12 16:43:41,2.404s,ERROR
+delay(2),Chrome 72.0.3626.96,,2019-02-12 16:43:39,2019-02-12 16:43:41,2.002s,PASSED
+"pk_Functions.CS_ClickingonUpdateorDeletebutton_Fulltabl.SelectRecordFromWebtableFun(""UpdateYes"", 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", Code)",Chrome 72.0.3626.96,,2019-02-12 16:43:41,2019-02-12 16:43:41,0.358s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Update and Delete test,Chrome 72.0.3626.96,,2019-02-12 16:43:41,2019-02-12 16:43:44,2.126s,ERROR
+delay(2),Chrome 72.0.3626.96,,2019-02-12 16:43:41,2019-02-12 16:43:43,1.982s,PASSED
+"pk_Functions.CS_ClickingonUpdateorDeletebutton_Fulltabl.SelectRecordFromWebtableFun(""UpdateYes"", 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", Code)",Chrome 72.0.3626.96,,2019-02-12 16:43:43,2019-02-12 16:43:44,0.113s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Update and Delete test,Chrome 72.0.3626.96,,2019-02-12 16:43:44,2019-02-12 16:43:46,2.090s,ERROR
+delay(2),Chrome 72.0.3626.96,,2019-02-12 16:43:44,2019-02-12 16:43:46,1.983s,PASSED
+"pk_Functions.CS_ClickingonUpdateorDeletebutton_Fulltabl.SelectRecordFromWebtableFun(""UpdateYes"", 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", Code)",Chrome 72.0.3626.96,,2019-02-12 16:43:46,2019-02-12 16:43:46,0.086s,ERROR
