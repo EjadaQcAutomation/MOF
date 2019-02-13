@@ -66,6 +66,7 @@ public class CS_ClickingonUpdateorDeletebutton_Fulltabl {
 	private static List<WebElement> allItems= null;
 	private static WebElement dropDownList;
 	int PagesCount=0
+	int Matched=0
 	//TestObject button
 	@Keyword
 
@@ -185,51 +186,55 @@ public class CS_ClickingonUpdateorDeletebutton_Fulltabl {
 					List<WebElement> Cols = RowsN.get(i).findElements(By.tagName('td'))
 					//println  ('Cols1:'+ Cols.size())
 					println  ('Cols1:' + x )
-
-
-					//println Cols.get(11).getText()
+					println Cols.get(3).getText()
 
 					//Detecting unique id of records that contains Update or Delete
-					//						if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
-					//							WebUI.delay(4)
-					//							//Doing action to the selected record according to actionType input
-					//
-					//							if (actionType=='UpdateYes'){
-					//								println 'UpdateYes'
-					//
-					//								//Clicking on Update for the selected record in grid
-					//								Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click() ;
-					//								WebUI.delay(4)
-					//
-					//							}
-					//							else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
-					//
-					//								//Clicking on Delete for the selected record in grid
-					//								Cols.get(actionButtonColumn).findElement(By.xpath('span/button[3]')).click() ;
-					//
-					//								//Locating Delete No or Delete Yes button according to actionType variable
-					//								indexDelete = valueOfRowT.indexOf(actionType);
-					//								int indexPopUp = valueOfRowT.indexOf("pop_up");
-					//								println indexPopUp
-					//								TestObject PopUp = new TestObject()
-					//								PopUp.addProperty(dataObject.getValue(3, indexPopUp+1), ConditionType.EQUALS, dataObject.getValue(4, indexPopUp+1))
-					//								println (dataObject.getValue(4, indexPopUp+1))
-					//								delete = new TestObject()
-					//								delete.addProperty(dataObject.getValue(3, indexDelete+1), ConditionType.EQUALS, dataObject.getValue(4, indexDelete+1))
-					//								WebUI.delay(2)
-					//								WebUI.click(PopUp)
-					//								WebUI.delay(3)
-					//
-					//								println " delete"
-					//								//Click on No or Yes in deletion alert
-					//								WebUI.click(delete)
-					//							}
-					//							break
-					//						}
+					if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
+						WebUI.delay(4)
+						//Doing action to the selected record according to actionType input
+						Matched =1
+						println Matched
+						if (actionType=='UpdateYes'){
+							println 'UpdateYes'
+
+							//Clicking on Update for the selected record in grid
+							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click() ;
+							WebUI.delay(4)
+
+						}
+						else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
+
+							//Clicking on Delete for the selected record in grid
+							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[3]')).click() ;
+
+							//Locating Delete No or Delete Yes button according to actionType variable
+							indexDelete = valueOfRowT.indexOf(actionType);
+							int indexPopUp = valueOfRowT.indexOf("pop_up");
+							println indexPopUp
+							TestObject PopUp = new TestObject()
+							PopUp.addProperty(dataObject.getValue(3, indexPopUp+1), ConditionType.EQUALS, dataObject.getValue(4, indexPopUp+1))
+							println (dataObject.getValue(4, indexPopUp+1))
+							delete = new TestObject()
+							delete.addProperty(dataObject.getValue(3, indexDelete+1), ConditionType.EQUALS, dataObject.getValue(4, indexDelete+1))
+							WebUI.delay(2)
+							WebUI.click(PopUp)
+							WebUI.delay(3)
+							println " delete"
+							//Click on No or Yes in deletion alert
+							WebUI.click(delete)
+						}
+						break
+					}
+
+				}
+				if (Matched ==1){
+					break
+				}
+				else{
+					WebUI.click(NextPage)
+					WebUI.delay(3)
 				}
 
-				WebUI.click(NextPage)
-				WebUI.delay(3)
 			}
 		}
 	}

@@ -30,5 +30,29 @@
          </iterationEntity>
          <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
       </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ea4f54d6-11c8-4ef8-89c6-b98564f69d7d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>259c762e-9797-4c9f-996d-a2ab9ea63c76</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e0ed2953-9b66-4691-b112-44ba0db27216</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>600d7235-2ecf-4b7b-8939-2b2a3446209a</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
