@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_ClickUpdate_Delete,Chrome 72.0.3626.96,,2019-02-13 10:00:45,2019-02-13 10:02:28,1m - 43.445s,PASSED
+,,,,,,
+Test Cases/TC_Login,Chrome 72.0.3626.96,,2019-02-13 10:00:45,2019-02-13 10:01:09,23.060s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 72.0.3626.96,,2019-02-13 10:00:46,2019-02-13 10:01:09,22.317s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Select_Screen,Chrome 72.0.3626.96,,2019-02-13 10:01:09,2019-02-13 10:01:13,4.400s,PASSED
+"click(findTestObject(""NE_SideMenu""))",Chrome 72.0.3626.96,,2019-02-13 10:01:09,2019-02-13 10:01:10,1.200s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 72.0.3626.96,,2019-02-13 10:01:10,2019-02-13 10:01:10,0.104s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.96,,2019-02-13 10:01:10,2019-02-13 10:01:11,0.681s,PASSED
+delay(2),Chrome 72.0.3626.96,,2019-02-13 10:01:11,2019-02-13 10:01:13,2.054s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Click on Search Button,Chrome 72.0.3626.96,,2019-02-13 10:01:13,2019-02-13 10:01:16,3.540s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Clear""))",Chrome 72.0.3626.96,,2019-02-13 10:01:13,2019-02-13 10:01:13,0.118s,PASSED
+delay(2),Chrome 72.0.3626.96,,2019-02-13 10:01:13,2019-02-13 10:01:15,2.036s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.96,,2019-02-13 10:01:15,2019-02-13 10:01:15,0.130s,PASSED
+delay(1),Chrome 72.0.3626.96,,2019-02-13 10:01:15,2019-02-13 10:01:16,1.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Update and Delete test,Chrome 72.0.3626.96,,2019-02-13 10:01:16,2019-02-13 10:01:53,36.763s,PASSED
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.96,,2019-02-13 10:01:17,2019-02-13 10:01:53,36.369s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Update and Delete test,Chrome 72.0.3626.96,,2019-02-13 10:01:53,2019-02-13 10:02:28,34.908s,PASSED
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.96,,2019-02-13 10:01:53,2019-02-13 10:02:28,34.900s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Update and Delete test,Chrome 72.0.3626.96,,2019-02-13 10:02:28,2019-02-13 10:02:28,0.010s,PASSED
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.96,,2019-02-13 10:02:28,2019-02-13 10:02:28,0.000s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Update and Delete test,Chrome 72.0.3626.96,,2019-02-13 10:02:28,2019-02-13 10:02:28,0.010s,PASSED
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.96,,2019-02-13 10:02:28,2019-02-13 10:02:28,0.000s,PASSED

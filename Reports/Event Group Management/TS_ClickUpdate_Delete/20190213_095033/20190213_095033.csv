@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_ClickUpdate_Delete,Chrome 72.0.3626.96,,2019-02-13 09:50:37,2019-02-13 09:52:52,2m - 14.980s,ERROR
+,,,,,,
+Test Cases/TC_Login,Chrome 72.0.3626.96,,2019-02-13 09:50:38,2019-02-13 09:51:02,23.730s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 72.0.3626.96,,2019-02-13 09:50:39,2019-02-13 09:51:02,22.480s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Select_Screen,Chrome 72.0.3626.96,,2019-02-13 09:51:02,2019-02-13 09:51:07,4.977s,PASSED
+"click(findTestObject(""NE_SideMenu""))",Chrome 72.0.3626.96,,2019-02-13 09:51:02,2019-02-13 09:51:04,1.246s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 72.0.3626.96,,2019-02-13 09:51:04,2019-02-13 09:51:04,0.145s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.96,,2019-02-13 09:51:04,2019-02-13 09:51:05,0.802s,PASSED
+delay(2),Chrome 72.0.3626.96,,2019-02-13 09:51:05,2019-02-13 09:51:07,2.049s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Click on Search Button,Chrome 72.0.3626.96,,2019-02-13 09:51:07,2019-02-13 09:51:10,3.688s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Clear""))",Chrome 72.0.3626.96,,2019-02-13 09:51:07,2019-02-13 09:51:07,0.156s,PASSED
+delay(2),Chrome 72.0.3626.96,,2019-02-13 09:51:07,2019-02-13 09:51:09,2.002s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.96,,2019-02-13 09:51:09,2019-02-13 09:51:09,0.106s,PASSED
+delay(1),Chrome 72.0.3626.96,,2019-02-13 09:51:09,2019-02-13 09:51:10,1.002s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Update and Delete test,Chrome 72.0.3626.96,,2019-02-13 09:51:10,2019-02-13 09:51:48,37.812s,PASSED
+delay(2),Chrome 72.0.3626.96,,2019-02-13 09:51:11,2019-02-13 09:51:13,1.992s,PASSED
+"pk_Functions.CS_ClickingonUpdateorDeletebutton_Fulltabl.SelectRecordFromWebtableFun(""UpdateYes"", 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", Code)",Chrome 72.0.3626.96,,2019-02-13 09:51:13,2019-02-13 09:51:40,26.744s,PASSED
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.96,,2019-02-13 09:51:40,2019-02-13 09:51:48,8.568s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Update and Delete test,Chrome 72.0.3626.96,,2019-02-13 09:51:48,2019-02-13 09:52:23,34.901s,PASSED
+delay(2),Chrome 72.0.3626.96,,2019-02-13 09:51:48,2019-02-13 09:51:50,1.983s,PASSED
+"pk_Functions.CS_ClickingonUpdateorDeletebutton_Fulltabl.SelectRecordFromWebtableFun(""UpdateYes"", 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", Code)",Chrome 72.0.3626.96,,2019-02-13 09:51:50,2019-02-13 09:52:15,24.541s,PASSED
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.96,,2019-02-13 09:52:15,2019-02-13 09:52:23,8.344s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Update and Delete test,Chrome 72.0.3626.96,,2019-02-13 09:52:23,2019-02-13 09:52:50,26.791s,PASSED
+delay(2),Chrome 72.0.3626.96,,2019-02-13 09:52:23,2019-02-13 09:52:25,1.991s,PASSED
+"pk_Functions.CS_ClickingonUpdateorDeletebutton_Fulltabl.SelectRecordFromWebtableFun(""UpdateYes"", 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", Code)",Chrome 72.0.3626.96,,2019-02-13 09:52:25,2019-02-13 09:52:50,24.787s,PASSED
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.96,,2019-02-13 09:52:50,2019-02-13 09:52:50,0.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Update and Delete test,Chrome 72.0.3626.96,,2019-02-13 09:52:50,2019-02-13 09:52:52,2.236s,ERROR
+delay(2),Chrome 72.0.3626.96,,2019-02-13 09:52:50,2019-02-13 09:52:52,2.002s,PASSED
+"pk_Functions.CS_ClickingonUpdateorDeletebutton_Fulltabl.SelectRecordFromWebtableFun(""UpdateYes"", 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", Code)",Chrome 72.0.3626.96,,2019-02-13 09:52:52,2019-02-13 09:52:52,0.206s,ERROR

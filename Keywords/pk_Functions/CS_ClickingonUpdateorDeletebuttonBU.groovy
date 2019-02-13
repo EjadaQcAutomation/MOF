@@ -53,7 +53,7 @@ import login_object.loginObject.*
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import internal.GlobalVariable
-public class CS_ClickingonUpdateorDeletebutton_Fulltabl {
+public class CS_ClickingonUpdateorDeletebuttonBU {
 	TestObject delete
 	int row
 	int fieldNo
@@ -139,66 +139,67 @@ public class CS_ClickingonUpdateorDeletebutton_Fulltabl {
 		//Detecting Update or Delete flag in excel file according to actionType variable
 		//Saving Grid rows in list
 		//String ClickableNext = WebUI.getAttribute(nextPage,'tabindex')
-//		List<WebElement> Rows = new ArrayList<WebElement>()
+		List<WebElement> Rows = new ArrayList<WebElement>()
 		List<WebElement> RowsN = new ArrayList<WebElement>()
-//		PagesCount++
-//		Rows = Table.findElements(By.tagName('tr'))
-//		println Rows.get(0).getText()
+		PagesCount++
+		Rows = Table.findElements(By.tagName('tr'))
+		println Rows.get(0).getText()
 		//println Rows.get(10).getText()
-//		println  ('Rows0:'+ Rows.size())
-//		WebUI.delay(6)
-		//println WebUI.getAttribute(NextPage,'tabindex')
+		println  ('Rows0:'+ Rows.size())
+		WebUI.delay(6)
+		println WebUI.getAttribute(NextPage,'tabindex')
 		//TestObject LastPage = new TestObject()
 		//LastPage.addProperty("xpath", ConditionType.EQUALS,"//*[@id='app-form']/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[2]/div/app-event-categories-management-list/p-panel/div/div[2]/div[1]/div/div/p-datatable/div/p-paginator/div/a[4]")
-//		while(WebUI.getAttribute(NextPage,'tabindex')=="0"){
-//			WebUI.delay(5)
-//			PagesCount++
-//			WebUI.click(NextPage)
-//			WebUI.delay(5)
-//
-//		}
+		while(WebUI.getAttribute(NextPage,'tabindex')=="0"){
+			WebUI.delay(5)
+			PagesCount++
+			WebUI.click(NextPage)
+			WebUI.delay(5)
+			//println Rows.get(9).getText()
+			//Rows.addAll(Table.findElements(By.tagName('tr')))
+			println  ('Rows1:'+ Rows.size())
+			WebUI.delay(5)
+		}
 		//		println Rows.get(24).getText()
-	WebUI.click(FirstPage)
-		WebUI.delay(5)
+		WebUI.click(FirstPage)
+		//println  ('Rows3:'+ Rows.getvalue())
+		//		WebDriver driver = DriverFactory.getWebDriver()
+		//		// Getting all items in list called allItems
+		//		allItems = driver.findElements(By.xpath("//*[@id='app-form']/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[2]/div/app-event-categories-management-list/p-panel/div/div[2]/div[1]/div/div/p-datatable/div/p-paginator/div/span"));
+		//		int Ribbon_Size
+		//		//Get the number of list items in the ribbon and turn it into a List
+		//		Ribbon_Size =allItems.size()
+		//		println  (Ribbon_Size)
+		WebUI.delay(10)
 		int x
-		int z
-		//println  ("PC1" + PagesCount)
+		println  ("PC1" + PagesCount)
 		if(actionType=="UpdateYes" ||actionType== "DeleteYes" ||actionType== "DeleteNo"){
-			//for (int j = 1; j < 3; j++){
-				//for (int j = 1; j < 3; j++){
-			println "ebtehal1"
-			WebUI.delay(2)
-			println WebUI.getAttribute(NextPage,"tabindex")
-			while(WebUI.getAttribute(NextPage,"tabindex")=="0"){
-				WebUI.delay(2)
-				PagesCount++
-				println "ebtehal2"
-				if (PagesCount>1){
-					WebUI.click(NextPage)
-					WebUI.delay(5)
-				}
+			for (int j = 1; j < PagesCount+1; j++){
 				WebUI.delay(4)
+				println  ("PC2" + PagesCount)
 				RowsN = Table.findElements(By.tagName('tr'))
-				WebUI.delay(4)
-				table: for (int i = 0; i < RowsN.size(); i++) {
-				x++
-				//WebUI.delay(2)
+				table: for (int i = 0; i < Rows.size(); i++) {
+					WebUI.delay(5)
+					x++
+					//println  ('Rowsc:'+ Rows.size())
+					WebUI.delay(5)
 					List<WebElement> Cols = RowsN.get(i).findElements(By.tagName('td'))
-					println  ('Cols1:'+ Cols.size())
+					//println  ('Cols1:'+ Cols.size())
 					println  ('Cols1:' + x )
+					println Cols.get(3).getText()
 
 					//Detecting unique id of records that contains Update or Delete
 					if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
-						//WebUI.delay(1)
+						WebUI.delay(4)
 						//Doing action to the selected record according to actionType input
 						Matched =1
 						println Matched
 						if (actionType=='UpdateYes'){
-							println 'UpdateYes' + z++
+							println 'UpdateYes'
+
 							//Clicking on Update for the selected record in grid
-							WebUI.delay(5)
 							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click() ;
-							WebUI.delay(5)
+							WebUI.delay(4)
 
 						}
 						else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
@@ -215,9 +216,9 @@ public class CS_ClickingonUpdateorDeletebutton_Fulltabl {
 							println (dataObject.getValue(4, indexPopUp+1))
 							delete = new TestObject()
 							delete.addProperty(dataObject.getValue(3, indexDelete+1), ConditionType.EQUALS, dataObject.getValue(4, indexDelete+1))
-							WebUI.delay(1)
+							WebUI.delay(2)
 							WebUI.click(PopUp)
-							WebUI.delay(1)
+							WebUI.delay(3)
 							println " delete"
 							//Click on No or Yes in deletion alert
 							WebUI.click(delete)
@@ -229,20 +230,13 @@ public class CS_ClickingonUpdateorDeletebutton_Fulltabl {
 				if (Matched ==1){
 					break
 				}
-				
-				//if(WebUI.getAttribute(NextPage,'tabindex')=="0"){
-					//WebUI.click(NextPage)
-					WebUI.delay(5)
-				//}
-				//else {
-					//break
-				//}
-
+				else{
+					WebUI.click(NextPage)
+					WebUI.delay(3)
+				}
 
 			}
 		}
-		WebUI.delay(2)
-		//WebUI.click(FirstPage)
 	}
 }
 
