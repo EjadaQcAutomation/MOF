@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_ClickUpdate_Delete</name>
+   <name>TS_EGMFullScenario</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -145,7 +145,7 @@
    <testCaseLink>
       <guid>34a03217-fb97-416e-9e96-f012ca1245b6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Update and Delete test</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -272,6 +272,45 @@
          <type>DATA_COLUMN</type>
          <value>Code</value>
          <variableId>31a35954-8c1a-4cc7-b7d5-bc7f0d0e9dff</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>92f66f43-1799-41aa-a202-cc9551f33e3a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_View_Records</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0a66e99a-01d0-4388-b8a4-0f6b669ca703</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>0a66e99a-01d0-4388-b8a4-0f6b669ca703</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Arabic Description</value>
+         <variableId>7d3b135b-9be0-46de-a0a9-7a31f88f00ae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0a66e99a-01d0-4388-b8a4-0f6b669ca703</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>English Description</value>
+         <variableId>9cef0f24-d2a5-41cb-9c42-ee4ea6481efe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0a66e99a-01d0-4388-b8a4-0f6b669ca703</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Code</value>
+         <variableId>dafee02e-40fa-42b7-9eb5-32e02236bcb7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0a66e99a-01d0-4388-b8a4-0f6b669ca703</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Delete</value>
+         <variableId>9edfbf75-69dd-468b-994c-686a94714566</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

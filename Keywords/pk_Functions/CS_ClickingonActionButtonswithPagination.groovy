@@ -1,9 +1,9 @@
 package pk_Functions
 /* Created By ‘Asmaa El-Sayed and Ebtehal Gamal Yusuf ’
  * Date 13/02/2019
- * Usage:This function is Update or Delete records listed in excel sheet by checking flags over webtable with multiple pages
+ * Usage:This function is used Update or Delete or View records listed in excel sheet by checking flags over webtable with multiple pages
  * Input: There are six inputs required for this function 
- 1.actionType: Update or Delete
+ 1.actionType: Update or Delete or View
  2.expectedValueColumn: the column where unique id is located in table 
  3.actionButtonColumn: the column where action button is located in table 
  4.objectfileName: The file name of object repositories
@@ -53,7 +53,7 @@ import login_object.loginObject.*
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import internal.GlobalVariable
-public class CS_ClickingonUpdateorDeletebuttonwithpagination {
+public class CS_ClickingonActionButtonswithPagination {
 	TestObject delete
 	int row
 	int fieldNo
@@ -104,27 +104,26 @@ public class CS_ClickingonUpdateorDeletebuttonwithpagination {
 		NextPage.addProperty(dataObject.getValue(3, indexNext_Page+1), ConditionType.EQUALS, dataObject.getValue(4, indexNext_Page+1))
 		String NextPageAttribute =  dataObject.getValue(5, indexNext_Page+1)
 		String NextPageAttribute_Value =  dataObject.getValue(6, indexNext_Page+1)
-		
-		//First Page Button Locater Detection	
+
+		//First Page Button Locater Detection
 		int indexFirst_Page = valueOfRowT.indexOf("FirstPage");
 		println indexFirst_Page
 		TestObject FirstPage = new TestObject()
 		FirstPage.addProperty(dataObject.getValue(3, indexFirst_Page+1), ConditionType.EQUALS, dataObject.getValue(4, indexFirst_Page+1))
-		dataObject.getValue(3, indexFirst_Page+1)
 		//End of First Page Button Locater Detection
-        
+
 		//Navigating to First Page
 		WebUI.click(FirstPage)
 		WebUI.delay(2)
 		List<WebElement> RowsN = new ArrayList<WebElement>()
-		if(actionType=="UpdateYes" ||actionType== "DeleteYes" ||actionType== "DeleteNo"){
+		if(actionType=="UpdateYes" ||actionType== "DeleteYes" ||actionType== "DeleteNo" || actionType== "ViewYes" ){
 			println "Update 1 "
 			WebUI.delay(2)
-			
+
 			//Ensuring attribute value
 			println WebUI.getAttribute(NextPage,"tabindex")
-			
-			//Looping over pages 
+
+			//Looping over pages
 			while(WebUI.getAttribute(NextPage,NextPageAttribute)==NextPageAttribute_Value){
 				WebUI.delay(2)
 				PagesCount++
@@ -133,28 +132,29 @@ public class CS_ClickingonUpdateorDeletebuttonwithpagination {
 					WebUI.click(NextPage)
 				}
 				WebUI.delay(1)
-				
+
 				//Extracting Rows of each webtable page
 				RowsN = Table.findElements(By.tagName('tr'))
 				WebUI.delay(1)
-				
+
 				//Looping over each row to get it column data to compare it to expected value
 				table: for (int i = 0; i < RowsN.size(); i++) {
 					x++
-					//Extracting data from each row 
+					//Extracting data from each row
+					WebUI.delay(1)
 					List<WebElement> Cols = RowsN.get(i).findElements(By.tagName('td'))
 					println  ('Cols1:' + x )
 
 					//Detecting unique id of records that contains Update or Delete
 					if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
-						Matched =1						
+						Matched =1
 						println "Matched"
 						//Taking action to the selected record according to actionType input
 						if (actionType=='UpdateYes'){
 							println 'UpdateYes' + z++
 							//Clicking on Update for the selected record in grid
 							WebUI.delay(1)
-							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click() ;						
+							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click() ;
 						}
 						else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
 
@@ -177,11 +177,16 @@ public class CS_ClickingonUpdateorDeletebuttonwithpagination {
 							//Click on No or Yes in deletion alert
 							WebUI.click(delete)
 						}
+						
+						else if (actionType=='ViewYes'){
+						WebUI.delay(1)
+							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[1]')).click() ;
+						}
 						break
 					}
 
 				}
-				//Breaking pages search when record are matched with desired data 
+				//Breaking pages search when record are matched with desired data
 				if (Matched ==1){
 					break
 				}
@@ -190,7 +195,7 @@ public class CS_ClickingonUpdateorDeletebuttonwithpagination {
 			}
 		}
 		WebUI.delay(1)
-		
+
 	}
 }
 
