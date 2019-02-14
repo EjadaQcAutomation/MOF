@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_ClickUpdate_Delete,Chrome 72.0.3626.96,,2019-02-13 14:50:06,2019-02-13 14:51:12,1m - 5.979s,PASSED
+,,,,,,
+Test Cases/TC_Login,Chrome 72.0.3626.96,,2019-02-13 14:50:06,2019-02-13 14:50:22,15.707s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 72.0.3626.96,,2019-02-13 14:50:07,2019-02-13 14:50:22,15.066s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Select_Screen,Chrome 72.0.3626.96,,2019-02-13 14:50:22,2019-02-13 14:50:29,6.918s,PASSED
+"click(findTestObject(""NE_SideMenu""))",Chrome 72.0.3626.96,,2019-02-13 14:50:22,2019-02-13 14:50:25,3.178s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 72.0.3626.96,,2019-02-13 14:50:25,2019-02-13 14:50:25,0.118s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.96,,2019-02-13 14:50:25,2019-02-13 14:50:27,1.189s,PASSED
+delay(2),Chrome 72.0.3626.96,,2019-02-13 14:50:27,2019-02-13 14:50:29,2.052s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Click on Search Button,Chrome 72.0.3626.96,,2019-02-13 14:50:29,2019-02-13 14:50:32,3.485s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Clear""))",Chrome 72.0.3626.96,,2019-02-13 14:50:29,2019-02-13 14:50:29,0.106s,PASSED
+delay(2),Chrome 72.0.3626.96,,2019-02-13 14:50:29,2019-02-13 14:50:31,2.001s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.96,,2019-02-13 14:50:31,2019-02-13 14:50:31,0.118s,PASSED
+delay(1),Chrome 72.0.3626.96,,2019-02-13 14:50:31,2019-02-13 14:50:32,1.002s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_View_Records,Chrome 72.0.3626.96,,2019-02-13 14:50:32,2019-02-13 14:51:11,39.188s,PASSED
+"if (ActionType == ""ViewYes"")",Chrome 72.0.3626.96,,2019-02-13 14:50:33,2019-02-13 14:51:11,38.773s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_View_Records,Chrome 72.0.3626.96,,2019-02-13 14:51:11,2019-02-13 14:51:11,0.042s,PASSED
+"if (ActionType == ""ViewYes"")",Chrome 72.0.3626.96,,2019-02-13 14:51:11,2019-02-13 14:51:11,0.003s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_View_Records,Chrome 72.0.3626.96,,2019-02-13 14:51:11,2019-02-13 14:51:11,0.019s,PASSED
+"if (ActionType == ""ViewYes"")",Chrome 72.0.3626.96,,2019-02-13 14:51:11,2019-02-13 14:51:11,0.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_View_Records,Chrome 72.0.3626.96,,2019-02-13 14:51:11,2019-02-13 14:51:12,0.180s,PASSED
+"if (ActionType == ""ViewYes"")",Chrome 72.0.3626.96,,2019-02-13 14:51:12,2019-02-13 14:51:12,0.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_View_Records,Chrome 72.0.3626.96,,2019-02-13 14:51:12,2019-02-13 14:51:12,0.014s,PASSED
+"if (ActionType == ""ViewYes"")",Chrome 72.0.3626.96,,2019-02-13 14:51:12,2019-02-13 14:51:12,0.000s,PASSED
