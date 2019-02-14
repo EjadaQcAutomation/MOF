@@ -25,11 +25,20 @@
    <testCaseLink>
       <guid>b561efd4-a23b-42a5-93d9-bd26522245cc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Insert_Records</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>70f7d9b1-7054-491a-88f9-72e14123da50</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1872625f-136c-4f41-8b84-9cee93e386e1</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -58,7 +67,6 @@
    <testCaseLink>
       <guid>2c989af4-7057-43c7-b447-f26b47d85fba</guid>
       <isReuseDriver>false</isReuseDriver>
-<<<<<<< HEAD
       <isRun>true</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Verify_Insert</testCaseId>
       <testDataLink>
@@ -92,126 +100,13 @@
          <testDataLinkId>1b468a96-8dff-48c8-af44-3d0c10e4954d</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Search</value>
-         <variableId>1e8875c2-23d9-483f-9f56-7e1dcd207598</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6c71d3ae-13d4-4531-9779-82b41898100e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Event Group Management/TC_Click on Search Button</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f38e0e2d-a3d2-4a68-a348-50180a0f333f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Event Group Management/TC_Update and Delete test</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>12949313-a41c-47bd-b5c1-5cc57d01744d</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>12949313-a41c-47bd-b5c1-5cc57d01744d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Arabic Description_Update</value>
-         <variableId>ea4f54d6-11c8-4ef8-89c6-b98564f69d7d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>12949313-a41c-47bd-b5c1-5cc57d01744d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>English Description_Update</value>
-         <variableId>259c762e-9797-4c9f-996d-a2ab9ea63c76</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>12949313-a41c-47bd-b5c1-5cc57d01744d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Code</value>
-         <variableId>e0ed2953-9b66-4691-b112-44ba0db27216</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>12949313-a41c-47bd-b5c1-5cc57d01744d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Update</value>
-         <variableId>600d7235-2ecf-4b7b-8939-2b2a3446209a</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>07649aac-249d-49f7-823b-43a5c8c57fbc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Event Group Management/TC_Verify_Update</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>f81515e0-9737-4b89-94bd-66a4cc36074f</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>f81515e0-9737-4b89-94bd-66a4cc36074f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Arabic Description</value>
-         <variableId>329022af-680d-49e9-bed6-3431a9449b5a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>f81515e0-9737-4b89-94bd-66a4cc36074f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>English Description</value>
-         <variableId>a5002349-8343-4198-8115-fae313acd9a0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>f81515e0-9737-4b89-94bd-66a4cc36074f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Update</value>
-         <variableId>14910f61-1c14-4d7d-8f8e-9cfcc34fb2c7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>f81515e0-9737-4b89-94bd-66a4cc36074f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Code</value>
-         <variableId>a2677748-3ca2-41fb-aaad-12ce07bf5a19</variableId>
-=======
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Event Group Management/TC_Verify_Insert</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>1b468a96-8dff-48c8-af44-3d0c10e4954d</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>1b468a96-8dff-48c8-af44-3d0c10e4954d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Arabic Description</value>
-         <variableId>7a34e624-735e-4f82-b7ae-d7ac93121f01</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>1b468a96-8dff-48c8-af44-3d0c10e4954d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>English Description</value>
-         <variableId>3428ee4c-7cca-424c-b0a9-6f0e3e689283</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>1b468a96-8dff-48c8-af44-3d0c10e4954d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Code</value>
-         <variableId>b95468a5-3315-468a-bfdd-558abfdf72f7</variableId>
+         <variableId>3702b3e1-e07f-4e43-b192-cce2bce3aac5</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>0dcc863e-e59d-48f5-bc98-bd7ea8795e50</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Click on Search Button</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -295,7 +190,7 @@
    <testCaseLink>
       <guid>92f66f43-1799-41aa-a202-cc9551f33e3a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_View_Records</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -329,7 +224,6 @@
          <type>DATA_COLUMN</type>
          <value>Delete</value>
          <variableId>9edfbf75-69dd-468b-994c-686a94714566</variableId>
->>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -384,48 +278,6 @@
          <type>DATA_COLUMN</type>
          <value>Code</value>
          <variableId>31a35954-8c1a-4cc7-b7d5-bc7f0d0e9dff</variableId>
-<<<<<<< HEAD
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>92f66f43-1799-41aa-a202-cc9551f33e3a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Event Group Management/TC_View_Records</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>0a66e99a-01d0-4388-b8a4-0f6b669ca703</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>0a66e99a-01d0-4388-b8a4-0f6b669ca703</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Arabic Description</value>
-         <variableId>7d3b135b-9be0-46de-a0a9-7a31f88f00ae</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>0a66e99a-01d0-4388-b8a4-0f6b669ca703</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>English Description</value>
-         <variableId>9cef0f24-d2a5-41cb-9c42-ee4ea6481efe</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>0a66e99a-01d0-4388-b8a4-0f6b669ca703</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Code</value>
-         <variableId>dafee02e-40fa-42b7-9eb5-32e02236bcb7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>0a66e99a-01d0-4388-b8a4-0f6b669ca703</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Delete</value>
-         <variableId>9edfbf75-69dd-468b-994c-686a94714566</variableId>
-=======
->>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/MOF
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
