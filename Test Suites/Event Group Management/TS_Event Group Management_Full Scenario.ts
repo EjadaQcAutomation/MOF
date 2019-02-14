@@ -17,42 +17,99 @@
       <testCaseId>Test Cases/TC_Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9bdb1fcc-20b1-434c-8074-7af78ce8981a</guid>
+      <guid>3ff5ed93-5684-4c19-a54b-23b39c623033</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Event Group Management/TC_Update_Records 2</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>1dfac8ee-e22b-489b-9395-990efdc6c710</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/Event Group Management/TC_Select_Screen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7ec03b46-58b8-4a3c-8f1c-eb575b0ff8d9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_Insert_Records</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ea4f54d6-11c8-4ef8-89c6-b98564f69d7d</variableId>
+         <variableId>a62b8ab2-383d-45ab-9053-615328e4bdd4</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>259c762e-9797-4c9f-996d-a2ab9ea63c76</variableId>
+         <variableId>d2ece843-1ef4-4dd0-8c5e-6cbb7c8d3a11</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>e0ed2953-9b66-4691-b112-44ba0db27216</variableId>
+         <variableId>77da139f-8663-474f-990d-4f3d3ae4ce02</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3c49b416-4deb-4855-8400-71ee888c4ec6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_Verify_Insert</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7a34e624-735e-4f82-b7ae-d7ac93121f01</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>600d7235-2ecf-4b7b-8939-2b2a3446209a</variableId>
+         <variableId>3428ee4c-7cca-424c-b0a9-6f0e3e689283</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b95468a5-3315-468a-bfdd-558abfdf72f7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1e8875c2-23d9-483f-9f56-7e1dcd207598</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b4d0047f-d91b-4bf9-9cd1-4480f24d2b26</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_Delete</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>91f96c27-70eb-43ed-a534-31d1b7b60521</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6c22d25e-2dde-4934-a052-8962a7db1bb0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>26fe60db-e394-4ef4-97ca-c9f58cef6fa2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_Verify_Delete and Undelete</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ee91aa5e-1748-48cd-80c9-7e8df1cd3a50</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>31a35954-8c1a-4cc7-b7d5-bc7f0d0e9dff</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
