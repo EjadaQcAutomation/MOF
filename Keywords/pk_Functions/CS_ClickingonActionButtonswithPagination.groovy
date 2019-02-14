@@ -138,7 +138,7 @@ public class CS_ClickingonActionButtonswithPagination {
 				WebUI.delay(1)
 
 				//Looping over each row to get it column data to compare it to expected value
-				table: for (int i = 1; i < RowsN.size(); i++) {
+				table: for (int i = 0; i < RowsN.size(); i++) {
 					x++
 					//Extracting data from each row
 					WebUI.delay(1)

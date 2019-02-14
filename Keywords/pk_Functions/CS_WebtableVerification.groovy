@@ -48,37 +48,32 @@ ValidateSearchParameters (String actionType, String fileName ,String sheetName ,
 	List<WebElement> Columns_row
 	WebElement Table
 	//To locate table'
-	WebUI.delay(3)
 	if (webtableAttribute=='xpath'){
 		Table = driver.findElement(By.xpath(webtablelocatorValue))
-	
 	}
 	else{
 		Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
-		
 	}
 
-	
 	//To locate rows of table it will Capture all the rows available in the table
 	List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 	//To calculate no of rows In table'
 	int rows_count = rows_table.size()
-	println rows_count
+
 	//Loop will execute for all the rows of the table
 	Loop:
 	for (int rowTable = 1; rowTable < rows_count; rowTable++) {
 		//To locate columns(cells) of that specific row'
-	
 		Columns_row = rows_table.get(rowTable).findElements(By.tagName('td'))
+
 		//To calculate no of columns(cells) In that specific row
 		int columns_count = expectedValues.size()
-		println "search1 "
-		println (Columns_row.get(uniqueColumn).getText())
+
 		//Checking if firstCell text is matched with the expected value
 		if (Columns_row.get(uniqueColumn).getText() == expectedValues[uniqueColumn]) {
-			println "search2 "
+			println ('search')
 			for (int column = 0 ; column < columns_count ;column++){
-				
+				println ('search')
 				Columns_row_text.add(Columns_row.get(column).getText())
 			}
 			break
