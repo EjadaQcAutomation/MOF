@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 if (delete) {
-    CustomKeywords.'pk_Functions.CS_ClickingonUpdateorDeletebutton.SelectRecordFromWebtableFun'(delete, 0, 3, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+    CustomKeywords.'pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun'(delete, 0, 3, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
         'Sheet1', code)
 }
 

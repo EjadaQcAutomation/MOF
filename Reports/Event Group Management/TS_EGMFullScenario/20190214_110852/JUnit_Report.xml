@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_EGMFullScenario" time="38" tests="5" failures="0" errors="2">
+   <testsuite name="TS_EGMFullScenario" tests="5" failures="0" errors="2" time="38" timestamp="2019-02-14 11:08:55" hostname="aeibrahim - LPALXY0477.ejadaalex.local" id="Test Suites/Event Group Management/TS_EGMFullScenario">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190214_110852"/>
+         <property name="logFiles" value="C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190214_110852\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aeibrahim - LPALXY0477.ejadaalex.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.64"/>
+         <property name="sessionId" value="d449824aa6e2734d225948fdc5916e4a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2019-02-14 11:08:55 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-02-14 11:08:56 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-02-14 11:08:56 - [MESSAGE][WARNING] - Test object id is null
+
+2019-02-14 11:08:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-14 11:08:56 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-14 11:09:09 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.0.190:8080/mof/#/'
+
+2019-02-14 11:09:10 - [MESSAGE][PASSED] - Text 'AAttia' is set on object 'Object Repository/Login/Username'
+
+2019-02-14 11:09:10 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Login/Password'
+
+2019-02-14 11:09:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login' is clicked on
+
+2019-02-14 11:09:10 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Select_Screen" classname="Test Cases/Event Group Management/TC_Select_Screen" status="PASSED">
+         <system-out><![CDATA[2019-02-14 11:09:10 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Select_Screen: Test Cases/Event Group Management/TC_Select_Screen
+
+2019-02-14 11:09:10 - [TEST_STEP][PASSED] - click(findTestObject("NE_SideMenu")): Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-02-14 11:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-02-14 11:09:12 - [TEST_STEP][PASSED] - click(findTestObject("NE_EventGroupManagement")): Object: 'Object Repository/NE_EventGroupManagement' is clicked on
+
+2019-02-14 11:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_EventGroupManagement' is clicked on
+
+2019-02-14 11:09:12 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-14 11:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-14 11:09:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 11:09:14 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="ERROR">
+         <error type="ERROR" message="Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: pk_Functions.CS_WebtableVerification.ValidateSearchParameters() is applicable for argument types: (java.lang.Class, java.lang.String, java.lang.String, java.util.ArrayList, java.lang.Integer) values: [class Search, Event Group Management/MOF_NE_Event Group ManagementObjectRepository, ...]
+Possible solutions: ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, int), ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, java.util.List, int)
+"/>
+         <system-out><![CDATA[2019-02-14 11:09:14 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: pk_Functions.CS_WebtableVerification.ValidateSearchParameters() is applicable for argument types: (java.lang.Class, java.lang.String, java.lang.String, java.util.ArrayList, java.lang.Integer) values: [class Search, Event Group Management/MOF_NE_Event Group ManagementObjectRepository, ...]
+Possible solutions: ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, int), ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, java.util.List, int)
+
+
+2019-02-14 11:09:15 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Clear")): Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 11:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 11:09:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-14 11:09:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 11:09:16 - [TEST_STEP][ERROR] - if (search == "SearchYes"): if (search == "SearchYes") FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: pk_Functions.CS_WebtableVerification.ValidateSearchParameters() is applicable for argument types: (java.lang.Class, java.lang.String, java.lang.String, java.util.ArrayList, java.lang.Integer) values: [class Search, Event Group Management/MOF_NE_Event Group ManagementObjectRepository, ...]
+Possible solutions: ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, int), ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, java.util.List, int)
+
+
+2019-02-14 11:09:16 - [TEST_STEP][PASSED] - println("yes"): null
+
+2019-02-14 11:09:16 - [TEST_STEP][PASSED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]): pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-14 11:09:17 - [MESSAGE][PASSED] - Text 'EB2' is set on object ''
+
+2019-02-14 11:09:17 - [MESSAGE][PASSED] - pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-14 11:09:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 11:09:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 11:09:19 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-14 11:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-14 11:09:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 11:09:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 11:09:21 - [TEST_STEP][ERROR] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Search, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code, EnglishDescription, ArabicDescription], 0): if (search == "SearchYes") FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: pk_Functions.CS_WebtableVerification.ValidateSearchParameters() is applicable for argument types: (java.lang.Class, java.lang.String, java.lang.String, java.util.ArrayList, java.lang.Integer) values: [class Search, Event Group Management/MOF_NE_Event Group ManagementObjectRepository, ...]
+Possible solutions: ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, int), ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, java.util.List, int)
+
+
+2019-02-14 11:09:21 - [MESSAGE][ERROR] - No signature of method: pk_Functions.CS_WebtableVerification.ValidateSearchParameters() is applicable for argument types: (java.lang.Class, java.lang.String, java.lang.String, java.util.ArrayList, java.lang.Integer) values: [class Search, Event Group Management/MOF_NE_Event Group ManagementObjectRepository, ...]
+Possible solutions: ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, int), ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, java.util.List, int)
+
+2019-02-14 11:09:21 - [MESSAGE][ERROR] - if (search == "SearchYes") FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: pk_Functions.CS_WebtableVerification.ValidateSearchParameters() is applicable for argument types: (java.lang.Class, java.lang.String, java.lang.String, java.util.ArrayList, java.lang.Integer) values: [class Search, Event Group Management/MOF_NE_Event Group ManagementObjectRepository, ...]
+Possible solutions: ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, int), ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, java.util.List, int)]]></system-out>
+         <system-err><![CDATA[2019-02-14 11:09:14 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: pk_Functions.CS_WebtableVerification.ValidateSearchParameters() is applicable for argument types: (java.lang.Class, java.lang.String, java.lang.String, java.util.ArrayList, java.lang.Integer) values: [class Search, Event Group Management/MOF_NE_Event Group ManagementObjectRepository, ...]
+Possible solutions: ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, int), ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, java.util.List, int)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="ERROR">
+         <error type="ERROR" message="Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: pk_Functions.CS_WebtableVerification.ValidateSearchParameters() is applicable for argument types: (java.lang.Class, java.lang.String, java.lang.String, java.util.ArrayList, java.lang.Integer) values: [class Search, Event Group Management/MOF_NE_Event Group ManagementObjectRepository, ...]
+Possible solutions: ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, int), ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, java.util.List, int)
+"/>
+         <system-out><![CDATA[2019-02-14 11:09:21 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: pk_Functions.CS_WebtableVerification.ValidateSearchParameters() is applicable for argument types: (java.lang.Class, java.lang.String, java.lang.String, java.util.ArrayList, java.lang.Integer) values: [class Search, Event Group Management/MOF_NE_Event Group ManagementObjectRepository, ...]
+Possible solutions: ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, int), ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, java.util.List, int)
+
+
+2019-02-14 11:09:21 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Clear")): Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 11:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 11:09:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-14 11:09:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 11:09:22 - [TEST_STEP][ERROR] - if (search == "SearchYes"): if (search == "SearchYes") FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: pk_Functions.CS_WebtableVerification.ValidateSearchParameters() is applicable for argument types: (java.lang.Class, java.lang.String, java.lang.String, java.util.ArrayList, java.lang.Integer) values: [class Search, Event Group Management/MOF_NE_Event Group ManagementObjectRepository, ...]
+Possible solutions: ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, int), ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, java.util.List, int)
+
+
+2019-02-14 11:09:22 - [TEST_STEP][PASSED] - println("yes"): null
+
+2019-02-14 11:09:22 - [TEST_STEP][PASSED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]): pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-14 11:09:22 - [MESSAGE][PASSED] - Text 'EB3' is set on object ''
+
+2019-02-14 11:09:22 - [MESSAGE][PASSED] - pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-14 11:09:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 11:09:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 11:09:24 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-14 11:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-14 11:09:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 11:09:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 11:09:26 - [TEST_STEP][ERROR] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Search, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code, EnglishDescription, ArabicDescription], 0): if (search == "SearchYes") FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: pk_Functions.CS_WebtableVerification.ValidateSearchParameters() is applicable for argument types: (java.lang.Class, java.lang.String, java.lang.String, java.util.ArrayList, java.lang.Integer) values: [class Search, Event Group Management/MOF_NE_Event Group ManagementObjectRepository, ...]
+Possible solutions: ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, int), ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, java.util.List, int)
+
+
+2019-02-14 11:09:26 - [MESSAGE][ERROR] - No signature of method: pk_Functions.CS_WebtableVerification.ValidateSearchParameters() is applicable for argument types: (java.lang.Class, java.lang.String, java.lang.String, java.util.ArrayList, java.lang.Integer) values: [class Search, Event Group Management/MOF_NE_Event Group ManagementObjectRepository, ...]
+Possible solutions: ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, int), ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, java.util.List, int)
+
+2019-02-14 11:09:26 - [MESSAGE][ERROR] - if (search == "SearchYes") FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: pk_Functions.CS_WebtableVerification.ValidateSearchParameters() is applicable for argument types: (java.lang.Class, java.lang.String, java.lang.String, java.util.ArrayList, java.lang.Integer) values: [class Search, Event Group Management/MOF_NE_Event Group ManagementObjectRepository, ...]
+Possible solutions: ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, int), ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, java.util.List, int)]]></system-out>
+         <system-err><![CDATA[2019-02-14 11:09:21 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: pk_Functions.CS_WebtableVerification.ValidateSearchParameters() is applicable for argument types: (java.lang.Class, java.lang.String, java.lang.String, java.util.ArrayList, java.lang.Integer) values: [class Search, Event Group Management/MOF_NE_Event Group ManagementObjectRepository, ...]
+Possible solutions: ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, int), ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, java.util.List, int)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="PASSED">
+         <system-out><![CDATA[2019-02-14 11:09:27 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert
+
+2019-02-14 11:09:27 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Clear")): Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 11:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 11:09:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-14 11:09:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 11:09:28 - [TEST_STEP][PASSED] - if (search == "SearchYes"): null
+
+2019-02-14 11:09:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-14 11:09:29 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="PASSED">
+         <system-out><![CDATA[2019-02-14 11:09:29 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert
+
+2019-02-14 11:09:29 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Clear")): Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 11:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 11:09:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-14 11:09:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 11:09:30 - [TEST_STEP][PASSED] - if (search == "SearchYes"): null
+
+2019-02-14 11:09:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-14 11:09:31 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="PASSED">
+         <system-out><![CDATA[2019-02-14 11:09:31 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert
+
+2019-02-14 11:09:31 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Clear")): Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 11:09:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 11:09:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-14 11:09:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 11:09:32 - [TEST_STEP][PASSED] - if (search == "SearchYes"): null
+
+2019-02-14 11:09:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-14 11:09:33 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-14 11:08:55 - [TEST_SUITE][ERROR] - TS_EGMFullScenario: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: pk_Functions.CS_WebtableVerification.ValidateSearchParameters() is applicable for argument types: (java.lang.Class, java.lang.String, java.lang.String, java.util.ArrayList, java.lang.Integer) values: [class Search, Event Group Management/MOF_NE_Event Group ManagementObjectRepository, ...]
+Possible solutions: ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, int), ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, java.util.List, int)]]></system-out>
+      <system-err><![CDATA[2019-02-14 11:08:55 - [TEST_SUITE][ERROR] - TS_EGMFullScenario: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: pk_Functions.CS_WebtableVerification.ValidateSearchParameters() is applicable for argument types: (java.lang.Class, java.lang.String, java.lang.String, java.util.ArrayList, java.lang.Integer) values: [class Search, Event Group Management/MOF_NE_Event Group ManagementObjectRepository, ...]
+Possible solutions: ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, int), ValidateSearchParameters(java.lang.String, java.lang.String, java.lang.String, java.util.List, int)]]></system-err>
+   </testsuite>
+</testsuites>
