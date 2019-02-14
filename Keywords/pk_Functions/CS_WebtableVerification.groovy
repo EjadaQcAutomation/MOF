@@ -81,7 +81,7 @@ ValidateSearchParameters (String actionType, String fileName ,String sheetName ,
 	}
 
 	//Compare the actual record with expected record data inserted as inputs to the keyword according tp required action
-	if (actionType=='Search'){
+	if (actionType=='SearchYes'){
 		assert Columns_row_text == expectedValues
 		assert rows_count == 2
 	}
