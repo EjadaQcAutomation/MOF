@@ -15,21 +15,21 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Event Group Managemnt/BTN_Clear'))
 
-WebUI.delay(2)
-
-CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['Code_Search'], 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
-    'Sheet1', [Code])
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Event Group Managemnt/BTN_Search'))
-
-WebUI.delay(4)
+WebUI.delay(1)
 
 if (Search == 'SearchYes') {
+    CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['Code_Search'], 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+        'Sheet1', [Code])
+
+    WebUI.delay(1)
+
+    WebUI.click(findTestObject('Event Group Managemnt/BTN_Search'))
+
+    WebUI.delay(1)
+
     CustomKeywords.'pk_Functions.CS_WebtableVerification.ValidateSearchParameters'(Search, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
         'Sheet1', [Code, EnglishDescription, ArabicDescription], 0)
 }
 
-WebUI.delay(2)
+WebUI.delay(1)
 

@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_EGMFullScenario" time="195" tests="2" failures="5" errors="0">
+   <testsuite name="TS_EGMFullScenario" tests="2" failures="5" errors="0" time="195" timestamp="2019-02-14 09:59:29" hostname="aeibrahim - LPALXY0477.ejadaalex.local" id="Test Suites/Event Group Management/TS_EGMFullScenario">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190214_095926"/>
+         <property name="logFiles" value="C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190214_095926\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190214_095926\\1550131226378.png, C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190214_095926\\1550131261251.png, C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190214_095926\\1550131295704.png, C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190214_095926\\1550131330118.png, C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190214_095926\\1550131364405.png"/>
+         <property name="hostName" value="aeibrahim - LPALXY0477.ejadaalex.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.64"/>
+         <property name="sessionId" value="0735f88a6edddde5e89e94ec0b869614"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2019-02-14 09:59:29 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-02-14 09:59:29 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-02-14 09:59:29 - [MESSAGE][WARNING] - Test object id is null
+
+2019-02-14 09:59:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-14 09:59:30 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-14 09:59:45 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.0.190:8080/mof/#/'
+
+2019-02-14 09:59:45 - [MESSAGE][PASSED] - Text 'AAttia' is set on object 'Object Repository/Login/Username'
+
+2019-02-14 09:59:45 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Login/Password'
+
+2019-02-14 09:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login' is clicked on
+
+2019-02-14 09:59:46 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Select_Screen" classname="Test Cases/Event Group Management/TC_Select_Screen" status="PASSED">
+         <system-out><![CDATA[2019-02-14 09:59:46 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Select_Screen: Test Cases/Event Group Management/TC_Select_Screen
+
+2019-02-14 09:59:46 - [TEST_STEP][PASSED] - click(findTestObject("NE_SideMenu")): Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-02-14 09:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-02-14 09:59:48 - [TEST_STEP][PASSED] - click(findTestObject("NE_EventGroupManagement")): Object: 'Object Repository/NE_EventGroupManagement' is clicked on
+
+2019-02-14 09:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_EventGroupManagement' is clicked on
+
+2019-02-14 09:59:48 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-14 09:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-14 09:59:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 09:59:51 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB2' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id=&quot;app-form&quot;]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-14 09:59:51 - [TEST_CASE][FAILED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB2' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)
+
+
+2019-02-14 09:59:51 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Clear")): Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 09:59:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 09:59:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 09:59:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 09:59:54 - [TEST_STEP][FAILED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]): pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB2' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)
+
+
+2019-02-14 10:00:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-02-14 10:00:26 - [MESSAGE][FAILED] - Unable to set text 'EB2' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+[[ATTACHMENT|C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190214_095926\\1550131226378.png]]
+
+2019-02-14 10:00:26 - [MESSAGE][FAILED] - Unable to set text 'EB2' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+
+2019-02-14 10:00:26 - [MESSAGE][FAILED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB2' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-14 09:59:51 - [TEST_CASE][FAILED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB2' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB3' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id=&quot;app-form&quot;]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-14 10:00:26 - [TEST_CASE][FAILED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB3' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)
+
+
+2019-02-14 10:00:26 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Clear")): Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 10:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 10:00:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 10:00:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 10:00:28 - [TEST_STEP][FAILED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]): pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB3' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)
+
+
+2019-02-14 10:01:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-02-14 10:01:01 - [MESSAGE][FAILED] - Unable to set text 'EB3' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+[[ATTACHMENT|C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190214_095926\\1550131261251.png]]
+
+2019-02-14 10:01:01 - [MESSAGE][FAILED] - Unable to set text 'EB3' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+
+2019-02-14 10:01:01 - [MESSAGE][FAILED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB3' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-14 10:00:26 - [TEST_CASE][FAILED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB3' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB4' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id=&quot;app-form&quot;]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-14 10:01:01 - [TEST_CASE][FAILED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB4' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)
+
+
+2019-02-14 10:01:01 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Clear")): Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 10:01:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 10:01:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 10:01:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 10:01:03 - [TEST_STEP][FAILED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]): pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB4' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)
+
+
+2019-02-14 10:01:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-02-14 10:01:35 - [MESSAGE][FAILED] - Unable to set text 'EB4' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+[[ATTACHMENT|C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190214_095926\\1550131295704.png]]
+
+2019-02-14 10:01:35 - [MESSAGE][FAILED] - Unable to set text 'EB4' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+
+2019-02-14 10:01:35 - [MESSAGE][FAILED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB4' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-14 10:01:01 - [TEST_CASE][FAILED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB4' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB5' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id=&quot;app-form&quot;]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-14 10:01:35 - [TEST_CASE][FAILED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB5' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)
+
+
+2019-02-14 10:01:36 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Clear")): Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 10:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 10:01:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 10:01:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 10:01:38 - [TEST_STEP][FAILED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]): pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB5' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)
+
+
+2019-02-14 10:02:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-02-14 10:02:10 - [MESSAGE][FAILED] - Unable to set text 'EB5' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+[[ATTACHMENT|C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190214_095926\\1550131330118.png]]
+
+2019-02-14 10:02:10 - [MESSAGE][FAILED] - Unable to set text 'EB5' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+
+2019-02-14 10:02:10 - [MESSAGE][FAILED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB5' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-14 10:01:35 - [TEST_CASE][FAILED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB5' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'z12' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id=&quot;app-form&quot;]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-14 10:02:10 - [TEST_CASE][FAILED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'z12' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)
+
+
+2019-02-14 10:02:10 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Clear")): Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 10:02:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 10:02:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 10:02:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 10:02:12 - [TEST_STEP][FAILED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]): pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'z12' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)
+
+
+2019-02-14 10:02:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-02-14 10:02:44 - [MESSAGE][FAILED] - Unable to set text 'z12' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+[[ATTACHMENT|C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190214_095926\\1550131364405.png]]
+
+2019-02-14 10:02:44 - [MESSAGE][FAILED] - Unable to set text 'z12' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+
+2019-02-14 10:02:44 - [MESSAGE][FAILED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'z12' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-14 10:02:10 - [TEST_CASE][FAILED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'z12' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-14 09:59:29 - [TEST_SUITE][FAILED] - TS_EGMFullScenario: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB2' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-14 09:59:29 - [TEST_SUITE][FAILED] - TS_EGMFullScenario: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'EB2' of object '' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //*[@id="app-form"]/div/app-body/div/div/div[2]/div[2]/app-event-categories-management-layout/div/div[1]/div/app-event-categories-management-search-fields/div/form/span/div/div/span/extended-input/div/div/div[2]/input' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at pk_Functions.CS_SpecificPageData.DataFun(CS_SpecificPageData.groovy:82)
+	at pk_Functions.CS_SpecificPageData.invokeMethod(CS_SpecificPageData.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550131166208.run(TempTestSuite1550131166208.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

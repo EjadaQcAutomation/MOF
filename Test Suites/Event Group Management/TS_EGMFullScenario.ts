@@ -25,7 +25,7 @@
    <testCaseLink>
       <guid>b561efd4-a23b-42a5-93d9-bd26522245cc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Insert_Records</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

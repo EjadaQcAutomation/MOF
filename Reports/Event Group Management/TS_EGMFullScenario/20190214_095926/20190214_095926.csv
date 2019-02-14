@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_EGMFullScenario,Chrome 71.0.3578.98,,2019-02-14 09:59:29,2019-02-14 10:02:44,3m - 15.633s,FAILED
+,,,,,,
+Test Cases/TC_Login,Chrome 71.0.3578.98,,2019-02-14 09:59:29,2019-02-14 09:59:46,16.657s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 71.0.3578.98,,2019-02-14 09:59:29,2019-02-14 09:59:46,16.240s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Select_Screen,Chrome 71.0.3578.98,,2019-02-14 09:59:46,2019-02-14 09:59:51,5.429s,PASSED
+"click(findTestObject(""NE_SideMenu""))",Chrome 71.0.3578.98,,2019-02-14 09:59:46,2019-02-14 09:59:48,2.155s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 71.0.3578.98,,2019-02-14 09:59:48,2019-02-14 09:59:48,0.092s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 71.0.3578.98,,2019-02-14 09:59:48,2019-02-14 09:59:49,0.752s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-14 09:59:49,2019-02-14 09:59:51,2.049s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Insert,Chrome 71.0.3578.98,,2019-02-14 09:59:51,2019-02-14 10:00:26,35.212s,FAILED
+"click(findTestObject(""Event Group Managemnt/BTN_Clear""))",Chrome 71.0.3578.98,,2019-02-14 09:59:51,2019-02-14 09:59:52,0.089s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-14 09:59:52,2019-02-14 09:59:54,2.001s,PASSED
+"pk_Functions.CS_SpecificPageData.DataFun([""Code_Search""], ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [Code])",Chrome 71.0.3578.98,,2019-02-14 09:59:54,2019-02-14 10:00:26,32.609s,FAILED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Insert,Chrome 71.0.3578.98,,2019-02-14 10:00:26,2019-02-14 10:01:01,34.842s,FAILED
+"click(findTestObject(""Event Group Managemnt/BTN_Clear""))",Chrome 71.0.3578.98,,2019-02-14 10:00:26,2019-02-14 10:00:26,0.100s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-14 10:00:26,2019-02-14 10:00:28,2.001s,PASSED
+"pk_Functions.CS_SpecificPageData.DataFun([""Code_Search""], ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [Code])",Chrome 71.0.3578.98,,2019-02-14 10:00:28,2019-02-14 10:01:01,32.707s,FAILED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Insert,Chrome 71.0.3578.98,,2019-02-14 10:01:01,2019-02-14 10:01:35,34.431s,FAILED
+"click(findTestObject(""Event Group Managemnt/BTN_Clear""))",Chrome 71.0.3578.98,,2019-02-14 10:01:01,2019-02-14 10:01:01,0.216s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-14 10:01:01,2019-02-14 10:01:03,2.001s,PASSED
+"pk_Functions.CS_SpecificPageData.DataFun([""Code_Search""], ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [Code])",Chrome 71.0.3578.98,,2019-02-14 10:01:03,2019-02-14 10:01:35,32.203s,FAILED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Insert,Chrome 71.0.3578.98,,2019-02-14 10:01:35,2019-02-14 10:02:10,34.385s,FAILED
+"click(findTestObject(""Event Group Managemnt/BTN_Clear""))",Chrome 71.0.3578.98,,2019-02-14 10:01:36,2019-02-14 10:01:36,0.163s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-14 10:01:36,2019-02-14 10:01:38,2.004s,PASSED
+"pk_Functions.CS_SpecificPageData.DataFun([""Code_Search""], ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [Code])",Chrome 71.0.3578.98,,2019-02-14 10:01:38,2019-02-14 10:02:10,32.204s,FAILED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Insert,Chrome 71.0.3578.98,,2019-02-14 10:02:10,2019-02-14 10:02:44,34.277s,FAILED
+"click(findTestObject(""Event Group Managemnt/BTN_Clear""))",Chrome 71.0.3578.98,,2019-02-14 10:02:10,2019-02-14 10:02:10,0.088s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-14 10:02:10,2019-02-14 10:02:12,2.001s,PASSED
+"pk_Functions.CS_SpecificPageData.DataFun([""Code_Search""], ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [Code])",Chrome 71.0.3578.98,,2019-02-14 10:02:12,2019-02-14 10:02:44,32.173s,FAILED

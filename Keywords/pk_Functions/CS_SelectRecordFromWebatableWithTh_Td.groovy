@@ -47,7 +47,7 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 
-public class CS_SelectRecordFromWebatableWithTH_TR {
+public class CS_SelectRecordFromWebatableWithTh_Td {
 	@Keyword
 	SelectRecordFromWebtableFunTH_TD (String webtableId , String expectedValue , int expectedValueColumn , int actionButtonColumn ) {
 		'Expected value from Table'
