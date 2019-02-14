@@ -85,7 +85,7 @@ public class CS_SelectRecordFromWebtable_IPO {
 		//To locate rows of table it will Capture all the rows available in the table '
 		List<WebElement> Rows = Table.findElements(By.tagName('tr'))
 		println('No. of rows: ' + Rows.size())
-
+          WebUI.delay(2)
 		//Find a matching text in a table and performing action'
 		//Loop will execute for all the rows of the table'
 		table: for (int i = 1; i < Rows.size(); i++) {
