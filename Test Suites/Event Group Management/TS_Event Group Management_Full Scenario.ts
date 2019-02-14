@@ -20,7 +20,7 @@
       <guid>9bdb1fcc-20b1-434c-8074-7af78ce8981a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Event Group Management/TC_Update and Delete test</testCaseId>
+      <testCaseId>Test Cases/Event Group Management/TC_Update_Records 2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1dfac8ee-e22b-489b-9395-990efdc6c710</id>
