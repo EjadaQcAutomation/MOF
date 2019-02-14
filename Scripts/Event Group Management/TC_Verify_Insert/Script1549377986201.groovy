@@ -14,10 +14,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 if (search == 'SearchYes') {
-    WebUI.click(findTestObject('Event Group Managemnt/BTN_Clear'))
-
-    WebUI.delay(2)
-
     CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['Code_Search'], 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
         'Sheet1', [Code])
 
@@ -25,13 +21,9 @@ if (search == 'SearchYes') {
 
     WebUI.click(findTestObject('Event Group Managemnt/BTN_Search'))
 
-    WebUI.delay(4)
-
-
-
     CustomKeywords.'pk_Functions.CS_WebtableVerification.ValidateSearchParameters'(search, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
         'Sheet1', [Code, EnglishDescription, ArabicDescription], 0)
-
-    WebUI.delay(2)
 }
+
+WebUI.delay(1)
 
