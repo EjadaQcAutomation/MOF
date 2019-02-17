@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_EGMFullScenario,Chrome 71.0.3578.98,,2019-02-14 14:25:29,2019-02-14 14:28:47,3m - 18.677s,PASSED
+,,,,,,
+Test Cases/TC_Login,Chrome 71.0.3578.98,,2019-02-14 14:25:29,2019-02-14 14:25:51,21.754s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 71.0.3578.98,,2019-02-14 14:25:29,2019-02-14 14:25:51,21.343s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Select_Screen,Chrome 71.0.3578.98,,2019-02-14 14:25:51,2019-02-14 14:25:55,4.352s,PASSED
+"click(findTestObject(""NE_SideMenu""))",Chrome 71.0.3578.98,,2019-02-14 14:25:51,2019-02-14 14:25:52,1.178s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 71.0.3578.98,,2019-02-14 14:25:52,2019-02-14 14:25:52,0.097s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 71.0.3578.98,,2019-02-14 14:25:52,2019-02-14 14:25:53,0.602s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-14 14:25:53,2019-02-14 14:25:55,2.036s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Insert,Chrome 71.0.3578.98,,2019-02-14 14:25:55,2019-02-14 14:26:03,7.883s,PASSED
+"if (search == ""SearchYes"")",Chrome 71.0.3578.98,,2019-02-14 14:25:55,2019-02-14 14:26:02,6.536s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-02-14 14:26:02,2019-02-14 14:26:03,1.003s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Insert,Chrome 71.0.3578.98,,2019-02-14 14:26:03,2019-02-14 14:26:09,6.626s,PASSED
+"if (search == ""SearchYes"")",Chrome 71.0.3578.98,,2019-02-14 14:26:03,2019-02-14 14:26:08,5.584s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-02-14 14:26:08,2019-02-14 14:26:09,1.003s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Insert,Chrome 71.0.3578.98,,2019-02-14 14:26:09,2019-02-14 14:26:11,1.020s,PASSED
+"if (search == ""SearchYes"")",Chrome 71.0.3578.98,,2019-02-14 14:26:09,2019-02-14 14:26:09,0.000s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-02-14 14:26:09,2019-02-14 14:26:10,1.003s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Insert,Chrome 71.0.3578.98,,2019-02-14 14:26:11,2019-02-14 14:26:12,1.037s,PASSED
+"if (search == ""SearchYes"")",Chrome 71.0.3578.98,,2019-02-14 14:26:11,2019-02-14 14:26:11,0.011s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-02-14 14:26:11,2019-02-14 14:26:12,1.002s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Insert,Chrome 71.0.3578.98,,2019-02-14 14:26:12,2019-02-14 14:26:13,1.024s,PASSED
+"if (search == ""SearchYes"")",Chrome 71.0.3578.98,,2019-02-14 14:26:12,2019-02-14 14:26:12,0.000s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-02-14 14:26:12,2019-02-14 14:26:13,1.008s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Click on Search Button,Chrome 71.0.3578.98,,2019-02-14 14:26:13,2019-02-14 14:26:16,3.453s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Clear""))",Chrome 71.0.3578.98,,2019-02-14 14:26:13,2019-02-14 14:26:13,0.083s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-14 14:26:13,2019-02-14 14:26:15,2.003s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 71.0.3578.98,,2019-02-14 14:26:15,2019-02-14 14:26:15,0.100s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-02-14 14:26:15,2019-02-14 14:26:16,1.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Delete,Chrome 71.0.3578.98,,2019-02-14 14:26:16,2019-02-14 14:26:52,35.957s,PASSED
+if (delete),Chrome 71.0.3578.98,,2019-02-14 14:26:16,2019-02-14 14:26:50,33.687s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-14 14:26:50,2019-02-14 14:26:52,2.002s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Delete,Chrome 71.0.3578.98,,2019-02-14 14:26:52,2019-02-14 14:27:30,37.752s,PASSED
+if (delete),Chrome 71.0.3578.98,,2019-02-14 14:26:52,2019-02-14 14:27:28,35.732s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-14 14:27:28,2019-02-14 14:27:30,2.003s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Delete,Chrome 71.0.3578.98,,2019-02-14 14:27:30,2019-02-14 14:28:07,37.715s,PASSED
+if (delete),Chrome 71.0.3578.98,,2019-02-14 14:27:30,2019-02-14 14:28:05,35.692s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-14 14:28:05,2019-02-14 14:28:07,2.002s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Delete,Chrome 71.0.3578.98,,2019-02-14 14:28:07,2019-02-14 14:28:45,37.685s,PASSED
+if (delete),Chrome 71.0.3578.98,,2019-02-14 14:28:08,2019-02-14 14:28:43,35.648s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-14 14:28:43,2019-02-14 14:28:45,2.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Delete,Chrome 71.0.3578.98,,2019-02-14 14:28:45,2019-02-14 14:28:47,2.040s,PASSED
+if (delete),Chrome 71.0.3578.98,,2019-02-14 14:28:45,2019-02-14 14:28:45,0.000s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-14 14:28:45,2019-02-14 14:28:47,2.002s,PASSED

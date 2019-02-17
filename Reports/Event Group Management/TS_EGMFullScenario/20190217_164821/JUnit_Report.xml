@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_EGMFullScenario" time="414" tests="24" failures="0" errors="2">
+   <testsuite name="TS_EGMFullScenario" tests="24" failures="0" errors="2" time="414" timestamp="2019-02-17 16:48:24" hostname="aeibrahim - LPALXY0477.ejadaalex.local" id="Test Suites/Event Group Management/TS_EGMFullScenario">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190217_164821"/>
+         <property name="logFiles" value="C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190217_164821\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aeibrahim - LPALXY0477.ejadaalex.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="192.168.3.64"/>
+         <property name="sessionId" value="d32574c62252223ffd57f7a3fe5f85dc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:48:25 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-02-17 16:48:26 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-02-17 16:48:26 - [MESSAGE][WARNING] - Test object id is null
+
+2019-02-17 16:48:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-17 16:48:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-17 16:48:43 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.0.190:8080/mof/#/'
+
+2019-02-17 16:48:43 - [MESSAGE][PASSED] - Text 'AAttia' is set on object 'Object Repository/Login/Username'
+
+2019-02-17 16:48:43 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Login/Password'
+
+2019-02-17 16:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login' is clicked on
+
+2019-02-17 16:48:43 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Select_Screen" classname="Test Cases/Event Group Management/TC_Select_Screen" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:48:43 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Select_Screen: Test Cases/Event Group Management/TC_Select_Screen
+
+2019-02-17 16:48:43 - [TEST_STEP][PASSED] - click(findTestObject("NE_SideMenu")): Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-02-17 16:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-02-17 16:48:45 - [TEST_STEP][PASSED] - click(findTestObject("NE_EventGroupManagement")): Object: 'Object Repository/NE_EventGroupManagement' is clicked on
+
+2019-02-17 16:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_EventGroupManagement' is clicked on
+
+2019-02-17 16:48:45 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-17 16:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-17 16:48:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 16:48:47 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Insert_Records" classname="Test Cases/Event Group Management/TC_Insert_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:48:47 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Insert_Records: Test Cases/Event Group Management/TC_Insert_Records
+
+2019-02-17 16:48:48 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Insert")): Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 16:48:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 16:48:48 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code, arabic_des, english_des]): pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 16:48:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:48:50 - [MESSAGE][PASSED] - Text 'EB2' is set on object ''
+
+2019-02-17 16:48:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:48:51 - [MESSAGE][PASSED] - Text 'English Description_1' is set on object ''
+
+2019-02-17 16:48:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:48:52 - [MESSAGE][PASSED] - Text 'English Description_123' is set on object ''
+
+2019-02-17 16:48:52 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 16:48:52 - [TEST_STEP][PASSED] - click(findTestObject("BTN_Save")): Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 16:48:52 - [MESSAGE][PASSED] - Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 16:48:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 16:48:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:48:55 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 16:48:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 16:48:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 16:48:59 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Insert_Records" classname="Test Cases/Event Group Management/TC_Insert_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:48:59 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Insert_Records: Test Cases/Event Group Management/TC_Insert_Records
+
+2019-02-17 16:48:59 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Insert")): Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 16:48:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 16:48:59 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code, arabic_des, english_des]): pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 16:49:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:49:00 - [MESSAGE][PASSED] - Text 'EB3' is set on object ''
+
+2019-02-17 16:49:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:49:01 - [MESSAGE][PASSED] - Text 'English Description_2' is set on object ''
+
+2019-02-17 16:49:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:49:02 - [MESSAGE][PASSED] - Text 'English Description_2' is set on object ''
+
+2019-02-17 16:49:02 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 16:49:02 - [TEST_STEP][PASSED] - click(findTestObject("BTN_Save")): Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 16:49:02 - [MESSAGE][PASSED] - Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 16:49:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 16:49:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:49:05 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 16:49:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 16:49:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 16:49:09 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Insert_Records" classname="Test Cases/Event Group Management/TC_Insert_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:49:09 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Insert_Records: Test Cases/Event Group Management/TC_Insert_Records
+
+2019-02-17 16:49:09 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Insert")): Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 16:49:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 16:49:09 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code, arabic_des, english_des]): pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 16:49:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:49:10 - [MESSAGE][PASSED] - Text 'EB4' is set on object ''
+
+2019-02-17 16:49:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:49:11 - [MESSAGE][PASSED] - Text 'English Description_3' is set on object ''
+
+2019-02-17 16:49:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:49:12 - [MESSAGE][PASSED] - Text 'English Description_3' is set on object ''
+
+2019-02-17 16:49:12 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 16:49:12 - [TEST_STEP][PASSED] - click(findTestObject("BTN_Save")): Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 16:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 16:49:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 16:49:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:49:16 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 16:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 16:49:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 16:49:19 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Insert_Records" classname="Test Cases/Event Group Management/TC_Insert_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:49:19 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Insert_Records: Test Cases/Event Group Management/TC_Insert_Records
+
+2019-02-17 16:49:19 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Insert")): Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 16:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 16:49:19 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code, arabic_des, english_des]): pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 16:49:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:49:20 - [MESSAGE][PASSED] - Text 'EB5' is set on object ''
+
+2019-02-17 16:49:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:49:21 - [MESSAGE][PASSED] - Text 'English Description_4' is set on object ''
+
+2019-02-17 16:49:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:49:22 - [MESSAGE][PASSED] - Text 'English Description_4' is set on object ''
+
+2019-02-17 16:49:22 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 16:49:22 - [TEST_STEP][PASSED] - click(findTestObject("BTN_Save")): Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 16:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 16:49:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 16:49:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:49:26 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 16:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 16:49:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 16:49:29 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Insert_Records" classname="Test Cases/Event Group Management/TC_Insert_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:49:29 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Insert_Records: Test Cases/Event Group Management/TC_Insert_Records
+
+2019-02-17 16:49:29 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Insert")): Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 16:49:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 16:49:29 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code, arabic_des, english_des]): pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 16:49:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:49:30 - [MESSAGE][PASSED] - Text 'z12' is set on object ''
+
+2019-02-17 16:49:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:49:31 - [MESSAGE][PASSED] - Text 'English Description_4' is set on object ''
+
+2019-02-17 16:49:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:49:32 - [MESSAGE][PASSED] - Text 'English Description_4' is set on object ''
+
+2019-02-17 16:49:32 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 16:49:32 - [TEST_STEP][PASSED] - click(findTestObject("BTN_Save")): Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 16:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 16:49:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 16:49:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:49:35 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 16:49:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 16:49:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 16:49:39 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Click on Clear Button" classname="Test Cases/Event Group Management/TC_Click on Clear Button" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:49:39 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Click on Clear Button: Test Cases/Event Group Management/TC_Click on Clear Button
+
+2019-02-17 16:49:39 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Clear")): Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-17 16:49:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Clear" classname="Test Cases/Event Group Management/TC_Verify_Clear" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:49:39 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Clear: Test Cases/Event Group Management/TC_Verify_Clear
+
+2019-02-17 16:49:39 - [TEST_STEP][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters("Clear", "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-17 16:49:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:49:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:49:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:49:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:49:46 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '-1'
+
+2019-02-17 16:49:46 - [MESSAGE][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="ERROR">
+         <error type="ERROR" message="Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB2, English Description_123, English Description_1]
+       |                false
+       [EB2, English Description_1_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550414901190.run(TempTestSuite1550414901190.groovy:36)
+Caused by: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB2, English Description_123, English Description_1]
+       |                false
+       [EB2, English Description_1_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:129)
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1549377986201.run(Script1549377986201.groovy:25)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-02-17 16:49:46 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB2, English Description_123, English Description_1]
+       |                false
+       [EB2, English Description_1_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550414901190.run(TempTestSuite1550414901190.groovy:36)
+Caused by: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB2, English Description_123, English Description_1]
+       |                false
+       [EB2, English Description_1_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:129)
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1549377986201.run(Script1549377986201.groovy:25)
+	... 13 more
+
+
+2019-02-17 16:49:47 - [TEST_STEP][ERROR] - if (search == "SearchYes"): if (search == "SearchYes") FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB2, English Description_123, English Description_1]
+       |                false
+       [EB2, English Description_1_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550414901190.run(TempTestSuite1550414901190.groovy:36)
+Caused by: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB2, English Description_123, English Description_1]
+       |                false
+       [EB2, English Description_1_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:129)
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1549377986201.run(Script1549377986201.groovy:25)
+	... 13 more
+
+
+2019-02-17 16:49:47 - [TEST_STEP][PASSED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]): pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-17 16:49:47 - [MESSAGE][PASSED] - Text 'EB2' is set on object ''
+
+2019-02-17 16:49:47 - [MESSAGE][PASSED] - pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-17 16:49:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 16:49:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:49:49 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-17 16:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-17 16:49:49 - [TEST_STEP][ERROR] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(search, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code, EnglishDescription, ArabicDescription], 0): if (search == "SearchYes") FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB2, English Description_123, English Description_1]
+       |                false
+       [EB2, English Description_1_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550414901190.run(TempTestSuite1550414901190.groovy:36)
+Caused by: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB2, English Description_123, English Description_1]
+       |                false
+       [EB2, English Description_1_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:129)
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1549377986201.run(Script1549377986201.groovy:25)
+	... 13 more
+
+
+2019-02-17 16:49:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:49:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:49:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:49:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:49:56 - [MESSAGE][FAILED] - Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB2, English Description_123, English Description_1]
+       |                false
+       [EB2, English Description_1_Update, English Description_1_Update]
+
+
+2019-02-17 16:49:56 - [MESSAGE][ERROR] - if (search == "SearchYes") FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB2, English Description_123, English Description_1]
+       |                false
+       [EB2, English Description_1_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550414901190.run(TempTestSuite1550414901190.groovy:36)
+Caused by: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB2, English Description_123, English Description_1]
+       |                false
+       [EB2, English Description_1_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:129)
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1549377986201.run(Script1549377986201.groovy:25)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-02-17 16:49:46 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB2, English Description_123, English Description_1]
+       |                false
+       [EB2, English Description_1_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550414901190.run(TempTestSuite1550414901190.groovy:36)
+Caused by: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB2, English Description_123, English Description_1]
+       |                false
+       [EB2, English Description_1_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:129)
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1549377986201.run(Script1549377986201.groovy:25)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="ERROR">
+         <error type="ERROR" message="Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB3, English Description_2, English Description_2]
+       |                false
+       [EB3, English Description_2_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550414901190.run(TempTestSuite1550414901190.groovy:36)
+Caused by: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB3, English Description_2, English Description_2]
+       |                false
+       [EB3, English Description_2_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:129)
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1549377986201.run(Script1549377986201.groovy:25)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-02-17 16:49:56 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB3, English Description_2, English Description_2]
+       |                false
+       [EB3, English Description_2_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550414901190.run(TempTestSuite1550414901190.groovy:36)
+Caused by: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB3, English Description_2, English Description_2]
+       |                false
+       [EB3, English Description_2_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:129)
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1549377986201.run(Script1549377986201.groovy:25)
+	... 13 more
+
+
+2019-02-17 16:49:56 - [TEST_STEP][ERROR] - if (search == "SearchYes"): if (search == "SearchYes") FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB3, English Description_2, English Description_2]
+       |                false
+       [EB3, English Description_2_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550414901190.run(TempTestSuite1550414901190.groovy:36)
+Caused by: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB3, English Description_2, English Description_2]
+       |                false
+       [EB3, English Description_2_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:129)
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1549377986201.run(Script1549377986201.groovy:25)
+	... 13 more
+
+
+2019-02-17 16:49:56 - [TEST_STEP][PASSED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]): pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-17 16:49:57 - [MESSAGE][PASSED] - Text 'EB3' is set on object ''
+
+2019-02-17 16:49:57 - [MESSAGE][PASSED] - pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-17 16:49:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 16:49:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:49:59 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-17 16:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-17 16:49:59 - [TEST_STEP][ERROR] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(search, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code, EnglishDescription, ArabicDescription], 0): if (search == "SearchYes") FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB3, English Description_2, English Description_2]
+       |                false
+       [EB3, English Description_2_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550414901190.run(TempTestSuite1550414901190.groovy:36)
+Caused by: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB3, English Description_2, English Description_2]
+       |                false
+       [EB3, English Description_2_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:129)
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1549377986201.run(Script1549377986201.groovy:25)
+	... 13 more
+
+
+2019-02-17 16:50:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:50:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:50:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:50:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:50:06 - [MESSAGE][FAILED] - Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB3, English Description_2, English Description_2]
+       |                false
+       [EB3, English Description_2_Update, English Description_1_Update]
+
+
+2019-02-17 16:50:06 - [MESSAGE][ERROR] - if (search == "SearchYes") FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB3, English Description_2, English Description_2]
+       |                false
+       [EB3, English Description_2_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550414901190.run(TempTestSuite1550414901190.groovy:36)
+Caused by: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB3, English Description_2, English Description_2]
+       |                false
+       [EB3, English Description_2_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:129)
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1549377986201.run(Script1549377986201.groovy:25)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-02-17 16:49:56 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB3, English Description_2, English Description_2]
+       |                false
+       [EB3, English Description_2_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550414901190.run(TempTestSuite1550414901190.groovy:36)
+Caused by: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB3, English Description_2, English Description_2]
+       |                false
+       [EB3, English Description_2_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:129)
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1549377986201.run(Script1549377986201.groovy:25)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:50:06 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert
+
+2019-02-17 16:50:06 - [TEST_STEP][PASSED] - if (search == "SearchYes"): null
+
+2019-02-17 16:50:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-17 16:50:07 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:50:07 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert
+
+2019-02-17 16:50:07 - [TEST_STEP][PASSED] - if (search == "SearchYes"): null
+
+2019-02-17 16:50:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-17 16:50:08 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:50:08 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert
+
+2019-02-17 16:50:08 - [TEST_STEP][PASSED] - if (search == "SearchYes"): null
+
+2019-02-17 16:50:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-17 16:50:09 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Click on Search Button" classname="Test Cases/Event Group Management/TC_Click on Search Button" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:50:09 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Click on Search Button: Test Cases/Event Group Management/TC_Click on Search Button
+
+2019-02-17 16:50:09 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Clear")): Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-17 16:50:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-17 16:50:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 16:50:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:50:11 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-17 16:50:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-17 16:50:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-17 16:50:12 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete_Records" classname="Test Cases/Event Group Management/TC_Delete_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:50:12 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete_Records: Test Cases/Event Group Management/TC_Delete_Records
+
+2019-02-17 16:50:13 - [TEST_STEP][PASSED] - if (ActionType): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 16:50:13 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(ActionType, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 16:50:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:50:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:50:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:50:17 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:50:17 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:50:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:50:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:32 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:50:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:50:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:50:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:50:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:50:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:46 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 16:50:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 16:50:48 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete_Records" classname="Test Cases/Event Group Management/TC_Delete_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:50:48 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete_Records: Test Cases/Event Group Management/TC_Delete_Records
+
+2019-02-17 16:50:48 - [TEST_STEP][PASSED] - if (ActionType): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 16:50:48 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(ActionType, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 16:50:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:50:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:50:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:50:52 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:50:52 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:50:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:50:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:50:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:08 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:51:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:51:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:51:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:51:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:51:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:29 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 16:51:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 16:51:31 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete_Records" classname="Test Cases/Event Group Management/TC_Delete_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:51:31 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete_Records: Test Cases/Event Group Management/TC_Delete_Records
+
+2019-02-17 16:51:31 - [TEST_STEP][PASSED] - if (ActionType): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 16:51:31 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(ActionType, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 16:51:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:51:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:51:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:51:36 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:51:36 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:51:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:51:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:52 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:51:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:51:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:51:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:51:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:52:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:52:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:09 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 16:52:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 16:52:11 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete_Records" classname="Test Cases/Event Group Management/TC_Delete_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:52:11 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete_Records: Test Cases/Event Group Management/TC_Delete_Records
+
+2019-02-17 16:52:11 - [TEST_STEP][PASSED] - if (ActionType): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 16:52:11 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(ActionType, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 16:52:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:52:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:52:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:52:15 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:52:15 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:52:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:52:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:30 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:52:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:52:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:52:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:52:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:52:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:48 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 16:52:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 16:52:50 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete_Records" classname="Test Cases/Event Group Management/TC_Delete_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:52:50 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete_Records: Test Cases/Event Group Management/TC_Delete_Records
+
+2019-02-17 16:52:50 - [TEST_STEP][PASSED] - if (ActionType): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 16:52:50 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(ActionType, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 16:52:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:52:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:52:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:52:54 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:52:54 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:52:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:52:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:52:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:09 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:53:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:53:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:53:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:25 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:53:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:53:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:53:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:41 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:53:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:53:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:53:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:53:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:53:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 16:53:49 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 16:53:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 16:53:51 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" classname="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:53:51 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete
+
+2019-02-17 16:53:51 - [TEST_STEP][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-17 16:53:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:53:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:53:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:53:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:53:59 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:53:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:54:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:54:02 - [MESSAGE][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-17 16:54:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 16:54:04 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" classname="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:54:04 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete
+
+2019-02-17 16:54:04 - [TEST_STEP][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-17 16:54:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:54:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:54:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:54:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:54:12 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:54:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:54:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:54:15 - [MESSAGE][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-17 16:54:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 16:54:17 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" classname="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:54:18 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete
+
+2019-02-17 16:54:18 - [TEST_STEP][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-17 16:54:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:54:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:54:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:54:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:54:25 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:54:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:54:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:54:29 - [MESSAGE][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-17 16:54:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 16:54:31 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" classname="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:54:31 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete
+
+2019-02-17 16:54:31 - [TEST_STEP][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-17 16:54:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:54:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:54:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:54:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:54:39 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:54:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:54:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:54:42 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:54:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:54:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:54:46 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '-1'
+
+2019-02-17 16:54:46 - [MESSAGE][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-17 16:54:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 16:54:48 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" classname="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:54:48 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete
+
+2019-02-17 16:54:48 - [TEST_STEP][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-17 16:54:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:54:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:54:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:54:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 16:54:55 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:54:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:54:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:54:59 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 16:54:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 16:55:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 16:55:03 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '-1'
+
+2019-02-17 16:55:03 - [MESSAGE][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-17 16:55:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 16:55:05 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2019-02-17 16:55:05 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-02-17 16:55:05 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-02-17 16:55:05 - [MESSAGE][WARNING] - Test object id is null
+
+2019-02-17 16:55:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-17 16:55:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-17 16:55:18 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.0.190:8080/mof/#/'
+
+2019-02-17 16:55:18 - [MESSAGE][PASSED] - Text 'AAttia' is set on object 'Object Repository/Login/Username'
+
+2019-02-17 16:55:18 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Login/Password'
+
+2019-02-17 16:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login' is clicked on
+
+2019-02-17 16:55:19 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-17 16:48:24 - [TEST_SUITE][ERROR] - TS_EGMFullScenario: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB2, English Description_123, English Description_1]
+       |                false
+       [EB2, English Description_1_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550414901190.run(TempTestSuite1550414901190.groovy:36)
+Caused by: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB2, English Description_123, English Description_1]
+       |                false
+       [EB2, English Description_1_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:129)
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1549377986201.run(Script1549377986201.groovy:25)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-02-17 16:48:24 - [TEST_SUITE][ERROR] - TS_EGMFullScenario: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB2, English Description_123, English Description_1]
+       |                false
+       [EB2, English Description_1_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550414901190.run(TempTestSuite1550414901190.groovy:36)
+Caused by: Assertion failed: 
+
+assert Columns_row_text == expectedValues
+       |                |  |
+       |                |  [EB2, English Description_123, English Description_1]
+       |                false
+       [EB2, English Description_1_Update, English Description_1_Update]
+
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:129)
+	at pk_Functions.CS_WebtableVerification.invokeMethod(CS_WebtableVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1549377986201.run(Script1549377986201.groovy:25)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>
