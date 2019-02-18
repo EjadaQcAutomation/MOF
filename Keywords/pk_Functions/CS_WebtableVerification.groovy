@@ -51,14 +51,14 @@ ValidateSearchParameters (String actionType, String fileName ,String sheetName ,
 	WebUI.delay(3)
 	if (webtableAttribute=='xpath'){
 		Table = driver.findElement(By.xpath(webtablelocatorValue))
-	
+
 	}
 	else{
 		Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
-		
+
 	}
 
-	
+
 	//To locate rows of table it will Capture all the rows available in the table
 	List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 	//To calculate no of rows In table'
@@ -68,7 +68,7 @@ ValidateSearchParameters (String actionType, String fileName ,String sheetName ,
 	Loop:
 	for (int rowTable = 1; rowTable < rows_count; rowTable++) {
 		//To locate columns(cells) of that specific row'
-	
+
 		Columns_row = rows_table.get(rowTable).findElements(By.tagName('td'))
 		//To calculate no of columns(cells) In that specific row
 		int columns_count = expectedValues.size()
@@ -78,7 +78,7 @@ ValidateSearchParameters (String actionType, String fileName ,String sheetName ,
 		if (Columns_row.get(uniqueColumn).getText() == expectedValues[uniqueColumn]) {
 			println "search2 "
 			for (int column = 0 ; column < columns_count ;column++){
-				
+
 				Columns_row_text.add(Columns_row.get(column).getText())
 			}
 			break

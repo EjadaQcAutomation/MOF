@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_EGMFullScenario,Chrome 72.0.3626.96,,2019-02-17 16:37:27,2019-02-17 16:39:49,2m - 22.194s,FAILED
+,,,,,,
+Test Cases/TC_Login,Chrome 72.0.3626.96,,2019-02-17 16:37:27,2019-02-17 16:37:43,16.037s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 72.0.3626.96,,2019-02-17 16:37:28,2019-02-17 16:37:43,15.362s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Select_Screen,Chrome 72.0.3626.96,,2019-02-17 16:37:43,2019-02-17 16:37:48,4.347s,PASSED
+"click(findTestObject(""NE_SideMenu""))",Chrome 72.0.3626.96,,2019-02-17 16:37:44,2019-02-17 16:37:45,1.147s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 72.0.3626.96,,2019-02-17 16:37:45,2019-02-17 16:37:45,0.107s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.96,,2019-02-17 16:37:45,2019-02-17 16:37:46,0.613s,PASSED
+delay(2),Chrome 72.0.3626.96,,2019-02-17 16:37:46,2019-02-17 16:37:48,2.045s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Click on Search Button,Chrome 72.0.3626.96,,2019-02-17 16:37:48,2019-02-17 16:37:51,3.483s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Clear""))",Chrome 72.0.3626.96,,2019-02-17 16:37:48,2019-02-17 16:37:48,0.089s,PASSED
+delay(2),Chrome 72.0.3626.96,,2019-02-17 16:37:48,2019-02-17 16:37:50,2.002s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.96,,2019-02-17 16:37:50,2019-02-17 16:37:50,0.101s,PASSED
+delay(1),Chrome 72.0.3626.96,,2019-02-17 16:37:50,2019-02-17 16:37:51,1.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Update,Chrome 72.0.3626.96,,2019-02-17 16:37:51,2019-02-17 16:39:08,1m - 16.953s,PASSED
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.96,,2019-02-17 16:37:51,2019-02-17 16:38:30,38.983s,PASSED
+delay(1),Chrome 72.0.3626.96,,2019-02-17 16:38:30,2019-02-17 16:38:31,1.001s,PASSED
+"pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(ActionType, 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", Code)",Chrome 72.0.3626.96,,2019-02-17 16:38:31,2019-02-17 16:39:04,32.376s,PASSED
+delay(2),Chrome 72.0.3626.96,,2019-02-17 16:39:04,2019-02-17 16:39:06,2.002s,PASSED
+"pk_Functions.CS_VerifyPageData.CheckMatching([""Arabic Description"", ""English Description""], ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [ArabicDescription, EnglishDescription])",Chrome 72.0.3626.96,,2019-02-17 16:39:06,2019-02-17 16:39:06,0.126s,PASSED
+delay(2),Chrome 72.0.3626.96,,2019-02-17 16:39:06,2019-02-17 16:39:08,1.997s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Back (1)""))",Chrome 72.0.3626.96,,2019-02-17 16:39:08,2019-02-17 16:39:08,0.159s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Update,Chrome 72.0.3626.96,,2019-02-17 16:39:08,2019-02-17 16:39:46,37.503s,FAILED
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.96,,2019-02-17 16:39:08,2019-02-17 16:39:46,37.472s,FAILED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Update,Chrome 72.0.3626.96,,2019-02-17 16:39:46,2019-02-17 16:39:47,1.177s,ERROR
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.96,,2019-02-17 16:39:46,2019-02-17 16:39:46,0.000s,PASSED
+delay(1),Chrome 72.0.3626.96,,2019-02-17 16:39:46,2019-02-17 16:39:47,0.991s,PASSED
+"pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(ActionType, 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", Code)",Chrome 72.0.3626.96,,2019-02-17 16:39:47,2019-02-17 16:39:47,0.171s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Update,Chrome 72.0.3626.96,,2019-02-17 16:39:47,2019-02-17 16:39:48,1.149s,ERROR
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.96,,2019-02-17 16:39:47,2019-02-17 16:39:47,0.000s,PASSED
+delay(1),Chrome 72.0.3626.96,,2019-02-17 16:39:47,2019-02-17 16:39:48,1.002s,PASSED
+"pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(ActionType, 0, 3, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", Code)",Chrome 72.0.3626.96,,2019-02-17 16:39:48,2019-02-17 16:39:48,0.104s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Update,Chrome 72.0.3626.96,,2019-02-17 16:39:48,2019-02-17 16:39:49,1.088s,ERROR
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.96,,2019-02-17 16:39:48,2019-02-17 16:39:49,1.070s,ERROR

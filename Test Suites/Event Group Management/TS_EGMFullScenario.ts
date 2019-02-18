@@ -67,7 +67,7 @@
    <testCaseLink>
       <guid>2c989af4-7057-43c7-b447-f26b47d85fba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Verify_Insert</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -97,16 +97,16 @@
          <variableId>b95468a5-3315-468a-bfdd-558abfdf72f7</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1b468a96-8dff-48c8-af44-3d0c10e4954d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Search</value>
-         <variableId>3702b3e1-e07f-4e43-b192-cce2bce3aac5</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1e8875c2-23d9-483f-9f56-7e1dcd207598</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>0dcc863e-e59d-48f5-bc98-bd7ea8795e50</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Click on Search Button</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -151,7 +151,7 @@
    <testCaseLink>
       <guid>07649aac-249d-49f7-823b-43a5c8c57fbc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Verify_Update</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -165,13 +165,13 @@
       <variableLink>
          <testDataLinkId>f81515e0-9737-4b89-94bd-66a4cc36074f</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Arabic Description</value>
+         <value>Arabic Description_Update</value>
          <variableId>329022af-680d-49e9-bed6-3431a9449b5a</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>f81515e0-9737-4b89-94bd-66a4cc36074f</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>English Description</value>
+         <value>English Description_Update</value>
          <variableId>a5002349-8343-4198-8115-fae313acd9a0</variableId>
       </variableLink>
       <variableLink>
