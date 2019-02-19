@@ -117,17 +117,12 @@ public class CS_ClickingonActionButtonswithPagination {
 		WebUI.delay(1)
 		List<WebElement> RowsN = new ArrayList<WebElement>()
 		if(actionType=="UpdateYes" ||actionType== "DeleteYes" ||actionType== "DeleteNo" || actionType== "ViewYes" ){
-			//println "Update 1 "
-			//WebUI.delay(2)
-
-			//Ensuring attribute value
-			//println WebUI.getAttribute(NextPage,"tabindex")
 
 			//Looping over pages
 			while(WebUI.getAttribute(NextPage,NextPageAttribute)==NextPageAttribute_Value){
-				//WebUI.delay(2)
 				PagesCount++
 				println "Update 2"
+				//If condition is added so as not to click next page at first loop 
 				if (PagesCount>1){
 					WebUI.click(NextPage)
 				}
@@ -141,11 +136,10 @@ public class CS_ClickingonActionButtonswithPagination {
 				table: for (int i = 1; i < RowsN.size(); i++) {
 					x++
 					//Extracting data from each row
-					//WebUI.delay(1)
 					List<WebElement> Cols = RowsN.get(i).findElements(By.tagName('td'))
 					println  ('Cols1:' + x )
 
-					//Detecting unique id of records that contains Update or Delete
+					//Comparing  expected unique id of unique id in row  
 					if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
 						Matched =1
 						println "Matched"
@@ -153,14 +147,9 @@ public class CS_ClickingonActionButtonswithPagination {
 						if (actionType=='UpdateYes'){
 							println 'UpdateYes'
 							//Clicking on Update for the selected record in grid
-							//WebUI.delay(5)
-
-							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click();
-
-							//WebUI.delay(1)
+							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click();		
 						}
 						else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
-
 							//Clicking on Delete for the selected record in grid
 							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[3]')).click() ;
 
@@ -180,21 +169,18 @@ public class CS_ClickingonActionButtonswithPagination {
 							//Click on No or Yes in deletion alert
 							WebUI.click(delete)
 						}
-
+						//Clicking on View for the selected record in grid
 						else if (actionType=='ViewYes'){
 							WebUI.delay(1)
 							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[1]')).click() ;
 						}
 						break
 					}
-
 				}
-				//Breaking pages search when record are matched with desired data
+				//Breaking pages search when record is matched with desired data
 				if (Matched ==1){
 					break
 				}
-
-				//WebUI.delay(1)
 			}
 		}
 		WebUI.delay(1)

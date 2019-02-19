@@ -67,7 +67,7 @@ public class CS_WebtableVerification{
 			Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
 
 		}
-	
+
 		//Next Page Button Locater Detection
 		int indexNext_Page = valueOfRow.indexOf("NextPage");
 		TestObject NextPage = new TestObject()
