@@ -1,7 +1,7 @@
 package pk_Functions
 /* Created By ‘Ebtehal Gamal Yusuf and Asmaa El-Sayed’
  * Date 13/01/2019
- * Usage:This Function is used to compare record in grid with expected result it can be used to validate that search parameters filters data 
+ * Usage:This Function is used to compare record in grid with expected result it can be used to validate that search parameters filters data , validate clear grid after clear action and validate  deleted record from grid                                                                                                                             
  * Input:There are four inputs required for this function (String actionType, String fileName ,String sheetName , List expectedValues = [], int uniqueColumn) 
  * Output:Ensure that record is matched with expected record or not 
  */
@@ -67,7 +67,7 @@ public class CS_WebtableVerification{
 			Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
 
 		}
-		WebUI.delay(2)
+	
 		//Next Page Button Locater Detection
 		int indexNext_Page = valueOfRow.indexOf("NextPage");
 		TestObject NextPage = new TestObject()
@@ -107,12 +107,13 @@ public class CS_WebtableVerification{
 			if ((Columns_row.get(uniqueColumn).getText() != expectedValues[uniqueColumn])&&(rowTable==rows_count - 1)&&(WebUI.getAttribute(NextPage,NextPageAttribute)==NextPageAttribute_Value)) {
 				WebUI.click(NextPage)
 				WebUI.delay(3)
-				println "yes in page "
+				println "no in page "
 				rows_table = Table.findElements(By.tagName('tr'))
 				println " soma "
 				//To calculate no of rows In table'
 				rows_count = rows_table.size()
 				rowTable=1
+
 			}
 			else if (Columns_row.get(uniqueColumn).getText() == expectedValues[uniqueColumn]) {
 				println "yes in page "

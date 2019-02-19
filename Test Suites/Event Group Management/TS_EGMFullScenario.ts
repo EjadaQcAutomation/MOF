@@ -67,19 +67,19 @@
    <testCaseLink>
       <guid>30cd9d9f-00d7-47e9-a5f7-543c37f7698c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Click on Clear Button</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>be877ec9-6ba0-4373-84d8-fc612af8d3ec</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Verify_Clear</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9287ae9d-e772-4998-961d-1a1b7bb520b4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Verify_Insert</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
