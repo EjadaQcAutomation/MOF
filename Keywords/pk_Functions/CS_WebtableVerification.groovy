@@ -50,12 +50,12 @@ public class CS_WebtableVerification{
 			valueOfRow.add(data.getValue(1, row))
 		}
 		index = valueOfRow.indexOf("Table");
-		 webtableAttribute  = data.getValue(3,index+1)
-		 webtablelocatorValue  = data.getValue(4,index+1)
+		webtableAttribute  = data.getValue(3,index+1)
+		webtablelocatorValue  = data.getValue(4,index+1)
 		List<String> Columns_row_text  = new ArrayList<String>()
 		WebDriver driver = DriverFactory.getWebDriver()
 		List<WebElement> Columns_row
-		
+
 
 		//To locate table'
 		WebUI.delay(3)
@@ -87,7 +87,7 @@ public class CS_WebtableVerification{
 		WebUI.delay(2)
 
 		//To locate rows of table it will Capture all the rows available in the table
-		 rows_table = Table.findElements(By.tagName('tr'))
+		rows_table = Table.findElements(By.tagName('tr'))
 		//To calculate no of rows In table'
 		int rows_count = rows_table.size()
 		println rows_count

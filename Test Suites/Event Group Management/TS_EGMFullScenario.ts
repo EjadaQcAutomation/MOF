@@ -292,10 +292,4 @@
          <variableId>31a35954-8c1a-4cc7-b7d5-bc7f0d0e9dff</variableId>
       </variableLink>
    </testCaseLink>
-   <testCaseLink>
-      <guid>30a28c3a-a693-41b8-8a1c-3f01fe8aded8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_Login</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>
