@@ -151,7 +151,7 @@
    <testCaseLink>
       <guid>07649aac-249d-49f7-823b-43a5c8c57fbc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Verify_Update</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -190,7 +190,7 @@
    <testCaseLink>
       <guid>92f66f43-1799-41aa-a202-cc9551f33e3a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_View_Records</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

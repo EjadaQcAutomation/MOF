@@ -66,7 +66,9 @@ public class CS_ClickingonActionButtonswithPagination {
 	int Matched=0
 	int x
 	int z
-
+	int rows_count
+	List<WebElement> Cols
+	List<WebElement> RowsN = new ArrayList<WebElement>()
 
 	@Keyword
 
@@ -99,7 +101,7 @@ public class CS_ClickingonActionButtonswithPagination {
 
 		//Next Page Button Locater Detection
 		int indexNext_Page = valueOfRowT.indexOf("NextPage");
-		println indexNext_Page
+		//println indexNext_Page
 		TestObject NextPage = new TestObject()
 		NextPage.addProperty(dataObject.getValue(3, indexNext_Page+1), ConditionType.EQUALS, dataObject.getValue(4, indexNext_Page+1))
 		String NextPageAttribute =  dataObject.getValue(5, indexNext_Page+1)
@@ -107,7 +109,7 @@ public class CS_ClickingonActionButtonswithPagination {
 
 		//First Page Button Locater Detection
 		int indexFirst_Page = valueOfRowT.indexOf("FirstPage");
-		println indexFirst_Page
+		//println indexFirst_Page
 		TestObject FirstPage = new TestObject()
 		FirstPage.addProperty(dataObject.getValue(3, indexFirst_Page+1), ConditionType.EQUALS, dataObject.getValue(4, indexFirst_Page+1))
 		//End of First Page Button Locater Detection
@@ -115,39 +117,43 @@ public class CS_ClickingonActionButtonswithPagination {
 		//Navigating to First Page
 		WebUI.click(FirstPage)
 		WebUI.delay(1)
-		List<WebElement> RowsN = new ArrayList<WebElement>()
+		
+		
+		WebUI.delay(2)
+		
 		if(actionType=="UpdateYes" ||actionType== "DeleteYes" ||actionType== "DeleteNo" || actionType== "ViewYes" ){
-
+			RowsN = Table.findElements(By.tagName('tr'))
+			println RowsN.size()
+			rows_count = RowsN.size()
 			//Looping over pages
-			while(WebUI.getAttribute(NextPage,NextPageAttribute)==NextPageAttribute_Value){
-				PagesCount++
-				println "Update 2"
-				//If condition is added so as not to click next page at first loop 
-				if (PagesCount>1){
-					WebUI.click(NextPage)
-				}
-				WebUI.delay(1)
-
+		
 				//Extracting Rows of each webtable page
-				RowsN = Table.findElements(By.tagName('tr'))
-				WebUI.delay(1)
-
+				
 				//Looping over each row to get it column data to compare it to expected value
-				table: for (int i = 1; i < RowsN.size(); i++) {
+				table: for (int i = 1; i < rows_count; i++) {
 					x++
 					//Extracting data from each row
-					List<WebElement> Cols = RowsN.get(i).findElements(By.tagName('td'))
+					Cols = RowsN.get(i).findElements(By.tagName('td'))
 					println  ('Cols1:' + x )
-
-					//Comparing  expected unique id of unique id in row  
-					if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
+					//Comparing  expected unique id of unique id in row
+					if ((Cols.get(expectedValueColumn).getText() != code)&&(i==rows_count- 1)&&(WebUI.getAttribute(NextPage,NextPageAttribute)==NextPageAttribute_Value)) {
+						WebUI.click(NextPage)
+						WebUI.delay(3)
+						println "yes in page "
+						RowsN = Table.findElements(By.tagName('tr'))
+						println " Rows are detected  "
+						//To calculate no of rows In table'
+						rows_count = RowsN.size()
+						i=1
+					}
+					else if(Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
 						Matched =1
 						println "Matched"
 						//Taking action to the selected record according to actionType input
 						if (actionType=='UpdateYes'){
 							println 'UpdateYes'
 							//Clicking on Update for the selected record in grid
-							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click();		
+							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click();
 						}
 						else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
 							//Clicking on Delete for the selected record in grid
@@ -177,13 +183,10 @@ public class CS_ClickingonActionButtonswithPagination {
 						break
 					}
 				}
-				//Breaking pages search when record is matched with desired data
-				if (Matched ==1){
-					break
-				}
-			}
+		
+				
+			
 		}
-		WebUI.delay(1)
 
 	}
 }
