@@ -1,0 +1,113 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_EGMFullScenario,Chrome 72.0.3626.109,,2019-02-19 14:48:06,2019-02-19 14:51:33,3m - 26.874s,PASSED
+,,,,,,
+Test Cases/TC_Login,Chrome 72.0.3626.109,This test case is used to Login to MOF website,2019-02-19 14:48:06,2019-02-19 14:48:20,14.375s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 72.0.3626.109,,2019-02-19 14:48:07,2019-02-19 14:48:19,12.761s,PASSED
+maximizeWindow(),Chrome 72.0.3626.109,,2019-02-19 14:48:19,2019-02-19 14:48:20,1.153s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Select_Screen,Chrome 72.0.3626.109,,2019-02-19 14:48:20,2019-02-19 14:48:24,3.634s,PASSED
+"click(findTestObject(""NE_SideMenu""))",Chrome 72.0.3626.109,,2019-02-19 14:48:21,2019-02-19 14:48:21,0.595s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 72.0.3626.109,,2019-02-19 14:48:21,2019-02-19 14:48:21,0.082s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.109,,2019-02-19 14:48:21,2019-02-19 14:48:22,0.612s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-19 14:48:22,2019-02-19 14:48:24,2.034s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Insert_Records,Chrome 72.0.3626.109,This test case is used to insert records in data file and it has to be connected to data file excel sheet using data binding,2019-02-19 14:48:24,2019-02-19 14:48:35,11.227s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Insert""))",Chrome 72.0.3626.109,,2019-02-19 14:48:24,2019-02-19 14:48:25,0.180s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code, arabic_des, english_des])",Chrome 72.0.3626.109,,2019-02-19 14:48:25,2019-02-19 14:48:29,4.574s,PASSED
+"click(findTestObject(""BTN_Save""))",Chrome 72.0.3626.109,,2019-02-19 14:48:29,2019-02-19 14:48:29,0.077s,PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-19 14:48:29,2019-02-19 14:48:32,3.004s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Back (1)""))",Chrome 72.0.3626.109,,2019-02-19 14:48:32,2019-02-19 14:48:32,0.137s,PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-19 14:48:32,2019-02-19 14:48:35,3.003s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Insert_Records,Chrome 72.0.3626.109,This test case is used to insert records in data file and it has to be connected to data file excel sheet using data binding,2019-02-19 14:48:35,2019-02-19 14:48:45,10.045s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Insert""))",Chrome 72.0.3626.109,,2019-02-19 14:48:35,2019-02-19 14:48:36,0.154s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code, arabic_des, english_des])",Chrome 72.0.3626.109,,2019-02-19 14:48:36,2019-02-19 14:48:39,3.609s,PASSED
+"click(findTestObject(""BTN_Save""))",Chrome 72.0.3626.109,,2019-02-19 14:48:39,2019-02-19 14:48:39,0.065s,PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-19 14:48:39,2019-02-19 14:48:42,3.004s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Back (1)""))",Chrome 72.0.3626.109,,2019-02-19 14:48:42,2019-02-19 14:48:42,0.148s,PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-19 14:48:42,2019-02-19 14:48:45,3.003s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Insert_Records,Chrome 72.0.3626.109,This test case is used to insert records in data file and it has to be connected to data file excel sheet using data binding,2019-02-19 14:48:45,2019-02-19 14:48:55,10.108s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Insert""))",Chrome 72.0.3626.109,,2019-02-19 14:48:45,2019-02-19 14:48:46,0.184s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code, arabic_des, english_des])",Chrome 72.0.3626.109,,2019-02-19 14:48:46,2019-02-19 14:48:49,3.678s,PASSED
+"click(findTestObject(""BTN_Save""))",Chrome 72.0.3626.109,,2019-02-19 14:48:49,2019-02-19 14:48:49,0.073s,PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-19 14:48:49,2019-02-19 14:48:52,3.003s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Back (1)""))",Chrome 72.0.3626.109,,2019-02-19 14:48:52,2019-02-19 14:48:52,0.148s,PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-19 14:48:52,2019-02-19 14:48:55,3.002s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Insert_Records,Chrome 72.0.3626.109,This test case is used to insert records in data file and it has to be connected to data file excel sheet using data binding,2019-02-19 14:48:56,2019-02-19 14:49:06,10.197s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Insert""))",Chrome 72.0.3626.109,,2019-02-19 14:48:56,2019-02-19 14:48:56,0.147s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code, arabic_des, english_des])",Chrome 72.0.3626.109,,2019-02-19 14:48:56,2019-02-19 14:48:59,3.590s,PASSED
+"click(findTestObject(""BTN_Save""))",Chrome 72.0.3626.109,,2019-02-19 14:48:59,2019-02-19 14:49:00,0.078s,PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-19 14:49:00,2019-02-19 14:49:03,3.001s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Back (1)""))",Chrome 72.0.3626.109,,2019-02-19 14:49:03,2019-02-19 14:49:03,0.147s,PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-19 14:49:03,2019-02-19 14:49:06,3.003s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Insert_Records,Chrome 72.0.3626.109,This test case is used to insert records in data file and it has to be connected to data file excel sheet using data binding,2019-02-19 14:49:06,2019-02-19 14:49:16,9.950s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Insert""))",Chrome 72.0.3626.109,,2019-02-19 14:49:06,2019-02-19 14:49:06,0.146s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code, arabic_des, english_des])",Chrome 72.0.3626.109,,2019-02-19 14:49:06,2019-02-19 14:49:09,3.574s,PASSED
+"click(findTestObject(""BTN_Save""))",Chrome 72.0.3626.109,,2019-02-19 14:49:09,2019-02-19 14:49:10,0.070s,PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-19 14:49:10,2019-02-19 14:49:13,3.003s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Back (1)""))",Chrome 72.0.3626.109,,2019-02-19 14:49:13,2019-02-19 14:49:13,0.144s,PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-19 14:49:13,2019-02-19 14:49:16,3.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Click on Search Button,Chrome 72.0.3626.109,,2019-02-19 14:49:16,2019-02-19 14:49:19,3.449s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Clear""))",Chrome 72.0.3626.109,,2019-02-19 14:49:16,2019-02-19 14:49:16,0.098s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-19 14:49:16,2019-02-19 14:49:18,2.004s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.109,,2019-02-19 14:49:18,2019-02-19 14:49:18,0.088s,PASSED
+delay(1),Chrome 72.0.3626.109,,2019-02-19 14:49:18,2019-02-19 14:49:19,1.002s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_View_Records,Chrome 72.0.3626.109,,2019-02-19 14:49:19,2019-02-19 14:49:19,0.291s,PASSED
+"if (ActionType == ""ViewYes"")",Chrome 72.0.3626.109,,2019-02-19 14:49:19,2019-02-19 14:49:19,0.000s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_View_Records,Chrome 72.0.3626.109,,2019-02-19 14:49:19,2019-02-19 14:49:19,0.015s,PASSED
+"if (ActionType == ""ViewYes"")",Chrome 72.0.3626.109,,2019-02-19 14:49:19,2019-02-19 14:49:19,0.000s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_View_Records,Chrome 72.0.3626.109,,2019-02-19 14:49:19,2019-02-19 14:49:19,0.033s,PASSED
+"if (ActionType == ""ViewYes"")",Chrome 72.0.3626.109,,2019-02-19 14:49:19,2019-02-19 14:49:19,0.000s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_View_Records,Chrome 72.0.3626.109,,2019-02-19 14:49:19,2019-02-19 14:49:19,0.015s,PASSED
+"if (ActionType == ""ViewYes"")",Chrome 72.0.3626.109,,2019-02-19 14:49:19,2019-02-19 14:49:19,0.000s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_View_Records,Chrome 72.0.3626.109,,2019-02-19 14:49:19,2019-02-19 14:49:19,0.015s,PASSED
+"if (ActionType == ""ViewYes"")",Chrome 72.0.3626.109,,2019-02-19 14:49:19,2019-02-19 14:49:19,0.000s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Delete_Records,Chrome 72.0.3626.109,,2019-02-19 14:49:19,2019-02-19 14:49:31,11.604s,PASSED
+if (ActionType),Chrome 72.0.3626.109,,2019-02-19 14:49:20,2019-02-19 14:49:29,9.321s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-19 14:49:29,2019-02-19 14:49:31,2.000s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Delete_Records,Chrome 72.0.3626.109,,2019-02-19 14:49:31,2019-02-19 14:49:42,11.340s,PASSED
+if (ActionType),Chrome 72.0.3626.109,,2019-02-19 14:49:31,2019-02-19 14:49:40,9.328s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-19 14:49:40,2019-02-19 14:49:42,2.002s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Delete_Records,Chrome 72.0.3626.109,,2019-02-19 14:49:42,2019-02-19 14:49:54,11.220s,PASSED
+if (ActionType),Chrome 72.0.3626.109,,2019-02-19 14:49:42,2019-02-19 14:49:52,9.197s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-19 14:49:52,2019-02-19 14:49:54,2.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Delete_Records,Chrome 72.0.3626.109,,2019-02-19 14:49:54,2019-02-19 14:50:05,11.259s,PASSED
+if (ActionType),Chrome 72.0.3626.109,,2019-02-19 14:49:54,2019-02-19 14:50:03,9.257s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-19 14:50:03,2019-02-19 14:50:05,2.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Delete_Records,Chrome 72.0.3626.109,,2019-02-19 14:50:05,2019-02-19 14:50:21,16.148s,PASSED
+if (ActionType),Chrome 72.0.3626.109,,2019-02-19 14:50:05,2019-02-19 14:50:19,14.129s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-19 14:50:19,2019-02-19 14:50:21,2.002s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 72.0.3626.109,This test case is used to verify deleted and undeleted records,2019-02-19 14:50:21,2019-02-19 14:50:33,11.491s,PASSED
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 72.0.3626.109,,2019-02-19 14:50:21,2019-02-19 14:50:31,9.219s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-19 14:50:31,2019-02-19 14:50:33,2.002s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 72.0.3626.109,This test case is used to verify deleted and undeleted records,2019-02-19 14:50:33,2019-02-19 14:50:44,11.264s,PASSED
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 72.0.3626.109,,2019-02-19 14:50:33,2019-02-19 14:50:42,9.246s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-19 14:50:42,2019-02-19 14:50:44,2.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 72.0.3626.109,This test case is used to verify deleted and undeleted records,2019-02-19 14:50:44,2019-02-19 14:50:55,11.345s,PASSED
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 72.0.3626.109,,2019-02-19 14:50:44,2019-02-19 14:50:53,9.327s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-19 14:50:53,2019-02-19 14:50:55,2.000s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 72.0.3626.109,This test case is used to verify deleted and undeleted records,2019-02-19 14:50:55,2019-02-19 14:51:14,18.714s,PASSED
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 72.0.3626.109,,2019-02-19 14:50:55,2019-02-19 14:51:12,16.697s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-19 14:51:12,2019-02-19 14:51:14,2.000s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 72.0.3626.109,This test case is used to verify deleted and undeleted records,2019-02-19 14:51:14,2019-02-19 14:51:33,18.657s,PASSED
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 72.0.3626.109,,2019-02-19 14:51:14,2019-02-19 14:51:31,16.654s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-19 14:51:31,2019-02-19 14:51:33,2.002s,PASSED

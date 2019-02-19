@@ -77,7 +77,6 @@ public class CS_WebtableVerification{
 
 		//First Page Button Locater Detection
 		int indexFirst_Page = valueOfRow.indexOf("FirstPage");
-		println indexFirst_Page
 		TestObject FirstPage = new TestObject()
 		FirstPage.addProperty(data.getValue(3, indexFirst_Page+1), ConditionType.EQUALS, data.getValue(4, indexFirst_Page+1))
 		//End of First Page Button Locater Detection
@@ -90,7 +89,7 @@ public class CS_WebtableVerification{
 		rows_table = Table.findElements(By.tagName('tr'))
 		//To calculate no of rows In table'
 		int rows_count = rows_table.size()
-		println rows_count
+	
 		//Loop will execute for all the rows of the table
 		Loop:
 		int rowTable = 1
@@ -112,7 +111,7 @@ public class CS_WebtableVerification{
 				println " soma "
 				//To calculate no of rows In table'
 				rows_count = rows_table.size()
-				rowTable=1
+				rowTable=0
 
 			}
 			else if (Columns_row.get(uniqueColumn).getText() == expectedValues[uniqueColumn]) {

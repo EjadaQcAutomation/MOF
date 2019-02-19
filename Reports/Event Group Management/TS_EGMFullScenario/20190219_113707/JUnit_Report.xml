@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_EGMFullScenario" time="244" tests="27" failures="0" errors="1">
+   <testsuite name="TS_EGMFullScenario" tests="27" failures="0" errors="1" time="244" timestamp="2019-02-19 11:37:10" hostname="aeibrahim - LPALXY0477.ejadaalex.local" id="Test Suites/Event Group Management/TS_EGMFullScenario">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190219_113707"/>
+         <property name="logFiles" value="C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190219_113707\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aeibrahim - LPALXY0477.ejadaalex.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="192.168.3.64"/>
+         <property name="sessionId" value="eb7b31ed6ab0b104fac05b8f049342b9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:37:10 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-02-19 11:37:10 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-02-19 11:37:10 - [MESSAGE][WARNING] - Test object id is null
+
+2019-02-19 11:37:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-19 11:37:11 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-19 11:37:27 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.0.190:8080/mof/#/'
+
+2019-02-19 11:37:28 - [MESSAGE][PASSED] - Text 'AAttia' is set on object 'Object Repository/Login/Username'
+
+2019-02-19 11:37:28 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Login/Password'
+
+2019-02-19 11:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login' is clicked on
+
+2019-02-19 11:37:28 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-02-19 11:37:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-19 11:37:29 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Select_Screen" classname="Test Cases/Event Group Management/TC_Select_Screen" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:37:29 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Select_Screen: Test Cases/Event Group Management/TC_Select_Screen
+
+2019-02-19 11:37:29 - [TEST_STEP][PASSED] - click(findTestObject("NE_SideMenu")): Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-02-19 11:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-02-19 11:37:30 - [TEST_STEP][PASSED] - click(findTestObject("NE_EventGroupManagement")): Object: 'Object Repository/NE_EventGroupManagement' is clicked on
+
+2019-02-19 11:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_EventGroupManagement' is clicked on
+
+2019-02-19 11:37:30 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-19 11:37:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-19 11:37:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 11:37:33 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Insert_Records" classname="Test Cases/Event Group Management/TC_Insert_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:37:33 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Insert_Records: Test Cases/Event Group Management/TC_Insert_Records
+
+2019-02-19 11:37:33 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Insert")): Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-19 11:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-19 11:37:33 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code, arabic_des, english_des]): pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-19 11:37:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:37:36 - [MESSAGE][PASSED] - Text 'EB2' is set on object ''
+
+2019-02-19 11:37:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:37:37 - [MESSAGE][PASSED] - Text 'English Description_1' is set on object ''
+
+2019-02-19 11:37:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:37:38 - [MESSAGE][PASSED] - Text 'English Description_123' is set on object ''
+
+2019-02-19 11:37:38 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-19 11:37:38 - [TEST_STEP][PASSED] - click(findTestObject("BTN_Save")): Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-19 11:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-19 11:37:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 11:37:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:37:41 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-19 11:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-19 11:37:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 11:37:44 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Insert_Records" classname="Test Cases/Event Group Management/TC_Insert_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:37:44 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Insert_Records: Test Cases/Event Group Management/TC_Insert_Records
+
+2019-02-19 11:37:44 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Insert")): Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-19 11:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-19 11:37:44 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code, arabic_des, english_des]): pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-19 11:37:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:37:46 - [MESSAGE][PASSED] - Text 'EB3' is set on object ''
+
+2019-02-19 11:37:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:37:47 - [MESSAGE][PASSED] - Text 'English Description_2' is set on object ''
+
+2019-02-19 11:37:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:37:48 - [MESSAGE][PASSED] - Text 'English Description_2' is set on object ''
+
+2019-02-19 11:37:48 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-19 11:37:48 - [TEST_STEP][PASSED] - click(findTestObject("BTN_Save")): Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-19 11:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-19 11:37:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 11:37:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:37:51 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-19 11:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-19 11:37:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 11:37:54 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Insert_Records" classname="Test Cases/Event Group Management/TC_Insert_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:37:54 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Insert_Records: Test Cases/Event Group Management/TC_Insert_Records
+
+2019-02-19 11:37:54 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Insert")): Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-19 11:37:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-19 11:37:54 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code, arabic_des, english_des]): pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-19 11:37:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:37:56 - [MESSAGE][PASSED] - Text 'EB4' is set on object ''
+
+2019-02-19 11:37:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:37:57 - [MESSAGE][PASSED] - Text 'English Description_3' is set on object ''
+
+2019-02-19 11:37:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:37:58 - [MESSAGE][PASSED] - Text 'English Description_3' is set on object ''
+
+2019-02-19 11:37:58 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-19 11:37:58 - [TEST_STEP][PASSED] - click(findTestObject("BTN_Save")): Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-19 11:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-19 11:37:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 11:38:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:38:01 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-19 11:38:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-19 11:38:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 11:38:04 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Insert_Records" classname="Test Cases/Event Group Management/TC_Insert_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:38:04 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Insert_Records: Test Cases/Event Group Management/TC_Insert_Records
+
+2019-02-19 11:38:04 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Insert")): Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-19 11:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-19 11:38:04 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code, arabic_des, english_des]): pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-19 11:38:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:06 - [MESSAGE][PASSED] - Text 'EB5' is set on object ''
+
+2019-02-19 11:38:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:07 - [MESSAGE][PASSED] - Text 'English Description_4' is set on object ''
+
+2019-02-19 11:38:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:08 - [MESSAGE][PASSED] - Text 'English Description_4' is set on object ''
+
+2019-02-19 11:38:08 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-19 11:38:08 - [TEST_STEP][PASSED] - click(findTestObject("BTN_Save")): Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-19 11:38:08 - [MESSAGE][PASSED] - Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-19 11:38:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 11:38:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:38:11 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-19 11:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-19 11:38:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 11:38:14 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Insert_Records" classname="Test Cases/Event Group Management/TC_Insert_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:38:14 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Insert_Records: Test Cases/Event Group Management/TC_Insert_Records
+
+2019-02-19 11:38:14 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Insert")): Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-19 11:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-19 11:38:15 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code, arabic_des, english_des]): pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-19 11:38:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:16 - [MESSAGE][PASSED] - Text 'z12' is set on object ''
+
+2019-02-19 11:38:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:17 - [MESSAGE][PASSED] - Text 'English Description_4' is set on object ''
+
+2019-02-19 11:38:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:18 - [MESSAGE][PASSED] - Text 'English Description_4' is set on object ''
+
+2019-02-19 11:38:18 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-19 11:38:18 - [TEST_STEP][PASSED] - click(findTestObject("BTN_Save")): Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-19 11:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-19 11:38:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 11:38:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-19 11:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-19 11:38:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 11:38:24 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Click on Search Button" classname="Test Cases/Event Group Management/TC_Click on Search Button" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:38:24 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Click on Search Button: Test Cases/Event Group Management/TC_Click on Search Button
+
+2019-02-19 11:38:25 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Clear")): Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-19 11:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-19 11:38:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 11:38:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 11:38:27 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-19 11:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-19 11:38:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-19 11:38:28 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update_Records" classname="Test Cases/Event Group Management/TC_Update_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:38:28 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update_Records: Test Cases/Event Group Management/TC_Update_Records
+
+2019-02-19 11:38:28 - [TEST_STEP][PASSED] - if (ActionType == "UpdateYes"): Delayed 1 second(s)
+
+2019-02-19 11:38:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-19 11:38:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:29 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun("UpdateYes", 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", Code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-19 11:38:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:38:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:30 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:38:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:33 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:38:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:38:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:36 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-19 11:38:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 11:38:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 11:38:38 - [TEST_STEP][PASSED] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-19 11:38:38 - [MESSAGE][PASSED] - Text 'English Description_1_Update' is set on object ''
+
+2019-02-19 11:38:39 - [MESSAGE][PASSED] - Text 'English Description_1_Update' is set on object ''
+
+2019-02-19 11:38:39 - [MESSAGE][PASSED] - pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-19 11:38:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 11:38:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 11:38:41 - [TEST_STEP][PASSED] - click(findTestObject("BTN_Save")): Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-19 11:38:41 - [MESSAGE][PASSED] - Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-19 11:38:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 11:38:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 11:38:43 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-19 11:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-19 11:38:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-19 11:38:44 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update_Records" classname="Test Cases/Event Group Management/TC_Update_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:38:44 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update_Records: Test Cases/Event Group Management/TC_Update_Records
+
+2019-02-19 11:38:44 - [TEST_STEP][PASSED] - if (ActionType == "UpdateYes"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update_Records" classname="Test Cases/Event Group Management/TC_Update_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:38:44 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update_Records: Test Cases/Event Group Management/TC_Update_Records
+
+2019-02-19 11:38:44 - [TEST_STEP][PASSED] - if (ActionType == "UpdateYes"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update_Records" classname="Test Cases/Event Group Management/TC_Update_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:38:44 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update_Records: Test Cases/Event Group Management/TC_Update_Records
+
+2019-02-19 11:38:44 - [TEST_STEP][PASSED] - if (ActionType == "UpdateYes"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Update_Records" classname="Test Cases/Event Group Management/TC_Update_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:38:44 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Update_Records: Test Cases/Event Group Management/TC_Update_Records
+
+2019-02-19 11:38:44 - [TEST_STEP][PASSED] - if (ActionType == "UpdateYes"): Delayed 1 second(s)
+
+2019-02-19 11:38:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-19 11:38:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:45 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun("UpdateYes", 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", Code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-19 11:38:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:38:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:46 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:38:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:49 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:38:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:38:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:51 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:38:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:38:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:53 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:38:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:38:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:56 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:38:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:38:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:38:59 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-19 11:38:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 11:39:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 11:39:01 - [TEST_STEP][PASSED] - pk_Functions.CS_SpecificPageData.DataFun(["Arabic Description", "English Description"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [ArabicDescription, EnglishDescription]): pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-19 11:39:01 - [MESSAGE][PASSED] - Text 'English Description_4' is set on object ''
+
+2019-02-19 11:39:02 - [MESSAGE][PASSED] - Text 'English Description_4' is set on object ''
+
+2019-02-19 11:39:02 - [MESSAGE][PASSED] - pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-19 11:39:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 11:39:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 11:39:04 - [TEST_STEP][PASSED] - click(findTestObject("BTN_Save")): Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-19 11:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-19 11:39:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 11:39:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 11:39:06 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-19 11:39:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-19 11:39:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-19 11:39:07 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_View_Records" classname="Test Cases/Event Group Management/TC_View_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:39:07 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_View_Records: Test Cases/Event Group Management/TC_View_Records
+
+2019-02-19 11:39:07 - [TEST_STEP][PASSED] - if (ActionType == "ViewYes"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_View_Records" classname="Test Cases/Event Group Management/TC_View_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:39:07 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_View_Records: Test Cases/Event Group Management/TC_View_Records
+
+2019-02-19 11:39:07 - [TEST_STEP][PASSED] - if (ActionType == "ViewYes"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_View_Records" classname="Test Cases/Event Group Management/TC_View_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:39:07 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_View_Records: Test Cases/Event Group Management/TC_View_Records
+
+2019-02-19 11:39:07 - [TEST_STEP][PASSED] - if (ActionType == "ViewYes"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_View_Records" classname="Test Cases/Event Group Management/TC_View_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:39:07 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_View_Records: Test Cases/Event Group Management/TC_View_Records
+
+2019-02-19 11:39:07 - [TEST_STEP][PASSED] - if (ActionType == "ViewYes"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_View_Records" classname="Test Cases/Event Group Management/TC_View_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:39:07 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_View_Records: Test Cases/Event Group Management/TC_View_Records
+
+2019-02-19 11:39:07 - [TEST_STEP][PASSED] - if (ActionType == "ViewYes"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete_Records" classname="Test Cases/Event Group Management/TC_Delete_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:39:07 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete_Records: Test Cases/Event Group Management/TC_Delete_Records
+
+2019-02-19 11:39:08 - [TEST_STEP][PASSED] - if (ActionType): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-19 11:39:08 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(ActionType, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-19 11:39:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:09 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:39:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:11 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:39:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:17 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-19 11:39:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 11:39:19 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete_Records" classname="Test Cases/Event Group Management/TC_Delete_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:39:19 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete_Records: Test Cases/Event Group Management/TC_Delete_Records
+
+2019-02-19 11:39:19 - [TEST_STEP][PASSED] - if (ActionType): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-19 11:39:19 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(ActionType, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-19 11:39:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:20 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:39:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:22 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:39:22 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:28 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-19 11:39:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 11:39:30 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete_Records" classname="Test Cases/Event Group Management/TC_Delete_Records" status="ERROR">
+         <error type="ERROR" message="Test Cases/Event Group Management/TC_Delete_Records FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0477', ip: '192.168.3.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\AEIBRA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52810}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: eb7b31ed6ab0b104fac05b8f049342b9
+*** Element info: {Using=tag name, value=td}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:195)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByTagName(RemoteWebElement.java:275)
+	at org.openqa.selenium.By$ByTagName.findElements(By.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:171)
+	at org.openqa.selenium.WebElement$findElements.call(Unknown Source)
+	at pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(CS_ClickingonActionButtonswithPagination.groovy:139)
+	at pk_Functions.CS_ClickingonActionButtonswithPagination.invokeMethod(CS_ClickingonActionButtonswithPagination.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Delete_Records.run(TC_Delete_Records:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550569027289.run(TempTestSuite1550569027289.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-19 11:39:30 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Delete_Records: Test Cases/Event Group Management/TC_Delete_Records FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0477', ip: '192.168.3.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\AEIBRA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52810}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: eb7b31ed6ab0b104fac05b8f049342b9
+*** Element info: {Using=tag name, value=td}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:195)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByTagName(RemoteWebElement.java:275)
+	at org.openqa.selenium.By$ByTagName.findElements(By.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:171)
+	at org.openqa.selenium.WebElement$findElements.call(Unknown Source)
+	at pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(CS_ClickingonActionButtonswithPagination.groovy:139)
+	at pk_Functions.CS_ClickingonActionButtonswithPagination.invokeMethod(CS_ClickingonActionButtonswithPagination.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Delete_Records.run(TC_Delete_Records:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550569027289.run(TempTestSuite1550569027289.groovy:36)
+
+
+2019-02-19 11:39:30 - [TEST_STEP][ERROR] - if (ActionType): if (ActionType) FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0477', ip: '192.168.3.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\AEIBRA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52810}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: eb7b31ed6ab0b104fac05b8f049342b9
+*** Element info: {Using=tag name, value=td}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:195)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByTagName(RemoteWebElement.java:275)
+	at org.openqa.selenium.By$ByTagName.findElements(By.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:171)
+	at org.openqa.selenium.WebElement$findElements.call(Unknown Source)
+	at pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(CS_ClickingonActionButtonswithPagination.groovy:139)
+	at pk_Functions.CS_ClickingonActionButtonswithPagination.invokeMethod(CS_ClickingonActionButtonswithPagination.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Delete_Records.run(TC_Delete_Records:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550569027289.run(TempTestSuite1550569027289.groovy:36)
+
+
+2019-02-19 11:39:30 - [TEST_STEP][ERROR] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(ActionType, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): if (ActionType) FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0477', ip: '192.168.3.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\AEIBRA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52810}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: eb7b31ed6ab0b104fac05b8f049342b9
+*** Element info: {Using=tag name, value=td}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:195)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByTagName(RemoteWebElement.java:275)
+	at org.openqa.selenium.By$ByTagName.findElements(By.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:171)
+	at org.openqa.selenium.WebElement$findElements.call(Unknown Source)
+	at pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(CS_ClickingonActionButtonswithPagination.groovy:139)
+	at pk_Functions.CS_ClickingonActionButtonswithPagination.invokeMethod(CS_ClickingonActionButtonswithPagination.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Delete_Records.run(TC_Delete_Records:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550569027289.run(TempTestSuite1550569027289.groovy:36)
+
+
+2019-02-19 11:39:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:31 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:39:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:33 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:39:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:36 - [MESSAGE][ERROR] - stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0477', ip: '192.168.3.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\AEIBRA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52810}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: eb7b31ed6ab0b104fac05b8f049342b9
+*** Element info: {Using=tag name, value=td}
+
+2019-02-19 11:39:36 - [MESSAGE][ERROR] - if (ActionType) FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0477', ip: '192.168.3.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\AEIBRA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52810}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: eb7b31ed6ab0b104fac05b8f049342b9
+*** Element info: {Using=tag name, value=td}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:195)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByTagName(RemoteWebElement.java:275)
+	at org.openqa.selenium.By$ByTagName.findElements(By.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:171)
+	at org.openqa.selenium.WebElement$findElements.call(Unknown Source)
+	at pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(CS_ClickingonActionButtonswithPagination.groovy:139)
+	at pk_Functions.CS_ClickingonActionButtonswithPagination.invokeMethod(CS_ClickingonActionButtonswithPagination.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Delete_Records.run(TC_Delete_Records:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550569027289.run(TempTestSuite1550569027289.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-19 11:39:30 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Delete_Records: Test Cases/Event Group Management/TC_Delete_Records FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0477', ip: '192.168.3.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\AEIBRA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52810}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: eb7b31ed6ab0b104fac05b8f049342b9
+*** Element info: {Using=tag name, value=td}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:195)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByTagName(RemoteWebElement.java:275)
+	at org.openqa.selenium.By$ByTagName.findElements(By.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:171)
+	at org.openqa.selenium.WebElement$findElements.call(Unknown Source)
+	at pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(CS_ClickingonActionButtonswithPagination.groovy:139)
+	at pk_Functions.CS_ClickingonActionButtonswithPagination.invokeMethod(CS_ClickingonActionButtonswithPagination.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Delete_Records.run(TC_Delete_Records:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550569027289.run(TempTestSuite1550569027289.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete_Records" classname="Test Cases/Event Group Management/TC_Delete_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:39:36 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete_Records: Test Cases/Event Group Management/TC_Delete_Records
+
+2019-02-19 11:39:36 - [TEST_STEP][PASSED] - if (ActionType): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-19 11:39:36 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(ActionType, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-19 11:39:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:37 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:39:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:39 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:39:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:45 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-19 11:39:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 11:39:47 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete_Records" classname="Test Cases/Event Group Management/TC_Delete_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:39:47 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete_Records: Test Cases/Event Group Management/TC_Delete_Records
+
+2019-02-19 11:39:47 - [TEST_STEP][PASSED] - if (ActionType): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-19 11:39:47 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(ActionType, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-19 11:39:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:48 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:39:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:51 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:39:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:53 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:39:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:55 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:39:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:39:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:39:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:40:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:40:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:40:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-19 11:40:01 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-19 11:40:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 11:40:03 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" classname="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:40:03 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete
+
+2019-02-19 11:40:03 - [TEST_STEP][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-19 11:40:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:40:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:40:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 11:40:09 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:40:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:40:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:40:12 - [MESSAGE][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-19 11:40:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 11:40:14 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" classname="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:40:14 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete
+
+2019-02-19 11:40:14 - [TEST_STEP][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-19 11:40:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:40:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:40:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 11:40:20 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:40:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:40:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:40:24 - [MESSAGE][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-19 11:40:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 11:40:26 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" classname="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:40:26 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete
+
+2019-02-19 11:40:26 - [TEST_STEP][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-19 11:40:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:40:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:40:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 11:40:31 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:40:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:40:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:40:35 - [MESSAGE][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-19 11:40:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 11:40:37 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" classname="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:40:37 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete
+
+2019-02-19 11:40:37 - [TEST_STEP][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-19 11:40:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:40:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:40:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 11:40:43 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:40:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:40:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:40:46 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:40:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:40:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:40:50 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:40:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:40:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:40:54 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '-1'
+
+2019-02-19 11:40:54 - [MESSAGE][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-19 11:40:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 11:40:56 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" classname="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" status="PASSED">
+         <system-out><![CDATA[2019-02-19 11:40:56 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete
+
+2019-02-19 11:40:56 - [TEST_STEP][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-19 11:40:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:40:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:41:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 11:41:01 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:41:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:41:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:41:05 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:41:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:41:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:41:09 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-19 11:41:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-19 11:41:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 11:41:12 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '-1'
+
+2019-02-19 11:41:12 - [MESSAGE][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-19 11:41:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 11:41:14 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-19 11:37:10 - [TEST_SUITE][ERROR] - TS_EGMFullScenario: Test Cases/Event Group Management/TC_Delete_Records FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0477', ip: '192.168.3.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\AEIBRA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52810}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: eb7b31ed6ab0b104fac05b8f049342b9
+*** Element info: {Using=tag name, value=td}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:195)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByTagName(RemoteWebElement.java:275)
+	at org.openqa.selenium.By$ByTagName.findElements(By.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:171)
+	at org.openqa.selenium.WebElement$findElements.call(Unknown Source)
+	at pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(CS_ClickingonActionButtonswithPagination.groovy:139)
+	at pk_Functions.CS_ClickingonActionButtonswithPagination.invokeMethod(CS_ClickingonActionButtonswithPagination.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Delete_Records.run(TC_Delete_Records:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550569027289.run(TempTestSuite1550569027289.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-19 11:37:10 - [TEST_SUITE][ERROR] - TS_EGMFullScenario: Test Cases/Event Group Management/TC_Delete_Records FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0477', ip: '192.168.3.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\AEIBRA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52810}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: eb7b31ed6ab0b104fac05b8f049342b9
+*** Element info: {Using=tag name, value=td}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:195)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByTagName(RemoteWebElement.java:275)
+	at org.openqa.selenium.By$ByTagName.findElements(By.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:171)
+	at org.openqa.selenium.WebElement$findElements.call(Unknown Source)
+	at pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(CS_ClickingonActionButtonswithPagination.groovy:139)
+	at pk_Functions.CS_ClickingonActionButtonswithPagination.invokeMethod(CS_ClickingonActionButtonswithPagination.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Delete_Records.run(TC_Delete_Records:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550569027289.run(TempTestSuite1550569027289.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
