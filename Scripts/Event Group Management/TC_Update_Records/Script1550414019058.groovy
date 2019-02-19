@@ -13,8 +13,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'pk_Functions.CS_WebtableVerification.ValidateSearchParameters'(Delete, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
-    'Sheet1', [code], 0)
+if (ActionType == 'UpdateYes') {
+    WebUI.delay(1)
 
-WebUI.delay(2)
+    CustomKeywords.'pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun'('UpdateYes', 0, 
+        3, 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 'Sheet1', Code)
+
+    WebUI.delay(2)
+
+    CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['Arabic Description', 'English Description'], 'Event Group Management/MOF_NE_Event Group ManagementObjectRepository', 
+        'Sheet1', [ArabicDescription, EnglishDescription])
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('BTN_Save'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Event Group Managemnt/BTN_Back (1)'))
+
+    WebUI.delay(1)
+}
 

@@ -25,7 +25,7 @@
    <testCaseLink>
       <guid>b561efd4-a23b-42a5-93d9-bd26522245cc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Insert_Records</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -65,13 +65,25 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2c989af4-7057-43c7-b447-f26b47d85fba</guid>
+      <guid>30cd9d9f-00d7-47e9-a5f7-543c37f7698c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_Click on Clear Button</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>be877ec9-6ba0-4373-84d8-fc612af8d3ec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_Verify_Clear</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9287ae9d-e772-4998-961d-1a1b7bb520b4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Verify_Insert</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>1b468a96-8dff-48c8-af44-3d0c10e4954d</id>
+         <id>1ae43cf7-8cdf-4d3c-987d-8e15396da654</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -79,27 +91,27 @@
          <testDataId>Data Files/Event Group Management/MOF_NE_Event Group ManagementData</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>1b468a96-8dff-48c8-af44-3d0c10e4954d</testDataLinkId>
+         <testDataLinkId>1ae43cf7-8cdf-4d3c-987d-8e15396da654</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Arabic Description</value>
          <variableId>7a34e624-735e-4f82-b7ae-d7ac93121f01</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1b468a96-8dff-48c8-af44-3d0c10e4954d</testDataLinkId>
+         <testDataLinkId>1ae43cf7-8cdf-4d3c-987d-8e15396da654</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>English Description</value>
          <variableId>3428ee4c-7cca-424c-b0a9-6f0e3e689283</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1b468a96-8dff-48c8-af44-3d0c10e4954d</testDataLinkId>
+         <testDataLinkId>1ae43cf7-8cdf-4d3c-987d-8e15396da654</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Code</value>
          <variableId>b95468a5-3315-468a-bfdd-558abfdf72f7</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>1ae43cf7-8cdf-4d3c-987d-8e15396da654</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Search</value>
          <variableId>1e8875c2-23d9-483f-9f56-7e1dcd207598</variableId>
       </variableLink>
    </testCaseLink>
@@ -165,13 +177,13 @@
       <variableLink>
          <testDataLinkId>f81515e0-9737-4b89-94bd-66a4cc36074f</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Arabic Description_Update</value>
+         <value>Arabic Description</value>
          <variableId>329022af-680d-49e9-bed6-3431a9449b5a</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>f81515e0-9737-4b89-94bd-66a4cc36074f</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>English Description_Update</value>
+         <value>English Description</value>
          <variableId>a5002349-8343-4198-8115-fae313acd9a0</variableId>
       </variableLink>
       <variableLink>
@@ -229,8 +241,8 @@
    <testCaseLink>
       <guid>f8c2ca1e-45a6-4d3a-b7f5-e8385986b273</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Event Group Management/TC_Delete</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_Delete_Records</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3f85b43d-8c01-498a-aefc-a297fbfaac0d</id>
@@ -256,7 +268,7 @@
    <testCaseLink>
       <guid>f9d6f720-367c-491e-b785-b49bcbbb8e1d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Verify_Delete and Undelete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

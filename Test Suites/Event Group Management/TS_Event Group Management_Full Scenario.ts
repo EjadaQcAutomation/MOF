@@ -80,7 +80,7 @@
       <guid>b4d0047f-d91b-4bf9-9cd1-4480f24d2b26</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Event Group Management/TC_Delete</testCaseId>
+      <testCaseId>Test Cases/Event Group Management/TC_Delete_Records</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
