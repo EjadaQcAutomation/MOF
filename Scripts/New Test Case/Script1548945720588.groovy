@@ -48,3 +48,5 @@ WebUI.click(findTestObject('Object Repository/test/Page_MOF/span_No'))
 
 WebUI.closeBrowser()
 
+WebUI.acceptAlert()
+
