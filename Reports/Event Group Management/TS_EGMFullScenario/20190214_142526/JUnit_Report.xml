@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_EGMFullScenario" time="198" tests="13" failures="0" errors="0">
+   <testsuite name="TS_EGMFullScenario" tests="13" failures="0" errors="0" time="198" timestamp="2019-02-14 14:25:29" hostname="aeibrahim - LPALXY0477.ejadaalex.local" id="Test Suites/Event Group Management/TS_EGMFullScenario">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190214_142526"/>
+         <property name="logFiles" value="C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190214_142526\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aeibrahim - LPALXY0477.ejadaalex.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.64"/>
+         <property name="sessionId" value="5e042e9dfd62c2b6a38f06de0e124bb5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2019-02-14 14:25:29 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-02-14 14:25:29 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-02-14 14:25:29 - [MESSAGE][WARNING] - Test object id is null
+
+2019-02-14 14:25:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-14 14:25:30 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-14 14:25:50 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.0.190:8080/mof/#/'
+
+2019-02-14 14:25:50 - [MESSAGE][PASSED] - Text 'AAttia' is set on object 'Object Repository/Login/Username'
+
+2019-02-14 14:25:50 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Login/Password'
+
+2019-02-14 14:25:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login' is clicked on
+
+2019-02-14 14:25:51 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Select_Screen" classname="Test Cases/Event Group Management/TC_Select_Screen" status="PASSED">
+         <system-out><![CDATA[2019-02-14 14:25:51 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Select_Screen: Test Cases/Event Group Management/TC_Select_Screen
+
+2019-02-14 14:25:51 - [TEST_STEP][PASSED] - click(findTestObject("NE_SideMenu")): Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-02-14 14:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-02-14 14:25:52 - [TEST_STEP][PASSED] - click(findTestObject("NE_EventGroupManagement")): Object: 'Object Repository/NE_EventGroupManagement' is clicked on
+
+2019-02-14 14:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_EventGroupManagement' is clicked on
+
+2019-02-14 14:25:52 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-14 14:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-14 14:25:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 14:25:55 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="PASSED">
+         <system-out><![CDATA[2019-02-14 14:25:55 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert
+
+2019-02-14 14:25:55 - [TEST_STEP][PASSED] - if (search == "SearchYes"): pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-14 14:25:55 - [TEST_STEP][PASSED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]): pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-14 14:25:56 - [MESSAGE][PASSED] - Text 'EB2' is set on object ''
+
+2019-02-14 14:25:56 - [MESSAGE][PASSED] - pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-14 14:25:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 14:25:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:25:58 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-14 14:25:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-14 14:25:59 - [TEST_STEP][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(search, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code, EnglishDescription, ArabicDescription], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-14 14:26:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-14 14:26:02 - [MESSAGE][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-14 14:26:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-14 14:26:03 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="PASSED">
+         <system-out><![CDATA[2019-02-14 14:26:03 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert
+
+2019-02-14 14:26:03 - [TEST_STEP][PASSED] - if (search == "SearchYes"): pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-14 14:26:03 - [TEST_STEP][PASSED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]): pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-14 14:26:03 - [MESSAGE][PASSED] - Text 'EB3' is set on object ''
+
+2019-02-14 14:26:03 - [MESSAGE][PASSED] - pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-14 14:26:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 14:26:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:26:05 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-14 14:26:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-14 14:26:05 - [TEST_STEP][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(search, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code, EnglishDescription, ArabicDescription], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-14 14:26:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-14 14:26:08 - [MESSAGE][PASSED] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters is PASSED
+
+2019-02-14 14:26:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-14 14:26:09 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="PASSED">
+         <system-out><![CDATA[2019-02-14 14:26:09 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert
+
+2019-02-14 14:26:09 - [TEST_STEP][PASSED] - if (search == "SearchYes"): null
+
+2019-02-14 14:26:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-14 14:26:10 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="PASSED">
+         <system-out><![CDATA[2019-02-14 14:26:11 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert
+
+2019-02-14 14:26:11 - [TEST_STEP][PASSED] - if (search == "SearchYes"): null
+
+2019-02-14 14:26:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-14 14:26:12 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="PASSED">
+         <system-out><![CDATA[2019-02-14 14:26:12 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert
+
+2019-02-14 14:26:12 - [TEST_STEP][PASSED] - if (search == "SearchYes"): null
+
+2019-02-14 14:26:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-14 14:26:13 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Click on Search Button" classname="Test Cases/Event Group Management/TC_Click on Search Button" status="PASSED">
+         <system-out><![CDATA[2019-02-14 14:26:13 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Click on Search Button: Test Cases/Event Group Management/TC_Click on Search Button
+
+2019-02-14 14:26:13 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Clear")): Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 14:26:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-14 14:26:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 14:26:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:26:15 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-14 14:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-14 14:26:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-14 14:26:16 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete" classname="Test Cases/Event Group Management/TC_Delete" status="PASSED">
+         <system-out><![CDATA[2019-02-14 14:26:16 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete: Test Cases/Event Group Management/TC_Delete
+
+2019-02-14 14:26:16 - [TEST_STEP][PASSED] - if (delete): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-14 14:26:16 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(delete, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-14 14:26:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-14 14:26:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:26:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:26:21 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-14 14:26:21 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-14 14:26:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:26:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:36 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-14 14:26:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:26:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-14 14:26:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-14 14:26:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-14 14:26:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:26:50 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-14 14:26:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 14:26:52 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete" classname="Test Cases/Event Group Management/TC_Delete" status="PASSED">
+         <system-out><![CDATA[2019-02-14 14:26:52 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete: Test Cases/Event Group Management/TC_Delete
+
+2019-02-14 14:26:52 - [TEST_STEP][PASSED] - if (delete): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-14 14:26:52 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(delete, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-14 14:26:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-14 14:26:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:26:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:26:56 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-14 14:26:56 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-14 14:26:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:26:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:12 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-14 14:27:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:27:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-14 14:27:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-14 14:27:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-14 14:27:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:28 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-14 14:27:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 14:27:30 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete" classname="Test Cases/Event Group Management/TC_Delete" status="PASSED">
+         <system-out><![CDATA[2019-02-14 14:27:30 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete: Test Cases/Event Group Management/TC_Delete
+
+2019-02-14 14:27:30 - [TEST_STEP][PASSED] - if (delete): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-14 14:27:30 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(delete, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-14 14:27:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-14 14:27:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:27:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:27:34 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-14 14:27:34 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-14 14:27:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:27:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:50 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-14 14:27:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:27:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-14 14:27:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:27:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-14 14:28:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-14 14:28:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:05 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-14 14:28:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 14:28:07 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete" classname="Test Cases/Event Group Management/TC_Delete" status="PASSED">
+         <system-out><![CDATA[2019-02-14 14:28:07 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete: Test Cases/Event Group Management/TC_Delete
+
+2019-02-14 14:28:08 - [TEST_STEP][PASSED] - if (delete): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-14 14:28:08 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(delete, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-14 14:28:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-14 14:28:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:28:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:28:12 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-14 14:28:12 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-14 14:28:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:28:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:27 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-14 14:28:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-14 14:28:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-14 14:28:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-14 14:28:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-14 14:28:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-14 14:28:43 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-14 14:28:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 14:28:45 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete" classname="Test Cases/Event Group Management/TC_Delete" status="PASSED">
+         <system-out><![CDATA[2019-02-14 14:28:45 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete: Test Cases/Event Group Management/TC_Delete
+
+2019-02-14 14:28:45 - [TEST_STEP][PASSED] - if (delete): null
+
+2019-02-14 14:28:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-14 14:28:47 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-14 14:25:29 - [TEST_SUITE][PASSED] - TS_EGMFullScenario: Test Cases/Event Group Management/TC_Delete]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

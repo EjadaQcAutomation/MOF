@@ -63,7 +63,7 @@ public class CS_Sorting {
 			else{
 				Table = driver.findElement(By.xpath("//*[@"+webtableAttribute+"="+webtablelocatorValue+"]"))
 			}
-		//To locate Sort button
+			//To locate Sort button
 			Sort_BTN =driver.findElement(By.xpath(SortBTN_Xpath));
 			WebUI.delay(5)
 			Sort_BTN.click()
@@ -114,11 +114,11 @@ public class CS_Sorting {
 			//Table = driver.findElement(By.xpath(webtablelocatorValue))
 			rows_table = Table.findElements(By.tagName('tr'))
 			for (int row = 1; row <=(rows_count-1); row++) {
-			//WebUI.waitForElementVisible(findTestObject('table'), 5)
+				//WebUI.waitForElementVisible(findTestObject('table'), 5)
 				WebUI.delay(2)
-			//‘To locate columns(cells) of that specific row’
+				//‘To locate columns(cells) of that specific row’
 				Columns_row = rows_table.get(row).findElements(By.tagName('td'))
-			//‘It will retrieve text from 1st cell’
+				//‘It will retrieve text from 1st cell’
 				String celltext_1 = Columns_row.get(column_num).getText()
 				list.add(celltext_1)
 				listDes.add(celltext_1)

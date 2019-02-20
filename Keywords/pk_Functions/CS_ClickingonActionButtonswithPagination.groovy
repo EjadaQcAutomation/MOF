@@ -116,76 +116,73 @@ public class CS_ClickingonActionButtonswithPagination {
 
 		//Navigating to First Page
 		WebUI.click(FirstPage)
-		WebUI.delay(1)
-		
-		
 		WebUI.delay(2)
-		
+
 		if(actionType=="UpdateYes" ||actionType== "DeleteYes" ||actionType== "DeleteNo" || actionType== "ViewYes" ){
+			//Extracting Rows of each webtable page
 			RowsN = Table.findElements(By.tagName('tr'))
 			println RowsN.size()
 			rows_count = RowsN.size()
-			//Looping over pages
 		
-				//Extracting Rows of each webtable page
+			//Looping over each row to get it column data to compare it to expected value
+			table: for (int i = 1; i < rows_count; i++) {
+				x++
+				//Extracting data from each row
+				Cols = RowsN.get(i).findElements(By.tagName('td'))
+				println  ('Cols1:' + x )
 				
-				//Looping over each row to get it column data to compare it to expected value
-				table: for (int i = 1; i < rows_count; i++) {
-					x++
-					//Extracting data from each row
-					Cols = RowsN.get(i).findElements(By.tagName('td'))
-					println  ('Cols1:' + x )
-					//Comparing  expected unique id of unique id in row
-					if ((Cols.get(expectedValueColumn).getText() != code)&&(i==rows_count- 1)&&(WebUI.getAttribute(NextPage,NextPageAttribute)==NextPageAttribute_Value)) {
-						WebUI.click(NextPage)
-						WebUI.delay(3)
-						println "yes in page "
-						RowsN = Table.findElements(By.tagName('tr'))
-						println " Rows are detected  "
-						//To calculate no of rows In table'
-						rows_count = RowsN.size()
-						i=1
-					}
-					else if(Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
-						Matched =1
-						println "Matched"
-						//Taking action to the selected record according to actionType input
-						if (actionType=='UpdateYes'){
-							println 'UpdateYes'
-							//Clicking on Update for the selected record in grid
-							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click();
-						}
-						else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
-							//Clicking on Delete for the selected record in grid
-							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[3]')).click() ;
-
-							//Locating Delete No or Delete Yes button according to actionType variable
-							indexDelete = valueOfRowT.indexOf(actionType);
-							int indexPopUp = valueOfRowT.indexOf("pop_up");
-							println indexPopUp
-							TestObject PopUp = new TestObject()
-							PopUp.addProperty(dataObject.getValue(3, indexPopUp+1), ConditionType.EQUALS, dataObject.getValue(4, indexPopUp+1))
-							println (dataObject.getValue(4, indexPopUp+1))
-							delete = new TestObject()
-							delete.addProperty(dataObject.getValue(3, indexDelete+1), ConditionType.EQUALS, dataObject.getValue(4, indexDelete+1))
-							WebUI.delay(1)
-							WebUI.click(PopUp)
-							WebUI.delay(1)
-							println " delete"
-							//Click on No or Yes in deletion alert
-							WebUI.click(delete)
-						}
-						//Clicking on View for the selected record in grid
-						else if (actionType=='ViewYes'){
-							WebUI.delay(1)
-							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[1]')).click() ;
-						}
-						break
-					}
+				//Looping over pages
+				if ((Cols.get(expectedValueColumn).getText() != code)&&(i==rows_count- 1)&&(WebUI.getAttribute(NextPage,NextPageAttribute)==NextPageAttribute_Value)) {
+					WebUI.click(NextPage)
+					WebUI.delay(3)
+					println "yes in page "
+					RowsN = Table.findElements(By.tagName('tr'))
+					println " Rows are detected  "
+					//To calculate no of rows In table'
+					rows_count = RowsN.size()
+					i=1
 				}
-		
-				
-			
+				//Comparing  expected unique id of unique id in row
+				else if(Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
+					Matched =1
+					println "Matched"
+					//Taking action to the selected record according to actionType input
+					if (actionType=='UpdateYes'){
+						println 'UpdateYes'
+						//Clicking on Update for the selected record in grid
+						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click();
+					}
+					else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
+						//Clicking on Delete for the selected record in grid
+						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[3]')).click() ;
+
+						//Locating Delete No or Delete Yes button according to actionType variable
+						indexDelete = valueOfRowT.indexOf(actionType);
+						int indexPopUp = valueOfRowT.indexOf("pop_up");
+						println indexPopUp
+						TestObject PopUp = new TestObject()
+						PopUp.addProperty(dataObject.getValue(3, indexPopUp+1), ConditionType.EQUALS, dataObject.getValue(4, indexPopUp+1))
+						println (dataObject.getValue(4, indexPopUp+1))
+						delete = new TestObject()
+						delete.addProperty(dataObject.getValue(3, indexDelete+1), ConditionType.EQUALS, dataObject.getValue(4, indexDelete+1))
+						WebUI.delay(1)
+						WebUI.click(PopUp)
+						WebUI.delay(1)
+						println " delete"
+						//Click on No or Yes in deletion alert
+						WebUI.click(delete)
+					}
+					//Clicking on View for the selected record in grid
+					else if (actionType=='ViewYes'){
+						WebUI.delay(1)
+						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[1]')).click() ;
+					}
+					break
+				}
+			}
+
+
+
 		}
 
 	}

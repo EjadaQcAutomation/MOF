@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_EGMFullScenario,Chrome 72.0.3626.109,,2019-02-17 16:20:26,2019-02-17 16:22:07,1m - 41.203s,PASSED
+,,,,,,
+Test Cases/TC_Login,Chrome 72.0.3626.109,,2019-02-17 16:20:26,2019-02-17 16:20:40,13.624s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 72.0.3626.109,,2019-02-17 16:20:27,2019-02-17 16:20:40,13.123s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Select_Screen,Chrome 72.0.3626.109,,2019-02-17 16:20:40,2019-02-17 16:20:45,4.939s,PASSED
+"click(findTestObject(""NE_SideMenu""))",Chrome 72.0.3626.109,,2019-02-17 16:20:40,2019-02-17 16:20:42,1.630s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 72.0.3626.109,,2019-02-17 16:20:42,2019-02-17 16:20:42,0.097s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.109,,2019-02-17 16:20:42,2019-02-17 16:20:43,0.654s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-17 16:20:43,2019-02-17 16:20:45,2.032s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Click on Search Button,Chrome 72.0.3626.109,,2019-02-17 16:20:45,2019-02-17 16:20:48,3.464s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Clear""))",Chrome 72.0.3626.109,,2019-02-17 16:20:45,2019-02-17 16:20:45,0.085s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-17 16:20:45,2019-02-17 16:20:47,2.006s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.109,,2019-02-17 16:20:47,2019-02-17 16:20:47,0.068s,PASSED
+delay(1),Chrome 72.0.3626.109,,2019-02-17 16:20:47,2019-02-17 16:20:48,1.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 72.0.3626.109,,2019-02-17 16:20:48,2019-02-17 16:21:02,14.330s,PASSED
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 72.0.3626.109,,2019-02-17 16:20:48,2019-02-17 16:21:00,12.080s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-17 16:21:00,2019-02-17 16:21:02,2.004s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 72.0.3626.109,,2019-02-17 16:21:02,2019-02-17 16:21:20,17.233s,PASSED
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 72.0.3626.109,,2019-02-17 16:21:02,2019-02-17 16:21:18,15.204s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-17 16:21:18,2019-02-17 16:21:20,2.003s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 72.0.3626.109,,2019-02-17 16:21:20,2019-02-17 16:21:37,16.988s,PASSED
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 72.0.3626.109,,2019-02-17 16:21:20,2019-02-17 16:21:35,14.964s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-17 16:21:35,2019-02-17 16:21:37,2.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 72.0.3626.109,,2019-02-17 16:21:37,2019-02-17 16:21:50,13.279s,PASSED
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 72.0.3626.109,,2019-02-17 16:21:37,2019-02-17 16:21:48,11.275s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-17 16:21:48,2019-02-17 16:21:50,2.002s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 72.0.3626.109,,2019-02-17 16:21:50,2019-02-17 16:22:07,16.931s,PASSED
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 72.0.3626.109,,2019-02-17 16:21:50,2019-02-17 16:22:05,14.928s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-17 16:22:05,2019-02-17 16:22:07,2.002s,PASSED

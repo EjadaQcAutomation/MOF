@@ -1,0 +1,1657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_EGMFullScenario" time="331" tests="17" failures="0" errors="7">
+   <testsuite name="TS_EGMFullScenario" tests="17" failures="0" errors="7" time="331" timestamp="2019-02-17 10:46:51" hostname="aeibrahim - LPALXY0477.ejadaalex.local" id="Test Suites/Event Group Management/TS_EGMFullScenario">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190217_104647"/>
+         <property name="logFiles" value="C:\\Users\\aeibrahim\\git\\MOF\\Reports\\Event Group Management\\TS_EGMFullScenario\\20190217_104647\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aeibrahim - LPALXY0477.ejadaalex.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="192.168.3.64"/>
+         <property name="sessionId" value="20eae6e26e40ac4d94e79be0c2ac1ac5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2019-02-17 10:46:52 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-02-17 10:46:52 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "http://192.168.0.190:8080/mof/#/", findTestObject("Login/Username"), findTestObject("Login/Password"), "AAttia", "123", findTestObject("Login/Login")): pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-02-17 10:46:52 - [MESSAGE][WARNING] - Test object id is null
+
+2019-02-17 10:46:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-17 10:46:53 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-17 10:47:14 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.0.190:8080/mof/#/'
+
+2019-02-17 10:47:15 - [MESSAGE][PASSED] - Text 'AAttia' is set on object 'Object Repository/Login/Username'
+
+2019-02-17 10:47:15 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Login/Password'
+
+2019-02-17 10:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login' is clicked on
+
+2019-02-17 10:47:15 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Select_Screen" classname="Test Cases/Event Group Management/TC_Select_Screen" status="PASSED">
+         <system-out><![CDATA[2019-02-17 10:47:15 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Select_Screen: Test Cases/Event Group Management/TC_Select_Screen
+
+2019-02-17 10:47:15 - [TEST_STEP][PASSED] - click(findTestObject("NE_SideMenu")): Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-02-17 10:47:17 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_SideMenu' is clicked on
+
+2019-02-17 10:47:17 - [TEST_STEP][PASSED] - click(findTestObject("NE_EventGroupManagement")): Object: 'Object Repository/NE_EventGroupManagement' is clicked on
+
+2019-02-17 10:47:17 - [MESSAGE][PASSED] - Object: 'Object Repository/NE_EventGroupManagement' is clicked on
+
+2019-02-17 10:47:17 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-17 10:47:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-17 10:47:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 10:47:20 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Insert_Records" classname="Test Cases/Event Group Management/TC_Insert_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-17 10:47:20 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Insert_Records: Test Cases/Event Group Management/TC_Insert_Records
+
+2019-02-17 10:47:20 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Insert")): Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 10:47:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 10:47:20 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code, arabic_des, english_des]): pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 10:47:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:47:22 - [MESSAGE][PASSED] - Text 'EB2' is set on object ''
+
+2019-02-17 10:47:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:47:23 - [MESSAGE][PASSED] - Text 'English Description_1' is set on object ''
+
+2019-02-17 10:47:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:47:25 - [MESSAGE][PASSED] - Text 'English Description_123' is set on object ''
+
+2019-02-17 10:47:25 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 10:47:25 - [TEST_STEP][PASSED] - click(findTestObject("BTN_Save")): Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 10:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 10:47:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 10:47:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 10:47:28 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 10:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 10:47:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 10:47:31 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Insert_Records" classname="Test Cases/Event Group Management/TC_Insert_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-17 10:47:31 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Insert_Records: Test Cases/Event Group Management/TC_Insert_Records
+
+2019-02-17 10:47:31 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Insert")): Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 10:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 10:47:31 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code, arabic_des, english_des]): pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 10:47:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:47:32 - [MESSAGE][PASSED] - Text 'EB3' is set on object ''
+
+2019-02-17 10:47:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:47:33 - [MESSAGE][PASSED] - Text 'English Description_2' is set on object ''
+
+2019-02-17 10:47:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:47:35 - [MESSAGE][PASSED] - Text 'English Description_2' is set on object ''
+
+2019-02-17 10:47:35 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 10:47:35 - [TEST_STEP][PASSED] - click(findTestObject("BTN_Save")): Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 10:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 10:47:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 10:47:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 10:47:38 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 10:47:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 10:47:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 10:47:41 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Insert_Records" classname="Test Cases/Event Group Management/TC_Insert_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-17 10:47:41 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Insert_Records: Test Cases/Event Group Management/TC_Insert_Records
+
+2019-02-17 10:47:41 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Insert")): Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 10:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 10:47:41 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code, arabic_des, english_des]): pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 10:47:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:47:42 - [MESSAGE][PASSED] - Text 'EB4' is set on object ''
+
+2019-02-17 10:47:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:47:44 - [MESSAGE][PASSED] - Text 'English Description_3' is set on object ''
+
+2019-02-17 10:47:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:47:45 - [MESSAGE][PASSED] - Text 'English Description_3' is set on object ''
+
+2019-02-17 10:47:45 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 10:47:45 - [TEST_STEP][PASSED] - click(findTestObject("BTN_Save")): Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 10:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 10:47:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 10:47:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 10:47:48 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 10:47:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 10:47:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 10:47:51 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Insert_Records" classname="Test Cases/Event Group Management/TC_Insert_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-17 10:47:51 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Insert_Records: Test Cases/Event Group Management/TC_Insert_Records
+
+2019-02-17 10:47:51 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Insert")): Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 10:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 10:47:51 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code, arabic_des, english_des]): pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 10:47:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:47:52 - [MESSAGE][PASSED] - Text 'EB5' is set on object ''
+
+2019-02-17 10:47:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:47:54 - [MESSAGE][PASSED] - Text 'English Description_4' is set on object ''
+
+2019-02-17 10:47:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:47:55 - [MESSAGE][PASSED] - Text 'English Description_4' is set on object ''
+
+2019-02-17 10:47:55 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 10:47:55 - [TEST_STEP][PASSED] - click(findTestObject("BTN_Save")): Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 10:47:55 - [MESSAGE][PASSED] - Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 10:47:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 10:47:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 10:47:58 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 10:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 10:47:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 10:48:01 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Insert_Records" classname="Test Cases/Event Group Management/TC_Insert_Records" status="PASSED">
+         <system-out><![CDATA[2019-02-17 10:48:01 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Insert_Records: Test Cases/Event Group Management/TC_Insert_Records
+
+2019-02-17 10:48:01 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Insert")): Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 10:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Insert' is clicked on
+
+2019-02-17 10:48:01 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun("Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code, arabic_des, english_des]): pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 10:48:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:02 - [MESSAGE][PASSED] - Text 'z12' is set on object ''
+
+2019-02-17 10:48:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:04 - [MESSAGE][PASSED] - Text 'English Description_4' is set on object ''
+
+2019-02-17 10:48:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:05 - [MESSAGE][PASSED] - Text 'English Description_4' is set on object ''
+
+2019-02-17 10:48:05 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-02-17 10:48:05 - [TEST_STEP][PASSED] - click(findTestObject("BTN_Save")): Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 10:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/BTN_Save' is clicked on
+
+2019-02-17 10:48:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 10:48:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 10:48:08 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Back (1)")): Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 10:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Back (1)' is clicked on
+
+2019-02-17 10:48:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-17 10:48:11 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Clear" classname="Test Cases/Event Group Management/TC_Clear" status="PASSED">
+         <system-out><![CDATA[2019-02-17 10:48:11 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Clear: Test Cases/Event Group Management/TC_Clear
+
+2019-02-17 10:48:11 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Clear")): Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-17 10:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="ERROR">
+         <error type="ERROR" message="Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-17 10:48:11 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+
+
+2019-02-17 10:48:12 - [TEST_STEP][ERROR] - if (search == "SearchYes"): if (search == "SearchYes") FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+
+
+2019-02-17 10:48:12 - [TEST_STEP][PASSED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]): pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-17 10:48:12 - [MESSAGE][PASSED] - Text 'EB2' is set on object ''
+
+2019-02-17 10:48:12 - [MESSAGE][PASSED] - pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-17 10:48:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 10:48:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:48:14 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-17 10:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-17 10:48:14 - [TEST_STEP][ERROR] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(search, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code, EnglishDescription, ArabicDescription], 0): if (search == "SearchYes") FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+
+
+2019-02-17 10:48:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 10:48:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:48:19 - [MESSAGE][ERROR] - No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+
+2019-02-17 10:48:19 - [MESSAGE][ERROR] - if (search == "SearchYes") FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-17 10:48:11 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="ERROR">
+         <error type="ERROR" message="Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-17 10:48:19 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+
+
+2019-02-17 10:48:19 - [TEST_STEP][ERROR] - if (search == "SearchYes"): if (search == "SearchYes") FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+
+
+2019-02-17 10:48:19 - [TEST_STEP][PASSED] - pk_Functions.CS_SpecificPageData.DataFun(["Code_Search"], "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code]): pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-17 10:48:20 - [MESSAGE][PASSED] - Text 'EB3' is set on object ''
+
+2019-02-17 10:48:20 - [MESSAGE][PASSED] - pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-02-17 10:48:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 10:48:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:48:22 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-17 10:48:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-17 10:48:22 - [TEST_STEP][ERROR] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(search, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [Code, EnglishDescription, ArabicDescription], 0): if (search == "SearchYes") FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+
+
+2019-02-17 10:48:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 10:48:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:48:27 - [MESSAGE][ERROR] - No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+
+2019-02-17 10:48:27 - [MESSAGE][ERROR] - if (search == "SearchYes") FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-17 10:48:19 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="PASSED">
+         <system-out><![CDATA[2019-02-17 10:48:27 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert
+
+2019-02-17 10:48:27 - [TEST_STEP][PASSED] - if (search == "SearchYes"): null
+
+2019-02-17 10:48:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-17 10:48:28 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="PASSED">
+         <system-out><![CDATA[2019-02-17 10:48:28 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert
+
+2019-02-17 10:48:28 - [TEST_STEP][PASSED] - if (search == "SearchYes"): null
+
+2019-02-17 10:48:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-17 10:48:29 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Insert" classname="Test Cases/Event Group Management/TC_Verify_Insert" status="PASSED">
+         <system-out><![CDATA[2019-02-17 10:48:29 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Verify_Insert: Test Cases/Event Group Management/TC_Verify_Insert
+
+2019-02-17 10:48:29 - [TEST_STEP][PASSED] - if (search == "SearchYes"): null
+
+2019-02-17 10:48:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-17 10:48:30 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Click on Search Button" classname="Test Cases/Event Group Management/TC_Click on Search Button" status="PASSED">
+         <system-out><![CDATA[2019-02-17 10:48:30 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Click on Search Button: Test Cases/Event Group Management/TC_Click on Search Button
+
+2019-02-17 10:48:30 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Clear")): Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-17 10:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Clear' is clicked on
+
+2019-02-17 10:48:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 10:48:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:48:32 - [TEST_STEP][PASSED] - click(findTestObject("Event Group Managemnt/BTN_Search")): Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-17 10:48:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Group Managemnt/BTN_Search' is clicked on
+
+2019-02-17 10:48:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-02-17 10:48:33 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete" classname="Test Cases/Event Group Management/TC_Delete" status="PASSED">
+         <system-out><![CDATA[2019-02-17 10:48:33 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete: Test Cases/Event Group Management/TC_Delete
+
+2019-02-17 10:48:33 - [TEST_STEP][PASSED] - if (delete): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 10:48:33 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(delete, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 10:48:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:48:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:48:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:48:38 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 10:48:38 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 10:48:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:48:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:53 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 10:48:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:48:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:48:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:48:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:49:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:49:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:07 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 10:49:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 10:49:09 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete" classname="Test Cases/Event Group Management/TC_Delete" status="PASSED">
+         <system-out><![CDATA[2019-02-17 10:49:09 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete: Test Cases/Event Group Management/TC_Delete
+
+2019-02-17 10:49:09 - [TEST_STEP][PASSED] - if (delete): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 10:49:09 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(delete, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 10:49:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:49:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:49:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:49:13 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 10:49:13 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 10:49:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:49:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:29 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 10:49:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:49:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:49:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:49:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:49:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:44 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 10:49:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 10:49:46 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete" classname="Test Cases/Event Group Management/TC_Delete" status="PASSED">
+         <system-out><![CDATA[2019-02-17 10:49:46 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete: Test Cases/Event Group Management/TC_Delete
+
+2019-02-17 10:49:46 - [TEST_STEP][PASSED] - if (delete): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 10:49:46 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(delete, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 10:49:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:49:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:49:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:49:51 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 10:49:51 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 10:49:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:49:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:49:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:06 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 10:50:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:50:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:50:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:50:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:50:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:22 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 10:50:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 10:50:24 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete" classname="Test Cases/Event Group Management/TC_Delete" status="PASSED">
+         <system-out><![CDATA[2019-02-17 10:50:24 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete: Test Cases/Event Group Management/TC_Delete
+
+2019-02-17 10:50:24 - [TEST_STEP][PASSED] - if (delete): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 10:50:24 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(delete, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 10:50:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:50:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:50:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:50:28 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 10:50:28 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 10:50:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:50:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:44 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 10:50:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:50:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:50:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:57 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:50:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:50:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:50:59 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 10:50:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 10:51:01 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Delete" classname="Test Cases/Event Group Management/TC_Delete" status="PASSED">
+         <system-out><![CDATA[2019-02-17 10:51:01 - [TEST_CASE][PASSED] - Test Cases/Event Group Management/TC_Delete: Test Cases/Event Group Management/TC_Delete
+
+2019-02-17 10:51:01 - [TEST_STEP][PASSED] - if (delete): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 10:51:01 - [TEST_STEP][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun(delete, 0, 3, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", code): pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 10:51:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:51:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:51:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:51:06 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 10:51:06 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 10:51:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:51:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:21 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 10:51:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:51:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:51:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:37 - [MESSAGE][PASSED] - Attribute 'tabindex' of object '' is: '0'
+
+2019-02-17 10:51:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:51:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:51:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:51:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-02-17 10:51:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-17 10:51:55 - [MESSAGE][PASSED] - pk_Functions.CS_ClickingonActionButtonswithPagination.SelectRecordFromWebtableFun is PASSED
+
+2019-02-17 10:51:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-17 10:51:57 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" classname="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" status="ERROR">
+         <error type="ERROR" message="Test Cases/Event Group Management/TC_Verify_Delete and Undelete FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-17 10:51:57 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+
+
+2019-02-17 10:51:57 - [TEST_STEP][ERROR] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+
+
+2019-02-17 10:52:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 10:52:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:52:02 - [MESSAGE][ERROR] - No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+
+2019-02-17 10:52:02 - [MESSAGE][ERROR] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-17 10:51:57 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" classname="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" status="ERROR">
+         <error type="ERROR" message="Test Cases/Event Group Management/TC_Verify_Delete and Undelete FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-17 10:52:02 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+
+
+2019-02-17 10:52:02 - [TEST_STEP][ERROR] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+
+
+2019-02-17 10:52:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 10:52:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:52:07 - [MESSAGE][ERROR] - No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+
+2019-02-17 10:52:07 - [MESSAGE][ERROR] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-17 10:52:02 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" classname="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" status="ERROR">
+         <error type="ERROR" message="Test Cases/Event Group Management/TC_Verify_Delete and Undelete FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-17 10:52:07 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+
+
+2019-02-17 10:52:07 - [TEST_STEP][ERROR] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+
+
+2019-02-17 10:52:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 10:52:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:52:12 - [MESSAGE][ERROR] - No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+
+2019-02-17 10:52:12 - [MESSAGE][ERROR] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-17 10:52:07 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" classname="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" status="ERROR">
+         <error type="ERROR" message="Test Cases/Event Group Management/TC_Verify_Delete and Undelete FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-17 10:52:12 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+
+
+2019-02-17 10:52:12 - [TEST_STEP][ERROR] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+
+
+2019-02-17 10:52:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 10:52:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:52:17 - [MESSAGE][ERROR] - No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+
+2019-02-17 10:52:17 - [MESSAGE][ERROR] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-17 10:52:12 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" classname="Test Cases/Event Group Management/TC_Verify_Delete and Undelete" status="ERROR">
+         <error type="ERROR" message="Test Cases/Event Group Management/TC_Verify_Delete and Undelete FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-17 10:52:17 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+
+
+2019-02-17 10:52:17 - [TEST_STEP][ERROR] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0): pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)
+
+
+2019-02-17 10:52:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-17 10:52:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-17 10:52:22 - [MESSAGE][ERROR] - No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+
+2019-02-17 10:52:22 - [MESSAGE][ERROR] - pk_Functions.CS_WebtableVerification.ValidateSearchParameters(check_Delete, "Event Group Management/MOF_NE_Event Group ManagementObjectRepository", "Sheet1", [code], 0) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-17 10:52:17 - [TEST_CASE][ERROR] - Test Cases/Event Group Management/TC_Verify_Delete and Undelete: Test Cases/Event Group Management/TC_Verify_Delete and Undelete FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Delete and Undelete.run(TC_Verify_Delete and Undelete:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-17 10:46:51 - [TEST_SUITE][ERROR] - TS_EGMFullScenario: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-17 10:46:51 - [TEST_SUITE][ERROR] - TS_EGMFullScenario: Test Cases/Event Group Management/TC_Verify_Insert FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: dataObject for class: pk_Functions.CS_WebtableVerification
+	at pk_Functions.CS_WebtableVerification.ValidateSearchParameters(CS_WebtableVerification.groovy:64)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Verify_Insert.run(TC_Verify_Insert:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550393207759.run(TempTestSuite1550393207759.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
