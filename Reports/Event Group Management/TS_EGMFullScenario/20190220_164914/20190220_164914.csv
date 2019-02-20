@@ -1,0 +1,93 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_EGMFullScenario,Chrome 72.0.3626.109,,2019-02-20 16:49:17,2019-02-20 16:52:47,3m - 29.992s,FAILED
+,,,,,,
+Test Cases/TC_Login,Chrome 72.0.3626.109,This test case is used to Login to MOF website,2019-02-20 16:49:18,2019-02-20 16:49:33,15.652s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""http://192.168.0.190:8080/mof/#/"", findTestObject(""Login/Username""), findTestObject(""Login/Password""), ""AAttia"", ""123"", findTestObject(""Login/Login""))",Chrome 72.0.3626.109,,2019-02-20 16:49:18,2019-02-20 16:49:32,13.982s,PASSED
+maximizeWindow(),Chrome 72.0.3626.109,,2019-02-20 16:49:32,2019-02-20 16:49:33,1.150s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Select_Screen,Chrome 72.0.3626.109,This test case is used to select certain screen,2019-02-20 16:49:33,2019-02-20 16:49:36,3.168s,PASSED
+"click(findTestObject(""NE_SideMenu""))",Chrome 72.0.3626.109,,2019-02-20 16:49:34,2019-02-20 16:49:34,0.088s,PASSED
+"click(findTestObject(""NE_EventGroupManagement""))",Chrome 72.0.3626.109,,2019-02-20 16:49:34,2019-02-20 16:49:34,0.085s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.109,,2019-02-20 16:49:34,2019-02-20 16:49:34,0.649s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:49:34,2019-02-20 16:49:36,2.032s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Click on Search Button,Chrome 72.0.3626.109,This test case is used to click search button,2019-02-20 16:49:36,2019-02-20 16:49:40,3.542s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Clear""))",Chrome 72.0.3626.109,,2019-02-20 16:49:37,2019-02-20 16:49:37,0.158s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-20 16:49:37,2019-02-20 16:49:39,2.004s,PASSED
+"click(findTestObject(""Event Group Managemnt/BTN_Search""))",Chrome 72.0.3626.109,,2019-02-20 16:49:39,2019-02-20 16:49:39,0.068s,PASSED
+delay(1),Chrome 72.0.3626.109,,2019-02-20 16:49:39,2019-02-20 16:49:40,1.003s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Update_Records,Chrome 72.0.3626.109,"This test case is used to update records with ""Update Flag"" in data file and it has to be connected to data file excel sheet using data binding",2019-02-20 16:49:40,2019-02-20 16:50:40,1m - 0.170s,FAILED
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.109,,2019-02-20 16:49:40,2019-02-20 16:50:40,59.880s,FAILED
+,,,,,,
+Test Cases/Event Group Management/TC_Update_Records,Chrome 72.0.3626.109,"This test case is used to update records with ""Update Flag"" in data file and it has to be connected to data file excel sheet using data binding",2019-02-20 16:50:40,2019-02-20 16:50:47,7.165s,ERROR
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.109,,2019-02-20 16:50:40,2019-02-20 16:50:47,7.118s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Update_Records,Chrome 72.0.3626.109,"This test case is used to update records with ""Update Flag"" in data file and it has to be connected to data file excel sheet using data binding",2019-02-20 16:50:47,2019-02-20 16:50:47,0.029s,PASSED
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.109,,2019-02-20 16:50:47,2019-02-20 16:50:47,0.006s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Update_Records,Chrome 72.0.3626.109,"This test case is used to update records with ""Update Flag"" in data file and it has to be connected to data file excel sheet using data binding",2019-02-20 16:50:47,2019-02-20 16:50:47,0.060s,PASSED
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.109,,2019-02-20 16:50:47,2019-02-20 16:50:47,0.000s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Update_Records,Chrome 72.0.3626.109,"This test case is used to update records with ""Update Flag"" in data file and it has to be connected to data file excel sheet using data binding",2019-02-20 16:50:47,2019-02-20 16:50:55,7.260s,ERROR
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.109,,2019-02-20 16:50:47,2019-02-20 16:50:55,7.224s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Update,Chrome 72.0.3626.109,This test case is used to ensure that all updated records are updated successfully,2019-02-20 16:50:55,2019-02-20 16:51:02,7.453s,ERROR
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.109,,2019-02-20 16:50:55,2019-02-20 16:51:02,7.109s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Update,Chrome 72.0.3626.109,This test case is used to ensure that all updated records are updated successfully,2019-02-20 16:51:02,2019-02-20 16:51:09,7.161s,ERROR
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.109,,2019-02-20 16:51:02,2019-02-20 16:51:09,7.142s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Update,Chrome 72.0.3626.109,This test case is used to ensure that all updated records are updated successfully,2019-02-20 16:51:09,2019-02-20 16:51:09,0.011s,PASSED
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.109,,2019-02-20 16:51:09,2019-02-20 16:51:09,0.000s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Update,Chrome 72.0.3626.109,This test case is used to ensure that all updated records are updated successfully,2019-02-20 16:51:09,2019-02-20 16:51:09,0.010s,PASSED
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.109,,2019-02-20 16:51:09,2019-02-20 16:51:09,0.000s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Update,Chrome 72.0.3626.109,This test case is used to ensure that all updated records are updated successfully,2019-02-20 16:51:09,2019-02-20 16:51:16,7.091s,ERROR
+"if (ActionType == ""UpdateYes"")",Chrome 72.0.3626.109,,2019-02-20 16:51:09,2019-02-20 16:51:16,7.076s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_View_Records,Chrome 72.0.3626.109,,2019-02-20 16:51:16,2019-02-20 16:51:24,7.425s,ERROR
+"if (ActionType == ""ViewYes"")",Chrome 72.0.3626.109,,2019-02-20 16:51:17,2019-02-20 16:51:24,7.100s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_View_Records,Chrome 72.0.3626.109,,2019-02-20 16:51:24,2019-02-20 16:51:24,0.014s,PASSED
+"if (ActionType == ""ViewYes"")",Chrome 72.0.3626.109,,2019-02-20 16:51:24,2019-02-20 16:51:24,0.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_View_Records,Chrome 72.0.3626.109,,2019-02-20 16:51:24,2019-02-20 16:51:31,7.079s,ERROR
+"if (ActionType == ""ViewYes"")",Chrome 72.0.3626.109,,2019-02-20 16:51:24,2019-02-20 16:51:31,7.063s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_View_Records,Chrome 72.0.3626.109,,2019-02-20 16:51:31,2019-02-20 16:51:31,0.009s,PASSED
+"if (ActionType == ""ViewYes"")",Chrome 72.0.3626.109,,2019-02-20 16:51:31,2019-02-20 16:51:31,0.001s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_View_Records,Chrome 72.0.3626.109,,2019-02-20 16:51:31,2019-02-20 16:51:31,0.009s,PASSED
+"if (ActionType == ""ViewYes"")",Chrome 72.0.3626.109,,2019-02-20 16:51:31,2019-02-20 16:51:31,0.000s,PASSED
+,,,,,,
+Test Cases/Event Group Management/TC_Delete_Records,Chrome 72.0.3626.109,This test case is used to delete/undelete records by clicking on yes/no delete pop up,2019-02-20 16:51:31,2019-02-20 16:51:37,6.304s,ERROR
+if (ActionType),Chrome 72.0.3626.109,,2019-02-20 16:51:31,2019-02-20 16:51:37,6.059s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Delete_Records,Chrome 72.0.3626.109,This test case is used to delete/undelete records by clicking on yes/no delete pop up,2019-02-20 16:51:37,2019-02-20 16:51:43,6.069s,ERROR
+if (ActionType),Chrome 72.0.3626.109,,2019-02-20 16:51:37,2019-02-20 16:51:43,6.059s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Delete_Records,Chrome 72.0.3626.109,This test case is used to delete/undelete records by clicking on yes/no delete pop up,2019-02-20 16:51:43,2019-02-20 16:51:49,6.055s,ERROR
+if (ActionType),Chrome 72.0.3626.109,,2019-02-20 16:51:43,2019-02-20 16:51:49,6.048s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Delete_Records,Chrome 72.0.3626.109,This test case is used to delete/undelete records by clicking on yes/no delete pop up,2019-02-20 16:51:49,2019-02-20 16:51:56,6.068s,ERROR
+if (ActionType),Chrome 72.0.3626.109,,2019-02-20 16:51:49,2019-02-20 16:51:56,6.055s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Delete_Records,Chrome 72.0.3626.109,This test case is used to delete/undelete records by clicking on yes/no delete pop up,2019-02-20 16:51:56,2019-02-20 16:52:02,6.065s,ERROR
+if (ActionType),Chrome 72.0.3626.109,,2019-02-20 16:51:56,2019-02-20 16:52:02,6.053s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 72.0.3626.109,This test case is used to verify deleted and undeleted records,2019-02-20 16:52:02,2019-02-20 16:52:11,9.424s,ERROR
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 72.0.3626.109,,2019-02-20 16:52:02,2019-02-20 16:52:11,9.082s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 72.0.3626.109,This test case is used to verify deleted and undeleted records,2019-02-20 16:52:11,2019-02-20 16:52:20,9.078s,ERROR
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 72.0.3626.109,,2019-02-20 16:52:11,2019-02-20 16:52:20,9.060s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 72.0.3626.109,This test case is used to verify deleted and undeleted records,2019-02-20 16:52:20,2019-02-20 16:52:29,9.069s,ERROR
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 72.0.3626.109,,2019-02-20 16:52:20,2019-02-20 16:52:29,9.057s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 72.0.3626.109,This test case is used to verify deleted and undeleted records,2019-02-20 16:52:29,2019-02-20 16:52:38,9.063s,ERROR
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 72.0.3626.109,,2019-02-20 16:52:29,2019-02-20 16:52:38,9.055s,ERROR
+,,,,,,
+Test Cases/Event Group Management/TC_Verify_Delete and Undelete,Chrome 72.0.3626.109,This test case is used to verify deleted and undeleted records,2019-02-20 16:52:38,2019-02-20 16:52:47,9.061s,ERROR
+"pk_Functions.CS_WebtableVerification.ValidateSearchParameters(Delete, ""Event Group Management/MOF_NE_Event Group ManagementObjectRepository"", ""Sheet1"", [code], 0)",Chrome 72.0.3626.109,,2019-02-20 16:52:38,2019-02-20 16:52:47,9.051s,ERROR

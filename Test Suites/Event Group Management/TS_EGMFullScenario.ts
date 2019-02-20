@@ -124,7 +124,7 @@
    <testCaseLink>
       <guid>34a03217-fb97-416e-9e96-f012ca1245b6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Update_Records</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -163,7 +163,7 @@
    <testCaseLink>
       <guid>07649aac-249d-49f7-823b-43a5c8c57fbc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Verify_Update</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -177,13 +177,13 @@
       <variableLink>
          <testDataLinkId>f81515e0-9737-4b89-94bd-66a4cc36074f</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Arabic Description</value>
+         <value>Arabic Description_Update</value>
          <variableId>329022af-680d-49e9-bed6-3431a9449b5a</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>f81515e0-9737-4b89-94bd-66a4cc36074f</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>English Description</value>
+         <value>English Description_Update</value>
          <variableId>a5002349-8343-4198-8115-fae313acd9a0</variableId>
       </variableLink>
       <variableLink>
@@ -202,7 +202,7 @@
    <testCaseLink>
       <guid>92f66f43-1799-41aa-a202-cc9551f33e3a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_View_Records</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -234,9 +234,15 @@
       <variableLink>
          <testDataLinkId>0a66e99a-01d0-4388-b8a4-0f6b669ca703</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Delete</value>
+         <value>View</value>
          <variableId>9edfbf75-69dd-468b-994c-686a94714566</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6f45c349-6b94-41b3-8f68-70e2f11bd46c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Event Group Management/TC_Click on Search Button</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f8c2ca1e-45a6-4d3a-b7f5-e8385986b273</guid>
@@ -291,5 +297,11 @@
          <value>Code</value>
          <variableId>31a35954-8c1a-4cc7-b7d5-bc7f0d0e9dff</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6da512ec-7e4b-4da8-bc1f-7b98f51d2d54</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Login</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
