@@ -89,7 +89,7 @@ public class CS_WebtableVerification{
 		rows_table = Table.findElements(By.tagName('tr'))
 		//To calculate no of rows In table'
 		int rows_count = rows_table.size()
-	
+
 		//Loop will execute for all the rows of the table
 		Loop:
 		int rowTable = 1

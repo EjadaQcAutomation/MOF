@@ -122,7 +122,7 @@ public class CS_ClickingonActionButtonswithPagination {
 			while(WebUI.getAttribute(NextPage,NextPageAttribute)==NextPageAttribute_Value){
 				PagesCount++
 				println "Update 2"
-				//If condition is added so as not to click next page at first loop 
+				//If condition is added so as not to click next page at first loop
 				if (PagesCount>1){
 					WebUI.click(NextPage)
 				}
@@ -139,7 +139,7 @@ public class CS_ClickingonActionButtonswithPagination {
 					List<WebElement> Cols = RowsN.get(i).findElements(By.tagName('td'))
 					println  ('Cols1:' + x )
 
-					//Comparing  expected unique id of unique id in row  
+					//Comparing  expected unique id of unique id in row
 					if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
 						Matched =1
 						println "Matched"
@@ -147,7 +147,7 @@ public class CS_ClickingonActionButtonswithPagination {
 						if (actionType=='UpdateYes'){
 							println 'UpdateYes'
 							//Clicking on Update for the selected record in grid
-							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click();		
+							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click();
 						}
 						else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
 							//Clicking on Delete for the selected record in grid
