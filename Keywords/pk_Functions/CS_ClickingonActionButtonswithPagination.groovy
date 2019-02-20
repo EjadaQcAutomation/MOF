@@ -143,7 +143,7 @@ public class CS_ClickingonActionButtonswithPagination {
 					//Counter is reset to start looping over new page
 					//To calculate no of rows In table'
 					rows_count = RowsN.size()
-					i=1
+					i=0
 				}
 
 				//Comparing  expected unique id of unique id in row
