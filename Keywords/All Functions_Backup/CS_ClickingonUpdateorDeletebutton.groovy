@@ -1,9 +1,9 @@
 package pk_Functions
 /* Created By ‘Asmaa El-Sayed and Ebtehal Gamal Yusuf ’
- * Date 13/02/2019
- * Usage:This function is used Update or Delete or View records listed in excel sheet by checking flags over webtable with multiple pages
+ * Date 04/02/2019
+ * Usage:This function is Update or Delete records listed in excel sheet by checking flags
  * Input: There are six inputs required for this function 
- 1.actionType: Update or Delete or View
+ 1.actionType: Update or Delete
  2.expectedValueColumn: the column where unique id is located in table 
  3.actionButtonColumn: the column where action button is located in table 
  4.objectfileName: The file name of object repositories
@@ -53,7 +53,7 @@ import login_object.loginObject.*
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import internal.GlobalVariable
-public class CS_ClickingonActionButtonswithPagination {
+public class CS_ClickingonUpdateorDeletebutton {
 	TestObject delete
 	int row
 	int fieldNo
@@ -62,14 +62,7 @@ public class CS_ClickingonActionButtonswithPagination {
 	int indexT
 	int indexDelete
 	WebElement Table
-	int PagesCount=0
-	int Matched=0
-	int x
-	int z
-	int rows_count
-	List<WebElement> Cols
-	List<WebElement> RowsN = new ArrayList<WebElement>()
-
+	//TestObject button
 	@Keyword
 
 	SelectRecordFromWebtableFun (String actionType,int expectedValueColumn, int actionButtonColumn ,String objectfileName,String objectsheetName, String code) {
@@ -99,64 +92,34 @@ public class CS_ClickingonActionButtonswithPagination {
 		}
 		//End of table locater____________________
 
-		//Next Page Button Locater Detection
-		int indexNext_Page = valueOfRowT.indexOf("NextPage");
-		//println indexNext_Page
-		TestObject NextPage = new TestObject()
-		NextPage.addProperty(dataObject.getValue(3, indexNext_Page+1), ConditionType.EQUALS, dataObject.getValue(4, indexNext_Page+1))
-		String NextPageAttribute =  dataObject.getValue(5, indexNext_Page+1)
-		String NextPageAttribute_Value =  dataObject.getValue(6, indexNext_Page+1)
+		//Detecting Update or Delete flag in excel file according to actionType variable
 
-		//First Page Button Locater Detection
-		int indexFirst_Page = valueOfRowT.indexOf("FirstPage");
-		//println indexFirst_Page
-		TestObject FirstPage = new TestObject()
-		FirstPage.addProperty(dataObject.getValue(3, indexFirst_Page+1), ConditionType.EQUALS, dataObject.getValue(4, indexFirst_Page+1))
-		//End of First Page Button Locater Detection
+		List<WebElement> Rows = Table.findElements(By.tagName('tr'))
+		//println('No. of rows: ' + Rows.size())
 
-		//Navigating to First Page
-		WebUI.click(FirstPage)
-		WebUI.delay(2)
+		if(actionType=="UpdateYes" ||actionType== "DeleteYes" ||actionType== "DeleteNo"){
 
-		if(actionType=="UpdateYes" ||actionType== "DeleteYes" ||actionType== "DeleteNo" || actionType== "ViewYes" ){
+			//Loop will execute for all the rows of the table'
+			table: for (int i = 1; i < Rows.size(); i++) {
 
-			//Extracting Rows of each webtable page
-			RowsN = Table.findElements(By.tagName('tr'))
-			println RowsN.size()
-			rows_count = RowsN.size()
+				//To locate columns(cells) of that specific row'
+				List<WebElement> Cols = Rows.get(i).findElements(By.tagName('td'))
 
-			//Looping over each row to get it column data to compare it to expected value
-			table: for (int i = 1; i < rows_count; i++) {
-				x++
-				//Extracting data from each row
-				Cols = RowsN.get(i).findElements(By.tagName('td'))
-				println  ('Cols1:' + x )
+				//Detecting unique id of records that contains Update or Delete
+				if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
+					WebUI.delay(4)
+					//Doing action to the selected record according to actionType input
 
-				//Looping over pages
-				if ((Cols.get(expectedValueColumn).getText() != code)&&(i==rows_count- 1)&&(WebUI.getAttribute(NextPage,NextPageAttribute)==NextPageAttribute_Value)) {
-					WebUI.click(NextPage)
-					WebUI.delay(3)
-					println "yes in page "
-					RowsN = Table.findElements(By.tagName('tr'))
-					println " Rows are detected  "
-
-					//Counter is reset to start looping over new page
-					//To calculate no of rows In table'
-					rows_count = RowsN.size()
-					i=0
-				}
-
-				//Comparing  expected unique id of unique id in row
-				else if(Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
-					Matched =1
-					println "Matched"
-					//Taking action to the selected record according to actionType input
 					if (actionType=='UpdateYes'){
 						println 'UpdateYes'
+
 						//Clicking on Update for the selected record in grid
-						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click();
+						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click() ;
+						WebUI.delay(4)
+
 					}
 					else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
+
 						//Clicking on Delete for the selected record in grid
 						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[3]')).click() ;
 
@@ -169,26 +132,19 @@ public class CS_ClickingonActionButtonswithPagination {
 						println (dataObject.getValue(4, indexPopUp+1))
 						delete = new TestObject()
 						delete.addProperty(dataObject.getValue(3, indexDelete+1), ConditionType.EQUALS, dataObject.getValue(4, indexDelete+1))
-						WebUI.delay(1)
+						WebUI.delay(2)
 						WebUI.click(PopUp)
-						WebUI.delay(1)
-						println " delete"
+						WebUI.delay(3)
+
 						//Click on No or Yes in deletion alert
 						WebUI.click(delete)
-					}
-					//Clicking on View for the selected record in grid
-					else if (actionType=='ViewYes'){
-						WebUI.delay(1)
-						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[1]')).click() ;
 					}
 					break
 				}
 			}
-
-
-
 		}
-
 	}
 }
+
+
 
