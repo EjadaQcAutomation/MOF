@@ -27,6 +27,7 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
+
 public class CS_WebtableVerification{
 	String webtableAttribute
 	String webtablelocatorValue
