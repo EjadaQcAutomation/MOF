@@ -66,9 +66,7 @@ public class CS_ClickingonActionButtonswithPagination {
 	int Matched=0
 	int x
 	int z
-	int rows_count
-	List<WebElement> Cols
-	List<WebElement> RowsN = new ArrayList<WebElement>()
+
 
 	@Keyword
 
@@ -101,7 +99,7 @@ public class CS_ClickingonActionButtonswithPagination {
 
 		//Next Page Button Locater Detection
 		int indexNext_Page = valueOfRowT.indexOf("NextPage");
-		//println indexNext_Page
+		println indexNext_Page
 		TestObject NextPage = new TestObject()
 		NextPage.addProperty(dataObject.getValue(3, indexNext_Page+1), ConditionType.EQUALS, dataObject.getValue(4, indexNext_Page+1))
 		String NextPageAttribute =  dataObject.getValue(5, indexNext_Page+1)
@@ -109,7 +107,7 @@ public class CS_ClickingonActionButtonswithPagination {
 
 		//First Page Button Locater Detection
 		int indexFirst_Page = valueOfRowT.indexOf("FirstPage");
-		//println indexFirst_Page
+		println indexFirst_Page
 		TestObject FirstPage = new TestObject()
 		FirstPage.addProperty(dataObject.getValue(3, indexFirst_Page+1), ConditionType.EQUALS, dataObject.getValue(4, indexFirst_Page+1))
 		//End of First Page Button Locater Detection
@@ -117,77 +115,86 @@ public class CS_ClickingonActionButtonswithPagination {
 		//Navigating to First Page
 		WebUI.click(FirstPage)
 		WebUI.delay(2)
-
+		List<WebElement> RowsN = new ArrayList<WebElement>()
 		if(actionType=="UpdateYes" ||actionType== "DeleteYes" ||actionType== "DeleteNo" || actionType== "ViewYes" ){
+			println "Update 1 "
+			WebUI.delay(2)
 
-			//Extracting Rows of each webtable page
-			RowsN = Table.findElements(By.tagName('tr'))
-			println RowsN.size()
-			rows_count = RowsN.size()
+			//Ensuring attribute value
+			println WebUI.getAttribute(NextPage,"tabindex")
 
-			//Looping over each row to get it column data to compare it to expected value
-			table: for (int i = 1; i < rows_count; i++) {
-				x++
-				//Extracting data from each row
-				Cols = RowsN.get(i).findElements(By.tagName('td'))
-				println  ('Cols1:' + x )
-
-				//Looping over pages
-				if ((Cols.get(expectedValueColumn).getText() != code)&&(i==rows_count- 1)&&(WebUI.getAttribute(NextPage,NextPageAttribute)==NextPageAttribute_Value)) {
+			//Looping over pages
+			while(WebUI.getAttribute(NextPage,NextPageAttribute)==NextPageAttribute_Value){
+				WebUI.delay(2)
+				PagesCount++
+				println "Update 2"
+				if (PagesCount>1){
 					WebUI.click(NextPage)
-					WebUI.delay(3)
-					println "yes in page "
-					RowsN = Table.findElements(By.tagName('tr'))
-					println " Rows are detected  "
-
-					//Counter is reset to start looping over new page
-					//To calculate no of rows In table'
-					rows_count = RowsN.size()
-					i=1
 				}
+				WebUI.delay(1)
 
-				//Comparing  expected unique id of unique id in row
-				else if(Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
-					Matched =1
-					println "Matched"
-					//Taking action to the selected record according to actionType input
-					if (actionType=='UpdateYes'){
-						println 'UpdateYes'
-						//Clicking on Update for the selected record in grid
-						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click();
-					}
-					else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
-						//Clicking on Delete for the selected record in grid
-						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[3]')).click() ;
+				//Extracting Rows of each webtable page
+				RowsN = Table.findElements(By.tagName('tr'))
+				WebUI.delay(1)
 
-						//Locating Delete No or Delete Yes button according to actionType variable
-						indexDelete = valueOfRowT.indexOf(actionType);
-						int indexPopUp = valueOfRowT.indexOf("pop_up");
-						println indexPopUp
-						TestObject PopUp = new TestObject()
-						PopUp.addProperty(dataObject.getValue(3, indexPopUp+1), ConditionType.EQUALS, dataObject.getValue(4, indexPopUp+1))
-						println (dataObject.getValue(4, indexPopUp+1))
-						delete = new TestObject()
-						delete.addProperty(dataObject.getValue(3, indexDelete+1), ConditionType.EQUALS, dataObject.getValue(4, indexDelete+1))
-						WebUI.delay(1)
-						WebUI.click(PopUp)
-						WebUI.delay(1)
-						println " delete"
-						//Click on No or Yes in deletion alert
-						WebUI.click(delete)
+				//Looping over each row to get it column data to compare it to expected value
+				table: for (int i = 0; i < RowsN.size(); i++) {
+					x++
+					//Extracting data from each row
+					WebUI.delay(1)
+					List<WebElement> Cols = RowsN.get(i).findElements(By.tagName('td'))
+					println  ('Cols1:' + x )
+
+					//Detecting unique id of records that contains Update or Delete
+					if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
+						Matched =1
+						println "Matched"
+						//Taking action to the selected record according to actionType input
+						if (actionType=='UpdateYes'){
+							println 'UpdateYes' + z++
+							//Clicking on Update for the selected record in grid
+							WebUI.delay(1)
+							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click() ;
+						}
+						else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
+
+							//Clicking on Delete for the selected record in grid
+							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[3]')).click() ;
+
+							//Locating Delete No or Delete Yes button according to actionType variable
+							indexDelete = valueOfRowT.indexOf(actionType);
+							int indexPopUp = valueOfRowT.indexOf("pop_up");
+							println indexPopUp
+							TestObject PopUp = new TestObject()
+							PopUp.addProperty(dataObject.getValue(3, indexPopUp+1), ConditionType.EQUALS, dataObject.getValue(4, indexPopUp+1))
+							println (dataObject.getValue(4, indexPopUp+1))
+							delete = new TestObject()
+							delete.addProperty(dataObject.getValue(3, indexDelete+1), ConditionType.EQUALS, dataObject.getValue(4, indexDelete+1))
+							WebUI.delay(1)
+							WebUI.click(PopUp)
+							WebUI.delay(1)
+							println " delete"
+							//Click on No or Yes in deletion alert
+							WebUI.click(delete)
+						}
+
+						else if (actionType=='ViewYes'){
+							WebUI.delay(1)
+							Cols.get(actionButtonColumn).findElement(By.xpath('span/button[1]')).click() ;
+						}
+						break
 					}
-					//Clicking on View for the selected record in grid
-					else if (actionType=='ViewYes'){
-						WebUI.delay(1)
-						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[1]')).click() ;
-					}
+
+				}
+				//Breaking pages search when record are matched with desired data
+				if (Matched ==1){
 					break
 				}
+
+				WebUI.delay(1)
 			}
-
-
-
 		}
+		WebUI.delay(1)
 
 	}
 }
