@@ -124,7 +124,7 @@
    <testCaseLink>
       <guid>34a03217-fb97-416e-9e96-f012ca1245b6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Event Group Management/TC_Update_Records</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

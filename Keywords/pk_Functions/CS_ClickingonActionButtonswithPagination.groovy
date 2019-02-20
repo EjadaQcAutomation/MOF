@@ -119,40 +119,44 @@ public class CS_ClickingonActionButtonswithPagination {
 		WebUI.delay(2)
 
 		if(actionType=="UpdateYes" ||actionType== "DeleteYes" ||actionType== "DeleteNo" || actionType== "ViewYes" ){
+		
 			//Extracting Rows of each webtable page
 			RowsN = Table.findElements(By.tagName('tr'))
 			println RowsN.size()
 			rows_count = RowsN.size()
-		
+
 			//Looping over each row to get it column data to compare it to expected value
 			table: for (int i = 1; i < rows_count; i++) {
 				x++
 				//Extracting data from each row
 				Cols = RowsN.get(i).findElements(By.tagName('td'))
 				println  ('Cols1:' + x )
-				
-				//Looping over pages
+
+				//Looping over pages 
 				if ((Cols.get(expectedValueColumn).getText() != code)&&(i==rows_count- 1)&&(WebUI.getAttribute(NextPage,NextPageAttribute)==NextPageAttribute_Value)) {
 					WebUI.click(NextPage)
 					WebUI.delay(3)
 					println "yes in page "
 					RowsN = Table.findElements(By.tagName('tr'))
 					println " Rows are detected  "
+					
+					//Counter is reset to start looping over new page
 					//To calculate no of rows In table'
 					rows_count = RowsN.size()
 					i=1
-				}
+						}
+		
 				//Comparing  expected unique id of unique id in row
 				else if(Cols.get(expectedValueColumn).getText().equalsIgnoreCase(code)) {
 					Matched =1
 					println "Matched"
 					//Taking action to the selected record according to actionType input
-					if (actionType=='UpdateYes'){
-						println 'UpdateYes'
+						if (actionType=='UpdateYes'){
+						 println 'UpdateYes'
 						//Clicking on Update for the selected record in grid
 						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[2]')).click();
-					}
-					else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
+						}
+						else if ((actionType=='DeleteNo') || (actionType=='DeleteYes') ){
 						//Clicking on Delete for the selected record in grid
 						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[3]')).click() ;
 
@@ -171,20 +175,20 @@ public class CS_ClickingonActionButtonswithPagination {
 						println " delete"
 						//Click on No or Yes in deletion alert
 						WebUI.click(delete)
-					}
-					//Clicking on View for the selected record in grid
-					else if (actionType=='ViewYes'){
+						}
+						//Clicking on View for the selected record in grid
+						else if (actionType=='ViewYes'){
 						WebUI.delay(1)
 						Cols.get(actionButtonColumn).findElement(By.xpath('span/button[1]')).click() ;
+									}
+									break
+								}
+							}
+
+
+
+						}
+
 					}
-					break
 				}
-			}
-
-
-
-		}
-
-	}
-}
 
